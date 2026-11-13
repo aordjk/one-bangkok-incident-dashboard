@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="th" data-theme="day">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One Bangkok — Incident Report Executive Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- PptxGenJS client-side bundle for direct Frasers-styled PPTX download -->
+<script src="pptxgen.bundle.js"></script>
+<style>
+  :root {
+    --primary: #0C2340; /* Frasers Corporate Navy */
+    --primary-light: #16365C;
+    --accent: #C8102E; /* Frasers Corporate Red Ribbon */
+    --accent-blue: #0284c7;
+    --bg: #f8fafc;
+    --card-bg: #ffffff;
+    --card-border: #e2e8f0;
+    --text: #0f172a;
+    --muted: #64748b;
+    --header-bg: #0C2340;
+    --header-text: #ffffff;
+    --sticky-bg: #ffffff;
+    --track: #f1f5f9;
+    --danger: #dc2626;
+    --warning: #d97706;
+    --success: #16a34a;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    --card-radius: 12px;
+  }
+
+  [data-theme="night"] {
+    --primary: #0f172a;
+    --primary-light: #1e293b;
+    --accent: #ef4444;
+    --accent-blue: #38bdf8;
+    --bg: #0b1120;
+    --card-bg: #1e293b;
+    --card-border: #334155;
+    --text: #f1f5f9;
+    --muted: #94a3b8;
+    --header-bg: #0b1120;
+    --header-text: #ffffff;
+    --sticky-bg: #1e293b;
+    --track: #334155;
+    --danger: #f87171;
+    --warning: #fbbf24;
+    --success: #4ade80;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  body { background: var(--bg); color: var(--text); min-height: 100vh; transition: background 0.2s, color 0.2s; }
+
+  /* LOCKED UNIFIED TOP BAR */
+  .top-locked-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--header-bg);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+    border-bottom: 3px solid var(--accent);
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    background: var(--header-bg);
+    color: var(--header-text);
+  }
+
+  .brand-area h1 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .brand-area p {
+    font-size: 0.82rem;
+    color: #cbd5e1;
+    margin-top: 2px;
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* TOGGLE SEGMENTS */
+  .segment-group {
+    display: flex;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    padding: 2px;
+  }
+  .seg-btn {
+    border: none;
+    background: transparent;
+    color: #cbd5e1;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .seg-btn.active {
+    background: #ffffff;
+    color: var(--primary);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  [data-theme="night"] .seg-btn.active {
+    background: #38bdf8;
+    color: #0f172a;
+  }
+
+  .badge-exec {
+    background: rgba(200, 16, 46, 0.25);
+    border: 1px solid rgba(200, 16, 46, 0.5);
+    color: #ff8a99;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 999px;
+  }
+
+  /* STICKY FILTER BAR & SCORECARDS */
+  .sticky-wrapper {
+    background: var(--sticky-bg);
+    border-bottom: 1px solid var(--card-border);
+    padding: 10px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: background 0.2s;
+  }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .pill-group {
+    display: flex;
+    background: var(--track);
+    border-radius: 8px;
+    padding: 3px;
+    gap: 2px;
+  }
+  .pill {
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 5px 11px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .pill.active {
+    background: var(--primary);
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  [data-theme="night"] .pill.active {
+    background: var(--accent-blue);
+    color: #0f172a;
+  }
+
+  select, input[type="text"] {
+    background: var(--card-bg);
+    color: var(--text);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    outline: none;
+    transition: border 0.15s;
+  }
+  select:focus, input[type="text"]:focus {
+    border-color: var(--accent-blue);
+  }
+  #searchBox { min-width: 260px; flex-grow: 1; }
+
+  .btn-reset {
+    background: transparent;
+    border: 1px solid var(--card-border);
+    color: var(--muted);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .btn-reset:hover { background: var(--track); color: var(--text); }
+
+  /* EXPORT DROPDOWN */
+  .export-dropdown { position: relative; }
+  .btn-export-main {
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: 0 2px 4px rgba(2, 132, 199, 0.3);
+  }
+  .btn-export-main:hover { opacity: 0.95; }
+  .export-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 6px);
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    min-width: 280px;
+    z-index: 1001;
+    overflow: hidden;
+  }
+  .export-menu.show { display: block; }
+  .export-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.82rem;
+    border-bottom: 1px solid var(--card-border);
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .export-menu-item:last-child { border-bottom: none; }
+  .export-menu-item:hover { background: var(--track); }
+  .export-menu-item .icon { font-size: 1.1rem; }
+
+  /* KPI SCORECARDS */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .kpi {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-left: 4px solid var(--accent-blue);
+    border-radius: 10px;
+    padding: 10px 14px;
+    box-shadow: var(--shadow);
+  }
+  .kpi.blue { border-left-color: #0284c7; }
+  .kpi.gold { border-left-color: #d97706; }
+  .kpi.danger { border-left-color: #dc2626; }
+  .kpi.warning { border-left-color: #ea580c; }
+
+  .kpi-label { font-size: 0.72rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  .kpi-val { font-size: 1.45rem; font-weight: 800; color: var(--text); margin-top: 2px; }
+  .kpi-sub { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
+
+  /* MAIN LAYOUT */
+  .app-container {
+    max-width: 100%;
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+  }
+
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--card-radius);
+    padding: 16px;
+    box-shadow: var(--shadow);
+  }
+  .card-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hint { font-size: 0.74rem; font-weight: 400; color: var(--muted); }
+
+  /* HORIZONTAL BARS */
+  .bar-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    padding: 3px 6px;
+    border-radius: 6px;
+    transition: background 0.15s;
+  }
+  .bar-row:hover { background: var(--track); }
+  .bar-label { width: 190px; font-size: 0.78rem; font-weight: 600; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bar-track { flex-grow: 1; height: 10px; background: var(--track); border-radius: 999px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 999px; transition: width 0.3s; }
+  .bar-val { width: 44px; text-align: right; font-size: 0.8rem; font-weight: 700; color: var(--text); }
+
+  /* YEARLY TREND VERTICAL BARS */
+  .trend-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 150px;
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid var(--card-border);
+  }
+  .trend-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    width: 25%;
+    transition: transform 0.15s;
+  }
+  .trend-col:hover { transform: translateY(-3px); }
+  .trend-val { font-size: 0.9rem; font-weight: 800; color: var(--text); }
+  .trend-bar-wrap { width: 42px; height: 100px; background: var(--track); border-radius: 6px; display: flex; align-items: flex-end; overflow: hidden; }
+  .trend-bar { width: 100%; background: linear-gradient(180deg, #0284c7 0%, #0369a1 100%); border-radius: 6px 6px 0 0; transition: height 0.3s; }
+  .trend-col.active .trend-bar { background: linear-gradient(180deg, #ea580c 0%, #c2410c 100%); }
+  .trend-year { font-size: 0.85rem; font-weight: 700; color: var(--muted); margin-top: 4px; }
+  .trend-col.active .trend-year { color: var(--accent); }
+
+  /* COMPONENT TOP 5 GRID */
+  .comp-top5-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 12px;
+  }
+  .comp-top5-card {
+    background: var(--track);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 10px 12px;
+  }
+  .comp-top5-header {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .comp-top5-item {
+    font-size: 0.74rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+    color: var(--muted);
+  }
+
+  /* FULL TABLE */
+  .table-wrap {
+    overflow-x: auto;
+    max-height: 700px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+  }
+  th {
+    position: sticky;
+    top: 0;
+    background: #0C2340;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 9px 12px;
+    text-align: left;
+    white-space: nowrap;
+    border-bottom: 2px solid var(--accent);
+    z-index: 10;
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--card-border);
+    vertical-align: top;
+  }
+  tbody tr:hover { background: var(--track); }
+
+  .col-num { width: 40px; text-align: center; color: var(--muted); }
+  .col-inc { width: 180px; }
+  .col-cat { width: 140px; }
+  .col-sev { width: 110px; }
+  .col-resp { width: 120px; }
+  .col-desc { width: 220px; }
+  .col-rc { min-width: 340px; width: 32%; }
+  .col-ca { min-width: 360px; width: 34%; }
+
+  .inc-block { display: flex; flex-direction: column; gap: 2px; }
+  .inc-main { font-family: Consolas, monospace; font-weight: 700; color: var(--text); font-size: 0.8rem; }
+  .inc-moz { font-family: Consolas, monospace; font-size: 0.72rem; color: #0284c7; }
+
+  .tag {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    white-space: nowrap;
+    background: #e0f2fe; color: #0369a1;
+  }
+  .tag.water { background: #dbeafe; color: #1d4ed8; }
+  .tag.lift { background: #fef3c7; color: #b45309; }
+  .tag.safety { background: #ffe4e6; color: #be123c; }
+  .tag.fire { background: #ffedd5; color: #c2410c; }
+  .tag.it { background: #ede9fe; color: #6d28d9; }
+  .tag.sev-major { background: #ffe4e6; color: #be123c; font-weight: 700; }
+  .tag.sev-mod { background: #fef3c7; color: #b45309; font-weight: 700; }
+  .tag.sev-min { background: #e0f2fe; color: #0369a1; }
+  .tag.sev-insig { background: var(--track); color: var(--muted); }
+
+  .td-cause { color: var(--text); font-size: 0.8rem; line-height: 1.5; white-space: normal; word-break: break-word; }
+  .td-action { color: #0369a1; font-size: 0.8rem; line-height: 1.5; white-space: normal; word-break: break-word; }
+  [data-theme="night"] .td-action { color: #7dd3fc; }
+
+  @media print {
+    .top-locked-header, .hint, .export-dropdown { display: none !important; }
+    .card { box-shadow: none !important; border: 1px solid #ccc !important; }
+    .table-wrap { max-height: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<!-- UNIFIED TOP LOCKED HEADER -->
+<div class="top-locked-header" id="topLockedHeader">
+  <header id="mainHeader">
+    <div class="brand-area">
+      <h1 id="hdrTitle">One Bangkok — Incident Report Executive Dashboard</h1>
+      <p id="hdrSub">สรุปสถิติและแนวโน้มรายงานอุบัติการณ์ (ปี 2024–2026) แยกตาม Component และประเภทเหตุการณ์</p>
+    </div>
+    <div class="header-actions">
+      <!-- LANGUAGE TOGGLE -->
+      <div class="segment-group" id="langSegment">
+        <button class="seg-btn active" data-lang="th">🇹🇭 ภาษาไทย</button>
+        <button class="seg-btn" data-lang="en">🇬🇧 English</button>
+      </div>
+
+      <!-- THEME TOGGLE -->
+      <div class="segment-group" id="themeSegment">
+        <button class="seg-btn active" data-theme="day">☀️ Day</button>
+        <button class="seg-btn" data-theme="night">🌙 Night</button>
+      </div>
+
+      <div class="badge-exec" id="badgeExec">484 เคสที่ผ่านการตรวจสอบ</div>
+    </div>
+  </header>
+
+  <div class="sticky-wrapper" id="stickyWrapper">
+    <div class="filters">
+      <div class="pill-group" id="yearPills">
+        <button class="pill active" data-year="ALL" id="pillAll">ทุกปี (2024–2026)</button>
+        <button class="pill" data-year="2024">2024</button>
+        <button class="pill" data-year="2025">2025</button>
+        <button class="pill" data-year="2026">2026</button>
+      </div>
+      <select id="compSelect"><option value="ALL">ทุก Component</option></select>
+      <select id="catSelect"><option value="ALL">ทุกประเภทเหตุการณ์</option></select>
+      <select id="sevSelect"><option value="ALL">ทุกระดับความรุนแรง (Severity)</option></select>
+      <select id="respSelect"><option value="ALL">ทุกการตอบสนอง (Response)</option></select>
+      <input type="text" id="searchBox" placeholder="ค้นหา Incident No., Mozart No., สาเหตุ, การแก้ไข...">
+      <button class="btn-reset" id="resetBtn">รีเซ็ต</button>
+
+      <!-- EXPORT DROPDOWN -->
+      <div class="export-dropdown">
+        <button class="btn-export-main" id="exportMenuBtn">
+          <span>📥 Export Report (ตรงตามตัวกรอง)</span>
+          <span style="font-size:0.7rem;">▼</span>
+        </button>
+        <div class="export-menu" id="exportMenu">
+          <a class="export-menu-item" id="exportPptxBtn" href="javascript:void(0);">
+            <span class="icon">📊</span>
+            <div>
+              <strong>PowerPoint Presentation (.pptx)</strong>
+              <div style="font-size:0.72rem;color:var(--muted);" id="subPptx">ส่งออกสไลด์ 16:9 ตาม Frasers Corporate Template ตรงตามตัวกรอง</div>
+            </div>
+          </a>
+          <a class="export-menu-item" id="exportWordBtn" href="javascript:void(0);">
+            <span class="icon">📘</span>
+            <div>
+              <strong>Word Document (.doc / .docx)</strong>
+              <div style="font-size:0.72rem;color:var(--muted);" id="subWord">รายงานสรุปผู้บริหารพร้อมตารางครบถ้วน</div>
+            </div>
+          </a>
+          <a class="export-menu-item" id="exportPdfBtn" href="javascript:void(0);">
+            <span class="icon">📄</span>
+            <div>
+              <strong>PDF Document</strong>
+              <div style="font-size:0.72rem;color:var(--muted);" id="subPdf">พิมพ์หรือบันทึกหน้า Dashboard ปัจจุบันเป็น PDF</div>
+            </div>
+          </a>
+          <a class="export-menu-item" id="downloadMasterPptxBtn" href="One_Bangkok_Incident_Report_Frasers_Template.pptx" download>
+            <span class="icon">🏢</span>
+            <div>
+              <strong>Frasers Master PPTX Template</strong>
+              <div style="font-size:0.72rem;color:var(--muted);">ดาวน์โหลดไฟล์นำเสนอต้นฉบับสร้างจาก Frasers Template โดยตรง</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 EXECUTIVE SCORECARDS -->
+    <div class="kpi-grid">
+      <div class="kpi blue">
+        <div class="kpi-label" id="lblKpiTotal">จำนวนเคสทั้งหมด</div>
+        <div class="kpi-val" id="kpiTotal">0</div>
+        <div class="kpi-sub" id="kpiTotalSub">-</div>
+      </div>
+      <div class="kpi gold">
+        <div class="kpi-label" id="lblKpiTopCat">ประเภทเกิดบ่อยสูงสุด</div>
+        <div class="kpi-val" id="kpiTopCat" style="font-size:1.15rem; margin-top:3px;">-</div>
+        <div class="kpi-sub" id="kpiTopCatSub">-</div>
+      </div>
+      <div class="kpi danger">
+        <div class="kpi-label" id="lblKpiSevMajor">ความรุนแรง (Major / Mod)</div>
+        <div class="kpi-val" id="kpiSevMajor" style="color:var(--danger)">0</div>
+        <div class="kpi-sub" id="kpiSevSub">-</div>
+      </div>
+      <div class="kpi warning">
+        <div class="kpi-label" id="lblKpiResp">การรักษา (Medical / ER)</div>
+        <div class="kpi-val" id="kpiResp" style="color:var(--warning)">0</div>
+        <div class="kpi-sub" id="kpiRespSub">-</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="app-container">
+  <!-- ROW 1: TOP CATEGORIES & COMPONENT BREAKDOWN -->
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-title">
+        <span id="titleCatChart">Top ประเภทเหตุการณ์ที่เกิดบ่อย</span>
+        <span class="hint" id="hintCatChart">คลิกแท่งกราฟเพื่อกรอง</span>
+      </div>
+      <div id="catChart"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">
+        <span id="titleCompChart">จำนวนเคสแยกตาม Component</span>
+        <span class="hint" id="hintCompChart">คลิกแท่งกราฟเพื่อกรอง</span>
+      </div>
+      <div id="compChart"></div>
+    </div>
+  </div>
+
+  <!-- ROW 2: YEARLY TREND & SEVERITY / RESPONSE -->
+  <div class="grid-3">
+    <!-- YEARLY TREND -->
+    <div class="card">
+      <div class="card-title">
+        <span id="titleTrendChart">แนวโน้มจำนวนเคสรายปี (2024–2026)</span>
+        <span class="hint" id="hintTrendChart">คลิกเพื่อเลือกปี</span>
+      </div>
+      <div class="trend-container" id="trendContainer">
+        <!-- Year 2024 -->
+        <div class="trend-col" data-year="2024" id="trend2024">
+          <div class="trend-val" id="trendVal2024">0</div>
+          <div class="trend-bar-wrap"><div class="trend-bar" id="trendBar2024" style="height:0%"></div></div>
+          <div class="trend-year">2024</div>
+        </div>
+        <!-- Year 2025 -->
+        <div class="trend-col" data-year="2025" id="trend2025">
+          <div class="trend-val" id="trendVal2025">0</div>
+          <div class="trend-bar-wrap"><div class="trend-bar" id="trendBar2025" style="height:0%"></div></div>
+          <div class="trend-year">2025</div>
+        </div>
+        <!-- Year 2026 -->
+        <div class="trend-col" data-year="2026" id="trend2026">
+          <div class="trend-val" id="trendVal2026">0</div>
+          <div class="trend-bar-wrap"><div class="trend-bar" id="trendBar2026" style="height:0%"></div></div>
+          <div class="trend-year">2026</div>
+        </div>
+      </div>
+      <div style="font-size:0.72rem;color:var(--muted);text-align:center;margin-top:8px;" id="trendNote">แสดงสัดส่วนเคสตามตัวกรองปัจจุบัน</div>
+    </div>
+
+    <!-- SEVERITY RATING -->
+    <div class="card">
+      <div class="card-title">
+        <span id="titleSevChart">ระดับความรุนแรง (Injury Severity)</span>
+        <span class="hint" id="hintSevChart">4 ระดับมาตรฐาน</span>
+      </div>
+      <div id="sevChart"></div>
+    </div>
+
+    <!-- INJURY RESPONSE -->
+    <div class="card">
+      <div class="card-title">
+        <span id="titleRespChart">การตอบสนองการบาดเจ็บ (Response)</span>
+        <span class="hint" id="hintRespChart">4 ระดับมาตรฐาน</span>
+      </div>
+      <div id="respChart"></div>
+    </div>
+  </div>
+
+  <!-- ROW 3: DYNAMIC TOP 5 BY COMPONENT -->
+  <div class="card">
+    <div class="card-title">
+      <span id="titleCompTop5">Top 5 ประเภทเหตุการณ์ในแต่ละ Component</span>
+      <span class="hint" id="hintCompTop5">คำนวณและอัปเดตแบบ Dynamic ตามตัวกรองปัจจุบัน</span>
+    </div>
+    <div class="comp-top5-grid" id="compTop5Grid"></div>
+  </div>
+
+  <!-- ROW 4: DETAILED TABLE (NO COMPONENT, NO YEAR, WIDE RC & CA, NO ELLIPSIS) -->
+  <div class="card">
+    <div class="card-title">
+      <span><span id="titleTable">รายการ Incident Report</span> (<span id="tableCount">0</span> <span id="lblItems">รายการ</span>)</span>
+      <span class="hint" id="hintTable">แสดง Incident No., Mozart No., สาเหตุ และการแก้ไขฉบับเต็ม</span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th class="col-num">#</th>
+            <th class="col-inc" id="thInc">Incident No. / Mozart No.</th>
+            <th class="col-cat" id="thCat">ประเภทเหตุการณ์</th>
+            <th class="col-sev" id="thSev">ความรุนแรง</th>
+            <th class="col-resp" id="thResp">การตอบสนอง</th>
+            <th class="col-desc" id="thDesc">รายละเอียดเหตุการณ์</th>
+            <th class="col-rc" id="thRC">สาเหตุที่แท้จริง (Root Cause)</th>
+            <th class="col-ca" id="thCA">มาตรการแก้ไข (Corrective Action)</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+const RAW_DATA = window.INCIDENT_DATA || [];
+
+const SEV_OPTIONS = [
+  { key: 'Major', th: 'Major (รุนแรง)', en: 'Major', color: '#dc2626' },
+  { key: 'Moderate', th: 'Moderate (ปานกลาง)', en: 'Moderate', color: '#ea580c' },
+  { key: 'Minor', th: 'Minor (เล็กน้อย)', en: 'Minor', color: '#0284c7' },
+  { key: 'Insignificant', th: 'Insignificant (ไม่มีนัยสำคัญ)', en: 'Insignificant', color: '#64748b' }
+];
+
+const RESP_OPTIONS = [
+  { key: 'Emergency services', th: 'ฉุกเฉิน (Emergency Services)', en: 'Emergency services', color: '#dc2626' },
+  { key: 'Medical attention', th: 'รับการรักษาโดยแพทย์ (Medical)', en: 'Medical attention', color: '#ea580c' },
+  { key: 'First Aid only', th: 'ปฐมพยาบาล (First Aid)', en: 'First Aid only', color: '#0284c7' },
+  { key: 'Nil', th: 'ไม่มี (Nil)', en: 'Nil', color: '#64748b' }
+];
+
+const COLORS = ['#0284c7', '#0369a1', '#059669', '#d97706', '#7c3aed', '#db2777', '#dc2626', '#475569', '#0891b2', '#ca8a04'];
+
+let curLang = 'th';
+let curTheme = 'day';
+
+const I18N = {
+  th: {
+    hdrTitle: "One Bangkok — Incident Report Executive Dashboard",
+    hdrSub: "สรุปสถิติและแนวโน้มรายงานอุบัติการณ์ (ปี 2024–2026) แยกตาม Component และประเภทเหตุการณ์",
+    badgeExec: "484 เคสที่ผ่านการตรวจสอบ",
+    pillAll: "ทุกปี (2024–2026)",
+    allComp: "ทุก Component",
+    allCat: "ทุกประเภทเหตุการณ์",
+    allSev: "ทุกระดับความรุนแรง (Severity)",
+    allResp: "ทุกการตอบสนอง (Response)",
+    searchPlaceholder: "ค้นหา Incident No., Mozart No., สาเหตุ, การแก้ไข...",
+    reset: "รีเซ็ต",
+    exportBtn: "📥 Export Report (ตรงตามตัวกรอง)",
+    subPptx: "ส่งออกสไลด์ 16:9 ตาม Frasers Corporate Template ตรงตามตัวกรอง",
+    subWord: "รายงานสรุปผู้บริหารพร้อมตารางครบถ้วน",
+    subPdf: "พิมพ์หรือบันทึกหน้า Dashboard ปัจจุบันเป็น PDF",
+    lblKpiTotal: "จำนวนเคสทั้งหมด (FILTERED)",
+    kpiTotalSub: (filtered, total) => `${filtered} เคส (${((filtered/total)*100).toFixed(1)}% ของทั้งหมด ${total} เคส)`,
+    lblKpiTopCat: "ประเภทเกิดบ่อยสูงสุด",
+    lblKpiSevMajor: "ความรุนแรง (MAJOR / MOD)",
+    kpiSevSub: (maj, mod) => `Major: ${maj} เคส | Moderate: ${mod} เคส`,
+    lblKpiResp: "การรักษา (MEDICAL / ER)",
+    kpiRespSub: (er, med) => `Emergency: ${er} | Medical: ${med}`,
+    titleCatChart: "Top ประเภทเหตุการณ์ที่เกิดบ่อย",
+    hintCatChart: "คลิกแท่งกราฟเพื่อกรอง",
+    titleCompChart: "จำนวนเคสแยกตาม Component",
+    hintCompChart: "คลิกแท่งกราฟเพื่อกรอง",
+    titleTrendChart: "แนวโน้มจำนวนเคสรายปี (2024–2026)",
+    hintTrendChart: "คลิกเพื่อเลือกปี",
+    trendNote: "แสดงสัดส่วนเคสตามตัวกรองปัจจุบัน",
+    titleSevChart: "ระดับความรุนแรง (Injury Severity)",
+    hintSevChart: "4 ระดับมาตรฐาน",
+    titleRespChart: "การตอบสนองการบาดเจ็บ (Response)",
+    hintRespChart: "4 ระดับมาตรฐาน",
+    titleCompTop5: "Top 5 ประเภทเหตุการณ์ในแต่ละ Component",
+    hintCompTop5: "คำนวณและอัปเดตแบบ Dynamic ตามตัวกรองปัจจุบัน",
+    titleTable: "รายการ Incident Report",
+    hintTable: "แสดง Incident No., Mozart No., สาเหตุ และการแก้ไขฉบับเต็ม",
+    lblItems: "รายการ",
+    thInc: "Incident No. / Mozart No.",
+    thCat: "ประเภทเหตุการณ์",
+    thSev: "ความรุนแรง",
+    thResp: "การตอบสนอง",
+    thDesc: "รายละเอียดเหตุการณ์",
+    thRC: "สาเหตุที่แท้จริง (Root Cause)",
+    thCA: "มาตรการแก้ไข (Corrective Action)",
+    items: "รายการ",
+    noData: "ไม่พบข้อมูลที่ตรงกับเงื่อนไข"
+  },
+  en: {
+    hdrTitle: "One Bangkok — Incident Report Executive Dashboard",
+    hdrSub: "Executive Summary & Trend Analysis (2024–2026) by Component and Incident Category",
+    badgeExec: "484 Verified Incidents",
+    pillAll: "All Years (2024–2026)",
+    allComp: "All Components",
+    allCat: "All Incident Categories",
+    allSev: "All Severity Levels (4 Levels)",
+    allResp: "All Injury Responses (4 Levels)",
+    searchPlaceholder: "Search Incident No., Mozart No., Cause, Action...",
+    reset: "Reset",
+    exportBtn: "📥 Export Report (Matching Filter)",
+    subPptx: "Export 16:9 presentation in Frasers Corporate Template matching active filter",
+    subWord: "Executive Summary Word Document with full data table",
+    subPdf: "Print / Save active dashboard as PDF",
+    lblKpiTotal: "TOTAL FILTERED CASES",
+    kpiTotalSub: (filtered, total) => `${filtered} cases (${((filtered/total)*100).toFixed(1)}% of total ${total})`,
+    lblKpiTopCat: "MOST FREQUENT CATEGORY",
+    lblKpiSevMajor: "SEVERITY (MAJOR / MOD)",
+    kpiSevSub: (maj, mod) => `Major: ${maj} cases | Moderate: ${mod} cases`,
+    lblKpiResp: "TREATMENT (MEDICAL / ER)",
+    kpiRespSub: (er, med) => `Emergency: ${er} | Medical: ${med}`,
+    titleCatChart: "Top Incident Categories",
+    hintCatChart: "Click bar to filter",
+    titleCompChart: "Incidents by Component",
+    hintCompChart: "Click bar to filter",
+    titleTrendChart: "Yearly Incident Trend (2024–2026)",
+    hintTrendChart: "Click year bar to filter",
+    trendNote: "Displays volume based on active filters",
+    titleSevChart: "Injury Severity Rating",
+    hintSevChart: "4 Standard Categories",
+    titleRespChart: "Injury Response Care",
+    hintRespChart: "4 Standard Categories",
+    titleCompTop5: "Top 5 Incident Categories per Component",
+    hintCompTop5: "Dynamic breakdown updated with active filters",
+    titleTable: "Incident Reports",
+    hintTable: "Incident No., Mozart No., Severity, Full Root Cause & Corrective Action",
+    lblItems: "records",
+    thInc: "Incident No. / Mozart No.",
+    thCat: "Category",
+    thSev: "Severity",
+    thResp: "Response",
+    thDesc: "Incident Description",
+    thRC: "Root Cause",
+    thCA: "Corrective Action",
+    items: "cases",
+    noData: "No incident records found matching filter criteria"
+  }
+};
+
+let state = {
+  year: 'ALL',
+  comp: 'ALL',
+  cat: 'ALL',
+  sev: 'ALL',
+  resp: 'ALL',
+  search: ''
+};
+
+function getCatLabel(d) {
+  return curLang === 'en' ? d.cat_en : d.cat_th;
+}
+
+function initSelectors() {
+  const compSelect = document.getElementById('compSelect');
+  const catSelect = document.getElementById('catSelect');
+  const sevSelect = document.getElementById('sevSelect');
+  const respSelect = document.getElementById('respSelect');
+
+  // Populate Components (sorted alphabetically)
+  const comps = Array.from(new Set(RAW_DATA.map(d => d.comp))).sort();
+  compSelect.innerHTML = `<option value="ALL">${I18N[curLang].allComp}</option>` +
+    comps.map(c => `<option value="${c}">${c}</option>`).join('');
+
+  // Populate Categories
+  const cats = Array.from(new Set(RAW_DATA.map(d => getCatLabel(d)))).sort();
+  catSelect.innerHTML = `<option value="ALL">${I18N[curLang].allCat}</option>` +
+    cats.map(c => `<option value="${c}">${c}</option>`).join('');
+
+  // Populate Severity
+  sevSelect.innerHTML = `<option value="ALL">${I18N[curLang].allSev}</option>` +
+    SEV_OPTIONS.map(o => `<option value="${o.key}">${curLang === 'en' ? o.en : o.th}</option>`).join('');
+
+  // Populate Response
+  respSelect.innerHTML = `<option value="ALL">${I18N[curLang].allResp}</option>` +
+    RESP_OPTIONS.map(o => `<option value="${o.key}">${curLang === 'en' ? o.en : o.th}</option>`).join('');
+}
+
+function applyI18n() {
+  const t = I18N[curLang];
+  document.getElementById('hdrTitle').textContent = t.hdrTitle;
+  document.getElementById('hdrSub').textContent = t.hdrSub;
+  document.getElementById('badgeExec').textContent = t.badgeExec;
+  document.getElementById('pillAll').textContent = t.pillAll;
+  document.getElementById('searchBox').placeholder = t.searchPlaceholder;
+  document.getElementById('resetBtn').textContent = t.reset;
+  document.getElementById('exportMenuBtn').firstElementChild.textContent = t.exportBtn;
+  document.getElementById('subPptx').textContent = t.subPptx;
+  document.getElementById('subWord').textContent = t.subWord;
+  document.getElementById('subPdf').textContent = t.subPdf;
+  document.getElementById('lblKpiTotal').textContent = t.lblKpiTotal;
+  document.getElementById('lblKpiTopCat').textContent = t.lblKpiTopCat;
+  document.getElementById('lblKpiSevMajor').textContent = t.lblKpiSevMajor;
+  document.getElementById('lblKpiResp').textContent = t.lblKpiResp;
+  document.getElementById('titleCatChart').textContent = t.titleCatChart;
+  document.getElementById('hintCatChart').textContent = t.hintCatChart;
+  document.getElementById('titleCompChart').textContent = t.titleCompChart;
+  document.getElementById('hintCompChart').textContent = t.hintCompChart;
+  document.getElementById('titleTrendChart').textContent = t.titleTrendChart;
+  document.getElementById('hintTrendChart').textContent = t.hintTrendChart;
+  document.getElementById('trendNote').textContent = t.trendNote;
+  document.getElementById('titleSevChart').textContent = t.titleSevChart;
+  document.getElementById('hintSevChart').textContent = t.hintSevChart;
+  document.getElementById('titleRespChart').textContent = t.titleRespChart;
+  document.getElementById('hintRespChart').textContent = t.hintRespChart;
+  document.getElementById('titleCompTop5').textContent = t.titleCompTop5;
+  document.getElementById('hintCompTop5').textContent = t.hintCompTop5;
+  document.getElementById('titleTable').textContent = t.titleTable;
+  document.getElementById('hintTable').textContent = t.hintTable;
+  document.getElementById('lblItems').textContent = t.lblItems;
+  document.getElementById('thInc').textContent = t.thInc;
+  document.getElementById('thCat').textContent = t.thCat;
+  document.getElementById('thSev').textContent = t.thSev;
+  document.getElementById('thResp').textContent = t.thResp;
+  document.getElementById('thDesc').textContent = t.thDesc;
+  document.getElementById('thRC').textContent = t.thRC;
+  document.getElementById('thCA').textContent = t.thCA;
+  initSelectors();
+}
+
+// TOGGLE THEME
+document.querySelectorAll('#themeSegment .seg-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#themeSegment .seg-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    curTheme = btn.dataset.theme;
+    document.documentElement.setAttribute('data-theme', curTheme);
+  });
+});
+
+// TOGGLE LANGUAGE
+document.querySelectorAll('#langSegment .seg-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#langSegment .seg-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    curLang = btn.dataset.lang;
+    applyI18n();
+    render();
+  });
+});
+
+// EXPORT MENU TOGGLE
+const exportMenuBtn = document.getElementById('exportMenuBtn');
+const exportMenu = document.getElementById('exportMenu');
+exportMenuBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  exportMenu.classList.toggle('show');
+});
+document.addEventListener('click', () => exportMenu.classList.remove('show'));
+
+// EXPORT PDF
+document.getElementById('exportPdfBtn').addEventListener('click', () => {
+  window.print();
+});
+
+// EXPORT WORD (.doc)
+document.getElementById('exportWordBtn').addEventListener('click', () => {
+  const filtered = getFiltered();
+  const t = I18N[curLang];
+  let doc = `
+    <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+    <head><meta charset='utf-8'><title>One Bangkok Incident Executive Report</title>
+    <style>
+      body { font-family: 'Segoe UI', Arial, sans-serif; margin: 20px; }
+      h1 { color: #0C2340; font-size: 20pt; margin-bottom: 4px; }
+      p.sub { color: #C8102E; font-size: 11pt; font-weight: bold; margin-bottom: 20px; }
+      table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 9.5pt; }
+      th { background-color: #0C2340; color: #ffffff; padding: 8px; border: 1px solid #94a3b8; text-align: left; }
+      td { padding: 6px 8px; border: 1px solid #cbd5e1; vertical-align: top; }
+      tr:nth-child(even) { background-color: #f8fafc; }
+    </style></head><body>
+    <h1>One Bangkok — Incident Report Executive Summary</h1>
+    <p class="sub">Filter: Year=${state.year} | Component=${state.comp} | Category=${state.cat} | Severity=${state.sev} (Total: ${filtered.length} records)</p>
+    <table>
+      <thead>
+        <tr>
+          <th style="width:40px;">#</th>
+          <th style="width:140px;">${t.thInc}</th>
+          <th style="width:110px;">${t.thCat}</th>
+          <th style="width:90px;">${t.thSev}</th>
+          <th>${t.thDesc}</th>
+          <th>${t.thRC}</th>
+          <th>${t.thCA}</th>
+        </tr>
+      </thead>
+      <tbody>
+  `;
+  filtered.forEach((d, idx) => {
+    const rc = curLang === 'en' ? d.rc_en : d.rc_th;
+    const ca = curLang === 'en' ? d.ca_en : d.ca_th;
+    const desc = curLang === 'en' ? d.desc_en : d.desc_th;
+    doc += `
+      <tr>
+        <td>${idx+1}</td>
+        <td><b>${d.inc}</b><br><small style="color:#0284c7;">${d.moz}</small></td>
+        <td>${getCatLabel(d)}</td>
+        <td>${curLang === 'en' ? d.sev_en : d.sev_th}</td>
+        <td>${desc}</td>
+        <td>${rc}</td>
+        <td style="color:#0369a1;">${ca}</td>
+      </tr>
+    `;
+  });
+  doc += `</tbody></table></body></html>`;
+  const blob = new Blob([doc], { type: 'application/msword;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `One_Bangkok_Incident_Report_${state.year}_${curLang}.doc`;
+  a.click();
+});
+
+// EXPORT PPTX (STYLED TO FRASERS 16:9 CORPORATE IDENTITY)
+document.getElementById('exportPptxBtn').addEventListener('click', () => {
+  if (typeof PptxGenJS === 'undefined') {
+    alert("PowerPoint library is loading. Please try again in a moment.");
+    return;
+  }
+  const filtered = getFiltered();
+  const t = I18N[curLang];
+  const pptx = new PptxGenJS();
+  pptx.layout = 'LAYOUT_16x9'; // 13.33 x 7.5 inches
+
+  // SLIDE 1: COVER SLIDE
+  const slide1 = pptx.addSlide();
+  slide1.background = { color: 'F8FAFC' };
+
+  // Frasers Red Top Ribbon Accent
+  slide1.addShape(pptx.shapes.RECTANGLE, { x: 0, y: 0, w: 13.33, h: 0.18, fill: { color: 'C8102E' } });
+
+  // Title Box
+  slide1.addText("ONE BANGKOK", {
+    x: 0.8, y: 1.6, w: 11.7, h: 0.5,
+    fontSize: 16, bold: true, color: 'C8102E', fontFace: 'Segoe UI'
+  });
+  slide1.addText("Incident Management & Risk Mitigation Report", {
+    x: 0.8, y: 2.1, w: 11.7, h: 1.0,
+    fontSize: 28, bold: true, color: '0C2340', fontFace: 'Segoe UI'
+  });
+  slide1.addText(`Executive Filtered Presentation | Years: ${state.year === 'ALL' ? '2024–2026' : state.year} | Component: ${state.comp} | Category: ${state.cat}`, {
+    x: 0.8, y: 3.2, w: 11.7, h: 0.6,
+    fontSize: 13, color: '64748B', fontFace: 'Segoe UI'
+  });
+
+  // Footer / Branding
+  slide1.addShape(pptx.shapes.RECTANGLE, { x: 0.8, y: 5.8, w: 11.73, h: 0.02, fill: { color: 'CBD5E1' } });
+  slide1.addText(`Frasers Property Commercial (Thailand) — Total Filtered Records: ${filtered.length} cases\nExported on: ${new Date().toLocaleDateString()} | Language: ${curLang.toUpperCase()}`, {
+    x: 0.8, y: 6.0, w: 11.7, h: 0.8,
+    fontSize: 10, color: '94A3B8', fontFace: 'Segoe UI'
+  });
+
+  // SLIDE 2: EXECUTIVE SUMMARY KPI & TRENDS
+  const slide2 = pptx.addSlide();
+  slide2.background = { color: 'FFFFFF' };
+  slide2.addShape(pptx.shapes.RECTANGLE, { x: 0, y: 0, w: 13.33, h: 0.15, fill: { color: 'C8102E' } });
+  slide2.addText("Executive KPI Summary & Operational Metrics", {
+    x: 0.8, y: 0.4, w: 11.7, h: 0.5,
+    fontSize: 20, bold: true, color: '0C2340', fontFace: 'Segoe UI'
+  });
+
+  // 4 KPI Cards
+  const majorCnt = filtered.filter(d => d.sev_en === 'Major').length;
+  const modCnt = filtered.filter(d => d.sev_en === 'Moderate').length;
+  const erCnt = filtered.filter(d => d.resp_en === 'Emergency services').length;
+  const medCnt = filtered.filter(d => d.resp_en === 'Medical attention').length;
+
+  const kpis = [
+    { title: t.lblKpiTotal, val: `${filtered.length}`, sub: t.kpiTotalSub(filtered.length, RAW_DATA.length), col: '0284C7' },
+    { title: t.lblKpiTopCat, val: document.getElementById('kpiTopCat').textContent, sub: document.getElementById('kpiTopCatSub').textContent, col: 'D97706' },
+    { title: t.lblKpiSevMajor, val: `${majorCnt + modCnt}`, sub: `Major: ${majorCnt} | Mod: ${modCnt}`, col: 'DC2626' },
+    { title: t.lblKpiResp, val: `${erCnt + medCnt}`, sub: `ER: ${erCnt} | Medical: ${medCnt}`, col: 'EA580C' }
+  ];
+
+  kpis.forEach((k, idx) => {
+    const x = 0.8 + idx * 2.95;
+    slide2.addShape(pptx.shapes.ROUNDED_RECTANGLE, {
+      x: x, y: 1.1, w: 2.8, h: 1.3,
+      fill: { color: 'F8FAFC' }, line: { color: k.col, width: 1.5 }
+    });
+    slide2.addText(k.title, { x: x + 0.15, y: 1.15, w: 2.5, h: 0.3, fontSize: 8.5, bold: true, color: '64748B', fontFace: 'Segoe UI' });
+    slide2.addText(k.val, { x: x + 0.15, y: 1.45, w: 2.5, h: 0.5, fontSize: 18, bold: true, color: k.col, fontFace: 'Segoe UI' });
+    slide2.addText(k.sub, { x: x + 0.15, y: 1.95, w: 2.5, h: 0.35, fontSize: 8, color: '64748B', fontFace: 'Segoe UI' });
+  });
+
+  // Yearly Trend Summary on Slide 2
+  const y24 = filtered.filter(d => d.year === '2024').length;
+  const y25 = filtered.filter(d => d.year === '2025').length;
+  const y26 = filtered.filter(d => d.year === '2026').length;
+  slide2.addText("Yearly Case Distribution (2024 - 2026)", {
+    x: 0.8, y: 2.7, w: 5.6, h: 0.4, fontSize: 13, bold: true, color: '0C2340', fontFace: 'Segoe UI'
+  });
+  slide2.addText(`• 2024: ${y24} incidents (${((y24/(filtered.length||1))*100).toFixed(1)}%)\n• 2025: ${y25} incidents (${((y25/(filtered.length||1))*100).toFixed(1)}%)\n• 2026: ${y26} incidents (${((y26/(filtered.length||1))*100).toFixed(1)}%)`, {
+    x: 0.8, y: 3.1, w: 5.6, h: 1.2, fontSize: 10, color: '334155', fontFace: 'Segoe UI'
+  });
+
+  // Component Summary on Slide 2
+  const compCounts = countBy(filtered, 'comp').slice(0, 5);
+  slide2.addText("Top Asset Components (Filtered)", {
+    x: 6.8, y: 2.7, w: 5.7, h: 0.4, fontSize: 13, bold: true, color: '0C2340', fontFace: 'Segoe UI'
+  });
+  const compText = compCounts.map(([name, count]) => `• ${name}: ${count} incidents (${((count/(filtered.length||1))*100).toFixed(1)}%)`).join('\n');
+  slide2.addText(compText || "No data", {
+    x: 6.8, y: 3.1, w: 5.7, h: 1.2, fontSize: 10, color: '334155', fontFace: 'Segoe UI'
+  });
+
+  // SLIDE 3+: FILTERED INCIDENT TABLE (PAGINATED, 5 ROWS PER SLIDE TO FIT BEAUTIFULLY)
+  const pageSize = 5;
+  const totalPages = Math.min(10, Math.ceil(filtered.length / pageSize)); // export up to top 50 records in presentation
+  for (let p = 0; p < totalPages; p++) {
+    const slideT = pptx.addSlide();
+    slideT.background = { color: 'FFFFFF' };
+    slideT.addShape(pptx.shapes.RECTANGLE, { x: 0, y: 0, w: 13.33, h: 0.12, fill: { color: 'C8102E' } });
+    slideT.addText(`Incident Reports (Page ${p+1} of ${totalPages}) — Filtered Overview`, {
+      x: 0.8, y: 0.3, w: 11.7, h: 0.4, fontSize: 15, bold: true, color: '0C2340', fontFace: 'Segoe UI'
+    });
+
+    const pageData = filtered.slice(p * pageSize, (p + 1) * pageSize);
+    const rows = [
+      [
+        { text: "#", options: { bold: true, fill: '0C2340', color: 'FFFFFF' } },
+        { text: t.thInc, options: { bold: true, fill: '0C2340', color: 'FFFFFF' } },
+        { text: t.thCat, options: { bold: true, fill: '0C2340', color: 'FFFFFF' } },
+        { text: t.thSev, options: { bold: true, fill: '0C2340', color: 'FFFFFF' } },
+        { text: t.thRC, options: { bold: true, fill: '0C2340', color: 'FFFFFF' } },
+        { text: t.thCA, options: { bold: true, fill: '0C2340', color: 'FFFFFF' } }
+      ]
+    ];
+
+    pageData.forEach((d, idx) => {
+      const rowIdx = p * pageSize + idx + 1;
+      const rc = curLang === 'en' ? d.rc_en : d.rc_th;
+      const ca = curLang === 'en' ? d.ca_en : d.ca_th;
+      rows.push([
+        { text: `${rowIdx}`, options: { fontSize: 8, color: '64748B' } },
+        { text: `${d.inc}\n${d.moz}`, options: { fontSize: 8, bold: true } },
+        { text: getCatLabel(d), options: { fontSize: 8 } },
+        { text: `${curLang === 'en' ? d.sev_en : d.sev_th}\n(${curLang === 'en' ? d.resp_en : d.resp_th})`, options: { fontSize: 7.5 } },
+        { text: rc.length > 250 ? rc.slice(0, 247) + '...' : rc, options: { fontSize: 8, color: '1E293B' } },
+        { text: ca.length > 250 ? ca.slice(0, 247) + '...' : ca, options: { fontSize: 8, color: '0369A1' } }
+      ]);
+    });
+
+    slideT.addTable(rows, {
+      x: 0.8, y: 0.85, w: 11.73,
+      colW: [0.45, 1.85, 1.45, 1.25, 3.35, 3.38],
+      fontSize: 8,
+      border: { color: 'CBD5E1', pt: 0.5 }
+    });
+  }
+
+  pptx.writeFile({ fileName: `One_Bangkok_Incident_Report_Frasers_${state.year}_${curLang}.pptx` });
+});
+
+// YEAR PILL SELECTION
+document.querySelectorAll('#yearPills .pill').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#yearPills .pill').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    state.year = btn.dataset.year;
+    render();
+  });
+});
+
+// FILTERS EVENT LISTENERS
+const compSelect = document.getElementById('compSelect');
+const catSelect = document.getElementById('catSelect');
+const sevSelect = document.getElementById('sevSelect');
+const respSelect = document.getElementById('respSelect');
+const searchBox = document.getElementById('searchBox');
+
+compSelect.addEventListener('change', () => { state.comp = compSelect.value; render(); });
+catSelect.addEventListener('change', () => { state.cat = catSelect.value; render(); });
+sevSelect.addEventListener('change', () => { state.sev = sevSelect.value; render(); });
+respSelect.addEventListener('change', () => { state.resp = respSelect.value; render(); });
+searchBox.addEventListener('input', () => { state.search = searchBox.value.trim().toLowerCase(); render(); });
+
+document.getElementById('resetBtn').addEventListener('click', () => {
+  state = { year: 'ALL', comp: 'ALL', cat: 'ALL', sev: 'ALL', resp: 'ALL', search: '' };
+  document.querySelectorAll('#yearPills .pill').forEach(b => b.classList.toggle('active', b.dataset.year === 'ALL'));
+  compSelect.value = 'ALL';
+  catSelect.value = 'ALL';
+  sevSelect.value = 'ALL';
+  respSelect.value = 'ALL';
+  searchBox.value = '';
+  render();
+});
+
+// FILTER LOGIC
+function getFiltered() {
+  return RAW_DATA.filter(d => {
+    if (state.year !== 'ALL' && d.year !== state.year) return false;
+    if (state.comp !== 'ALL' && d.comp !== state.comp) return false;
+    if (state.cat !== 'ALL') {
+      const c = getCatLabel(d);
+      if (c !== state.cat) return false;
+    }
+    if (state.sev !== 'ALL') {
+      if (d.sev_en !== state.sev) return false;
+    }
+    if (state.resp !== 'ALL') {
+      if (d.resp_en !== state.resp) return false;
+    }
+    if (state.search) {
+      const hay = (d.inc + ' ' + d.moz + ' ' + d.desc_th + ' ' + d.desc_en + ' ' + d.rc_th + ' ' + d.rc_en + ' ' + d.ca_th + ' ' + d.ca_en + ' ' + d.comp + ' ' + d.cat_en + ' ' + d.cat_th).toLowerCase();
+      if (!hay.includes(state.search)) return false;
+    }
+    return true;
+  });
+}
+
+function countBy(arr, keyFn) {
+  const m = {};
+  arr.forEach(d => {
+    const k = (typeof keyFn === 'function') ? keyFn(d) : d[keyFn];
+    m[k] = (m[k] || 0) + 1;
+  });
+  return Object.entries(m).sort((a,b) => b[1] - a[1]);
+}
+
+function tagClass(cat_en) {
+  if (cat_en.includes('Water')) return 'water';
+  if (cat_en.includes('Lift')) return 'lift';
+  if (cat_en.includes('Safety')) return 'safety';
+  if (cat_en.includes('Fire')) return 'fire';
+  if (cat_en.includes('IT')) return 'it';
+  return '';
+}
+
+function sevClass(sev_en) {
+  if (sev_en === 'Major') return 'sev-major';
+  if (sev_en === 'Moderate') return 'sev-mod';
+  if (sev_en === 'Minor') return 'sev-min';
+  return 'sev-insig';
+}
+
+function renderBars(elId, entries, maxVal, colorFn, onClick) {
+  const el = document.getElementById(elId);
+  el.innerHTML = '';
+  if (!entries.length) {
+    el.innerHTML = `<div style="color:var(--muted);font-size:0.85rem;padding:8px;">${I18N[curLang].noData}</div>`;
+    return;
+  }
+  entries.forEach(([label, val, key], idx) => {
+    const row = document.createElement('div');
+    row.className = 'bar-row';
+    const pct = maxVal ? Math.round((val / maxVal) * 100) : 0;
+    row.innerHTML = `
+      <div class="bar-label" title="${label}">${label}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${colorFn(key || label, idx)}"></div></div>
+      <div class="bar-val">${val}</div>
+    `;
+    if (onClick) row.addEventListener('click', () => onClick(key || label));
+    el.appendChild(row);
+  });
+}
+
+function render() {
+  const filtered = getFiltered();
+  const total = filtered.length;
+  const t = I18N[curLang];
+
+  // 1. Total KPI
+  document.getElementById('kpiTotal').textContent = total;
+  document.getElementById('kpiTotalSub').textContent = t.kpiTotalSub(total, RAW_DATA.length);
+
+  // 2. Top Cat
+  const catCounts = countBy(filtered, d => getCatLabel(d));
+  const topCat = catCounts[0];
+  document.getElementById('kpiTopCat').textContent = topCat ? topCat[0] : '-';
+  document.getElementById('kpiTopCatSub').textContent = topCat ? `${topCat[1]} ${t.items} (${((topCat[1]/(total||1))*100).toFixed(1)}%)` : '-';
+
+  // 3. Severity Card (Major + Moderate)
+  const majorCnt = filtered.filter(d => d.sev_en === 'Major').length;
+  const modCnt = filtered.filter(d => d.sev_en === 'Moderate').length;
+  document.getElementById('kpiSevMajor').textContent = `${majorCnt + modCnt}`;
+  document.getElementById('kpiSevSub').textContent = t.kpiSevSub(majorCnt, modCnt);
+
+  // 4. Injury Response Card (Emergency + Medical)
+  const erCnt = filtered.filter(d => d.resp_en === 'Emergency services').length;
+  const medCnt = filtered.filter(d => d.resp_en === 'Medical attention').length;
+  document.getElementById('kpiResp').textContent = `${erCnt + medCnt}`;
+  document.getElementById('kpiRespSub').textContent = t.kpiRespSub(erCnt, medCnt);
+
+  // Chart 1: Category Chart
+  renderBars('catChart', catCounts.slice(0, 8), catCounts[0]?.[1] || 1,
+    (lbl, i) => COLORS[i % COLORS.length],
+    (lbl) => {
+      state.cat = (state.cat === lbl) ? 'ALL' : lbl;
+      catSelect.value = state.cat; render();
+    }
+  );
+
+  // Chart 2: Component Chart
+  const compCounts = countBy(filtered, 'comp');
+  renderBars('compChart', compCounts.slice(0, 10), compCounts[0]?.[1] || 1,
+    (_, i) => COLORS[i % COLORS.length],
+    (lbl) => {
+      state.comp = (state.comp === lbl) ? 'ALL' : lbl;
+      compSelect.value = state.comp; render();
+    }
+  );
+
+  // Chart 3: Yearly Trend Chart (2024, 2025, 2026)
+  // Calculate trend within current filter context (excluding year filter so user sees the trend across years)
+  const filterForTrend = RAW_DATA.filter(d => {
+    if (state.comp !== 'ALL' && d.comp !== state.comp) return false;
+    if (state.cat !== 'ALL' && getCatLabel(d) !== state.cat) return false;
+    if (state.sev !== 'ALL' && d.sev_en !== state.sev) return false;
+    if (state.resp !== 'ALL' && d.resp_en !== state.resp) return false;
+    if (state.search) {
+      const hay = (d.inc + ' ' + d.moz + ' ' + d.desc_th + ' ' + d.desc_en + ' ' + d.rc_th + ' ' + d.rc_en + ' ' + d.ca_th + ' ' + d.ca_en + ' ' + d.comp + ' ' + d.cat_en + ' ' + d.cat_th).toLowerCase();
+      if (!hay.includes(state.search)) return false;
+    }
+    return true;
+  });
+
+  const c24 = filterForTrend.filter(d => d.year === '2024').length;
+  const c25 = filterForTrend.filter(d => d.year === '2025').length;
+  const c26 = filterForTrend.filter(d => d.year === '2026').length;
+  const maxYear = Math.max(c24, c25, c26, 1);
+
+  document.getElementById('trendVal2024').textContent = c24;
+  document.getElementById('trendVal2025').textContent = c25;
+  document.getElementById('trendVal2026').textContent = c26;
+
+  document.getElementById('trendBar2024').style.height = `${Math.round((c24 / maxYear) * 100)}%`;
+  document.getElementById('trendBar2025').style.height = `${Math.round((c25 / maxYear) * 100)}%`;
+  document.getElementById('trendBar2026').style.height = `${Math.round((c26 / maxYear) * 100)}%`;
+
+  ['2024', '2025', '2026'].forEach(yr => {
+    const el = document.getElementById(`trend${yr}`);
+    el.classList.toggle('active', state.year === yr);
+    el.onclick = () => {
+      state.year = (state.year === yr) ? 'ALL' : yr;
+      document.querySelectorAll('#yearPills .pill').forEach(b => b.classList.toggle('active', b.dataset.year === state.year));
+      render();
+    };
+  });
+
+  // Chart 4: Severity Rating Chart (4 standard levels)
+  const sevEntries = SEV_OPTIONS.map(opt => {
+    const count = filtered.filter(d => d.sev_en === opt.key).length;
+    const label = curLang === 'en' ? opt.en : opt.th;
+    return [label, count, opt.key];
+  });
+  renderBars('sevChart', sevEntries, total || 1,
+    (key) => SEV_OPTIONS.find(o => o.key === key)?.color || '#64748b',
+    (key) => {
+      state.sev = (state.sev === key) ? 'ALL' : key;
+      sevSelect.value = state.sev; render();
+    }
+  );
+
+  // Chart 5: Injury Response Chart (4 standard levels)
+  const respEntries = RESP_OPTIONS.map(opt => {
+    const count = filtered.filter(d => d.resp_en === opt.key).length;
+    const label = curLang === 'en' ? opt.en : opt.th;
+    return [label, count, opt.key];
+  });
+  renderBars('respChart', respEntries, total || 1,
+    (key) => RESP_OPTIONS.find(o => o.key === key)?.color || '#64748b',
+    (key) => {
+      state.resp = (state.resp === key) ? 'ALL' : key;
+      respSelect.value = state.resp; render();
+    }
+  );
+
+  // Component Top 5 Grid
+  const compGrid = document.getElementById('compTop5Grid');
+  compGrid.innerHTML = '';
+  const topComps = compCounts.slice(0, 6);
+  topComps.forEach(([compName, compCount]) => {
+    const compFiltered = filtered.filter(d => d.comp === compName);
+    const catInComp = countBy(compFiltered, d => getCatLabel(d)).slice(0, 5);
+    const card = document.createElement('div');
+    card.className = 'comp-top5-card';
+    card.innerHTML = `
+      <div class="comp-top5-header">
+        <span>${compName}</span>
+        <span style="color:#0284c7;">${compFiltered.length} ${t.items}</span>
+      </div>
+      ${catInComp.map(([cname, cnt]) => `
+        <div class="comp-top5-item">
+          <span>${cname}</span>
+          <b>${cnt}</b>
+        </div>
+      `).join('')}
+    `;
+    compGrid.appendChild(card);
+  });
+
+  // Table
+  document.getElementById('tableCount').textContent = total;
+  const tbody = document.getElementById('tableBody');
+  tbody.innerHTML = '';
+
+  const displayList = filtered.slice(0, 200); // render first 200 for fast responsiveness
+  displayList.forEach((d, idx) => {
+    const tr = document.createElement('tr');
+    const rc = curLang === 'en' ? d.rc_en : d.rc_th;
+    const ca = curLang === 'en' ? d.ca_en : d.ca_th;
+    const desc = curLang === 'en' ? d.desc_en : d.desc_th;
+    const cat = getCatLabel(d);
+    const sev = curLang === 'en' ? d.sev_en : d.sev_th;
+    const resp = curLang === 'en' ? d.resp_en : d.resp_th;
+
+    tr.innerHTML = `
+      <td class="col-num">${idx + 1}</td>
+      <td class="col-inc">
+        <div class="inc-block">
+          <span class="inc-main">${d.inc}</span>
+          <span class="inc-moz">${d.moz !== '-' ? d.moz : ''}</span>
+        </div>
+      </td>
+      <td class="col-cat"><span class="tag ${tagClass(d.cat_en)}">${cat}</span></td>
+      <td class="col-sev"><span class="tag ${sevClass(d.sev_en)}">${sev}</span></td>
+      <td class="col-resp"><span class="tag" style="background:var(--track);color:var(--text);">${resp}</span></td>
+      <td class="col-desc" style="font-size:0.78rem;">${desc}</td>
+      <td class="col-rc td-cause">${rc || '-'}</td>
+      <td class="col-ca td-action">${ca || '-'}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+// INITIAL RENDER
+applyI18n();
+render();
+</script>
+</body>
+</html>
