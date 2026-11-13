@@ -290,13 +290,22 @@
   .bar-fill { height: 100%; border-radius: 999px; transition: width 0.3s; }
   .bar-val { width: 44px; text-align: right; font-size: 0.8rem; font-weight: 700; color: var(--text); }
 
-  /* WIDE EXECUTIVE YEARLY TREND */
-  .trend-wide-card {
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 12px;
-    padding: 20px 24px;
-    box-shadow: var(--card-shadow);
+  /* SPLIT GRID: YEARLY TREND (LEFT) & SEVERITY / RESPONSE STACK (RIGHT) */
+  .trend-split-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 16px;
+    align-items: stretch;
+  }
+  @media (max-width: 1024px) {
+    .trend-split-grid { grid-template-columns: 1fr; }
+  }
+
+  .trend-left-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
   }
   .trend-header-flex {
     display: flex;
@@ -321,16 +330,30 @@
   }
   .trend-badge b { color: var(--accent); }
 
-  .trend-container-wide {
+  .trend-container-split {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    height: 200px;
-    padding: 26px 20px 18px 20px;
+    flex: 1;
+    min-height: 260px;
+    padding: 28px 20px 20px 20px;
     margin-top: 14px;
     background: var(--zebra);
     border-radius: 12px;
     border: 1px solid var(--card-border);
+  }
+
+  .trend-right-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100%;
+  }
+  .trend-right-stack .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .trend-col-wide {
     display: flex;
@@ -364,8 +387,8 @@
     margin-bottom: 2px;
   }
   .trend-bar-track-wide {
-    width: 48px;
-    height: 70px;
+    width: 52px;
+    height: 105px;
     background: var(--track);
     border-radius: 8px;
     display: flex;
@@ -464,14 +487,14 @@
   tbody tr:nth-child(even) { background: var(--zebra); }
   tbody tr:hover { background: rgba(2, 132, 199, 0.05); }
 
-  .col-num { width: 40px; text-align: center; color: var(--muted); }
-  .col-inc { width: 155px; }
-  .col-cat { width: 150px; }
-  .col-sev { width: 120px; text-align: center; }
-  .col-resp { width: 130px; text-align: center; }
-  .col-desc { width: 220px; }
-  .col-rc { width: 280px; }
-  .col-ca { width: 280px; }
+  .col-num { width: 45px; text-align: center; color: var(--muted); }
+  .col-inc { width: 160px; min-width: 150px; }
+  .col-cat { width: 150px; min-width: 140px; }
+  .col-sev { width: 125px; min-width: 110px; text-align: center; }
+  .col-resp { width: 135px; min-width: 120px; text-align: center; }
+  .col-desc { width: 220px; min-width: 180px; }
+  .col-rc { min-width: 440px; width: 480px; font-size: 0.8rem; }
+  .col-ca { min-width: 440px; width: 480px; font-size: 0.8rem; }
 
   .inc-block { display: flex; flex-direction: column; gap: 2px; }
   .inc-main { font-weight: 700; color: var(--navy); font-size: 0.8rem; }
@@ -628,43 +651,46 @@
       </div>
     </div>
 
-    <!-- ROW 2: YEARLY TREND (WIDE, IMPACTFUL, DYNAMIC YEARS FOR 2026, 2027 AND BEYOND) -->
-    <div class="trend-wide-card">
-      <div class="trend-header-flex">
-        <div>
-          <div class="card-title" style="margin-bottom:2px;">
-            <span id="titleTrendChart">📈 แนวโน้มจำนวนเคสรายปี (Yearly Incident Trend)</span>
+    <!-- ROW 2: SPLIT GRID - YEARLY TREND (LEFT) & SEVERITY / RESPONSE STACK (RIGHT) -->
+    <div class="trend-split-grid">
+      <!-- LEFT: YEARLY INCIDENT TREND -->
+      <div class="card trend-left-card">
+        <div class="trend-header-flex">
+          <div>
+            <div class="card-title" style="margin-bottom:2px;">
+              <span id="titleTrendChart">📈 แนวโน้มจำนวนเคสรายปี (Yearly Incident Trend)</span>
+            </div>
+            <div class="hint" id="hintTrendChart">วิเคราะห์สถิติและการเติบโตของอุบัติการณ์รายปี • คลิกแท่งกราฟเพื่อเลือกปี</div>
           </div>
-          <div class="hint" id="hintTrendChart">วิเคราะห์สถิติและการเติบโตของอุบัติการณ์รายปี • คลิกแท่งกราฟเพื่อเลือกปี</div>
+          <div class="trend-badges">
+            <div class="trend-badge">รวมทั้งหมด: <b id="trendTotalBadge">0</b> เคส</div>
+            <div class="trend-badge">ปีที่สูงสุด: <b id="trendPeakBadge">-</b></div>
+          </div>
         </div>
-        <div class="trend-badges">
-          <div class="trend-badge">รวมทั้งหมด: <b id="trendTotalBadge">0</b> เคส</div>
-          <div class="trend-badge">ปีที่สูงสุด: <b id="trendPeakBadge">-</b></div>
+        <div class="trend-container-split" id="trendContainer">
+          <!-- Dynamically rendered trend bars for all years in dataset -->
         </div>
-      </div>
-      <div class="trend-container-wide" id="trendContainer">
-        <!-- Dynamically rendered trend bars for all years in dataset -->
-      </div>
-    </div>
-
-    <!-- ROW 3: SEVERITY RATING & INJURY RESPONSE (BALANCED 2-COLUMN GRID) -->
-    <div class="grid-2">
-      <!-- SEVERITY RATING -->
-      <div class="card">
-        <div class="card-title">
-          <span id="titleSevChart">ระดับความรุนแรง (Injury Severity)</span>
-          <span class="hint" id="hintSevChart">4 ระดับมาตรฐาน</span>
-        </div>
-        <div id="sevChart"></div>
       </div>
 
-      <!-- INJURY RESPONSE -->
-      <div class="card">
-        <div class="card-title">
-          <span id="titleRespChart">การตอบสนองการบาดเจ็บ (Injury Response)</span>
-          <span class="hint" id="hintRespChart">4 ระดับมาตรฐาน</span>
+      <!-- RIGHT STACK: INJURY SEVERITY (TOP) & INJURY RESPONSE (BOTTOM) -->
+      <div class="trend-right-stack">
+        <!-- TOP: SEVERITY RATING -->
+        <div class="card">
+          <div class="card-title">
+            <span id="titleSevChart">ระดับความรุนแรง (Injury Severity)</span>
+            <span class="hint" id="hintSevChart">4 ระดับมาตรฐาน</span>
+          </div>
+          <div id="sevChart"></div>
         </div>
-        <div id="respChart"></div>
+
+        <!-- BOTTOM: INJURY RESPONSE -->
+        <div class="card">
+          <div class="card-title">
+            <span id="titleRespChart">การตอบสนองการบาดเจ็บ (Injury Response)</span>
+            <span class="hint" id="hintRespChart">4 ระดับมาตรฐาน</span>
+          </div>
+          <div id="respChart"></div>
+        </div>
       </div>
     </div>
 
