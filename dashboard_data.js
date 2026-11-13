@@ -7492,7 +7492,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Tenant retail: Gas System : Gas Odor Detected – มีกลิ่นแก๊ส",
+    "event_type_en": "Tenant retail: Gas System : Gas Odor Detected",
+    "summary_th": "Parade ร้านเวนเทจพ้อยแจ้งว่ามีกลิ่นแก๊ส",
+    "summary_en": "Parade ร้านเวนเทจพ้อยแจ้งว่ามีกลิ่นแก๊ส",
+    "finding_th": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
+    "finding_en": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน"
   },
   {
     "case_no": "CASE-260109-064146934371",
@@ -7516,7 +7522,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Maintenance Works : External Wall Water Leakage – น้ำรั่วจากผนังด้านนอก",
+    "event_type_en": "Tenant retail: Maintenance Works : External Wall Water Leakage",
+    "summary_th": "R1 Soc แจ้งมีน้ำไหลออกจากร้านโอ้กะจู้ ชั้น 3",
+    "summary_en": "R1 Soc แจ้งมีน้ำไหลออกจากร้านโอ้กะจู้ ชั้น 3",
+    "finding_th": "ตรวจสอบแล้วสายน้ำดีเครื่องกรองน้ำหลุดตอนนี้ทำการแก้ไขด้วยการปิดวาล์วไว้ครับ",
+    "finding_en": "ตรวจสอบแล้วสายน้ำดีเครื่องกรองน้ำหลุดตอนนี้ทำการแก้ไขด้วยการปิดวาล์วไว้ครับ"
   },
   {
     "case_no": "CASE-260219-140858110750",
@@ -7540,7 +7552,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 14:08 SOC รับแจ้งจาก Sup G4S K.Potjanee ว่าพบท่อน้ำรั่ว บริเวณ Loading1",
+    "summary_en": "[soc-inf] 14:08 SOC รับแจ้งจาก Sup G4S K.Potjanee ว่าพบท่อน้ำรั่ว บริเวณ Loading1",
+    "finding_th": "บริเวณLoading1ตอนนี้ไม่มีน้ำนะครับ",
+    "finding_en": "บริเวณLoading1ตอนนี้ไม่มีน้ำนะครับ"
   },
   {
     "case_no": "CASE-260324-165615095513",
@@ -7564,7 +7582,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: CCTV - Request : ขอภาพจาก CCTV",
+    "event_type_en": "Security: CCTV",
+    "summary_th": "R1 ร้าน Toy R US ชั้น 5 แจ้งว่าเมื่อวันที่ 14 มี.ค. 69 เวลา 19.10 น.ที่ผ่านมาได้มีลูกค้าชาย-หญิง เข้ามาภายในร้านและได้นำสินค้าใส่กระเป๋าตนเองไป 5 กล่องและเดินออกจากร้านไปโดยที่ไม่ได้ชำระค่าสินค้า",
+    "summary_en": "R1 ร้าน Toy R US ชั้น 5 แจ้งว่าเมื่อวันที่ 14 มี.ค. 69 เวลา 19.10 น.ที่ผ่านมาได้มีลูกค้าชาย-หญิง เข้ามาภายในร้านและได้นำสินค้าใส่กระเป๋าตนเองไป 5 กล่องและเดินออกจากร้านไปโดยที่ไม่ได้ชำระค่าสินค้า",
+    "finding_th": "Date/Time : 2026-Mar-24 16:56:15\nRequester :OBK-JLL-R1-ABS- Surasak Wiboonsathien\nCompany : JLL\nReceiver :SOC OP Wichuta Dechburam\nDocument No.:OB-SOC-2026-03-0015\nCase No : CASE-260324-165615095513\nRemark :วันที่ 24/03/2026 เวลา 17.10 น. Sup-SOC K.Sirote ได้ส่งคลิป CCTV ให้กับ ร.ต.อ. ภัคธร หมวดเมือง ผ่านทาง line เป็นที่เรียบร้อย",
+    "finding_en": "Date/Time : 2026-Mar-24 16:56:15\nRequester :OBK-JLL-R1-ABS- Surasak Wiboonsathien\nCompany : JLL\nReceiver :SOC OP Wichuta Dechburam\nDocument No.:OB-SOC-2026-03-0015\nCase No : CASE-260324-165615095513\nRemark :วันที่ 24/03/2026 เวลา 17.10 น. Sup-SOC K.Sirote ได้ส่งคลิป CCTV ให้กับ ร.ต.อ. ภัคธร หมวดเมือง ผ่านทาง line เป็นที่เรียบร้อย"
   },
   {
     "case_no": "CASE-260116-115455033666",
@@ -7588,7 +7612,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "ประตูลิฟต์ปิดใหม่สนิททำให้ลิฟต์ไม่สั่งการ",
+    "summary_en": "ประตูลิฟต์ปิดใหม่สนิททำให้ลิฟต์ไม่สั่งการ",
+    "finding_th": "ตรวจเช็คพบ แผ่นบูลชีทที่Protech หน้าประตูลิฟต์มาติดบริเวณประตูทำให้ลิตฟ์ไม่ลงมาชั้นที่ต้องการ ต้องนี้เคลียร์แผ่นบูลชีทลิฟต์สามารถใช้งานได้ปกติแล้วครับไม่มีลูกบ้านได้รับอันตรายหรือได้รับบาดเจ็บ",
+    "finding_en": "ตรวจเช็คพบ แผ่นบูลชีทที่Protech หน้าประตูลิฟต์มาติดบริเวณประตูทำให้ลิตฟ์ไม่ลงมาชั้นที่ต้องการ ต้องนี้เคลียร์แผ่นบูลชีทลิฟต์สามารถใช้งานได้ปกติแล้วครับไม่มีลูกบ้านได้รับอันตรายหรือได้รับบาดเจ็บ"
   },
   {
     "case_no": "CASE-260106-144754016759",
@@ -7612,7 +7642,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Security: Vehicle Accident (No Injury) - อุบัติเหตุทางยานพาหนะ (ไม่มีผู้บาดเจ็บ)",
+    "event_type_en": "Security: Vehicle Accident (No Injury)",
+    "summary_th": "คุณสุวพิธ (0941571035) เป็นเจ้าหน้าที่ประกัน ติดต่อมาแจ้งเรื่องมีป้ายไวนิลสีเขียวที่มีรูปต้นไม้กับใบไม้ โดนลมพัดทับใส่รถลูกค้า",
+    "summary_en": "คุณสุวพิธ (0941571035) เป็นเจ้าหน้าที่ประกัน ติดต่อมาแจ้งเรื่องมีป้ายไวนิลสีเขียวที่มีรูปต้นไม้กับใบไม้ โดนลมพัดทับใส่รถลูกค้า",
+    "finding_th": "SOC ได้ประสานงานฝ่ายที่เกี่ยวข้องเรียบร้อยแล้ว ปัจจุบันอยู่ระหว่างดำเนินการเคลมประกันครับ",
+    "finding_en": "SOC ได้ประสานงานฝ่ายที่เกี่ยวข้องเรียบร้อยแล้ว ปัจจุบันอยู่ระหว่างดำเนินการเคลมประกันครับ"
   },
   {
     "case_no": "CASE-260112-191234998129",
@@ -7636,7 +7672,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : Obstructions - สิ่งกีดขวาง",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "[soc-inf] 19:09 รับแจ้งจาก SP PCS R1 แจ้งว่า พบลูกค้าโดนบันไดเลื่อนหนีบรองเท้า (ลูกค้าไม่ได้รับบาดเจ็บ) บริเวณอาคาร Parade ชั้น 4",
+    "summary_en": "[soc-inf] 19:09 รับแจ้งจาก SP PCS R1 แจ้งว่า พบลูกค้าโดนบันไดเลื่อนหนีบรองเท้า (ลูกค้าไม่ได้รับบาดเจ็บ) บริเวณอาคาร Parade ชั้น 4",
+    "finding_th": "สาเหตุ\nตรวจสอบขจากกล้อง CCTV พบว่าลูกค้าได้เอาเท้าชิดกับลูกขั้นของบันไดเลื่อนเกินไปทำให้ยกเท้าไม่ทัน ทำให้ safety ตัดการทำงาน\nผลกระทบ\n- บันไดเลื่อนหยุดทำงาน/รองเท้าของลูกค้าชำรุด\nสรุปการแก้ไข\n-Hitachi รีเซ็ตเบื้องต้นบันไดเลื่อน ใช้งานได้ปกติ\n-ตรวจสอบชุดหวีของบันไดเลื่อน สภาพปกติทุกขั้น ไม่มีชำรุด",
+    "finding_en": "สาเหตุ\nตรวจสอบขจากกล้อง CCTV พบว่าลูกค้าได้เอาเท้าชิดกับลูกขั้นของบันไดเลื่อนเกินไปทำให้ยกเท้าไม่ทัน ทำให้ safety ตัดการทำงาน\nผลกระทบ\n- บันไดเลื่อนหยุดทำงาน/รองเท้าของลูกค้าชำรุด\nสรุปการแก้ไข\n-Hitachi รีเซ็ตเบื้องต้นบันไดเลื่อน ใช้งานได้ปกติ\n-ตรวจสอบชุดหวีของบันไดเลื่อน สภาพปกติทุกขั้น ไม่มีชำรุด"
   },
   {
     "case_no": "CASE-260115-132605145791",
@@ -7660,7 +7702,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "R01-002-FIRE-FXSMOK-003-RETAIL 1208",
+    "summary_en": "R01-002-FIRE-FXSMOK-003-RETAIL 1208",
+    "finding_th": "#NAME?",
+    "finding_en": "#NAME?"
   },
   {
     "case_no": "CASE-260327-211753693041",
@@ -7684,7 +7732,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ดำเนินการออกเอกสารรายงานอุบัติการณ์ทางการแล้ว เลขที่ INC-OBJLL-FORUM-2026-FU-0005",
     "action_th": "ติดตามผลการแก้ไขและการป้องกันซ้ำตาม Corrective Action ในรายงาน IR",
     "action_en": "Monitor permanent corrective and preventive actions per official IR documentation",
-    "action": "ติดตามผลการแก้ไขและการป้องกันซ้ำตาม Corrective Action ในรายงาน IR"
+    "action": "ติดตามผลการแก้ไขและการป้องกันซ้ำตาม Corrective Action ในรายงาน IR",
+    "event_type_th": "Security: Medical Assistance : Minor - First Aid - ความช่วยเหลือทางการแพทย์ (กรณีเล็กน้อย-การปฐมพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Minor",
+    "summary_th": "[soc-inf] 21:14 soc รับจาก fcc Forum แจ้ง พบลูกค้ามีอาการปวดท้องแรง ที่ชั้น 1 หน้า แคนวาส",
+    "summary_en": "[soc-inf] 21:14 soc รับจาก fcc Forum แจ้ง พบลูกค้ามีอาการปวดท้องแรง ที่ชั้น 1 หน้า แคนวาส",
+    "finding_th": "ยืนยัน Close M CASE-260327-212159432717",
+    "finding_en": "ยืนยัน Close M CASE-260327-212159432717"
   },
   {
     "case_no": "CASE-260114-150021303658",
@@ -7708,7 +7762,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : Obstructions - สิ่งกีดขวาง",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "Parade (R1)  พบบันไดเลื่อนหนีบขากางเกงลูกค้า \nเลขเคสอ้างอิง CASE-260114-141942309733",
+    "summary_en": "Parade (R1)  พบบันไดเลื่อนหนีบขากางเกงลูกค้า \nเลขเคสอ้างอิง CASE-260114-141942309733",
+    "finding_th": "สาเหตุ\n-ชายกางเกงลูกค้าติดบันไดเลื่อนแต่หลุดได้แล้ว \n-ตรวจสอบ CCTV ลูกค้ายืนชิดช่องระหว่างลูกขั้นกับลูกขั้นมากเกินทำให้ช่องระหว่างลูกขั้นกำลังเปลี่ยนระดับหนีบกางเกงลูกค้า\n\nผลกระทบ \n-ชายกางเกงลูกค้าขาย/เปื้อน ลูกค้าไม่ได้รับบาดเจ็บ\n\nการแก้ไข\n-HTC ทำการตรวจเช็คระยะลูกขั้นและทดสอบการทำงาน ค่าระยะช่องว่างระหว่างลูกขั้นกับลูกขั้นเป็นไปตามมาตรฐาน",
+    "finding_en": "สาเหตุ\n-ชายกางเกงลูกค้าติดบันไดเลื่อนแต่หลุดได้แล้ว \n-ตรวจสอบ CCTV ลูกค้ายืนชิดช่องระหว่างลูกขั้นกับลูกขั้นมากเกินทำให้ช่องระหว่างลูกขั้นกำลังเปลี่ยนระดับหนีบกางเกงลูกค้า\n\nผลกระทบ \n-ชายกางเกงลูกค้าขาย/เปื้อน ลูกค้าไม่ได้รับบาดเจ็บ\n\nการแก้ไข\n-HTC ทำการตรวจเช็คระยะลูกขั้นและทดสอบการทำงาน ค่าระยะช่องว่างระหว่างลูกขั้นกับลูกขั้นเป็นไปตามมาตรฐาน"
   },
   {
     "case_no": "CASE-260125-194930812380",
@@ -7732,7 +7792,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "[soc-inf] 19:42 SOC ได้รับแจ้งจาก DCC  มีคนติดอยู่ภายในโถงทางเดิน ฝั่ง ST-02 ชั้น 1 One Power",
+    "summary_en": "[soc-inf] 19:42 SOC ได้รับแจ้งจาก DCC  มีคนติดอยู่ภายในโถงทางเดิน ฝั่ง ST-02 ชั้น 1 One Power",
+    "finding_th": "สาเหตุ : ประตูติดเปิดไม่ได้ มีคนติดอยู่ภายในโถงทางเดิน ฝั่ง ST-02 ชั้น 1 One Power\n\nดำเนินการช่วยเหลือ : เวลา 19:33 DCC จึงขอให้ปลดล็อคประตูอีกฝั่ง เพื่อให้ผู้ที่ติดอยู่ด้านในโถงทางเดิน ได้เดินย้อนกลับมาที่ห้อง FMC ก่อน และ DCC พาออกโดยให้เดินผ่านประตูห้อง SOC\n\nจำนวนผู้ติดอยู่ภายในพื้นที่ :\nรวม 3 คน เป็นพนักงานที่ปฏิบัติงานในห้อง FMC ประกอบด้วย\n\nพนักงาน BSP/BSD จำนวน 1 คน\n\nพนักงาน FS จำนวน 1 คน\n\nFMC Technician จำนวน 1 คน",
+    "finding_en": "สาเหตุ : ประตูติดเปิดไม่ได้ มีคนติดอยู่ภายในโถงทางเดิน ฝั่ง ST-02 ชั้น 1 One Power\n\nดำเนินการช่วยเหลือ : เวลา 19:33 DCC จึงขอให้ปลดล็อคประตูอีกฝั่ง เพื่อให้ผู้ที่ติดอยู่ด้านในโถงทางเดิน ได้เดินย้อนกลับมาที่ห้อง FMC ก่อน และ DCC พาออกโดยให้เดินผ่านประตูห้อง SOC\n\nจำนวนผู้ติดอยู่ภายในพื้นที่ :\nรวม 3 คน เป็นพนักงานที่ปฏิบัติงานในห้อง FMC ประกอบด้วย\n\nพนักงาน BSP/BSD จำนวน 1 คน\n\nพนักงาน FS จำนวน 1 คน\n\nFMC Technician จำนวน 1 คน"
   },
   {
     "case_no": "CASE-260124-122854998352",
@@ -7756,7 +7822,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 12:28 พบรถ ผรม ขับรถชนเสาชั้น B4  เสาสีเขียวA04",
+    "summary_en": "[soc-inf] 12:28 พบรถ ผรม ขับรถชนเสาชั้น B4  เสาสีเขียวA04",
+    "finding_th": "ข้อมูลเพิ่มเติม ผรม.มีประกันชั้น3 ไม่สะดวกเรียกประกัน ผรม. นำตัวอย่างสีเสาไป และจะเข้ามาซ่อมคืนให้",
+    "finding_en": "ข้อมูลเพิ่มเติม ผรม.มีประกันชั้น3 ไม่สะดวกเรียกประกัน ผรม. นำตัวอย่างสีเสาไป และจะเข้ามาซ่อมคืนให้"
   },
   {
     "case_no": "CASE-260127-124531457750",
@@ -7780,7 +7852,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Sanitary : Toilet Equipment Faulty - อุปกรณ์ห้องน้ำชำรุด",
+    "event_type_en": "Hard Service: Sanitary : Toilet Equipment Faulty",
+    "summary_th": "อาคาร R1 ห้องน้ำชั้น 5 center ชายห้องเบอร์ 11มีน้ำรั่วออกจากข้อต่อหลังท็อป",
+    "summary_en": "อาคาร R1 ห้องน้ำชั้น 5 center ชายห้องเบอร์ 11มีน้ำรั่วออกจากข้อต่อหลังท็อป",
+    "finding_th": "สาเหตุ\n1.สกรูปิดน้ำชุดฟลัชวาล์วชำรุด\n2.ซีลยางฟลัชวาล์วชำรุด\nการแก้ไข\n1.เปลี่ยนชุดฟลัชวาล์วใหม่ทั้งชุด\n2.ดูดน้ำที่ขังหลังท็อ\nสรุปการแก้ไข\n1.ไม่พบน้ำหยด/รั่ว\n2.ห้องน้ำเปิดใช้งานได้ตามปกติ",
+    "finding_en": "สาเหตุ\n1.สกรูปิดน้ำชุดฟลัชวาล์วชำรุด\n2.ซีลยางฟลัชวาล์วชำรุด\nการแก้ไข\n1.เปลี่ยนชุดฟลัชวาล์วใหม่ทั้งชุด\n2.ดูดน้ำที่ขังหลังท็อ\nสรุปการแก้ไข\n1.ไม่พบน้ำหยด/รั่ว\n2.ห้องน้ำเปิดใช้งานได้ตามปกติ"
   },
   {
     "case_no": "CASE-260203-144502076587",
@@ -7804,7 +7882,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 14:35 บริเวณ Entrance 4 หน้า Drop Off Rama4 บริเวณสวน มีท่อน้ำแตก",
+    "summary_en": "[soc-inf] 14:35 บริเวณ Entrance 4 หน้า Drop Off Rama4 บริเวณสวน มีท่อน้ำแตก",
+    "finding_th": "ช่างตรวจสอบหน้างานพบว่าก๊อกสนามสำหรับรดน้ำต้นไม้หัก ได้ทำการแก้ไขเบื้องต้นโดยการหักแล้วใช้ลวดพันไว้เพื่อให้น้ำหยุดไหลเรียบร้อยครับ",
+    "finding_en": "ช่างตรวจสอบหน้างานพบว่าก๊อกสนามสำหรับรดน้ำต้นไม้หัก ได้ทำการแก้ไขเบื้องต้นโดยการหักแล้วใช้ลวดพันไว้เพื่อให้น้ำหยุดไหลเรียบร้อยครับ"
   },
   {
     "case_no": "CASE-260226-173747035590",
@@ -7828,7 +7912,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Security: Medical Assistance : Major - Ambulance - ความช่วยเหลือทางการแพทย์ (กรณีฉุกเฉิน-รถพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Major",
+    "summary_th": "เวลา 17.32 น. ลูกค้าเป็นลมชักบริเวณ MRT  นำส่งโรงพยาบาล  อ้างอิงเคส CASE-260226-173152663627",
+    "summary_en": "เวลา 17.32 น. ลูกค้าเป็นลมชักบริเวณ MRT  นำส่งโรงพยาบาล  อ้างอิงเคส CASE-260226-173152663627",
+    "finding_th": "เวลา 17.32 น. ลูกค้าเป็นลมชักบริเวณ MRT  \nเวลา 17.55 น. รถพยาบาลออกจากพื้นที่เส้นทางประตู 7 มุ่งหน้าโรงพยาบาลกล้วยน้ำไท\n\nข้อมูลลูกค้า ชื่อ นาย อริสร ปัญญา อายุ 19 ปี เบอร์โทรผู้ปกครอง 0963510953 มีผู้ติดตาม 1 คน\n\nมีอาการชักเกร็ง ผู้ป่วยจำเหตุการณ์ไม่ได้ มีเลือดออกในปาก และ มีแผลถลอกบริเวณข้อศอกซ้าย",
+    "finding_en": "เวลา 17.32 น. ลูกค้าเป็นลมชักบริเวณ MRT  \nเวลา 17.55 น. รถพยาบาลออกจากพื้นที่เส้นทางประตู 7 มุ่งหน้าโรงพยาบาลกล้วยน้ำไท\n\nข้อมูลลูกค้า ชื่อ นาย อริสร ปัญญา อายุ 19 ปี เบอร์โทรผู้ปกครอง 0963510953 มีผู้ติดตาม 1 คน\n\nมีอาการชักเกร็ง ผู้ป่วยจำเหตุการณ์ไม่ได้ มีเลือดออกในปาก และ มีแผลถลอกบริเวณข้อศอกซ้าย"
   },
   {
     "case_no": "CASE-260101-153105373324",
@@ -7852,7 +7942,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Hard Service: Pipe - ท่อ : Corrosion - ท่อสึกกร่อน",
+    "event_type_en": "Hard Service: Pipe",
+    "summary_th": "R1 มี น้ำรั่วจากบนฝ้า ภายในร้าน สารพัดไทยชั้น3  (ย้อนหลัง)",
+    "summary_en": "R1 มี น้ำรั่วจากบนฝ้า ภายในร้าน สารพัดไทยชั้น3  (ย้อนหลัง)",
+    "finding_th": "CWO20260303159",
+    "finding_en": "CWO20260303159"
   },
   {
     "case_no": "CASE-260325-153757840282",
@@ -7876,7 +7972,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 15:35  รับแจ้งจาก FCC Parade  เมื่อวันที่ 15/3/2026  รับแจ้งจากร้าน eveandboy ชั้น G  ว่าโดนขโมยของ",
+    "summary_en": "[soc-inf] 15:35  รับแจ้งจาก FCC Parade  เมื่อวันที่ 15/3/2026  รับแจ้งจากร้าน eveandboy ชั้น G  ว่าโดนขโมยของ",
+    "finding_th": "จากการตรวจสอบพบว่าผู้ต้องสงสัยเริ่มมีพฤติกรรมหยิบสินค้าโดยไม่ชำระเงินตั้งแต่บริเวณ Big C ชั้น B1 (นมโปรตีน) เวลา15:26 น.และต่อเนื่องไปยังลานโปรโมชั่นของ At First ชั้น B1 Parade เวลา 15:28 น.ก่อนจะขึ้นไปยังชั้นถัดไปและเข้าไปในร้าน Eveandboy โดยออกมาพร้อมถุงสินค้าที่คาดว่าเป็นน้ำหอม เวลา \n\nภายหลังพบว่าผู้ต้องสงสัยมีการเดินวนในพื้นที่ และเข้า–ออกห้องน้ำชายบริเวณชั้น B1 ซึ่งอาจเป็นการซ่อนหรือเปลี่ยนแปลงสินค้า ก่อนจะออกจากพื้นที่ผ่านทางเชื่อม MRT ชั้น B2 เวลา 15:43 น.",
+    "finding_en": "จากการตรวจสอบพบว่าผู้ต้องสงสัยเริ่มมีพฤติกรรมหยิบสินค้าโดยไม่ชำระเงินตั้งแต่บริเวณ Big C ชั้น B1 (นมโปรตีน) เวลา15:26 น.และต่อเนื่องไปยังลานโปรโมชั่นของ At First ชั้น B1 Parade เวลา 15:28 น.ก่อนจะขึ้นไปยังชั้นถัดไปและเข้าไปในร้าน Eveandboy โดยออกมาพร้อมถุงสินค้าที่คาดว่าเป็นน้ำหอม เวลา \n\nภายหลังพบว่าผู้ต้องสงสัยมีการเดินวนในพื้นที่ และเข้า–ออกห้องน้ำชายบริเวณชั้น B1 ซึ่งอาจเป็นการซ่อนหรือเปลี่ยนแปลงสินค้า ก่อนจะออกจากพื้นที่ผ่านทางเชื่อม MRT ชั้น B2 เวลา 15:43 น."
   },
   {
     "case_no": "CASE-260211-085128411736",
@@ -7900,7 +8002,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] เวลา 08:44 น.\nSOC ได้รับแจ้งเหตุว่า มีพนักงานบริษัท E18HTEEN SEVEN ขับรถกอล์ฟชนเสา Bollard บริเวณชั้น G Big C",
+    "summary_en": "[soc-inf] เวลา 08:44 น.\nSOC ได้รับแจ้งเหตุว่า มีพนักงานบริษัท E18HTEEN SEVEN ขับรถกอล์ฟชนเสา Bollard บริเวณชั้น G Big C",
+    "finding_th": "ขอปิดเคสเนื่องจากฝ่ายอาคาร และ TMT เข้าตรวจสอบหน้างานร่วมกัน ซึ่งทรัพย์สินที่เสียหายเป็นของทาง TMT โดยทาง TMT จะดำเนินการตามขั้นตอนต่อไป",
+    "finding_en": "ขอปิดเคสเนื่องจากฝ่ายอาคาร และ TMT เข้าตรวจสอบหน้างานร่วมกัน ซึ่งทรัพย์สินที่เสียหายเป็นของทาง TMT โดยทาง TMT จะดำเนินการตามขั้นตอนต่อไป"
   },
   {
     "case_no": "CASE-260218-183106039146",
@@ -7924,7 +8032,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: CCTV - Request : ขอภาพจาก CCTV",
+    "event_type_en": "Security: CCTV",
+    "summary_th": "ร้าน Ari ขอไฟล์กล้อง CCTV  ชั้น 2  เนื่องจากมีบุคคลเข้าไปขโมยเสื้อในร้าน เมื่อวันที่ 2 มกราคม 2569 เวลาประมาณ 15.49 - 16.00 น.",
+    "summary_en": "ร้าน Ari ขอไฟล์กล้อง CCTV  ชั้น 2  เนื่องจากมีบุคคลเข้าไปขโมยเสื้อในร้าน เมื่อวันที่ 2 มกราคม 2569 เวลาประมาณ 15.49 - 16.00 น.",
+    "finding_th": "Date/Time : 18/02/2026\nRequester : OBK-JLL-R1-ABS-Mallika Thongchanglek\nReceiver : Sup SOC K.Sirote\n\nSUP SOC K.Sirote ส่งไฟล์วิดีโอให้ พ.ต.ต. เจษพงษ์ มีเพ็ชรทาน สว.(สอบสวน) สน.ลุมพินีเป็นที่เรียบร้อยค่ะ\nCompany : JLL\nDocument No.: OB-SOC-2026-02-0021\nRemark : ส่งหลักฐานให้เจ้าหน้าที่ตำรวจ",
+    "finding_en": "Date/Time : 18/02/2026\nRequester : OBK-JLL-R1-ABS-Mallika Thongchanglek\nReceiver : Sup SOC K.Sirote\n\nSUP SOC K.Sirote ส่งไฟล์วิดีโอให้ พ.ต.ต. เจษพงษ์ มีเพ็ชรทาน สว.(สอบสวน) สน.ลุมพินีเป็นที่เรียบร้อยค่ะ\nCompany : JLL\nDocument No.: OB-SOC-2026-02-0021\nRemark : ส่งหลักฐานให้เจ้าหน้าที่ตำรวจ"
   },
   {
     "case_no": "CASE-260307-152933503644",
@@ -7948,7 +8062,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "R1 ALARM SMOK  ชั้น 3 1305",
+    "summary_en": "R1 ALARM SMOK  ชั้น 3 1305",
+    "finding_th": "ยังไม่สามารถเคลียหัวได้ เนื่องจากร้านค้าติดลูกค้า",
+    "finding_en": "ยังไม่สามารถเคลียหัวได้ เนื่องจากร้านค้าติดลูกค้า"
   },
   {
     "case_no": "CASE-260115-090627427899",
@@ -7972,7 +8092,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "R01-0B1-FIRE-FXSMOK-006-PUBLIC AREA6",
+    "summary_en": "R01-0B1-FIRE-FXSMOK-006-PUBLIC AREA6",
+    "finding_th": "ตรวจสอบหน้างานไม่พบเหตุเพลิงไหม้ สาเหตุเกิดจากควันออกจากร้านค้า แก้ไขโดยการทำความสะอาด Smoke เรียบร้อย ระบบกลับ Nomal Restore เวลา 09.08 น.",
+    "finding_en": "ตรวจสอบหน้างานไม่พบเหตุเพลิงไหม้ สาเหตุเกิดจากควันออกจากร้านค้า แก้ไขโดยการทำความสะอาด Smoke เรียบร้อย ระบบกลับ Nomal Restore เวลา 09.08 น."
   },
   {
     "case_no": "CASE-260112-094602717526",
@@ -7996,7 +8122,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "Parade Alarm Smoke ชั้น G ST01",
+    "summary_en": "Parade Alarm Smoke ชั้น G ST01",
+    "finding_th": "ตรวจสอบหน้างานไม่พบเหตุ Reset ระบบกลับมาปกติเรียบร้อย",
+    "finding_en": "ตรวจสอบหน้างานไม่พบเหตุ Reset ระบบกลับมาปกติเรียบร้อย"
   },
   {
     "case_no": "CASE-260225-202334176493",
@@ -8020,7 +8152,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 20:16 SOC รับแจ้งจาก Sup G4S K.เพชรร่มเกล้า ว่าพบรถทัวร์บริษัททรัพย์เจริญทราเวล เฉี่ยวชนเสาสี่เหลี่ยมหน้าตึก CUP ได้รับความเสียหาย",
+    "summary_en": "[soc-inf] 20:16 SOC รับแจ้งจาก Sup G4S K.เพชรร่มเกล้า ว่าพบรถทัวร์บริษัททรัพย์เจริญทราเวล เฉี่ยวชนเสาสี่เหลี่ยมหน้าตึก CUP ได้รับความเสียหาย",
+    "finding_th": "บริษัทวิริยะเข้าพื้นที่ตรวจสอบความเสียหายพร้อมกับคนขับ รถผู้จัดการรถ และฝ่ายอาคาร Forum  รับเอกสารใบเครมเป็นที่เรียบร้อยค่ะ และดำเนินการในส่วนอื่นต่อไป",
+    "finding_en": "บริษัทวิริยะเข้าพื้นที่ตรวจสอบความเสียหายพร้อมกับคนขับ รถผู้จัดการรถ และฝ่ายอาคาร Forum  รับเอกสารใบเครมเป็นที่เรียบร้อยค่ะ และดำเนินการในส่วนอื่นต่อไป"
   },
   {
     "case_no": "CASE-260116-185815983122",
@@ -8044,7 +8182,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "[soc-inf] 18:56 soc ได้รับแจ้งจาก SUP G4S คุณบุญยิ่ง พบเหตุไฟไหม้ลังกระดาษที่ชั้น B1 โซนสีส้ม เสา C16",
+    "summary_en": "[soc-inf] 18:56 soc ได้รับแจ้งจาก SUP G4S คุณบุญยิ่ง พบเหตุไฟไหม้ลังกระดาษที่ชั้น B1 โซนสีส้ม เสา C16",
+    "finding_th": "รายงานสรุปเหตุการณ์:\nSOC ได้รับแจ้งเหตุและประสาน EOT เข้าพื้นที่ตรวจสอบ พบว่ารปภ.เข้าตรวจสอบลานจอดรถแล้ว โดยประเมินเหตุเป็นระดับ Code 2\nเวลา 18:58 น. ทีม EOT เข้าถึงพื้นที่เกิดเหตุ ขณะนั้นหัวหน้าชุดและเจ้าหน้าที่รักษาความปลอดภัยได้ดำเนินการควบคุมสถานการณ์ไว้แล้ว\nหัวหน้าชุดได้ดำเนินการระงับเหตุโดยใช้ถังดับเพลิงจำนวน 1 ถัง สามารถควบคุมเหตุได้เป็นที่เรียบร้อย ไม่ลุกลาม\nจากการตรวจสอบเบื้องต้น สาเหตุเกิดจาก ผู้รับเหมาทิ้้งก้นบุหรี่ในพื้นที่ ซึ่งบริเวณโดยรอบมีกระดาษติดไฟได้ง่าย ส่งผลให้เกิดไฟลุกไหม้\nเบื้องต้นไม่พบผู้ได้รับบาดเจ็บและไม่พบความเสียหายร้ายแรงต่อทรัพย์สิน\nผู้รับเหมาเซ็นรับทราบเรียบร้อยค่ะ วันพรุ่งนี้ (17/01/2569) ทางทีมผู้กระทำฺผิดจะดำเนินการโอนเงินค่าปรับให้ โดยยังไม่รวมกับค่าถังดับเพลิงค่ะ",
+    "finding_en": "รายงานสรุปเหตุการณ์:\nSOC ได้รับแจ้งเหตุและประสาน EOT เข้าพื้นที่ตรวจสอบ พบว่ารปภ.เข้าตรวจสอบลานจอดรถแล้ว โดยประเมินเหตุเป็นระดับ Code 2\nเวลา 18:58 น. ทีม EOT เข้าถึงพื้นที่เกิดเหตุ ขณะนั้นหัวหน้าชุดและเจ้าหน้าที่รักษาความปลอดภัยได้ดำเนินการควบคุมสถานการณ์ไว้แล้ว\nหัวหน้าชุดได้ดำเนินการระงับเหตุโดยใช้ถังดับเพลิงจำนวน 1 ถัง สามารถควบคุมเหตุได้เป็นที่เรียบร้อย ไม่ลุกลาม\nจากการตรวจสอบเบื้องต้น สาเหตุเกิดจาก ผู้รับเหมาทิ้้งก้นบุหรี่ในพื้นที่ ซึ่งบริเวณโดยรอบมีกระดาษติดไฟได้ง่าย ส่งผลให้เกิดไฟลุกไหม้\nเบื้องต้นไม่พบผู้ได้รับบาดเจ็บและไม่พบความเสียหายร้ายแรงต่อทรัพย์สิน\nผู้รับเหมาเซ็นรับทราบเรียบร้อยค่ะ วันพรุ่งนี้ (17/01/2569) ทางทีมผู้กระทำฺผิดจะดำเนินการโอนเงินค่าปรับให้ โดยยังไม่รวมกับค่าถังดับเพลิงค่ะ"
   },
   {
     "case_no": "CASE-260307-234856417263",
@@ -8068,7 +8212,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Security: Medical Assistance : Major - Ambulance - ความช่วยเหลือทางการแพทย์ (กรณีฉุกเฉิน-รถพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Major",
+    "summary_th": "[soc-inf] 23:47 รับแจ้งจาก SUP EOT ว่ามีเจ้าหน้าที่ EOT ได้รับบาดเจ็บที่ศีรษะจากการถูกกระแทกด้วยประตูท้ายรถ Ambulance",
+    "summary_en": "[soc-inf] 23:47 รับแจ้งจาก SUP EOT ว่ามีเจ้าหน้าที่ EOT ได้รับบาดเจ็บที่ศีรษะจากการถูกกระแทกด้วยประตูท้ายรถ Ambulance",
+    "finding_th": "ระหว่างที่ทีม EOT เข้าช่วยเหลือพนักงานร้าน After You ที่มีอาการช็อค และกำลังนำผู้ป่วยขึ้นรถ Ambulance ได้รับอุบัติเหตุจากการถูกประตูท้ายรถ Ambulance ปิดกระแทกศีรษะโดยเจ้าหน้าที่ EMT\n\nจากการตรวจสอบเบื้องต้นพบว่า\n    - ผู้บาดเจ็บมีบาดแผลที่ศีรษะ ความยาวประมาณ 2 ซม.\n    - มีการ ปฐมพยาบาลเบื้องต้นทันที\n\nจากนั้น นำส่งโรงพยาบาล พร้อมกับผู้ป่วยที่มีอาการช็อค\n\nข้อมูลผู้ป่วย : เจ้าหน้าที่ EOT ชื่อ นายอภิชาติ เทียมโคกกรวด",
+    "finding_en": "ระหว่างที่ทีม EOT เข้าช่วยเหลือพนักงานร้าน After You ที่มีอาการช็อค และกำลังนำผู้ป่วยขึ้นรถ Ambulance ได้รับอุบัติเหตุจากการถูกประตูท้ายรถ Ambulance ปิดกระแทกศีรษะโดยเจ้าหน้าที่ EMT\n\nจากการตรวจสอบเบื้องต้นพบว่า\n    - ผู้บาดเจ็บมีบาดแผลที่ศีรษะ ความยาวประมาณ 2 ซม.\n    - มีการ ปฐมพยาบาลเบื้องต้นทันที\n\nจากนั้น นำส่งโรงพยาบาล พร้อมกับผู้ป่วยที่มีอาการช็อค\n\nข้อมูลผู้ป่วย : เจ้าหน้าที่ EOT ชื่อ นายอภิชาติ เทียมโคกกรวด"
   },
   {
     "case_no": "CASE-260310-222007735224",
@@ -8092,7 +8242,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Hard Service: Sanitary : Cold Water Pump - ปัญหาที่เกี่ยวกับปั๊มน้ำดี",
+    "event_type_en": "Hard Service: Sanitary : Cold Water Pump",
+    "summary_th": "อาคาร R1 Pump CW มีปัญหา Bypass ใช้งาน",
+    "summary_en": "อาคาร R1 Pump CW มีปัญหา Bypass ใช้งาน",
+    "finding_th": "ตอนนี้ Pump กลับมา Run ได้ปกติครับ",
+    "finding_en": "ตอนนี้ Pump กลับมา Run ได้ปกติครับ"
   },
   {
     "case_no": "CASE-260201-011744946174",
@@ -8116,7 +8272,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "ผรม บ.เฮเซิ่ล เจาะกระเบื่องโดนท่อน้ำ RW หน้าตึก Tower5",
+    "summary_en": "ผรม บ.เฮเซิ่ล เจาะกระเบื่องโดนท่อน้ำ RW หน้าตึก Tower5",
+    "finding_th": "ดำเนินการแก้ไขเรียบร้อยค่ะ",
+    "finding_en": "ดำเนินการแก้ไขเรียบร้อยค่ะ"
   },
   {
     "case_no": "CASE-260324-131133744601",
@@ -8140,7 +8302,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 12:30 รับแจ้งจาก FCC Parade แจ้งว่าพนักงานร้าน Toy R us ชั้น 5 มาแจ้งว่ามีสินค้าภายในร้านโดนขโมยไปในวันที่ 14/03/69 (เปิดเคสย้อนหลัง)",
+    "summary_en": "[soc-inf] 12:30 รับแจ้งจาก FCC Parade แจ้งว่าพนักงานร้าน Toy R us ชั้น 5 มาแจ้งว่ามีสินค้าภายในร้านโดนขโมยไปในวันที่ 14/03/69 (เปิดเคสย้อนหลัง)",
+    "finding_th": "สรุปเหตุการณ์ผู้ต้องสงสัยชาย 2 คนที่ลักทรัพย์ภายในร้าน Toys“R”Us ชั้น 5 อาคาร Parade\n19.05 น. ผู้ต้องสงสัยเข้าภายในอาคาร Parade ผ่านประตูหน้าร้าน COS ชั้น 1 ฝั่ง One Bangkok Park\n19.09–19.13 น. เดินเข้าร้าน Toys“R”Us ชั้น 5 และออกจากร้าน\n19.14–19.14.30 น. เดินลงบันไดเลื่อนต่อเนื่องจากชั้น 5 ไปชั้น 3 โดยไม่แวะร้านค้า\n19.17–19.20.20 น. เดินผ่านชั้น 1, G, B1M ของ The Storeys (R2) ไปยังลานจอดรถมอเตอร์ไซค์บิ๊กไบค์\n19.23 น. ขับรถจักรยานยนต์ออกจากพื้นที่ ผ่านไม้กั้นชั้น B1M, ทะเบียน 9กต 6637 กรุงเทพมหานคร",
+    "finding_en": "สรุปเหตุการณ์ผู้ต้องสงสัยชาย 2 คนที่ลักทรัพย์ภายในร้าน Toys“R”Us ชั้น 5 อาคาร Parade\n19.05 น. ผู้ต้องสงสัยเข้าภายในอาคาร Parade ผ่านประตูหน้าร้าน COS ชั้น 1 ฝั่ง One Bangkok Park\n19.09–19.13 น. เดินเข้าร้าน Toys“R”Us ชั้น 5 และออกจากร้าน\n19.14–19.14.30 น. เดินลงบันไดเลื่อนต่อเนื่องจากชั้น 5 ไปชั้น 3 โดยไม่แวะร้านค้า\n19.17–19.20.20 น. เดินผ่านชั้น 1, G, B1M ของ The Storeys (R2) ไปยังลานจอดรถมอเตอร์ไซค์บิ๊กไบค์\n19.23 น. ขับรถจักรยานยนต์ออกจากพื้นที่ ผ่านไม้กั้นชั้น B1M, ทะเบียน 9กต 6637 กรุงเทพมหานคร"
   },
   {
     "case_no": "CASE-260125-104949203323",
@@ -8164,7 +8332,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "Tower 3 (O1B) ALARM Smok ชั้น 41",
+    "summary_en": "Tower 3 (O1B) ALARM Smok ชั้น 41",
+    "finding_th": "#NAME?",
+    "finding_en": "#NAME?"
   },
   {
     "case_no": "CASE-260316-211558465875",
@@ -8188,7 +8362,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Tenant Retail: Gas System : Gas Leak - แก๊สรั่ว",
+    "event_type_en": "Tenant Retail: Gas System : Gas Leak",
+    "summary_th": "ร้านKope Hya Tai Kee  แจ้งมีอรามแก๊ส",
+    "summary_en": "ร้านKope Hya Tai Kee  แจ้งมีอรามแก๊ส",
+    "finding_th": "-ช่าง SS ได้ทำการเข้าตรวจสอบ พบว่าแก๊สAlarm G3 ทำการตรวจเช็คบริเวณใต้เตาไม่พบแก๊สรั่วไหล ทำการรีเซ็ตระบบแก๊ส ใหม่สามารถใช้งานได้ตามปกติ คาดการณ์ว่ามาจากความชื้นบริเวณเตาจึงทำให้เกิดAlarm -ทำการแจ้งสาเหตุให้ผจก.ร้านรับทราบถึงสาเหตุเรียบร้อยครับ",
+    "finding_en": "-ช่าง SS ได้ทำการเข้าตรวจสอบ พบว่าแก๊สAlarm G3 ทำการตรวจเช็คบริเวณใต้เตาไม่พบแก๊สรั่วไหล ทำการรีเซ็ตระบบแก๊ส ใหม่สามารถใช้งานได้ตามปกติ คาดการณ์ว่ามาจากความชื้นบริเวณเตาจึงทำให้เกิดAlarm -ทำการแจ้งสาเหตุให้ผจก.ร้านรับทราบถึงสาเหตุเรียบร้อยครับ"
   },
   {
     "case_no": "CASE-260105-192730432859",
@@ -8212,7 +8392,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 19:25 SOC รับแจ้งจาก Sup PCS R1 ว่าพบน้ำรั่วลงมาจากเพดานภายในร้าน Bibimbab",
+    "summary_en": "[soc-inf] 19:25 SOC รับแจ้งจาก Sup PCS R1 ว่าพบน้ำรั่วลงมาจากเพดานภายในร้าน Bibimbab",
+    "finding_th": "สาเหตุ\n-Ball Valve Bypass AHU แตกทำให้รั่วลงภายในร้าน\n\nผลกระทบ\n-ทำให้ทางร้าน The Bibimbab ชั้นB1 ไม่สามารถเปิดใช้งาน AHU ภายในร้าน\n\nการแก้ไข\n-ทางช่าง SS นำถังไปรองน้ำไว้ด้านบน และทางฝ่ายอาคารได้นำแอร์เคลื่อนที่วางไว้ภายในพื้นที่ร้านเพื่อไม่ให้อุณหภูมิภายในร้านสูง\n\nสรุปการแก้ไข\n-ผรม.วชิรมรรค ได้ทำการแก้ไขวาล์วโดยการตัดวาล์วบายพาสออกแล้วใช้แคปอุดๆท่อเอาไว้",
+    "finding_en": "สาเหตุ\n-Ball Valve Bypass AHU แตกทำให้รั่วลงภายในร้าน\n\nผลกระทบ\n-ทำให้ทางร้าน The Bibimbab ชั้นB1 ไม่สามารถเปิดใช้งาน AHU ภายในร้าน\n\nการแก้ไข\n-ทางช่าง SS นำถังไปรองน้ำไว้ด้านบน และทางฝ่ายอาคารได้นำแอร์เคลื่อนที่วางไว้ภายในพื้นที่ร้านเพื่อไม่ให้อุณหภูมิภายในร้านสูง\n\nสรุปการแก้ไข\n-ผรม.วชิรมรรค ได้ทำการแก้ไขวาล์วโดยการตัดวาล์วบายพาสออกแล้วใช้แคปอุดๆท่อเอาไว้"
   },
   {
     "case_no": "CASE-260110-160452407442",
@@ -8236,7 +8422,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Electrical : Arcing & Sparks - กระแสไฟฟ้ารั่ว",
+    "event_type_en": "Hard Service: Electrical : Arcing & Sparks",
+    "summary_th": "CI B1 Zone 1 เหล็กซัพพอร์ต ไฟป้าย และเหล็กด้านบนมีไฟรั่ว",
+    "summary_en": "CI B1 Zone 1 เหล็กซัพพอร์ต ไฟป้าย และเหล็กด้านบนมีไฟรั่ว",
+    "finding_th": "สอบถามผ่านทางพี่ตั้มBSE แจ้งว่า ผรม.TKC ได้เข้ามาแก้ไขแล้วครับโดยสาเหตุเกิดจากปลายสกรูยึดไปโดนสาย L ทำให้มีไฟรั่วลงโครงเหล็กซัพพอร์ตป้าย และทีมช่างได้เข้าตรวจสอบตรวจเช็คบริเวณจุดที่ไฟรั่วหน้างานอีกครั้ง ผลไม่พบไฟรั่วแล้วครับ และดำเนินการ on ไฟป้ายใช้งานตามเดิมครับ",
+    "finding_en": "สอบถามผ่านทางพี่ตั้มBSE แจ้งว่า ผรม.TKC ได้เข้ามาแก้ไขแล้วครับโดยสาเหตุเกิดจากปลายสกรูยึดไปโดนสาย L ทำให้มีไฟรั่วลงโครงเหล็กซัพพอร์ตป้าย และทีมช่างได้เข้าตรวจสอบตรวจเช็คบริเวณจุดที่ไฟรั่วหน้างานอีกครั้ง ผลไม่พบไฟรั่วแล้วครับ และดำเนินการ on ไฟป้ายใช้งานตามเดิมครับ"
   },
   {
     "case_no": "CASE-260327-162602601845",
@@ -8260,7 +8452,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 16:25 รับแจ้งจาก Sup G4s คุณพจนีย์ แจ้งว่ามีรถลูกค้าขับรถถอยชนเสากั้นตู้ชาร์จได้รับความเสียหายที่ชั้น B1 โซนสีเขียว",
+    "summary_en": "[soc-inf] 16:25 รับแจ้งจาก Sup G4s คุณพจนีย์ แจ้งว่ามีรถลูกค้าขับรถถอยชนเสากั้นตู้ชาร์จได้รับความเสียหายที่ชั้น B1 โซนสีเขียว",
+    "finding_th": "ได้รับใบเคลม บริษัท เซ็นเตอร์ แอนด์ ลอว์ จำกัด เพื่อดำเนินการซ่อมต่อไป",
+    "finding_en": "ได้รับใบเคลม บริษัท เซ็นเตอร์ แอนด์ ลอว์ จำกัด เพื่อดำเนินการซ่อมต่อไป"
   },
   {
     "case_no": "CASE-260112-024451306232",
@@ -8284,7 +8482,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Medical Assistance : Major - Ambulance - ความช่วยเหลือทางการแพทย์ (กรณีฉุกเฉิน-รถพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Major",
+    "summary_th": "อ้างอิงจากเคส CASE-260112-023927135556 ผรม.ผู้ชายตกนั่งร้าน ไม่สามารถขยับตัวได้ บริเวณอาคาร Parade ชั้น G",
+    "summary_en": "อ้างอิงจากเคส CASE-260112-023927135556 ผรม.ผู้ชายตกนั่งร้าน ไม่สามารถขยับตัวได้ บริเวณอาคาร Parade ชั้น G",
+    "finding_th": "วิธีแก้ไขปัญหา:\nผู้รับเหมาชายตกจากนั่งร้าน บริเวณอาคาร Parade ชั้น G ไม่สามารถขยับตัวได้และมีอาการศีรษะแตก EOT เข้าพื้นที่ทำการปฐมพยาบาลเบื้องต้น จากนั้นประสานรถฉุกเฉินเข้ารับที่จุด Drop Off The Storeys และเคลื่อนย้ายผู้ป่วยขึ้นรถฉุกเฉินเพื่อนำส่งโรงพยาบาลกล้วยน้ำไท โดยใช้เส้นทางประตู 8 ถนนพระราม 4 พร้อมแจ้ง DCC รับทราบ\n\nเวลาที่แก้ไขปัญหา:\nเริ่มดำเนินการเวลา 02.45 น. และรถฉุกเฉินออกจากพื้นที่เวลา 03.03 น.\n\nมีผู้บาดเจ็บหรือไม่:\nมีผู้บาดเจ็บ 1 ราย\n– นายเฉลิมพงศ์ สมบูรณ์ อายุ 32 ปี\n– ผู้รับเหมาบริษัทหนุมาร งานระบบไฟฟ้า ร้าน Eveandboy อาคาร Parade ชั้น G\n– สาเหตุ: ตกจากนั่งร้านสูงประมาณ 3 เมตร ขณะปีนขึ้นบริเวณท่อบนเพดาน และไม่สวมใส่อุปกรณ์ Safety\n\nระยะเวลาในการแก้ไขปัญหา/ช่วยเหลือ:\nประมาณ 18 นาที (ตั้งแต่ 02.45 – 03.03 น.)",
+    "finding_en": "วิธีแก้ไขปัญหา:\nผู้รับเหมาชายตกจากนั่งร้าน บริเวณอาคาร Parade ชั้น G ไม่สามารถขยับตัวได้และมีอาการศีรษะแตก EOT เข้าพื้นที่ทำการปฐมพยาบาลเบื้องต้น จากนั้นประสานรถฉุกเฉินเข้ารับที่จุด Drop Off The Storeys และเคลื่อนย้ายผู้ป่วยขึ้นรถฉุกเฉินเพื่อนำส่งโรงพยาบาลกล้วยน้ำไท โดยใช้เส้นทางประตู 8 ถนนพระราม 4 พร้อมแจ้ง DCC รับทราบ\n\nเวลาที่แก้ไขปัญหา:\nเริ่มดำเนินการเวลา 02.45 น. และรถฉุกเฉินออกจากพื้นที่เวลา 03.03 น.\n\nมีผู้บาดเจ็บหรือไม่:\nมีผู้บาดเจ็บ 1 ราย\n– นายเฉลิมพงศ์ สมบูรณ์ อายุ 32 ปี\n– ผู้รับเหมาบริษัทหนุมาร งานระบบไฟฟ้า ร้าน Eveandboy อาคาร Parade ชั้น G\n– สาเหตุ: ตกจากนั่งร้านสูงประมาณ 3 เมตร ขณะปีนขึ้นบริเวณท่อบนเพดาน และไม่สวมใส่อุปกรณ์ Safety\n\nระยะเวลาในการแก้ไขปัญหา/ช่วยเหลือ:\nประมาณ 18 นาที (ตั้งแต่ 02.45 – 03.03 น.)"
   },
   {
     "case_no": "CASE-260124-153436696928",
@@ -8308,7 +8512,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Soft Service: Property Damage : Bad Odour - กลิ่นไม่พึงประสงค์",
+    "event_type_en": "Soft Service: Property Damage : Bad Odour",
+    "summary_th": "ตรวจช่องทางลิฟต์ Loading ชั้น 5 ฝั้งร้าน Food Street มีกลิ่นเหมือนไฟใหม้สายไฟ",
+    "summary_en": "ตรวจช่องทางลิฟต์ Loading ชั้น 5 ฝั้งร้าน Food Street มีกลิ่นเหมือนไฟใหม้สายไฟ",
+    "finding_th": "ตรวจสอบพื้นที่ส่วนใกล้เคียงชั้น5  พบ.ผรม.ฝั่งO1A  มีทำงานเชื่อมในพื้นที่ก่อสร้าง​/ติดกับพื้นที่​R1. ครับ",
+    "finding_en": "ตรวจสอบพื้นที่ส่วนใกล้เคียงชั้น5  พบ.ผรม.ฝั่งO1A  มีทำงานเชื่อมในพื้นที่ก่อสร้าง​/ติดกับพื้นที่​R1. ครับ"
   },
   {
     "case_no": "CASE-260306-145509323136",
@@ -8332,7 +8542,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "[soc-inf] 14:47 รับแจ้งจาก DCC แจ้งว่า คณะผู้บริหาร ไม่สามารถผ่านระบบประตู Accessได้ ที่ Tower 4 ชั้น 20",
+    "summary_en": "[soc-inf] 14:47 รับแจ้งจาก DCC แจ้งว่า คณะผู้บริหาร ไม่สามารถผ่านระบบประตู Accessได้ ที่ Tower 4 ชั้น 20",
+    "finding_th": "เวลา 14:47 รับแจ้งจาก DCC แจ้งว่า คณะผู้บริหาร ไม่สามารถผ่านระบบประตู Access ได้ ที่ Tower 4 ชั้น 20 จากการตรวจสอบพบว่าคณะผู้บริกหารติดอยู่ภายในโถงลิฟต์เวลา 14.43 น. และ สามารถเปิดแระตูได้ เวลา 14.48 น. และ เวลา 15.15 น. รับแจ้งจาก FCC Tower 4 แจ้งว่า เนื่องจากวันนี้มีการซ้อมอพยพหนีไฟประจำปีทำให้ระบบ Access ล็อคอัตโนมัติ เบื้องต้น FCC ได้ทำการปลดล็อคในเวลา 14.48 ค่ะ",
+    "finding_en": "เวลา 14:47 รับแจ้งจาก DCC แจ้งว่า คณะผู้บริหาร ไม่สามารถผ่านระบบประตู Access ได้ ที่ Tower 4 ชั้น 20 จากการตรวจสอบพบว่าคณะผู้บริกหารติดอยู่ภายในโถงลิฟต์เวลา 14.43 น. และ สามารถเปิดแระตูได้ เวลา 14.48 น. และ เวลา 15.15 น. รับแจ้งจาก FCC Tower 4 แจ้งว่า เนื่องจากวันนี้มีการซ้อมอพยพหนีไฟประจำปีทำให้ระบบ Access ล็อคอัตโนมัติ เบื้องต้น FCC ได้ทำการปลดล็อคในเวลา 14.48 ค่ะ"
   },
   {
     "case_no": "CASE-260101-022446712822",
@@ -8356,7 +8572,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "L1 : Digital Signage : Hardware - ป้าย LED (Site wide outdoor) ไม่แสดงภาพ, แสดงภาพไม่ครบ, แสดงภาพไม่ถูกต้อง (Outdoor LED signage off or showing wrong info)",
+    "event_type_en": "L1 : Digital Signage : Hardware",
+    "summary_th": "จอ LED North อาคาร Parade ดับ",
+    "summary_en": "จอ LED North อาคาร Parade ดับ",
+    "finding_th": "ทำการกด ON จ่ายกระแสไฟฟ้าให้จอ สามารถกลับมาใช้งานได้ตามปกติ จากการตรวจสอบพบว่าช่วงเวลาดังกล่าวมีรายงานจากทาง BSP ว่าไฟฟ้าตกสับติด",
+    "finding_en": "ทำการกด ON จ่ายกระแสไฟฟ้าให้จอ สามารถกลับมาใช้งานได้ตามปกติ จากการตรวจสอบพบว่าช่วงเวลาดังกล่าวมีรายงานจากทาง BSP ว่าไฟฟ้าตกสับติด"
   },
   {
     "case_no": "CASE-260107-140010153285",
@@ -8380,7 +8602,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 13:58 soc รับแจ้ง จาก SUP G4S คุณ อัมรัน มีพนักงาน iJ สยาม เข้ามาแจ้งว่าหมวกกันน็อกหาย ตรงบริเวณ โซนสีเหลืองเสาE04  ชั้นB1M ลานจอดรถจักรยานยนต์",
+    "summary_en": "[soc-inf] 13:58 soc รับแจ้ง จาก SUP G4S คุณ อัมรัน มีพนักงาน iJ สยาม เข้ามาแจ้งว่าหมวกกันน็อกหาย ตรงบริเวณ โซนสีเหลืองเสาE04  ชั้นB1M ลานจอดรถจักรยานยนต์",
+    "finding_th": "จากการตรวจสอบ พบว่าผู้ก่อเหตุขโมยหมวกกันน็อค เข้ามาในพื้นที่โครงการผ่าน Entrance 2 โดยเข้ามาจอดในลานจอดรถจักรยานยนต์ชั้น B1M เวลา 09:43 น. และต่อมาเมื่อเวลาได้ทำการก่อเหตุตอนเวลา 10:18 น. โดยระหว่างนี้ไม่มีพฤติกรรมก่อเหตุลักทรัพย์อื่นๆ อีกในพื้นที่ \n\nหมายเลขทะเบียนรถจักรยานยนต์ผู้ก่อเหตุ 1กฒ 7515 สมุทรสาคร สีดำ ไม่ทราบยี่ห้อ\n\nผู้เสียหายกำลังดำเนินการแจ้งความ เพื่อดำเนินการตามขั้นตอนทางกฎหมายต่อไป",
+    "finding_en": "จากการตรวจสอบ พบว่าผู้ก่อเหตุขโมยหมวกกันน็อค เข้ามาในพื้นที่โครงการผ่าน Entrance 2 โดยเข้ามาจอดในลานจอดรถจักรยานยนต์ชั้น B1M เวลา 09:43 น. และต่อมาเมื่อเวลาได้ทำการก่อเหตุตอนเวลา 10:18 น. โดยระหว่างนี้ไม่มีพฤติกรรมก่อเหตุลักทรัพย์อื่นๆ อีกในพื้นที่ \n\nหมายเลขทะเบียนรถจักรยานยนต์ผู้ก่อเหตุ 1กฒ 7515 สมุทรสาคร สีดำ ไม่ทราบยี่ห้อ\n\nผู้เสียหายกำลังดำเนินการแจ้งความ เพื่อดำเนินการตามขั้นตอนทางกฎหมายต่อไป"
   },
   {
     "case_no": "CASE-260115-145129322243",
@@ -8404,7 +8632,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 14:50 soc รับแจ้งจาก รปภ ประจำจุด EN 2 มีรถผู้รับเหมชนเสาที่หน้าทางเข้า EN 2",
+    "summary_en": "[soc-inf] 14:50 soc รับแจ้งจาก รปภ ประจำจุด EN 2 มีรถผู้รับเหมชนเสาที่หน้าทางเข้า EN 2",
+    "finding_th": "เวลา 16:00 น. บริษัท คุ้มภัยโตเกียวประกันภัย ได้ดำเนินการออกใบเคลมให้กับฝ่ายอาคารเป็นที่เรียบร้อย และได้แยกย้ายออกจากพื้นที่แล้วครับ",
+    "finding_en": "เวลา 16:00 น. บริษัท คุ้มภัยโตเกียวประกันภัย ได้ดำเนินการออกใบเคลมให้กับฝ่ายอาคารเป็นที่เรียบร้อย และได้แยกย้ายออกจากพื้นที่แล้วครับ"
   },
   {
     "case_no": "CASE-260201-174428252877",
@@ -8428,7 +8662,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 17:43 รับแจ้งจาก FCC Parade พบบุคคลคล้ายผู้ที่เคยมาก่อเหตุที่ร้านมิตซูโคชิ",
+    "summary_en": "[soc-inf] 17:43 รับแจ้งจาก FCC Parade พบบุคคลคล้ายผู้ที่เคยมาก่อเหตุที่ร้านมิตซูโคชิ",
+    "finding_th": "หลังจากได้รับแจ้งจาก SP PCS ว่าพบผู้ต้องสงสัยคล้ายบุคคลที่เคยมาก่อเหตุที่  MITSUKOSHI\nsoc จึงได้ประสานให้หัวหน้าชุด รปภ คอยเฝ้าจับตาและได้แจ้งให้ รปภ หญิง เข้าพื้นที่เพื่อสนับสนุนปฏิบัติการร่วมด้วยหลังจากนั้นบุคคลต้องสงสัยเริ่มรู้ตัวจึงได้ทิ่งรถเข็นสินค้าและพยายามจะเดินออกจากพื้นที่ หัวหน้าชุด และ รปภ หญิงได้เฝ้าติดตามต่อหลังจากนั้น คุณ นุ Security Supervisor JLL ได้เข้าพื้นที่เพื่อเรียกบุคคลต้องสงสัยคุยและเชิญตัวมาที่ห้องรับรอง ชั้นB2 อาคาร Parade และ soc ได้เรียกเจ้าหน้าที่ตำรวจจาก สน.ลุมพินี โดยมี เจ้าหน้าที่ MITSUKOSHI / Sup soc/ฝ่ายอาคาร/ คุณ นุ Security Supervisor JLL ร่วมสอบสวน\nหลังจากสอบสวนบุคคลดังกล่าวยอมรับสารภาพว่าเป็นผู้ก่อเหตุจริงทั้ง2ครั้งก่อนหน้านี้จึงได้นำตัวส่ง สน.ลุมพินี",
+    "finding_en": "หลังจากได้รับแจ้งจาก SP PCS ว่าพบผู้ต้องสงสัยคล้ายบุคคลที่เคยมาก่อเหตุที่  MITSUKOSHI\nsoc จึงได้ประสานให้หัวหน้าชุด รปภ คอยเฝ้าจับตาและได้แจ้งให้ รปภ หญิง เข้าพื้นที่เพื่อสนับสนุนปฏิบัติการร่วมด้วยหลังจากนั้นบุคคลต้องสงสัยเริ่มรู้ตัวจึงได้ทิ่งรถเข็นสินค้าและพยายามจะเดินออกจากพื้นที่ หัวหน้าชุด และ รปภ หญิงได้เฝ้าติดตามต่อหลังจากนั้น คุณ นุ Security Supervisor JLL ได้เข้าพื้นที่เพื่อเรียกบุคคลต้องสงสัยคุยและเชิญตัวมาที่ห้องรับรอง ชั้นB2 อาคาร Parade และ soc ได้เรียกเจ้าหน้าที่ตำรวจจาก สน.ลุมพินี โดยมี เจ้าหน้าที่ MITSUKOSHI / Sup soc/ฝ่ายอาคาร/ คุณ นุ Security Supervisor JLL ร่วมสอบสวน\nหลังจากสอบสวนบุคคลดังกล่าวยอมรับสารภาพว่าเป็นผู้ก่อเหตุจริงทั้ง2ครั้งก่อนหน้านี้จึงได้นำตัวส่ง สน.ลุมพินี"
   },
   {
     "case_no": "CASE-260217-115103927835",
@@ -8452,7 +8692,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : Stuck or Stopped - หยุดหรือค้าง",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "R1_ตรวจสอบบันไดเลื่อน หยุดทำงาน มีเศษกระโปรงลูกค้าติด",
+    "summary_en": "R1_ตรวจสอบบันไดเลื่อน หยุดทำงาน มีเศษกระโปรงลูกค้าติด",
+    "finding_th": "ทำการแก้ไขและนำเศษผ้าออก ทดสอบใช้งานบันไดเลื่อนใช้งานได้ปกติ",
+    "finding_en": "ทำการแก้ไขและนำเศษผ้าออก ทดสอบใช้งานบันไดเลื่อนใช้งานได้ปกติ"
   },
   {
     "case_no": "CASE-260225-130517113570",
@@ -8476,7 +8722,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Lost Item - สิ่งของสูญหาย",
+    "event_type_en": "Security: Lost Item",
+    "summary_th": "Lost : 01/25-02-26/ 12.55 Item : กระเป๋าเป้สะพายหลังสีดำ จากร้าน Moleskine",
+    "summary_en": "Lost : 01/25-02-26/ 12.55 Item : กระเป๋าเป้สะพายหลังสีดำ จากร้าน Moleskine",
+    "finding_th": "ร้าน Moleskine ชั้น G โซน Parade ได้แจ้งเหตุสินค้าหายภายในร้าน เวลาประมาณ 10.17–12.20 น.  เป็นกระเป๋าเป้สะพายหลังสีดำ โดยผู้แจ้งคือคุณศราวุธ สมภัคดี พนักงานประจำร้าน ทั้งนี้ได้ระบุข้อมูลพนักงานภายในร้านเพื่อใช้ตรวจสอบกล้องวงจรปิด (CCTV) ซึ่งมีพนักงานชาย 1 คน สวมเสื้อสีดำ รองเท้าสีขาว และพนักงานหญิงสวมชุดสีดำ\nต่อมาเวลา 13.19 น. ได้รับแจ้งจาก FCC อาคาร Parade ว่าทางร้านพบลูกค้าที่นำกระเป๋าออกไปจากร้าน และได้ดำเนินการเจรจากับลูกค้าเรียบร้อยแล้ว โดยลูกค้าได้ชำระค่ากระเป๋าให้กับทางร้านและทางร้านไม่ติดไม่ติดใจเอาความแต่อย่างใด",
+    "finding_en": "ร้าน Moleskine ชั้น G โซน Parade ได้แจ้งเหตุสินค้าหายภายในร้าน เวลาประมาณ 10.17–12.20 น.  เป็นกระเป๋าเป้สะพายหลังสีดำ โดยผู้แจ้งคือคุณศราวุธ สมภัคดี พนักงานประจำร้าน ทั้งนี้ได้ระบุข้อมูลพนักงานภายในร้านเพื่อใช้ตรวจสอบกล้องวงจรปิด (CCTV) ซึ่งมีพนักงานชาย 1 คน สวมเสื้อสีดำ รองเท้าสีขาว และพนักงานหญิงสวมชุดสีดำ\nต่อมาเวลา 13.19 น. ได้รับแจ้งจาก FCC อาคาร Parade ว่าทางร้านพบลูกค้าที่นำกระเป๋าออกไปจากร้าน และได้ดำเนินการเจรจากับลูกค้าเรียบร้อยแล้ว โดยลูกค้าได้ชำระค่ากระเป๋าให้กับทางร้านและทางร้านไม่ติดไม่ติดใจเอาความแต่อย่างใด"
   },
   {
     "case_no": "CASE-260328-231333934991",
@@ -8500,7 +8752,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 23:10 ได้รับแจ้งจาก Sup G4s คุณ เลิศพิสิษฐ์ พบนํ้ารั่วซึม บริเวณ ชั้น B2โซนสีฟ้าบริเวณ เสาJ08",
+    "summary_en": "[soc-inf] 23:10 ได้รับแจ้งจาก Sup G4s คุณ เลิศพิสิษฐ์ พบนํ้ารั่วซึม บริเวณ ชั้น B2โซนสีฟ้าบริเวณ เสาJ08",
+    "finding_th": "ผรม.ร้านย้ายโต๊ะออกทำท่อน้ำดีแตก ปัจจุบันผรม.แก้ไขตัดต่อท่อน้ำดีภายในร้านเรียบร้อย",
+    "finding_en": "ผรม.ร้านย้ายโต๊ะออกทำท่อน้ำดีแตก ปัจจุบันผรม.แก้ไขตัดต่อท่อน้ำดีภายในร้านเรียบร้อย"
   },
   {
     "case_no": "CASE-260111-041952590608",
@@ -8524,7 +8782,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 04:18 น.ได้รับแจ้งจาก Sup g4s คุณ เลิศพิสิษฐ์ มีน้ำรั่วชั้น B2 Zone สีฟ้า เสาA15",
+    "summary_en": "[soc-inf] 04:18 น.ได้รับแจ้งจาก Sup g4s คุณ เลิศพิสิษฐ์ มีน้ำรั่วชั้น B2 Zone สีฟ้า เสาA15",
+    "finding_th": "ขออนุญาตปิดเคสเนื่องจากเคสซ้ำ อ้างอิง CASE-251020-174229910745",
+    "finding_en": "ขออนุญาตปิดเคสเนื่องจากเคสซ้ำ อ้างอิง CASE-251020-174229910745"
   },
   {
     "case_no": "CASE-260222-120824048916",
@@ -8548,7 +8812,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "[soc-inf] 12:05 รับแจ้งจาก FCC Thestoreys แจ้งว่า พบลูกค้าผู้หญิงสูงวัยติดอยู่ภายในห้องน้ำคนพิการ อาคาร The Storeys ชั้น B1",
+    "summary_en": "[soc-inf] 12:05 รับแจ้งจาก FCC Thestoreys แจ้งว่า พบลูกค้าผู้หญิงสูงวัยติดอยู่ภายในห้องน้ำคนพิการ อาคาร The Storeys ชั้น B1",
+    "finding_th": "เวลา 12:05 รับแจ้งจาก FCC Thestoreys แจ้งว่า พบลูกค้าผู้หญิงสูงวัยติดอยู่ภายในห้องน้ำคนพิการ อาคาร The Storeys ชั้น B1 ต่อมา เวลา 12.07 น.รปภ.ได้เข้าช่วยเหลือลูกค้าเรียบร้อยแล้ว จากการตรวจสอบสาเหตุพบว่าลูกค้าหมุนกุญแจผิดฝั่งทำให้เปิดประตูไม่ได้และได้มีการดึงปุ่มกดฉุกเฉินภายในห้องน้ำค่ะ",
+    "finding_en": "เวลา 12:05 รับแจ้งจาก FCC Thestoreys แจ้งว่า พบลูกค้าผู้หญิงสูงวัยติดอยู่ภายในห้องน้ำคนพิการ อาคาร The Storeys ชั้น B1 ต่อมา เวลา 12.07 น.รปภ.ได้เข้าช่วยเหลือลูกค้าเรียบร้อยแล้ว จากการตรวจสอบสาเหตุพบว่าลูกค้าหมุนกุญแจผิดฝั่งทำให้เปิดประตูไม่ได้และได้มีการดึงปุ่มกดฉุกเฉินภายในห้องน้ำค่ะ"
   },
   {
     "case_no": "CASE-260301-024331076311",
@@ -8572,7 +8842,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "แจ้ง Alarm  อาคาร R1 Desc: R01-0B1-FIRE-FXSMOK-025-RETAIL 1B125 ชั้น B1 1B125",
+    "summary_en": "แจ้ง Alarm  อาคาร R1 Desc: R01-0B1-FIRE-FXSMOK-025-RETAIL 1B125 ชั้น B1 1B125",
+    "finding_th": "ทำการ Reset ระบบ กลัยสู่สภาวะปกติพร้อมใช้งาน\n\nช่างตรวจสอบพบ ผรม. ทดสอบเตาแก๊ส ไม่เกิดเหตุ",
+    "finding_en": "ทำการ Reset ระบบ กลัยสู่สภาวะปกติพร้อมใช้งาน\n\nช่างตรวจสอบพบ ผรม. ทดสอบเตาแก๊ส ไม่เกิดเหตุ"
   },
   {
     "case_no": "CASE-260109-020420105374",
@@ -8596,7 +8872,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Tenant retail: Gas System : Gas Odor Detected – มีกลิ่นแก๊ส",
+    "event_type_en": "Tenant retail: Gas System : Gas Odor Detected",
+    "summary_th": "Soc แจ้งมีกลิ่นแก๊สร้าน อีซี่บัดดี้ ชั้น 3 R1",
+    "summary_en": "Soc แจ้งมีกลิ่นแก๊สร้าน อีซี่บัดดี้ ชั้น 3 R1",
+    "finding_th": "จากการตรวจสอบพบร้านไม่ได้ปิดแก๊สทำการปิดเรียบร้อยครับ",
+    "finding_en": "จากการตรวจสอบพบร้านไม่ได้ปิดแก๊สทำการปิดเรียบร้อยครับ"
   },
   {
     "case_no": "CASE-260126-195934624406",
@@ -8620,7 +8902,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Pipe - ท่อ : Chilled water - Leaking - ท่อน้ำเย็นรั่วซึม",
+    "event_type_en": "Hard Service: Pipe",
+    "summary_th": "(เปิดเคสย้อนหลัง) วาว์ลน้ำด้าน CHS เกิดการรั่วระหว่างการทดสอบระบบ (ชุดวาว์ลที่มีการติดตั้งเพิ่ม)",
+    "summary_en": "(เปิดเคสย้อนหลัง) วาว์ลน้ำด้าน CHS เกิดการรั่วระหว่างการทดสอบระบบ (ชุดวาว์ลที่มีการติดตั้งเพิ่ม)",
+    "finding_th": "Incident Report\n\nเรื่อง: วาว์ลน้ำด้าน CHS เกิดการรั่วระหว่างการทดสอบระบบ (ชุดวาว์ลที่มีการติดตั้งเพิ่ม)\nสถานที่: Tower5\nวัน/เวลาเกิดเหตุ: วันที่ 26 มกราคม 2569 \nเวลา 18:30 น.\n\nลำดับเหตุการณ์\n18:30 น. พบการรั่วของวาว์ลน้ำด้าน CHS บริเวณ ชุดวาว์ลที่มีการติดตั้งเพิ่ม ระหว่างการทดสอบระบบ ภายในอาคารทาวเวอร์ 5\n18:32 น. ผู้รับเหมา THSD ดำเนินการปิดวาว์ลในชุดที่เกิดการรั่วทันที\n18:35 น. แจ้ง OP ทำการ Shutdown Plant (Low Zone) เพื่อความปลอดภัยและป้องกันผลกระทบเพิ่มเติม\n18:40 น. ผู้รับเหมา THSD ดำเนินการแก้ไขชุดวาว์ลที่มีปัญหา\n18:48 น. ผู้รับเหมาดำเนินการ เปิดเมนน้ำ หลังการแก้ไขแล้วเสร็จ\n18:52 น. แจ้ง OP ทำการ Auto Plant (Low Zone) เพื่อคืนระบบสู่สภาวะปกติ\nสาเหตุเบื้องต้น\nเกิดการรั่วซึมจาก ชุดวาว์ลที่มีการติดตั้งเพิ่ม ในระบบน้ำ PHE ระหว่างการทดสอบการทำงาน\n\nการแก้ไข / การดำเนินการ\nปิดวาว์ลที่เกิดการรั่วทันที\nShutdown ระบบ Plant Low Zone ชั่วคราว\nแก้ไขชุดวาว์ลโดยผู้รับเหมา THSD\nเปิดเมนน้ำและนำระบบกลับเข้าสู่โหมด Auto\n\nผลกระทบ\nระบบ Plant Low Zone หยุดให้บริการชั่วคราว\nการจ่ายน้ำเย็นในโซนที่เกี่ยวข้องหยุดชั่วคราวในช่วงเวลาดังกล่าว\nไม่พบความเสียหายต่ออุปกรณ์อื่น และไม่ส่งผลกระทบต่อความปลอดภัยของบุคลากร\n\nสถานะปัจจุบัน\nระบบ Plant Low Zone กลับมาอยู่ในโหมด Auto และสามารถใช้งานได้ตามปกติ\nอยู่ระหว่างเฝ้าระวังและติดตามผลหลังการแก้ไข\nผู้รายงาน:\nนาย อัครเดช ทองนาค\nตำแหน่ง Sr.Tech",
+    "finding_en": "Incident Report\n\nเรื่อง: วาว์ลน้ำด้าน CHS เกิดการรั่วระหว่างการทดสอบระบบ (ชุดวาว์ลที่มีการติดตั้งเพิ่ม)\nสถานที่: Tower5\nวัน/เวลาเกิดเหตุ: วันที่ 26 มกราคม 2569 \nเวลา 18:30 น.\n\nลำดับเหตุการณ์\n18:30 น. พบการรั่วของวาว์ลน้ำด้าน CHS บริเวณ ชุดวาว์ลที่มีการติดตั้งเพิ่ม ระหว่างการทดสอบระบบ ภายในอาคารทาวเวอร์ 5\n18:32 น. ผู้รับเหมา THSD ดำเนินการปิดวาว์ลในชุดที่เกิดการรั่วทันที\n18:35 น. แจ้ง OP ทำการ Shutdown Plant (Low Zone) เพื่อความปลอดภัยและป้องกันผลกระทบเพิ่มเติม\n18:40 น. ผู้รับเหมา THSD ดำเนินการแก้ไขชุดวาว์ลที่มีปัญหา\n18:48 น. ผู้รับเหมาดำเนินการ เปิดเมนน้ำ หลังการแก้ไขแล้วเสร็จ\n18:52 น. แจ้ง OP ทำการ Auto Plant (Low Zone) เพื่อคืนระบบสู่สภาวะปกติ\nสาเหตุเบื้องต้น\nเกิดการรั่วซึมจาก ชุดวาว์ลที่มีการติดตั้งเพิ่ม ในระบบน้ำ PHE ระหว่างการทดสอบการทำงาน\n\nการแก้ไข / การดำเนินการ\nปิดวาว์ลที่เกิดการรั่วทันที\nShutdown ระบบ Plant Low Zone ชั่วคราว\nแก้ไขชุดวาว์ลโดยผู้รับเหมา THSD\nเปิดเมนน้ำและนำระบบกลับเข้าสู่โหมด Auto\n\nผลกระทบ\nระบบ Plant Low Zone หยุดให้บริการชั่วคราว\nการจ่ายน้ำเย็นในโซนที่เกี่ยวข้องหยุดชั่วคราวในช่วงเวลาดังกล่าว\nไม่พบความเสียหายต่ออุปกรณ์อื่น และไม่ส่งผลกระทบต่อความปลอดภัยของบุคลากร\n\nสถานะปัจจุบัน\nระบบ Plant Low Zone กลับมาอยู่ในโหมด Auto และสามารถใช้งานได้ตามปกติ\nอยู่ระหว่างเฝ้าระวังและติดตามผลหลังการแก้ไข\nผู้รายงาน:\nนาย อัครเดช ทองนาค\nตำแหน่ง Sr.Tech"
   },
   {
     "case_no": "CASE-260208-165049087960",
@@ -8644,7 +8932,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Security: Medical Assistance : Minor - First Aid - ความช่วยเหลือทางการแพทย์ (กรณีเล็กน้อย-การปฐมพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Minor",
+    "summary_th": "[soc-inf] 16:45 รับแจ้งจาก FCC Parade พบลูกค้าชนประตูหัวแตกประตู Parade ฝั่งพระราม4",
+    "summary_en": "[soc-inf] 16:45 รับแจ้งจาก FCC Parade พบลูกค้าชนประตูหัวแตกประตู Parade ฝั่งพระราม4",
+    "finding_th": "SOC รับแจ้งจาก FCC Parade ว่าพบลูกค้าชนประตูบริเวณทางเข้าอาคาร Parade ฝั่งพระราม 4 ได้รับบาดเจ็บบริเวณศีรษะและมีเลือดออกจำนวนมาก soc จึงประสานพยาบาลและ EOT เข้าพื้นที่เพื่อให้การปฐมพยาบาลเบื้องต้น พร้อมแจ้ง DCC รับทราบ ต่อมาพยาบาลได้ทำการปฐมพยาบาลและติดต่อผู้ปกครองให้เข้ามารับผู้บาดเจ็บ หลังจากนั้นผู้ปกครองเดินทางมาถึงเพื่อจะมารับตัวไปรักษาที่โรงพยาบาลด้วยตัวเอง\n\nทราบภายหลังลูกค้าชื่อ ด.ญ. ตุลยา พากเพียร อายุ 12 ปี เพศ หญิง เบอร์โทร(065-7230766) \nผู้ปกครองชื่อ คุณ คำแสน โยธี เบอร์โทร (062-3523447)\n\nอาการผู้บาดเจ็บ \nมีบาดแผลบริเวณหัวคิ้วขวาประมาณ 2 เซ็น",
+    "finding_en": "SOC รับแจ้งจาก FCC Parade ว่าพบลูกค้าชนประตูบริเวณทางเข้าอาคาร Parade ฝั่งพระราม 4 ได้รับบาดเจ็บบริเวณศีรษะและมีเลือดออกจำนวนมาก soc จึงประสานพยาบาลและ EOT เข้าพื้นที่เพื่อให้การปฐมพยาบาลเบื้องต้น พร้อมแจ้ง DCC รับทราบ ต่อมาพยาบาลได้ทำการปฐมพยาบาลและติดต่อผู้ปกครองให้เข้ามารับผู้บาดเจ็บ หลังจากนั้นผู้ปกครองเดินทางมาถึงเพื่อจะมารับตัวไปรักษาที่โรงพยาบาลด้วยตัวเอง\n\nทราบภายหลังลูกค้าชื่อ ด.ญ. ตุลยา พากเพียร อายุ 12 ปี เพศ หญิง เบอร์โทร(065-7230766) \nผู้ปกครองชื่อ คุณ คำแสน โยธี เบอร์โทร (062-3523447)\n\nอาการผู้บาดเจ็บ \nมีบาดแผลบริเวณหัวคิ้วขวาประมาณ 2 เซ็น"
   },
   {
     "case_no": "CASE-260110-152541838368",
@@ -8668,7 +8962,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 15:23 รับแจ้งจาก FCC Parade ลิฟต์ค้าง SL3.2 มีพนักงานติดอยู่ภายในลิฟต์",
+    "summary_en": "[soc-inf] 15:23 รับแจ้งจาก FCC Parade ลิฟต์ค้าง SL3.2 มีพนักงานติดอยู่ภายในลิฟต์",
+    "finding_th": "สาเหตุ เบื้องต้นพบเศษปูนแตกติดขัดห้นาประตูลิฟท์ทำให้ประตูปิดไม่สนิท\nการแก้ไข เบื้องต้นช่วยลูกค้าออกจากลิฟท์ได้แล้ว ช่าง Hitachi ตรวจเช็คลิฟต์และเปิดใช้งานลิฟท์ปกติ",
+    "finding_en": "สาเหตุ เบื้องต้นพบเศษปูนแตกติดขัดห้นาประตูลิฟท์ทำให้ประตูปิดไม่สนิท\nการแก้ไข เบื้องต้นช่วยลูกค้าออกจากลิฟท์ได้แล้ว ช่าง Hitachi ตรวจเช็คลิฟต์และเปิดใช้งานลิฟท์ปกติ"
   },
   {
     "case_no": "CASE-260206-074857904490",
@@ -8692,7 +8992,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Pipe - ท่อ : Burst Pipes - ท่อแตก",
+    "event_type_en": "Hard Service: Pipe",
+    "summary_th": "รับแจ้งจากทางJLLร้านrawmatชั้นb1ท่อน้ำแตก",
+    "summary_en": "รับแจ้งจากทางJLLร้านrawmatชั้นb1ท่อน้ำแตก",
+    "finding_th": "ดำเนินการแจ้งทางร้านค้าให้จัดหาผรม.เข้ามาเปลี่ยนอุปกรณ์ที่ชำรุดเสียหาย  เบื้องต้นภายในร้านไม่ได้รับความเสียหายต่อทรัพย์สิน",
+    "finding_en": "ดำเนินการแจ้งทางร้านค้าให้จัดหาผรม.เข้ามาเปลี่ยนอุปกรณ์ที่ชำรุดเสียหาย  เบื้องต้นภายในร้านไม่ได้รับความเสียหายต่อทรัพย์สิน"
   },
   {
     "case_no": "CASE-260324-091101381468",
@@ -8716,7 +9022,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Security: Slip and Fall Accidents - อุบัติเหตุลื่นล้ม",
+    "event_type_en": "Security: Slip and Fall Accidents",
+    "summary_th": "[soc-inf] 09:07 ได้รับแจ้ง Sup G4s คุณ พจนีย์ มีไรเดอร์ขับล้มที่ Service Route Ramp ขาขึ้น",
+    "summary_en": "[soc-inf] 09:07 ได้รับแจ้ง Sup G4s คุณ พจนีย์ มีไรเดอร์ขับล้มที่ Service Route Ramp ขาขึ้น",
+    "finding_th": "09:07 ได้รับแจ้ง Sup G4s คุณ พจนีย์ มีไรเดอร์ขับล้มที่ Service Route Ramp ขาขึ้น \nเวลา 09.36 น. Sup G4s แจ้งว่าทางไรเดอร์ต้องการปฐมพยาบาล\n09:58 น ชุด EOTได้ทำการปฐมพยาบาลให้คนขับเรียบร้อย \nฝ่ายอาคารได้พูดคุยกับผู้ขับขี่รถจักรยานยนต์ (Rider) เกี่ยวกับการขอเคลมค่ากระจกรถ โดยฝ่ายอาคารแจ้งว่าจะติดต่อกลับอีกครั้ง ทั้งนี้ ผู้ขับขี่รถจักรยานยนต์ได้ออกนอกพื้นที่เรียบร้อยแล้ว\nข้อมูลไรเดอร์ ชื่อ นางสาว จิราพัชร อ่อนคำ เบอร์ติดต่อ 0889957487\n\n9/4/2026 เวลา 16.08 น. ได้ติดต่อแจ้งลูกค้าเรียบร้อยแล้วว่า ทางโครงการไม่สามารถรับผิดชอบต่อค่าเสียหายที่เกิดขึ้นกับรถจักรยานยนต์ของลูกค้าได้ เนื่องจากจากการตรวจสอบพบว่าความเสียหายดังกล่าวเกิดจากรถของลูกค้าเอง ทั้งนี้ ลูกค้าไม่ได้ติดใจอะไร จึงขอปิดเคสดังกล่าว",
+    "finding_en": "09:07 ได้รับแจ้ง Sup G4s คุณ พจนีย์ มีไรเดอร์ขับล้มที่ Service Route Ramp ขาขึ้น \nเวลา 09.36 น. Sup G4s แจ้งว่าทางไรเดอร์ต้องการปฐมพยาบาล\n09:58 น ชุด EOTได้ทำการปฐมพยาบาลให้คนขับเรียบร้อย \nฝ่ายอาคารได้พูดคุยกับผู้ขับขี่รถจักรยานยนต์ (Rider) เกี่ยวกับการขอเคลมค่ากระจกรถ โดยฝ่ายอาคารแจ้งว่าจะติดต่อกลับอีกครั้ง ทั้งนี้ ผู้ขับขี่รถจักรยานยนต์ได้ออกนอกพื้นที่เรียบร้อยแล้ว\nข้อมูลไรเดอร์ ชื่อ นางสาว จิราพัชร อ่อนคำ เบอร์ติดต่อ 0889957487\n\n9/4/2026 เวลา 16.08 น. ได้ติดต่อแจ้งลูกค้าเรียบร้อยแล้วว่า ทางโครงการไม่สามารถรับผิดชอบต่อค่าเสียหายที่เกิดขึ้นกับรถจักรยานยนต์ของลูกค้าได้ เนื่องจากจากการตรวจสอบพบว่าความเสียหายดังกล่าวเกิดจากรถของลูกค้าเอง ทั้งนี้ ลูกค้าไม่ได้ติดใจอะไร จึงขอปิดเคสดังกล่าว"
   },
   {
     "case_no": "CASE-260123-211458105425",
@@ -8740,7 +9052,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Residential : Elevator : Stuck (No Mantrap) - ลิฟต์ค้าง (ไม่มีผู้โดยสารติดค้าง)",
+    "event_type_en": "Residential : Elevator : Stuck (No Mantrap)",
+    "summary_th": "Lift D เรียกแล้วไม่มาค้างอยู่ชั้นที่ 26 ทำให้ลูกค้าห้อง 3902 ยืนรอนาน",
+    "summary_en": "Lift D เรียกแล้วไม่มาค้างอยู่ชั้นที่ 26 ทำให้ลูกค้าห้อง 3902 ยืนรอนาน",
+    "finding_th": "คอนเซียสทำการรีเซ็ตระบบ ใช้งานได้ปกติแล้ว",
+    "finding_en": "คอนเซียสทำการรีเซ็ตระบบ ใช้งานได้ปกติแล้ว"
   },
   {
     "case_no": "CASE-260327-131252689049",
@@ -8764,7 +9082,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 13:06 รับแจ้งจาก รับแจ้งจาก FCC Parade แจ้งว่า มีการขโมยหมวกในร้าน Smiley อาคาร Parade ชั้น 2",
+    "summary_en": "[soc-inf] 13:06 รับแจ้งจาก รับแจ้งจาก FCC Parade แจ้งว่า มีการขโมยหมวกในร้าน Smiley อาคาร Parade ชั้น 2",
+    "finding_th": "เวลา 12.01 ผู้ก่อเหตุได้หยิบหมวกจากร้าน Smiley อาคาร Parade ชั้น 2 โดยไม่จ่ายเงินค่าหมวกจากนั้นได้เดินวนเวียนอยู่ภายในบริเวณห้าง Parade และ The Storeys เวลา 12.47 น. ได้เดินออกจากประตู The Syoreys ชั้น G และไปนั่งอยู่ที่สวนฝั่ง ถนนวิทยุ หน้า Entrane 2 นั่งอยู่ประมาณ 31 นาที และได้เดินกลับเข้ามาในอาคาร The Stoerys เข้าไปอยู่ในห้องน้ำ SOC ได้มอนิเตอร์จนถึงเวลาปัจจุบัน SOC ได้แจ้งหัวหน้าชุด รปภ. ของทั้งสองอาคารไปตรวจสอบพบว่าผู้ก่อเหตุยังไม่ได้ออกจากห้องน้ำ เวลา 14.42 น. ฝ่ายอาคารและเจ้าหน้าที่ รปภ. ได้ทำการควบคุมผู้ก่อเหตุไปยังห้องฝ่ายอาคาร The Storeys เพื่อทำการสอบสวนจากเจ้าหน้าที่ตำรวจ",
+    "finding_en": "เวลา 12.01 ผู้ก่อเหตุได้หยิบหมวกจากร้าน Smiley อาคาร Parade ชั้น 2 โดยไม่จ่ายเงินค่าหมวกจากนั้นได้เดินวนเวียนอยู่ภายในบริเวณห้าง Parade และ The Storeys เวลา 12.47 น. ได้เดินออกจากประตู The Syoreys ชั้น G และไปนั่งอยู่ที่สวนฝั่ง ถนนวิทยุ หน้า Entrane 2 นั่งอยู่ประมาณ 31 นาที และได้เดินกลับเข้ามาในอาคาร The Stoerys เข้าไปอยู่ในห้องน้ำ SOC ได้มอนิเตอร์จนถึงเวลาปัจจุบัน SOC ได้แจ้งหัวหน้าชุด รปภ. ของทั้งสองอาคารไปตรวจสอบพบว่าผู้ก่อเหตุยังไม่ได้ออกจากห้องน้ำ เวลา 14.42 น. ฝ่ายอาคารและเจ้าหน้าที่ รปภ. ได้ทำการควบคุมผู้ก่อเหตุไปยังห้องฝ่ายอาคาร The Storeys เพื่อทำการสอบสวนจากเจ้าหน้าที่ตำรวจ"
   },
   {
     "case_no": "CASE-260202-212215792422",
@@ -8788,7 +9112,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Residential : Elevator : Stuck (No Mantrap) - ลิฟต์ค้าง (ไม่มีผู้โดยสารติดค้าง)",
+    "event_type_en": "Residential : Elevator : Stuck (No Mantrap)",
+    "summary_th": "ลิฟต์สลีป สแกนหน้าเลือกชั้นไม่ได้ไม่มีคนติดอยู่ด้านใน",
+    "summary_en": "ลิฟต์สลีป สแกนหน้าเลือกชั้นไม่ได้ไม่มีคนติดอยู่ด้านใน",
+    "finding_th": "ทำการประสานงานกับช่างมิตซูบิชิเข้าตรวจสอบแก้ไขและใช้งานได้ปกติ",
+    "finding_en": "ทำการประสานงานกับช่างมิตซูบิชิเข้าตรวจสอบแก้ไขและใช้งานได้ปกติ"
   },
   {
     "case_no": "CASE-260218-102431947561",
@@ -8812,7 +9142,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Security: Medical Assistance : Minor - First Aid - ความช่วยเหลือทางการแพทย์ (กรณีเล็กน้อย-การปฐมพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Minor",
+    "summary_th": "[soc-inf] 10:21 SOC รับแจ้งจาก FCC Parade ว่าพบพนักงานชาย BOI ขอใช้ห้องพยาบาลชั้น5 เนื่องจากได้รับอุบัติเหตุรถจักรยานยนต์ลื่นล้มชั้น B1M",
+    "summary_en": "[soc-inf] 10:21 SOC รับแจ้งจาก FCC Parade ว่าพบพนักงานชาย BOI ขอใช้ห้องพยาบาลชั้น5 เนื่องจากได้รับอุบัติเหตุรถจักรยานยนต์ลื่นล้มชั้น B1M",
+    "finding_th": "จากเหตุการณ์ดังกล่าว พยาบาลได้ปฐมพยาบาลให้ผู้บาดเจ็บเป็นที่เรียบร้อย  ผู้บาดเจ็บออกจากห้องพยาบาล ประสงค์กลับไปทำงานต่อค่ะ\nทราบข้อมูลผู้บาดเจ็บ\nชื่อ คุณกันภิพัส เงินสมบัตร\nอายุ   40  เพศ  ชาย\nสัญชาติ ไทย \nเบอร์โทร 096-6299-989\nแพ้อาหาร - \nแพ้ยา -\nโรคประจำตัว -",
+    "finding_en": "จากเหตุการณ์ดังกล่าว พยาบาลได้ปฐมพยาบาลให้ผู้บาดเจ็บเป็นที่เรียบร้อย  ผู้บาดเจ็บออกจากห้องพยาบาล ประสงค์กลับไปทำงานต่อค่ะ\nทราบข้อมูลผู้บาดเจ็บ\nชื่อ คุณกันภิพัส เงินสมบัตร\nอายุ   40  เพศ  ชาย\nสัญชาติ ไทย \nเบอร์โทร 096-6299-989\nแพ้อาหาร - \nแพ้ยา -\nโรคประจำตัว -"
   },
   {
     "case_no": "CASE-260117-092825453690",
@@ -8836,7 +9172,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "Parade Alarm Smoke ชั้น B1 PUBLIC AREA6",
+    "summary_en": "Parade Alarm Smoke ชั้น B1 PUBLIC AREA6",
+    "finding_th": "#NAME?",
+    "finding_en": "#NAME?"
   },
   {
     "case_no": "CASE-260306-071408291266",
@@ -8860,7 +9202,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 07:12 น. ได้รับแจ้งจาก  Sup G4s คุณ บุญยิ่ง แจ้งว่ามีท่อน้ำแตกที่ บริเวณEntrance2",
+    "summary_en": "[soc-inf] 07:12 น. ได้รับแจ้งจาก  Sup G4s คุณ บุญยิ่ง แจ้งว่ามีท่อน้ำแตกที่ บริเวณEntrance2",
+    "finding_th": "ตรวจสอบพบว่าข้อต่อท่อน้ำหลุดครับได้ทำการสวมข้อต่อเข้าไปใหม่เรียบร้อย",
+    "finding_en": "ตรวจสอบพบว่าข้อต่อท่อน้ำหลุดครับได้ทำการสวมข้อต่อเข้าไปใหม่เรียบร้อย"
   },
   {
     "case_no": "CASE-260301-163749626900",
@@ -8884,7 +9232,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : Obstructions - สิ่งกีดขวาง",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "แจ้ง Parade แจ้งช่างช่างเข้าเช็ค บันไดเลื่อนขาลงร้าน KFC  มีเศษผ้าติดที่หวีบันไดเลื่อน",
+    "summary_en": "แจ้ง Parade แจ้งช่างช่างเข้าเช็ค บันไดเลื่อนขาลงร้าน KFC  มีเศษผ้าติดที่หวีบันไดเลื่อน",
+    "finding_th": "การแก้ไข - ช่าง Hitchi เข้าตรวจเช็คเซฟตี้ CMS (ปกติ) ทำการทดสอบปุ่ม E-Stop (ปกติ) สภาพหวีปกติ",
+    "finding_en": "การแก้ไข - ช่าง Hitchi เข้าตรวจเช็คเซฟตี้ CMS (ปกติ) ทำการทดสอบปุ่ม E-Stop (ปกติ) สภาพหวีปกติ"
   },
   {
     "case_no": "CASE-260220-140033268740",
@@ -8908,7 +9262,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Medical Assistance : Minor - First Aid - ความช่วยเหลือทางการแพทย์ (กรณีเล็กน้อย-การปฐมพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Minor",
+    "summary_th": "[soc-inf] 13:55 SOC รับแจ้งจาก FCC Parade ว่าพบลูกค้าได้รับบาดเจ็บที่ขาและนิ้ว เนื่องจากบันไดเลื่อนหนีบกระโปรงลูกค้า บริเวณชั้น3 ลงชั้น2 ฝั่งร้าน Yeti",
+    "summary_en": "[soc-inf] 13:55 SOC รับแจ้งจาก FCC Parade ว่าพบลูกค้าได้รับบาดเจ็บที่ขาและนิ้ว เนื่องจากบันไดเลื่อนหนีบกระโปรงลูกค้า บริเวณชั้น3 ลงชั้น2 ฝั่งร้าน Yeti",
+    "finding_th": "ทีม รปภ.PCS นำพาลูกค้าไปปฐมพยาบาลที่ห้องพยาบาล ชั้น 5 เรียบร้อยทั้งนี้ ลูกค้ามีความประสงค์เดินทางไปโรงพยาบาลด้วยตนเอง\nข้อมูลผู้ได้รับบาดเจ็บ\nชื่อ: คุณชญปภัส น้ำทิพย์\nเพศ: หญิง\nหมายเลขโทรศัพท์: 094-481-0133",
+    "finding_en": "ทีม รปภ.PCS นำพาลูกค้าไปปฐมพยาบาลที่ห้องพยาบาล ชั้น 5 เรียบร้อยทั้งนี้ ลูกค้ามีความประสงค์เดินทางไปโรงพยาบาลด้วยตนเอง\nข้อมูลผู้ได้รับบาดเจ็บ\nชื่อ: คุณชญปภัส น้ำทิพย์\nเพศ: หญิง\nหมายเลขโทรศัพท์: 094-481-0133"
   },
   {
     "case_no": "CASE-260321-140832266556",
@@ -8932,7 +9292,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Security: Medical Assistance : Major - Ambulance - ความช่วยเหลือทางการแพทย์ (กรณีฉุกเฉิน-รถพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Major",
+    "summary_th": "[soc-inf] 14:08 อ้างอิง CASE-260321-140444074064 ได้รับแจ้งจาก SUP PCS ว่ามีผู้ประสบอุบัติเหตุล้ม (ฝ่ายอาคาร Forum คุณดวงกมล)บริเวณลานจอดรถชั้น B1 ใกล้เสาสีแดง นำส่งโรงพยาบาลกล้วยน้ำไท",
+    "summary_en": "[soc-inf] 14:08 อ้างอิง CASE-260321-140444074064 ได้รับแจ้งจาก SUP PCS ว่ามีผู้ประสบอุบัติเหตุล้ม (ฝ่ายอาคาร Forum คุณดวงกมล)บริเวณลานจอดรถชั้น B1 ใกล้เสาสีแดง นำส่งโรงพยาบาลกล้วยน้ำไท",
+    "finding_th": "เวลา 14:00 น. SOC ประสาน EOT เข้าตรวจสอบเหตุผู้ประสบอุบัติเหตุล้ม บริเวณลานจอดรถชั้น B1 ใกล้เสาสีแดง และยืนยันนำส่งโรงพยาบาล\nSOC ประสาน EMT, DCC, FS และจัดการจราจรเพื่ออำนวยความสะดวกในการเข้าช่วยเหลือ\nเวลา 14:10 น. รถพยาบาลถึงพื้นที่ และเวลา 14:15 น. นำผู้บาดเจ็บขึ้นรถพยาบาล\nเวลา 14:19 น. รถพยาบาลออกจากพื้นที่ และถึงโรงพยาบาลกล้วยน้ำไท เวลา 14:29 น. เหตุการณ์ดำเนินการเรียบร้อย  \nอาการเบื้องต้น : ข้อศอกด้านซ้ายผิดรูป\nข้อมูลเพิ่มเติม ชื่อ คุณ ดวงกมล สมคำ (ฝ่ายอาคารForum ) เบอร์โทร 094-426-5333",
+    "finding_en": "เวลา 14:00 น. SOC ประสาน EOT เข้าตรวจสอบเหตุผู้ประสบอุบัติเหตุล้ม บริเวณลานจอดรถชั้น B1 ใกล้เสาสีแดง และยืนยันนำส่งโรงพยาบาล\nSOC ประสาน EMT, DCC, FS และจัดการจราจรเพื่ออำนวยความสะดวกในการเข้าช่วยเหลือ\nเวลา 14:10 น. รถพยาบาลถึงพื้นที่ และเวลา 14:15 น. นำผู้บาดเจ็บขึ้นรถพยาบาล\nเวลา 14:19 น. รถพยาบาลออกจากพื้นที่ และถึงโรงพยาบาลกล้วยน้ำไท เวลา 14:29 น. เหตุการณ์ดำเนินการเรียบร้อย  \nอาการเบื้องต้น : ข้อศอกด้านซ้ายผิดรูป\nข้อมูลเพิ่มเติม ชื่อ คุณ ดวงกมล สมคำ (ฝ่ายอาคารForum ) เบอร์โทร 094-426-5333"
   },
   {
     "case_no": "CASE-260104-031948282461",
@@ -8956,7 +9322,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 3:18 พบท่อน้ำบริเวณ One Bangkok  Park  แตก",
+    "summary_en": "[soc-inf] 3:18 พบท่อน้ำบริเวณ One Bangkok  Park  แตก",
+    "finding_th": "สาเหตุ หัวก๊อกสวมหลุดครับ\nการแก้ไข พันเทปพันเกลียวเพิ่มแล้วครับ หน้างานลองเปิดวาล์วพบว่าน้ำไม่มีการรั่วไหลแล้วครับ",
+    "finding_en": "สาเหตุ หัวก๊อกสวมหลุดครับ\nการแก้ไข พันเทปพันเกลียวเพิ่มแล้วครับ หน้างานลองเปิดวาล์วพบว่าน้ำไม่มีการรั่วไหลแล้วครับ"
   },
   {
     "case_no": "CASE-260116-042718201214",
@@ -8980,7 +9352,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-monitor] 04:25 น. SOC Monitor Dispatcher ทราบว่า Liftิ Service อาคาร Forum ชั้น G ค้าง มี ผู้รับเหมาติดด้านใน 4 คน",
+    "summary_en": "[soc-monitor] 04:25 น. SOC Monitor Dispatcher ทราบว่า Liftิ Service อาคาร Forum ชั้น G ค้าง มี ผู้รับเหมาติดด้านใน 4 คน",
+    "finding_th": "สาเหตุ ตรวจพบ error Code แจ้เงความสัมพันธ์ของตู้ควบคุมในห้องเครื่องและในตู้ลิฟต์ไม่สัมพันธ์กัน \nการแก้ไขทำการรีเซ็ทระบบ\nลิฟต์ใช้ได้ปกติค่ะ",
+    "finding_en": "สาเหตุ ตรวจพบ error Code แจ้เงความสัมพันธ์ของตู้ควบคุมในห้องเครื่องและในตู้ลิฟต์ไม่สัมพันธ์กัน \nการแก้ไขทำการรีเซ็ทระบบ\nลิฟต์ใช้ได้ปกติค่ะ"
   },
   {
     "case_no": "CASE-260220-113143596722",
@@ -9004,7 +9382,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "อ้างอิง CASE-260218-183106039146 CCTV Request Parade SOC ตรวจสอบกล้องวงจรปิดพบบุคคลเข้ามาก่อเหตุขโมยสินค้าในร้าน Ari ชั้น2 (เปิด Case ย้อนหลัง เหตุเกิด วันที่ 3/1/2026)",
+    "summary_en": "อ้างอิง CASE-260218-183106039146 CCTV Request Parade SOC ตรวจสอบกล้องวงจรปิดพบบุคคลเข้ามาก่อเหตุขโมยสินค้าในร้าน Ari ชั้น2 (เปิด Case ย้อนหลัง เหตุเกิด วันที่ 3/1/2026)",
+    "finding_th": "ขออนุญาตปิด Case อ้างอิง CASE-260218-183106039146 CCTV Request Parade SOC ตรวจสอบกล้องวงจรปิดพบบุคคลเข้ามาก่อเหตุขโมยสินค้าในร้าน Ari ชั้น2 (เปิด Case ย้อนหลัง เหตุเกิด วันที่ 3/1/2026)\nSOC ได้รวบรวมคลิป VDO ไว้เป็นหลักฐาน ใน Sharepoint เป็นที่เรียบร้อยค่ะ",
+    "finding_en": "ขออนุญาตปิด Case อ้างอิง CASE-260218-183106039146 CCTV Request Parade SOC ตรวจสอบกล้องวงจรปิดพบบุคคลเข้ามาก่อเหตุขโมยสินค้าในร้าน Ari ชั้น2 (เปิด Case ย้อนหลัง เหตุเกิด วันที่ 3/1/2026)\nSOC ได้รวบรวมคลิป VDO ไว้เป็นหลักฐาน ใน Sharepoint เป็นที่เรียบร้อยค่ะ"
   },
   {
     "case_no": "CASE-260209-193634465785",
@@ -9028,7 +9412,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 19:33 SOC รับแจ้งจาก รปภ.ประจำจุด MRT แจ้งว่ามีลูกค้า 2 ท่านติดภายใน Wheelchair Lift MRT ชั้น B2 ค่ะ",
+    "summary_en": "[soc-inf] 19:33 SOC รับแจ้งจาก รปภ.ประจำจุด MRT แจ้งว่ามีลูกค้า 2 ท่านติดภายใน Wheelchair Lift MRT ชั้น B2 ค่ะ",
+    "finding_th": "สาเหตุ ลูกค้าเช้าต่างชาติไปจับปุ่มฉุกเฉิน กด เอาแขนค้ำ ปุ่มห้ามกด เลยทำให้ ลิฟไม่ทำงาน ตอนนี้ลิฟต์ทำงานใช้งานได้ปกติครับ",
+    "finding_en": "สาเหตุ ลูกค้าเช้าต่างชาติไปจับปุ่มฉุกเฉิน กด เอาแขนค้ำ ปุ่มห้ามกด เลยทำให้ ลิฟไม่ทำงาน ตอนนี้ลิฟต์ทำงานใช้งานได้ปกติครับ"
   },
   {
     "case_no": "CASE-260109-134740799985",
@@ -9052,7 +9442,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Gas Leak - ก๊าซรั่ว",
+    "event_type_en": "Security: Gas Leak",
+    "summary_th": "ร้านอาหาร ภายใน Gastro ชั้น 3 พบแก๊สรั่ว",
+    "summary_en": "ร้านอาหาร ภายใน Gastro ชั้น 3 พบแก๊สรั่ว",
+    "finding_th": "The Gastro อาคาร The Storeys ชั้น 3 แจ้ง มีแก็สอาราม ถึงหน้างาน 13:40 น. SS เข้าตรวจสอบร่วม JLL ,fire man พบว่า เป็นครัวเมน เบื้องต้นทางร้านได้ ปิดแก็สไว้ก่อน แล้ว พบว่าวาล์วของเตาที่จะใช้อยู่ใต้เตา แต่วาล์ว ทีอยู่ด้านข้างทั้งสอง ไม่ได้ต่อไว้ห้ามเปิดใช้ ถ้าเปิดจะทำให้แก็สออกมาด้วย - ได้เปิดวาล์ลใต้เตาแล้ว แก็สใช้งานได้ปกติ - สาเหตุเกิดจากพนักงานเปิดวาล์วผิด ทำให้เกิดอาราม - ได้แจ้งทางร้านรับทราบ แล้ว",
+    "finding_en": "The Gastro อาคาร The Storeys ชั้น 3 แจ้ง มีแก็สอาราม ถึงหน้างาน 13:40 น. SS เข้าตรวจสอบร่วม JLL ,fire man พบว่า เป็นครัวเมน เบื้องต้นทางร้านได้ ปิดแก็สไว้ก่อน แล้ว พบว่าวาล์วของเตาที่จะใช้อยู่ใต้เตา แต่วาล์ว ทีอยู่ด้านข้างทั้งสอง ไม่ได้ต่อไว้ห้ามเปิดใช้ ถ้าเปิดจะทำให้แก็สออกมาด้วย - ได้เปิดวาล์ลใต้เตาแล้ว แก็สใช้งานได้ปกติ - สาเหตุเกิดจากพนักงานเปิดวาล์วผิด ทำให้เกิดอาราม - ได้แจ้งทางร้านรับทราบ แล้ว"
   },
   {
     "case_no": "CASE-260119-063955046343",
@@ -9076,7 +9472,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "flow Alarm Forum เนื่องจาก  สริงเกอร์ BigC แตก",
+    "summary_en": "flow Alarm Forum เนื่องจาก  สริงเกอร์ BigC แตก",
+    "finding_th": "สาเหตุมาจากแม่ครัวอุ่นเต่าทิ้งไว้แล้วมีไฟลุกขึ้นครับ \nReset โปรแกรม FAS ไม่มี alarm FS ค้างครับ",
+    "finding_en": "สาเหตุมาจากแม่ครัวอุ่นเต่าทิ้งไว้แล้วมีไฟลุกขึ้นครับ \nReset โปรแกรม FAS ไม่มี alarm FS ค้างครับ"
   },
   {
     "case_no": "CASE-260323-131215497903",
@@ -9100,7 +9502,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "ได้รับแจ้งจากคนสวน พบท่อน้ำรั่วบริเวณโค้ง ก่อนทางลงอุโมงทางด่วน",
+    "summary_en": "ได้รับแจ้งจากคนสวน พบท่อน้ำรั่วบริเวณโค้ง ก่อนทางลงอุโมงทางด่วน",
+    "finding_th": "ขอแจ้งปิดเคส เนื่องจากเปิดเคสอ้างอิง ให้ ผรม เข้าแก้ไขอ้างอิงเคสใหม่CASE-260326-153345712606",
+    "finding_en": "ขอแจ้งปิดเคส เนื่องจากเปิดเคสอ้างอิง ให้ ผรม เข้าแก้ไขอ้างอิงเคสใหม่CASE-260326-153345712606"
   },
   {
     "case_no": "CASE-260324-082155644241",
@@ -9124,7 +9532,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 08:10 รับแจ้งจาก หัวหน้าชุดอาคาร Forum แจ้งว่า ลิฟต์ L.10 ค้าง มีพนักงาน Chang Canvas ติดอยู่ภายในลิฟต์ 2 ท่าน ที่อาคาร Forum ชั้น G อ้างอิง CASE-260324-081114020925",
+    "summary_en": "[soc-inf] 08:10 รับแจ้งจาก หัวหน้าชุดอาคาร Forum แจ้งว่า ลิฟต์ L.10 ค้าง มีพนักงาน Chang Canvas ติดอยู่ภายในลิฟต์ 2 ท่าน ที่อาคาร Forum ชั้น G อ้างอิง CASE-260324-081114020925",
+    "finding_th": "ช่างฮิตาชิถึงหน้างานแล้ว ทำการช่วยคนออกมาได้แล้วครับ",
+    "finding_en": "ช่างฮิตาชิถึงหน้างานแล้ว ทำการช่วยคนออกมาได้แล้วครับ"
   },
   {
     "case_no": "CASE-260109-210356758173",
@@ -9148,7 +9562,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : Stuck or Stopped - หยุดหรือค้าง",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "[soc-inf] 20:59 ได้รับแจ้งจาก Sup Pcs คุณ ดวงสุดา แจ้งว่ามีบันไดเลื่อน 4-R1-ETPL3.1 ชั้น 3 ลงมาชั้น 2  หนีบกระโปรงลูกค้า อาคาร Parade ชั้น3 เบื้องต้นไม่ได้รับบาดเจ็บ",
+    "summary_en": "[soc-inf] 20:59 ได้รับแจ้งจาก Sup Pcs คุณ ดวงสุดา แจ้งว่ามีบันไดเลื่อน 4-R1-ETPL3.1 ชั้น 3 ลงมาชั้น 2  หนีบกระโปรงลูกค้า อาคาร Parade ชั้น3 เบื้องต้นไม่ได้รับบาดเจ็บ",
+    "finding_th": "HTC เข้าตรวจสอบแล้ว-บันไดเลื่อนใช้งานได้ปกติ - ระยะห่างได้มาตรฐาน ใช้งานได้ปกติ\nผลกระทบ\n- บันไดเลื่อนหยุดทำงาน\n-กระโปรงลูกค้าเปื่อน\n-ลูกค้าไม่ได้รับบาดเจ็บแต่มีอาการตกใจ\n\nการแก้ไข\n-ช่างJLL รีเซ็ตเบื้องต้นบันไดเลื่อน ใช้งานได้ปกติ\n\n\nสรุปการแก้ไข\n-บันไดเลื่อนใช้งานได้ปกติ",
+    "finding_en": "HTC เข้าตรวจสอบแล้ว-บันไดเลื่อนใช้งานได้ปกติ - ระยะห่างได้มาตรฐาน ใช้งานได้ปกติ\nผลกระทบ\n- บันไดเลื่อนหยุดทำงาน\n-กระโปรงลูกค้าเปื่อน\n-ลูกค้าไม่ได้รับบาดเจ็บแต่มีอาการตกใจ\n\nการแก้ไข\n-ช่างJLL รีเซ็ตเบื้องต้นบันไดเลื่อน ใช้งานได้ปกติ\n\n\nสรุปการแก้ไข\n-บันไดเลื่อนใช้งานได้ปกติ"
   },
   {
     "case_no": "CASE-260119-171618475137",
@@ -9172,7 +9592,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 14:02 SOC รับแจ้งจาก DCC มีเหตุขโมยของภายในร้าน Mitsukoshi อาคาร Parade ชั้น B1",
+    "summary_en": "[soc-inf] 14:02 SOC รับแจ้งจาก DCC มีเหตุขโมยของภายในร้าน Mitsukoshi อาคาร Parade ชั้น B1",
+    "finding_th": "จากการตรวจสอบข้อมูลและภาพจากกล้องวงจรปิด โดย SOC พบว่าข้อมูลและพยานหลักฐานมีความสอดคล้องกัน และยืนยันได้ว่ามีการกระทำความผิดเกิดขึ้นจริง ทั้งนี้ SOC ได้ดำเนินการบันทึกและจัดเก็บข้อมูลดังกล่าวไว้เป็นหลักฐาน เพื่อใช้ประกอบการดำเนินการของผู้เสียหายในขั้นตอนต่อไป",
+    "finding_en": "จากการตรวจสอบข้อมูลและภาพจากกล้องวงจรปิด โดย SOC พบว่าข้อมูลและพยานหลักฐานมีความสอดคล้องกัน และยืนยันได้ว่ามีการกระทำความผิดเกิดขึ้นจริง ทั้งนี้ SOC ได้ดำเนินการบันทึกและจัดเก็บข้อมูลดังกล่าวไว้เป็นหลักฐาน เพื่อใช้ประกอบการดำเนินการของผู้เสียหายในขั้นตอนต่อไป"
   },
   {
     "case_no": "CASE-260127-224037916940",
@@ -9196,7 +9622,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Sanitary : Toilet Equipment Faulty - อุปกรณ์ห้องน้ำชำรุด",
+    "event_type_en": "Hard Service: Sanitary : Toilet Equipment Faulty",
+    "summary_th": "Parade (R1) รับแจ้งจากแม่บ้านว่ามี สายน้ำดีแตกที่ห้องซักล้างแม่บ้านข้างห้องน้ำชายชั้น B1",
+    "summary_en": "Parade (R1) รับแจ้งจากแม่บ้านว่ามี สายน้ำดีแตกที่ห้องซักล้างแม่บ้านข้างห้องน้ำชายชั้น B1",
+    "finding_th": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
+    "finding_en": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย"
   },
   {
     "case_no": "CASE-260213-212324684922",
@@ -9220,7 +9652,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: HVAC : Aircon Leak - น้ำแอร์รั่ว",
+    "event_type_en": "Hard Service: HVAC : Aircon Leak",
+    "summary_th": "น้ำรั่วจากถาดเดรน AHU06 บริเวณ Take Home",
+    "summary_en": "น้ำรั่วจากถาดเดรน AHU06 บริเวณ Take Home",
+    "finding_th": "สรุปการแก้ไข\n-เบื้องต้นไม่มีน้ำหยด\n-เสริมโครงซีลายกันฝ้าร่วง\n-ประสานSecco ตรวจเช็คแก้ไขท่อเมนเดรน AHU Take Home 4-5-6-7\n-แจ้งฝ่ายอาคารประสาน ผรม.แก้ไขฝ้า",
+    "finding_en": "สรุปการแก้ไข\n-เบื้องต้นไม่มีน้ำหยด\n-เสริมโครงซีลายกันฝ้าร่วง\n-ประสานSecco ตรวจเช็คแก้ไขท่อเมนเดรน AHU Take Home 4-5-6-7\n-แจ้งฝ่ายอาคารประสาน ผรม.แก้ไขฝ้า"
   },
   {
     "case_no": "CASE-260119-080107262155",
@@ -9244,7 +9682,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Sprinkler Head Defect – หัวสปริงเกอร์ชำรุด",
+    "event_type_en": "Tenant retail: Sanitary System : Sprinkler Head Defect",
+    "summary_th": "แก้ไขสปริงเกอร์ ( ครัว Big C ) อ้างอิงเคส  CASE-260119-063955046343",
+    "summary_en": "แก้ไขสปริงเกอร์ ( ครัว Big C ) อ้างอิงเคส  CASE-260119-063955046343",
+    "finding_th": "แก้ไขสปริงเกอร์ ( ครัว Big C ) อ้างอิงเคส  CASE-260119-063955046343 \nทำการแก้ไข เปลี่ยนหัว SPK และเติมน้ำเข้าระบบปกติ เรียบร้อยร้อย",
+    "finding_en": "แก้ไขสปริงเกอร์ ( ครัว Big C ) อ้างอิงเคส  CASE-260119-063955046343 \nทำการแก้ไข เปลี่ยนหัว SPK และเติมน้ำเข้าระบบปกติ เรียบร้อยร้อย"
   },
   {
     "case_no": "CASE-260121-155010949766",
@@ -9268,7 +9712,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Residential : Elevator : Stuck (No Mantrap) - ลิฟต์ค้าง (ไม่มีผู้โดยสารติดค้าง)",
+    "event_type_en": "Residential : Elevator : Stuck (No Mantrap)",
+    "summary_th": "3005 ลูกค้าสแกนแล้ว ลิฟต์ไม่ตอบสนอง",
+    "summary_en": "3005 ลูกค้าสแกนแล้ว ลิฟต์ไม่ตอบสนอง",
+    "finding_th": "แจ้ง mitsubishi และ forward sys เพื่อหาแนวทางแก้ปัญหาในวันที่ 27/12/26 นี้ค่ะ เคสนี้ไม่มีผู้ได้รับบาดเจ็บและทาง cc นำส่งลูกค้าเข้าห้องได้เรียบร้อยค่ะ 15.50 น.",
+    "finding_en": "แจ้ง mitsubishi และ forward sys เพื่อหาแนวทางแก้ปัญหาในวันที่ 27/12/26 นี้ค่ะ เคสนี้ไม่มีผู้ได้รับบาดเจ็บและทาง cc นำส่งลูกค้าเข้าห้องได้เรียบร้อยค่ะ 15.50 น."
   },
   {
     "case_no": "CASE-260311-105013442242",
@@ -9292,7 +9742,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Sanitary : Toilet Equipment Faulty - อุปกรณ์ห้องน้ำชำรุด",
+    "event_type_en": "Hard Service: Sanitary : Toilet Equipment Faulty",
+    "summary_th": "Parade (R1) ตรวจสอบพบสายน้ำRwรั่ว ทำให้น้ำลงไปร้านเลโก้",
+    "summary_en": "Parade (R1) ตรวจสอบพบสายน้ำRwรั่ว ทำให้น้ำลงไปร้านเลโก้",
+    "finding_th": "ผรม. JKC เข้าแก้ไขเรียบร้อยครับ",
+    "finding_en": "ผรม. JKC เข้าแก้ไขเรียบร้อยครับ"
   },
   {
     "case_no": "CASE-260212-140935184843",
@@ -9316,7 +9772,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Fire Protection : Sprinkler Issue - ปัญหาเกี่ยวกับอุปกรณ์สปริงเกลอร์",
+    "event_type_en": "Hard Service: Fire Protection : Sprinkler Issue",
+    "summary_th": "อาคาร Tower3 ชั้น 36 เวลา 11.30 น. ได้แจ้งจาก ลูกค้า พบจุดน้ำซึมจากแผ่นฝ้า (เปิดเคสย้อนหลัง)",
+    "summary_en": "อาคาร Tower3 ชั้น 36 เวลา 11.30 น. ได้แจ้งจาก ลูกค้า พบจุดน้ำซึมจากแผ่นฝ้า (เปิดเคสย้อนหลัง)",
+    "finding_th": "ตรวจสอบผู้รับเหมาแก้ไขสปริงเกอร์น้ำรั่วซึมชั้น 36 \nภายหลังจากการแก้ไขในวันที่ 12/02/69 ตรวจสอบแล้วไม่พบน้ำรั่วซึมครับ",
+    "finding_en": "ตรวจสอบผู้รับเหมาแก้ไขสปริงเกอร์น้ำรั่วซึมชั้น 36 \nภายหลังจากการแก้ไขในวันที่ 12/02/69 ตรวจสอบแล้วไม่พบน้ำรั่วซึมครับ"
   },
   {
     "case_no": "CASE-260322-024404517481",
@@ -9340,7 +9802,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 02:37 รับแจ้งจาก Sup G4s K.Apichat แจ้งว่าพบน้ำรั่ว ชั้น B1M โซนสีส้ม บริเวณเสา G05-07",
+    "summary_en": "[soc-inf] 02:37 รับแจ้งจาก Sup G4s K.Apichat แจ้งว่าพบน้ำรั่ว ชั้น B1M โซนสีส้ม บริเวณเสา G05-07",
+    "finding_th": "อยู่ระหว่างทางฝ่ายอาคารตามผู้รับเหมาเข้าแก้ไขครับ เคสอ้างอิง CASE-251103-102001704866",
+    "finding_en": "อยู่ระหว่างทางฝ่ายอาคารตามผู้รับเหมาเข้าแก้ไขครับ เคสอ้างอิง CASE-251103-102001704866"
   },
   {
     "case_no": "CASE-260208-133242348547",
@@ -9364,7 +9832,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "น้ำแอร์รั่วจากห้องเครื่องลิฟท์ชั้น 48 ลงชั้น 47 บริเวณโถงลิฟท์โดยสาร พบความเสียหาย ฝ้าชั้น 47",
+    "summary_en": "น้ำแอร์รั่วจากห้องเครื่องลิฟท์ชั้น 48 ลงชั้น 47 บริเวณโถงลิฟท์โดยสาร พบความเสียหาย ฝ้าชั้น 47",
+    "finding_th": "ช่างทำการดูดเดรนเเละทำการปรับ Slope เดรนแอร์ น้ำแอร์หยุดไหลเเล้วครับ",
+    "finding_en": "ช่างทำการดูดเดรนเเละทำการปรับ Slope เดรนแอร์ น้ำแอร์หยุดไหลเเล้วครับ"
   },
   {
     "case_no": "CASE-260318-205538636610",
@@ -9388,7 +9862,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 20:52 SOC ได้รับแจ้งจาก K.Sitthipong (AVP) มีชายชาวต่างชาติ เข้ามาก่อเหตุขโมยนาฬิกาที่ร้าน Tissot ชั้น G Parade",
+    "summary_en": "[soc-inf] 20:52 SOC ได้รับแจ้งจาก K.Sitthipong (AVP) มีชายชาวต่างชาติ เข้ามาก่อเหตุขโมยนาฬิกาที่ร้าน Tissot ชั้น G Parade",
+    "finding_th": "จากรายละเอียดข้างต้น อ้างอิงเคส ขอภาพจาก CCTV CASE-260318-202305719150 Sup SOC K.Weerachart ดำเนินการส่งข้อมูลและรายละเอียดหลักฐานให้กับ พ.ต.ท. อดิเทพ เทพเสานา พนักงานสอบสวน (ร้อยเวรเจ้าของดคี) เบอร์โทร 063-646-2663 เป็นที่เรียบร้อย",
+    "finding_en": "จากรายละเอียดข้างต้น อ้างอิงเคส ขอภาพจาก CCTV CASE-260318-202305719150 Sup SOC K.Weerachart ดำเนินการส่งข้อมูลและรายละเอียดหลักฐานให้กับ พ.ต.ท. อดิเทพ เทพเสานา พนักงานสอบสวน (ร้อยเวรเจ้าของดคี) เบอร์โทร 063-646-2663 เป็นที่เรียบร้อย"
   },
   {
     "case_no": "CASE-260304-095940165732",
@@ -9412,7 +9892,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "มี Alarm ชั้น 21 O1B-021-OF13-CM-FIRE-ADSMOK-078",
+    "summary_en": "มี Alarm ชั้น 21 O1B-021-OF13-CM-FIRE-ADSMOK-078",
+    "finding_th": "ตรวจสอบเบื้องต้นพบพาวเวอร์แบงค์ ของพนักงานบริษัท NTT  DATA ระเบิด ระหว่างชาร์จ ครับ ทำการแก้ไขโดย ทำการเคลียร์พื้นที่ที่เกิดเหตุและทำความสะอาดอุปกรณ์  ทำการ Reset ระบบ Normal เรียบร้อย",
+    "finding_en": "ตรวจสอบเบื้องต้นพบพาวเวอร์แบงค์ ของพนักงานบริษัท NTT  DATA ระเบิด ระหว่างชาร์จ ครับ ทำการแก้ไขโดย ทำการเคลียร์พื้นที่ที่เกิดเหตุและทำความสะอาดอุปกรณ์  ทำการ Reset ระบบ Normal เรียบร้อย"
   },
   {
     "case_no": "CASE-260307-072153513961",
@@ -9436,7 +9922,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 07:16 น. ได้รับแจ้งจาก Sup G4s แจ้งว่ามีท่อน้ำแตกที่บริเวณEntrance2",
+    "summary_en": "[soc-inf] 07:16 น. ได้รับแจ้งจาก Sup G4s แจ้งว่ามีท่อน้ำแตกที่บริเวณEntrance2",
+    "finding_th": "แม่บ้านดำเนินการเรียบร้อยแล้วค่ะ",
+    "finding_en": "แม่บ้านดำเนินการเรียบร้อยแล้วค่ะ"
   },
   {
     "case_no": "CASE-260119-064749577648",
@@ -9460,7 +9952,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 6:46 พบน้ำรั่วบริเวณ ชั้น B1M  โซนสีแดง เสาA09",
+    "summary_en": "[soc-inf] 6:46 พบน้ำรั่วบริเวณ ชั้น B1M  โซนสีแดง เสาA09",
+    "finding_th": "ช่างเข้าตรวจสอบ พบน้ำรั่วจากช่องคอลิ่งท่อระบบน้ำเย็น อาคาร Forum น้ำรั่วจากเคส สปริงเกอร์แตก อ้างอิงCASE-260119-063955046343",
+    "finding_en": "ช่างเข้าตรวจสอบ พบน้ำรั่วจากช่องคอลิ่งท่อระบบน้ำเย็น อาคาร Forum น้ำรั่วจากเคส สปริงเกอร์แตก อ้างอิงCASE-260119-063955046343"
   },
   {
     "case_no": "CASE-260205-112245723480",
@@ -9484,7 +9982,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Tenant retail: HVAC System : Exhaust Fan/Hood Not Operating - Exhaust Fan/Hood ไม่ทำงาน",
+    "event_type_en": "Tenant retail: HVAC System : Exhaust Fan/Hood Not Operating",
+    "summary_th": "รับแจ้งร้านFilletsฮูทไม่ทำงาน",
+    "summary_en": "รับแจ้งร้านFilletsฮูทไม่ทำงาน",
+    "finding_th": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
+    "finding_en": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน"
   },
   {
     "case_no": "CASE-260303-193651345825",
@@ -9508,7 +10012,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "บันไดเลื่อนหนีบมีความเสี่ยงให้ลูกค้าบาดเจ็บสาหัส ต้องมี Incident Report ตรวจสอบระยะห่าง Skirt Guard และระบบ Comb Plate Sensor",
     "action_th": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย",
     "action_en": "1. Issue Incident Report documenting event 2. Temporarily barricade unit for sensor recalibration 3. Review CCTV for insurance adjusters",
-    "action": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย"
+    "action": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : Breakdown Alarm - บันไดเลื่อนหยุดทำงาน",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "บันไดเลื่อนชั้น G โซนพาเหรด หน่อยค่ะ ตรงหน้าร้าน Birken Stock มีน้องต่างชาติทำรองเท้าติดที่บันไดเลื่อน เอารองเท้าออกไม่ได้",
+    "summary_en": "บันไดเลื่อนชั้น G โซนพาเหรด หน่อยค่ะ ตรงหน้าร้าน Birken Stock มีน้องต่างชาติทำรองเท้าติดที่บันไดเลื่อน เอารองเท้าออกไม่ได้",
+    "finding_th": "สาเหตุ\nตรวจสอบจากกล้อง CCTV พบว่าลูกค้าได้เอาเท้าไปถูบริเวณขอบบันไดเลื่อนทำให้รองเท้าเข้าไปติดบริเวณลูกขั้นบันไดเลื่อน (Safety ไม่ตัดการทำงานของบันไดเลื่อน)\nผลกระทบ\n-รองเท้าของลูกค้าชำรุดเสียหาย\nการแก้ไข\n-ช่าง Hitachi ทำการนำรองเท้าออก และ Reset บันไดเลื่อน พร้อมทดสอบการใช้งานบันไดเลื่อน ใช้งานได้ปกติ\nสรุปการแก้ไข\n-Hitachi Reset บันไดเลื่อน ใช้งานได้ปกติ\n\n03.45 Hitachi ได้เข้ามารีเช็ค ทดสอบsafety บันไดเลื่อน ชั้น 1 ลง G เทสตัว safety ถ้ามีของไปติด สรุปการเทส : เทสโดยการยกพื้นแผ่นพื้น ให้แผ่นพื้นยกไปโดน safety , safety ส่งสัญญาณปกติ *กรณี เหตุ วันที่ 3/3/69 เวลา 19.29 รองเท้าเด็ก ไปติดช่องขอบริมด้านข้างไม่ได้ติดขอบแผ่นพื้น ซึ่งรุ่นนี้จะไม่มี ตัว safety จุดที่ 1(ด้านข้าง), จุดที่ 2 (ที่พื้น)จะมี safety ตัดการทำงาน ตอนแผ่นพื้นยก",
+    "finding_en": "สาเหตุ\nตรวจสอบจากกล้อง CCTV พบว่าลูกค้าได้เอาเท้าไปถูบริเวณขอบบันไดเลื่อนทำให้รองเท้าเข้าไปติดบริเวณลูกขั้นบันไดเลื่อน (Safety ไม่ตัดการทำงานของบันไดเลื่อน)\nผลกระทบ\n-รองเท้าของลูกค้าชำรุดเสียหาย\nการแก้ไข\n-ช่าง Hitachi ทำการนำรองเท้าออก และ Reset บันไดเลื่อน พร้อมทดสอบการใช้งานบันไดเลื่อน ใช้งานได้ปกติ\nสรุปการแก้ไข\n-Hitachi Reset บันไดเลื่อน ใช้งานได้ปกติ\n\n03.45 Hitachi ได้เข้ามารีเช็ค ทดสอบsafety บันไดเลื่อน ชั้น 1 ลง G เทสตัว safety ถ้ามีของไปติด สรุปการเทส : เทสโดยการยกพื้นแผ่นพื้น ให้แผ่นพื้นยกไปโดน safety , safety ส่งสัญญาณปกติ *กรณี เหตุ วันที่ 3/3/69 เวลา 19.29 รองเท้าเด็ก ไปติดช่องขอบริมด้านข้างไม่ได้ติดขอบแผ่นพื้น ซึ่งรุ่นนี้จะไม่มี ตัว safety จุดที่ 1(ด้านข้าง), จุดที่ 2 (ที่พื้น)จะมี safety ตัดการทำงาน ตอนแผ่นพื้นยก"
   },
   {
     "case_no": "CASE-260310-064159314894",
@@ -9532,7 +10042,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "R1 มี Alarm ชั้น7 R01-007-FIRE-FXSMOK-003-BOI-ZONE 03",
+    "summary_en": "R1 มี Alarm ชั้น7 R01-007-FIRE-FXSMOK-003-BOI-ZONE 03",
+    "finding_th": "ช่างตรวจสอบหน้างานปกติไม่พบเหตุเพลิงไหม้\nทำการรีเซ็ต กลับมาปกติแล้วครับ \nสาเหตุเกิดจาก แม่บ้าน เวฟอาหารแล้วลืมครับ\nเบื้องต้นเปิดเครื่องฟอกช่วยแล้วครับ",
+    "finding_en": "ช่างตรวจสอบหน้างานปกติไม่พบเหตุเพลิงไหม้\nทำการรีเซ็ต กลับมาปกติแล้วครับ \nสาเหตุเกิดจาก แม่บ้าน เวฟอาหารแล้วลืมครับ\nเบื้องต้นเปิดเครื่องฟอกช่วยแล้วครับ"
   },
   {
     "case_no": "CASE-260117-213745698905",
@@ -9556,7 +10072,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Security: Medical Assistance : Major - Ambulance - ความช่วยเหลือทางการแพทย์ (กรณีฉุกเฉิน-รถพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Major",
+    "summary_th": "อ้างอิงเคส CASE-260117-211420319698 รับแจ้งจาก รปภ Forum มีแม่บ้านมีอาการอาเจียนและอ่อนแรง จนท.พยาบาลประเมินอาการต้องนำส่ง รพ.",
+    "summary_en": "อ้างอิงเคส CASE-260117-211420319698 รับแจ้งจาก รปภ Forum มีแม่บ้านมีอาการอาเจียนและอ่อนแรง จนท.พยาบาลประเมินอาการต้องนำส่ง รพ.",
+    "finding_th": "เวลา 21:43 น.ผู้ป่วยออกจากห้องพยาบาล มาขึ้นรถ Ambulance\nเวลา21:46 น.รถ Ambulance ออกประตู8มุ่งหน้า รพ กล้วยน้ำไท\nข้อมูลผู้ป่วย DA YANG แม่บ้าน บริษัท IFS อาคาร Forum \nผู้ป่วยมีอาการไม่ดีขึ้น หายใจเร็ว ผู้ป่วยประสงค์ไปโรงพยาบาลเพื่อให้แพทย์ตรวจอาการ",
+    "finding_en": "เวลา 21:43 น.ผู้ป่วยออกจากห้องพยาบาล มาขึ้นรถ Ambulance\nเวลา21:46 น.รถ Ambulance ออกประตู8มุ่งหน้า รพ กล้วยน้ำไท\nข้อมูลผู้ป่วย DA YANG แม่บ้าน บริษัท IFS อาคาร Forum \nผู้ป่วยมีอาการไม่ดีขึ้น หายใจเร็ว ผู้ป่วยประสงค์ไปโรงพยาบาลเพื่อให้แพทย์ตรวจอาการ"
   },
   {
     "case_no": "CASE-260123-094911000630",
@@ -9580,7 +10102,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "น้ำรั่วในพื้นที่ R1 1G21 EVE&BOY (ร้านอยู่ระหว่าง Renovate)",
+    "summary_en": "น้ำรั่วในพื้นที่ R1 1G21 EVE&BOY (ร้านอยู่ระหว่าง Renovate)",
+    "finding_th": "สาเหตุ ท่อแตกรอยเชื่อมบริเวณข้อต่อตรง ก่อนเข้ามิเตอร์ ผลกระทบ - แก้ไขจุดข้อต่อรั่วใน unit 1G21 เรียบร้อยครับ ตรวจสอบใช้ได้ปกติ",
+    "finding_en": "สาเหตุ ท่อแตกรอยเชื่อมบริเวณข้อต่อตรง ก่อนเข้ามิเตอร์ ผลกระทบ - แก้ไขจุดข้อต่อรั่วใน unit 1G21 เรียบร้อยครับ ตรวจสอบใช้ได้ปกติ"
   },
   {
     "case_no": "CASE-260216-170131805081",
@@ -9604,7 +10132,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 17:00  ลูกค้าติดภายในลิฟท์ PL 1.3 ชั้น 4 Lift R01-008-VT11-CM-CCTV-CAMERA-002",
+    "summary_en": "[soc-inf] 17:00  ลูกค้าติดภายในลิฟท์ PL 1.3 ชั้น 4 Lift R01-008-VT11-CM-CCTV-CAMERA-002",
+    "finding_th": "เวลา 17:00 น. SOC รับแจ้งจาก FCC Parade พบลูกค้าจำนวน 4 ท่านติดอยู่ภายในลิฟต์ PL 1.3 (R01-008)\nSOC ได้ประสาน DCC, EOT และ FMC เพื่อแจ้งช่างอาคารและประสานบริษัท Hitachi เข้าดำเนินการแก้ไข\nระหว่างรอช่าง Hitachi ได้มีการติดตามและเร่งรัดผ่าน Call Center อย่างต่อเนื่อง\nเวลา 17:14 น. ช่าง Hitachi สามารถช่วยเหลือลูกค้าออกจากลิฟต์ได้เรียบร้อย เหตุการณ์ยุติโดยปลอดภัย   ติดตามการแก้ไขลิฟท์ และ ใบ incident อ้างอิงเคสนี้ ครับ CASE-260216-173643135066",
+    "finding_en": "เวลา 17:00 น. SOC รับแจ้งจาก FCC Parade พบลูกค้าจำนวน 4 ท่านติดอยู่ภายในลิฟต์ PL 1.3 (R01-008)\nSOC ได้ประสาน DCC, EOT และ FMC เพื่อแจ้งช่างอาคารและประสานบริษัท Hitachi เข้าดำเนินการแก้ไข\nระหว่างรอช่าง Hitachi ได้มีการติดตามและเร่งรัดผ่าน Call Center อย่างต่อเนื่อง\nเวลา 17:14 น. ช่าง Hitachi สามารถช่วยเหลือลูกค้าออกจากลิฟต์ได้เรียบร้อย เหตุการณ์ยุติโดยปลอดภัย   ติดตามการแก้ไขลิฟท์ และ ใบ incident อ้างอิงเคสนี้ ครับ CASE-260216-173643135066"
   },
   {
     "case_no": "CASE-260220-110602095451",
@@ -9628,7 +10162,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 11:02 SOC รับแจ้งจาก FCC Parade มีบุคคลติดในลิฟท์ 3 คน(ครอบครัว) บุคคลพิเศษ(ลิฟท์คนพิการ) ทางเชื่อม MRT",
+    "summary_en": "[soc-inf] 11:02 SOC รับแจ้งจาก FCC Parade มีบุคคลติดในลิฟท์ 3 คน(ครอบครัว) บุคคลพิเศษ(ลิฟท์คนพิการ) ทางเชื่อม MRT",
+    "finding_th": "ช่างตรวจสอบเบื้องต้น ลิฟต์สามารถกลับมาใช้งานได้ปกติครับ",
+    "finding_en": "ช่างตรวจสอบเบื้องต้น ลิฟต์สามารถกลับมาใช้งานได้ปกติครับ"
   },
   {
     "case_no": "CASE-260504-171849916906",
@@ -9652,7 +10192,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Electrical : Electrical Issue - ปัญหาระบบไฟฟ้า",
+    "event_type_en": "Hard Service: Electrical : Electrical Issue",
+    "summary_th": "เมื่อเวลา 16:52น. 69kV Incoming1 มีvoltage sag 0.12sec สอบถามทาง MEA แจ้งว่าสายส่ง 230kV สายส่งบางกะปิ-อ่อนนุข วงจร-4 สวิตซ์ตก สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ",
+    "summary_en": "เมื่อเวลา 16:52น. 69kV Incoming1 มีvoltage sag 0.12sec สอบถามทาง MEA แจ้งว่าสายส่ง 230kV สายส่งบางกะปิ-อ่อนนุข วงจร-4 สวิตซ์ตก สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ",
+    "finding_th": "รายละเอียด \n1.เวลา 17.07น. ได้ประสานFMC แจ้ง Hitachi \n2.เวลา 17.20น ช่าง Hitachiถึงหน้างาน\n3.เวลา 17.58น. ช่าง Hitachi ทำการตรวจสอบและแก้ไขเรียบร้อยเปิดใช้งานได้ปกติ\n\nสาเหตุ \n-บันไดเลื่อนหยุดการทำงานเนื่องจากไฟตก \n\nผลกระทบ\n- บันไดเลื่อนใช้งานไม่ได้\n\nการแก้ไข\n- ทำการรีเซ็ตทดสอบการใช้งาน\n \nสรุปการแก้ไข\n-  บันไดเลื่อนกลับมาใช้งานได้ปกติ",
+    "finding_en": "รายละเอียด \n1.เวลา 17.07น. ได้ประสานFMC แจ้ง Hitachi \n2.เวลา 17.20น ช่าง Hitachiถึงหน้างาน\n3.เวลา 17.58น. ช่าง Hitachi ทำการตรวจสอบและแก้ไขเรียบร้อยเปิดใช้งานได้ปกติ\n\nสาเหตุ \n-บันไดเลื่อนหยุดการทำงานเนื่องจากไฟตก \n\nผลกระทบ\n- บันไดเลื่อนใช้งานไม่ได้\n\nการแก้ไข\n- ทำการรีเซ็ตทดสอบการใช้งาน\n \nสรุปการแก้ไข\n-  บันไดเลื่อนกลับมาใช้งานได้ปกติ"
   },
   {
     "case_no": "CASE-260614-142349836932",
@@ -9676,7 +10222,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "[soc-inf] 14:19 ได้รับแจ้งจาก Sup Soc ว่ามี DCC คุณ ตั๊ม ติดด้านในห้องน้ำคนพิการชั้น1 อาคาร One Power",
+    "summary_en": "[soc-inf] 14:19 ได้รับแจ้งจาก Sup Soc ว่ามี DCC คุณ ตั๊ม ติดด้านในห้องน้ำคนพิการชั้น1 อาคาร One Power",
+    "finding_th": "เวลา 14:19 ได้รับแจ้งจาก Sup Soc ว่ามี DCC คุณ ตั๊ม ติดด้านในห้องน้ำคนพิการชั้น1 อาคาร One Power\nเวลา 14.18 น.ช่าง JLL ช่วยเหลือเปิดประตูให้ออกมาได้เป็นที่เรียบร้อยครับ",
+    "finding_en": "เวลา 14:19 ได้รับแจ้งจาก Sup Soc ว่ามี DCC คุณ ตั๊ม ติดด้านในห้องน้ำคนพิการชั้น1 อาคาร One Power\nเวลา 14.18 น.ช่าง JLL ช่วยเหลือเปิดประตูให้ออกมาได้เป็นที่เรียบร้อยครับ"
   },
   {
     "case_no": "CASE-260415-231302138572",
@@ -9700,7 +10252,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "จัดเป็นความเสี่ยงโครงสร้างร้ายแรงต่อผู้ใช้อาคาร ต้องมี Incident Report เพื่อตรวจสอบสาเหตุทางวิศวกรรม (Engineering Review) และรับผิดชอบค่าเสียหาย",
     "action_th": "1. ออก Incident Report โครงสร้าง 2. ปิดกั้นพื้นที่อันตราย 3. สั่งตรวจ NDT รอยต่อและโครงสร้างข้างเคียง",
     "action_en": "1. Issue Structural Incident Report 2. Barricade risk zones immediately 3. Mandate NDT inspection on adjacent panels and mountings",
-    "action": "1. ออก Incident Report โครงสร้าง 2. ปิดกั้นพื้นที่อันตราย 3. สั่งตรวจ NDT รอยต่อและโครงสร้างข้างเคียง"
+    "action": "1. ออก Incident Report โครงสร้าง 2. ปิดกั้นพื้นที่อันตราย 3. สั่งตรวจ NDT รอยต่อและโครงสร้างข้างเคียง",
+    "event_type_th": "Residential : Property Damage : Furniture - ความเสียหายต่อทรัพย์สิน - เฟอร์นิเจอร์",
+    "event_type_en": "Residential : Property Damage : Furniture",
+    "summary_th": "เวลา 21.44 กระจกด้านบนตรงกลาง บริเวณ The gym ระเบิดแตกเศษกระจกตกหล่นที่พื้นและเครื่องเล่นต่างๆ",
+    "summary_en": "เวลา 21.44 กระจกด้านบนตรงกลาง บริเวณ The gym ระเบิดแตกเศษกระจกตกหล่นที่พื้นและเครื่องเล่นต่างๆ",
+    "finding_th": "จัดเป็นความเสี่ยงโครงสร้างร้ายแรงต่อผู้ใช้อาคาร ต้องมี Incident Report เพื่อตรวจสอบสาเหตุทางวิศวกรรม (Engineering Review) และรับผิดชอบค่าเสียหาย",
+    "finding_en": "จัดเป็นความเสี่ยงโครงสร้างร้ายแรงต่อผู้ใช้อาคาร ต้องมี Incident Report เพื่อตรวจสอบสาเหตุทางวิศวกรรม (Engineering Review) และรับผิดชอบค่าเสียหาย"
   },
   {
     "case_no": "CASE-260425-114918653338",
@@ -9724,7 +10282,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Hard Service: Gas - แก๊ส : Distribution System - ระบบจ่ายเชื้อเพลิงประเภทแก๊ส",
+    "event_type_en": "Hard Service: Gas",
+    "summary_th": "Parade (R1) Storeys (R2) ใช้แก๊สไม่ได้",
+    "summary_en": "Parade (R1) Storeys (R2) ใช้แก๊สไม่ได้",
+    "finding_th": "สาเหตุ \n-หม้อต้มตัดการทำงาน\n\nผลกระทบ\n-อาคาร R1 แก๊สร้านค้าเบาหลายร้าน\n-อาคาร R2 แก๊สร้านค้าเบาหลายร้าน\n-อาคาร Forum Chang Canvas แก๊สร้านค้าเบา\n\nการแก้ไข\n-เปิดวาล์วบายพาสเพื่อใช้งานชั่วคราว\n-ปิดวาล์วแก๊สเข้า/ออกหม้อต้ม แล้วทำการเดรนแก๊สในหม้อต้ม\n-ทดสอบใช้งาน หม้อต้มทำงานได้ตามปกติ ทั้ง 2 หม้อ",
+    "finding_en": "สาเหตุ \n-หม้อต้มตัดการทำงาน\n\nผลกระทบ\n-อาคาร R1 แก๊สร้านค้าเบาหลายร้าน\n-อาคาร R2 แก๊สร้านค้าเบาหลายร้าน\n-อาคาร Forum Chang Canvas แก๊สร้านค้าเบา\n\nการแก้ไข\n-เปิดวาล์วบายพาสเพื่อใช้งานชั่วคราว\n-ปิดวาล์วแก๊สเข้า/ออกหม้อต้ม แล้วทำการเดรนแก๊สในหม้อต้ม\n-ทดสอบใช้งาน หม้อต้มทำงานได้ตามปกติ ทั้ง 2 หม้อ"
   },
   {
     "case_no": "CASE-260525-164810459067",
@@ -9748,7 +10312,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Security: Vehicle Accident (Injury) - อุบัติเหตุทางยานพาหนะ (มีผู้บาดเจ็บ)",
+    "event_type_en": "Security: Vehicle Accident (Injury)",
+    "summary_th": "(เปิดย้อนหลัง) อุบัติเหตุรถชนบุคคลทั่วไปบริเวณทางม้าลายถนนวิทยุ Ent 1",
+    "summary_en": "(เปิดย้อนหลัง) อุบัติเหตุรถชนบุคคลทั่วไปบริเวณทางม้าลายถนนวิทยุ Ent 1",
+    "finding_th": "วันที่ 25 พฤษภาคม 2569 เวลา 09.05 น. ได้เกิดเหตุรถยนต์นั่งส่วนบุคคลยี่ห้อ Honda CR-V หมายเลขทะเบียน 6กธ 1366 กรุงเทพมหานคร ขับออกจากโครงการในขณะสัญญาณไฟแดงสำหรับการเลี้ยวซ้าย ขณะเดียวกันมีประชาชนเดินข้ามถนนบริเวณหน้าป้ายรถโดยสารประจำทาง ส่งผลให้รถคันดังกล่าวเฉี่ยวชนผู้ที่กำลังข้ามถนนได้รับบาดเจ็บ\n\nเบื้องต้น เจ้าหน้าที่ตำรวจและเจ้าหน้าที่รักษาความปลอดภัยได้เข้าดำเนินการอำนวยความสะดวกและปิดกั้นพื้นที่เกิดเหตุเรียบร้อยแล้ว\n\nต่อมา เวลา 09.10 น. รถพยาบาลอาสากู้ชีพร่วมกตัญญูได้เข้าพื้นที่เพื่อให้การปฐมพยาบาลเบื้องต้น และนำผู้ได้รับบาดเจ็บออกจากพื้นที่เป็นที่เรียบร้อยแล้ว\n\n-และได้ดำเนินการเคลียร์พื้นที่เปิดเส้นทางจราจรวิ่งได้ปกติเป็นที่เรียบร้อยครับ",
+    "finding_en": "วันที่ 25 พฤษภาคม 2569 เวลา 09.05 น. ได้เกิดเหตุรถยนต์นั่งส่วนบุคคลยี่ห้อ Honda CR-V หมายเลขทะเบียน 6กธ 1366 กรุงเทพมหานคร ขับออกจากโครงการในขณะสัญญาณไฟแดงสำหรับการเลี้ยวซ้าย ขณะเดียวกันมีประชาชนเดินข้ามถนนบริเวณหน้าป้ายรถโดยสารประจำทาง ส่งผลให้รถคันดังกล่าวเฉี่ยวชนผู้ที่กำลังข้ามถนนได้รับบาดเจ็บ\n\nเบื้องต้น เจ้าหน้าที่ตำรวจและเจ้าหน้าที่รักษาความปลอดภัยได้เข้าดำเนินการอำนวยความสะดวกและปิดกั้นพื้นที่เกิดเหตุเรียบร้อยแล้ว\n\nต่อมา เวลา 09.10 น. รถพยาบาลอาสากู้ชีพร่วมกตัญญูได้เข้าพื้นที่เพื่อให้การปฐมพยาบาลเบื้องต้น และนำผู้ได้รับบาดเจ็บออกจากพื้นที่เป็นที่เรียบร้อยแล้ว\n\n-และได้ดำเนินการเคลียร์พื้นที่เปิดเส้นทางจราจรวิ่งได้ปกติเป็นที่เรียบร้อยครับ"
   },
   {
     "case_no": "CASE-260403-033229032083",
@@ -9772,7 +10342,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst – ท่อน้ำแตก/รั่ว",
+    "event_type_en": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst",
+    "summary_th": "ได้ร้บแจ้งจาก FCC ว่ามีน้ำรั่วที่ร้าน wogogi paprade ชั้นB1",
+    "summary_en": "ได้ร้บแจ้งจาก FCC ว่ามีน้ำรั่วที่ร้าน wogogi paprade ชั้นB1",
+    "finding_th": "สายน้ำดีของก๊อกน้ำอ่างล้างของแตก ทำการถออดออกและปิดวาล์วน้ำไว้ก่อน",
+    "finding_en": "สายน้ำดีของก๊อกน้ำอ่างล้างของแตก ทำการถออดออกและปิดวาล์วน้ำไว้ก่อน"
   },
   {
     "case_no": "CASE-260621-010346628434",
@@ -9796,7 +10372,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Electrical : Electrical Issue - ปัญหาระบบไฟฟ้า",
+    "event_type_en": "Hard Service: Electrical : Electrical Issue",
+    "summary_th": "เบรคเกอร์ MCCB ไฟอาร์ค",
+    "summary_en": "เบรคเกอร์ MCCB ไฟอาร์ค",
+    "finding_th": "สาเหตุ \n- เบรคเกอร์ขาออกเฟส T ไฟฟ้ามีการอาร์ท\n\nผลกระทบ \n  1.ตู้ Novec ชั้น B1 ไม่มีไฟจ่าย\n  2.ปลั๊กส่วนกลางตั้งแต่ชั้น B1 B2 B3 ไม่มีไฟจ่าย\n  3. FCU ห้องรปภ.ชั้นB2 ไม่มีไฟจ่าย\n\n\n สรุปการแก้ไข\n- ระบบไฟฟ้า เปิดใช้งานได้ตามปกติ\n- เปลี่ยนเบรคเกอร์ 3 เฟส MCCB ตู้ LC B1PB2",
+    "finding_en": "สาเหตุ \n- เบรคเกอร์ขาออกเฟส T ไฟฟ้ามีการอาร์ท\n\nผลกระทบ \n  1.ตู้ Novec ชั้น B1 ไม่มีไฟจ่าย\n  2.ปลั๊กส่วนกลางตั้งแต่ชั้น B1 B2 B3 ไม่มีไฟจ่าย\n  3. FCU ห้องรปภ.ชั้นB2 ไม่มีไฟจ่าย\n\n\n สรุปการแก้ไข\n- ระบบไฟฟ้า เปิดใช้งานได้ตามปกติ\n- เปลี่ยนเบรคเกอร์ 3 เฟส MCCB ตู้ LC B1PB2"
   },
   {
     "case_no": "CASE-260625-164214798376",
@@ -9820,7 +10402,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "[soc-inf] 16:39 รับแจ้งจาก FCC Tower 5 พบเหตุลูกค้าเพศชาย ติดในห้องน้ำชาย ชั้น 1 อาคาร Tower",
+    "summary_en": "[soc-inf] 16:39 รับแจ้งจาก FCC Tower 5 พบเหตุลูกค้าเพศชาย ติดในห้องน้ำชาย ชั้น 1 อาคาร Tower",
+    "finding_th": "การช่วยเหลือ\n\nเวลา 16:39 น. FCC Tower 5 ประสานเจ้าหน้าที่รปภ. และช่าง Senses เข้าพื้นที่เกิดเหตุ\nเวลา 16:42 น. เจ้าหน้าที่รปภ. และช่าง Senses ช่วยเหลือลูกค้าออกจากห้องน้ำได้สำเร็จ และนำส่งลูกค้าที่ลานจอดรถชั้น B2 อย่างปลอดภัย\n\nสาเหตุเกิดจาก : ประตูต้องดึงเข้าตัวถึงจะออกจากห้องน้ำได้ แต่ลูกค้าผลักออก ทำให้เปิดประตูไม่ได้ ไม่ได้เกิดจากอุปกรณ์ประตูหรือกลอนประตูขัดข้อง\n\nระยะเวลาติดอยู่ในห้องน้ำ : 3-5 นาที",
+    "finding_en": "การช่วยเหลือ\n\nเวลา 16:39 น. FCC Tower 5 ประสานเจ้าหน้าที่รปภ. และช่าง Senses เข้าพื้นที่เกิดเหตุ\nเวลา 16:42 น. เจ้าหน้าที่รปภ. และช่าง Senses ช่วยเหลือลูกค้าออกจากห้องน้ำได้สำเร็จ และนำส่งลูกค้าที่ลานจอดรถชั้น B2 อย่างปลอดภัย\n\nสาเหตุเกิดจาก : ประตูต้องดึงเข้าตัวถึงจะออกจากห้องน้ำได้ แต่ลูกค้าผลักออก ทำให้เปิดประตูไม่ได้ ไม่ได้เกิดจากอุปกรณ์ประตูหรือกลอนประตูขัดข้อง\n\nระยะเวลาติดอยู่ในห้องน้ำ : 3-5 นาที"
   },
   {
     "case_no": "CASE-260402-185646417919",
@@ -9844,7 +10432,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : Obstructions - สิ่งกีดขวาง",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "[soc-inf] 18.53 รับแจ้งจาก FCC  Pararde  มีลูกค้ากระโปรงติดบันไดเลื่อน ชั้น 4",
+    "summary_en": "[soc-inf] 18.53 รับแจ้งจาก FCC  Pararde  มีลูกค้ากระโปรงติดบันไดเลื่อน ชั้น 4",
+    "finding_th": "รายงาน Incident report อาคาร R1 \nวันที่  2/4/69 เวลา 18.49 น.\n\nช่างชื่อ\nนายวสุธร บุษราคัมมณี\nตำแหน่ง: Technician \n\nพื้นที่เกิดเหตุ อาคาร R1\nเรื่องบันไดเลื่อนชั้น3 ขึ้นชั้น4 ฝั่งWest กระโปรงลูกค้าติด (New Case)\n\n รายละเอียด \n1.เวลา 18.55 น. รับแจ้งจาก FCC บันไดเลื่อนชั้น3 ขึ้นชั้น4 ฝั่งWest กระโปรงลูกค้าติด ช่วงเวลา 18.49 น.(บันไดเลื่อนไม่หยุดการทำงาน)\n2.เวลา 18.50 น. รปภ.ประจำชั้น4 วิ่งเข้ามากดปุ่ม Emergency Stop และทางพนักงานของร้าน LAB X ได้นำกรรไกรมาตัดประโปรงให้ทางลูกค้า\n3.เวลา 18.58 น.ช่างอาคารขึ้นตรวจสอบหน้างานพร้อมประสาน FMC แจ้งช่าง Hitachi\n4.เวลา 19.16 น. ทางช่าง Hitachi ถึงหน้างานและทำการตรวจเช็คแก้ไขบันไดเลื่อน\n5.เวลา 19.27 ช่าง Hitachi ทำการแก้ไขบันไดเลื่อนเรียบร้อยและเปิดใช้งานบันไดเลื่อนปกติ\n\nสาเหตุ \n-มีเศษกระโปรงลูกค้าเข้าไปติดที่ข้างหวีบันไดเลื่อน\n\nการแก้ไข\n- ช่าง Hitchi เข้าตรวจเช็ค นำเศษกระโปรงลูกค้าออกจากหวีบันไดเลื่อนและทดสอบการใช้งาน\n\nสรุปการแก้ไข\n- ใช้งานได้ปกติ\n\nการแก้ไขปัญหาเบื้องต้น\n1.ช่างอาคารตรวจหน้างาน\n2.ทีม FMC แจ้ง Hitachi\n3.ช่าง Hitachi ทำการ Check \n\nผู้แจ้ง  \nนายวีรพงษ์ ซุ้นอื้อ\nตำแหน่ง: Sr.Technician",
+    "finding_en": "รายงาน Incident report อาคาร R1 \nวันที่  2/4/69 เวลา 18.49 น.\n\nช่างชื่อ\nนายวสุธร บุษราคัมมณี\nตำแหน่ง: Technician \n\nพื้นที่เกิดเหตุ อาคาร R1\nเรื่องบันไดเลื่อนชั้น3 ขึ้นชั้น4 ฝั่งWest กระโปรงลูกค้าติด (New Case)\n\n รายละเอียด \n1.เวลา 18.55 น. รับแจ้งจาก FCC บันไดเลื่อนชั้น3 ขึ้นชั้น4 ฝั่งWest กระโปรงลูกค้าติด ช่วงเวลา 18.49 น.(บันไดเลื่อนไม่หยุดการทำงาน)\n2.เวลา 18.50 น. รปภ.ประจำชั้น4 วิ่งเข้ามากดปุ่ม Emergency Stop และทางพนักงานของร้าน LAB X ได้นำกรรไกรมาตัดประโปรงให้ทางลูกค้า\n3.เวลา 18.58 น.ช่างอาคารขึ้นตรวจสอบหน้างานพร้อมประสาน FMC แจ้งช่าง Hitachi\n4.เวลา 19.16 น. ทางช่าง Hitachi ถึงหน้างานและทำการตรวจเช็คแก้ไขบันไดเลื่อน\n5.เวลา 19.27 ช่าง Hitachi ทำการแก้ไขบันไดเลื่อนเรียบร้อยและเปิดใช้งานบันไดเลื่อนปกติ\n\nสาเหตุ \n-มีเศษกระโปรงลูกค้าเข้าไปติดที่ข้างหวีบันไดเลื่อน\n\nการแก้ไข\n- ช่าง Hitchi เข้าตรวจเช็ค นำเศษกระโปรงลูกค้าออกจากหวีบันไดเลื่อนและทดสอบการใช้งาน\n\nสรุปการแก้ไข\n- ใช้งานได้ปกติ\n\nการแก้ไขปัญหาเบื้องต้น\n1.ช่างอาคารตรวจหน้างาน\n2.ทีม FMC แจ้ง Hitachi\n3.ช่าง Hitachi ทำการ Check \n\nผู้แจ้ง  \nนายวีรพงษ์ ซุ้นอื้อ\nตำแหน่ง: Sr.Technician"
   },
   {
     "case_no": "CASE-260429-144035898534",
@@ -9868,7 +10462,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Security: Medical Assistance : Minor - First Aid - ความช่วยเหลือทางการแพทย์ (กรณีเล็กน้อย-การปฐมพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Minor",
+    "summary_th": "[soc-inf] 14:38 รับแจ้งจาก Sup Forum ว่าพบลูกค้าเป็นเป็นลม ที่Big C Mache ชั้นG",
+    "summary_en": "[soc-inf] 14:38 รับแจ้งจาก Sup Forum ว่าพบลูกค้าเป็นเป็นลม ที่Big C Mache ชั้นG",
+    "finding_th": "14:38 SOC รับแจ้งจาก Sup Forum ว่าพบลูกค้าเพศชายเป็นลม ที่Big C Mache ชั้นG \n14.41 น. EOT ถึงพื้นที่ ผู้ป่วยมีอาการอ่อนเพลียหน้ามืดเคยมีโรคประจำตัวเป็นโรคลมชัก EOT ประฐมพยาบาลเบื้องต้นโดยการให้ดมแอมโมเนีย \n14.46 น. พนักงานมีอาการดีขึ้นจึงขอกลับไปพักดูอาการต่อที่ร้าน URBAN REVIVO\nชื่อผู้ป่วย\nคุณโจ เป็นพนักงานร้าน URBAN REVIVO   T.065-9639633",
+    "finding_en": "14:38 SOC รับแจ้งจาก Sup Forum ว่าพบลูกค้าเพศชายเป็นลม ที่Big C Mache ชั้นG \n14.41 น. EOT ถึงพื้นที่ ผู้ป่วยมีอาการอ่อนเพลียหน้ามืดเคยมีโรคประจำตัวเป็นโรคลมชัก EOT ประฐมพยาบาลเบื้องต้นโดยการให้ดมแอมโมเนีย \n14.46 น. พนักงานมีอาการดีขึ้นจึงขอกลับไปพักดูอาการต่อที่ร้าน URBAN REVIVO\nชื่อผู้ป่วย\nคุณโจ เป็นพนักงานร้าน URBAN REVIVO   T.065-9639633"
   },
   {
     "case_no": "CASE-260617-220521705963",
@@ -9892,7 +10492,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Residential : Flooding (Floor) - น้ำท่วม (ชั้น)",
+    "event_type_en": "Residential : Flooding (Floor)",
+    "summary_th": "น้ำรั่วจากท่อ Fire Pump ชั้น31 (เปิดเคสย้อนหลัง)",
+    "summary_en": "น้ำรั่วจากท่อ Fire Pump ชั้น31 (เปิดเคสย้อนหลัง)",
+    "finding_th": "City power เปลี่ยนปะเก็นที่ชำรุดเป็นแบบที่สามารถรับแดงดันที่สูงขึ้น เเละทำการทดสอบแรงดันที่ 250 PSI เรียบร้อยแล้ว ไม่มีการรั่วซึมแล้ว เหลือทางมิตซูเข้ามาเปลี่ยน Earthquake sensor ที่บ่อลิฟต์ service หลังจากได้รับ PO กับทาง City power",
+    "finding_en": "City power เปลี่ยนปะเก็นที่ชำรุดเป็นแบบที่สามารถรับแดงดันที่สูงขึ้น เเละทำการทดสอบแรงดันที่ 250 PSI เรียบร้อยแล้ว ไม่มีการรั่วซึมแล้ว เหลือทางมิตซูเข้ามาเปลี่ยน Earthquake sensor ที่บ่อลิฟต์ service หลังจากได้รับ PO กับทาง City power"
   },
   {
     "case_no": "CASE-260406-162240511012",
@@ -9916,7 +10522,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 16:20 รับแจ้งจาก Sup G4S K.Bunying แจ้งว่ามีรถยนต์ลูกค้า Toyota สีขาว ทะเบียน 4 ชอ 940 กทม.ถอยชนเสา บริเวณ Loading 1",
+    "summary_en": "[soc-inf] 16:20 รับแจ้งจาก Sup G4S K.Bunying แจ้งว่ามีรถยนต์ลูกค้า Toyota สีขาว ทะเบียน 4 ชอ 940 กทม.ถอยชนเสา บริเวณ Loading 1",
+    "finding_th": "ฝ่ายอาคารได้รับใบเคลมเรียบร้อยค่ะ",
+    "finding_en": "ฝ่ายอาคารได้รับใบเคลมเรียบร้อยค่ะ"
   },
   {
     "case_no": "CASE-260430-223352498830",
@@ -9940,7 +10552,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Fraudulent Activity Report - ตรวจพบกิจกรรมที่มีลักษณะทุจริต/ฉ้อโกง",
+    "event_type_en": "Security: Fraudulent Activity Report",
+    "summary_th": "เกิดเหตุลักทรัพย์   พนักงานภายในร้าน Fattchicken Rice R2 B1 ได้ทำการขโมยเงินเดือนของพนักงานภายในร้านด้วยกันเอง",
+    "summary_en": "เกิดเหตุลักทรัพย์   พนักงานภายในร้าน Fattchicken Rice R2 B1 ได้ทำการขโมยเงินเดือนของพนักงานภายในร้านด้วยกันเอง",
+    "finding_th": "ช่วงเวลา 21.40 น.ได้มีเจ้าหน้าที่ตำรวจเข้าพื้นที่ ร้านเข้ามันไก่สิงคโปรค์ชั้น B1 พื้นที่ The Storeys ทางฝ่ายอาคารและ รปภ.จึงได้เข้าตรวจสอบ และจากการสอบภายจึงได้ข้อมูลว่า ได้มีการลักทรัพย์ของพนักงานด้วยกันเองภายในร้านเป็นจำนวนเงิน 11,000 บาท ซึ่งเบื่องต้นทางร้านและผู้เสียหาย ผู้กระทำผิดได้ไปไกล่เกลี่ยที่ สน.ลุมพินี ลงบันทึกประจำวันไว้เป็นหลักฐาน วันที่ 1 / 5 / 2026 เวลา 10:51 ได้สอบถามทางฝ่ายอาคาร The Storeyห แจ้งว่าไม่มีอัพเดทเพิ่มเติม",
+    "finding_en": "ช่วงเวลา 21.40 น.ได้มีเจ้าหน้าที่ตำรวจเข้าพื้นที่ ร้านเข้ามันไก่สิงคโปรค์ชั้น B1 พื้นที่ The Storeys ทางฝ่ายอาคารและ รปภ.จึงได้เข้าตรวจสอบ และจากการสอบภายจึงได้ข้อมูลว่า ได้มีการลักทรัพย์ของพนักงานด้วยกันเองภายในร้านเป็นจำนวนเงิน 11,000 บาท ซึ่งเบื่องต้นทางร้านและผู้เสียหาย ผู้กระทำผิดได้ไปไกล่เกลี่ยที่ สน.ลุมพินี ลงบันทึกประจำวันไว้เป็นหลักฐาน วันที่ 1 / 5 / 2026 เวลา 10:51 ได้สอบถามทางฝ่ายอาคาร The Storeyห แจ้งว่าไม่มีอัพเดทเพิ่มเติม"
   },
   {
     "case_no": "CASE-260602-085023943479",
@@ -9964,7 +10582,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "บันไดเลื่อนหนีบมีความเสี่ยงให้ลูกค้าบาดเจ็บสาหัส ต้องมี Incident Report ตรวจสอบระยะห่าง Skirt Guard และระบบ Comb Plate Sensor",
     "action_th": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย",
     "action_en": "1. Issue Incident Report documenting event 2. Temporarily barricade unit for sensor recalibration 3. Review CCTV for insurance adjusters",
-    "action": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย"
+    "action": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย",
+    "event_type_th": "Security: Slip and Fall Accidents - อุบัติเหตุลื่นล้ม",
+    "event_type_en": "Security: Slip and Fall Accidents",
+    "summary_th": "[soc-inf] 08:46 รับแจ้งจาก FCC Tower 5 แจ้งว่า ลูกค้าสะดุดล้ม บริเวณบันไดเลื่อนชั้น 1 ฝั่งPost 1928 ทางเชื่อม Tower 5",
+    "summary_en": "[soc-inf] 08:46 รับแจ้งจาก FCC Tower 5 แจ้งว่า ลูกค้าสะดุดล้ม บริเวณบันไดเลื่อนชั้น 1 ฝั่งPost 1928 ทางเชื่อม Tower 5",
+    "finding_th": "เวลา 08.46 น. SOC ได้รับแจ้งจาก FCC Tower5 ลูกค้าไม่ได้รับบาดเจ็บและ ลูกค้าประสงค์ไปทำงานต่อ ครับ (จากการตรวจสอบกล้อง CCTV พบลูกค้าสดุดล้มตรงบันไดเลื่อน)",
+    "finding_en": "เวลา 08.46 น. SOC ได้รับแจ้งจาก FCC Tower5 ลูกค้าไม่ได้รับบาดเจ็บและ ลูกค้าประสงค์ไปทำงานต่อ ครับ (จากการตรวจสอบกล้อง CCTV พบลูกค้าสดุดล้มตรงบันไดเลื่อน)"
   },
   {
     "case_no": "CASE-260501-043553715594",
@@ -9988,7 +10612,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Hard Service: Electrical : Cabling & Wiring Issue - ปัญหาที่เกี่ยวกับสายเคเบิ้ลและการเดินสาย",
+    "event_type_en": "Hard Service: Electrical : Cabling & Wiring Issue",
+    "summary_th": "ผรม.วชิรมรรค ได้ทำการคลอลิ่งบริเวรข้างศาลพระตรีย ทำให้สายไฟ ict และ สายไฟอื่นๆขาด",
+    "summary_en": "ผรม.วชิรมรรค ได้ทำการคลอลิ่งบริเวรข้างศาลพระตรีย ทำให้สายไฟ ict และ สายไฟอื่นๆขาด",
+    "finding_th": "วชิรมรรคทำการเดินท่อร้อยสายไฟใหม่ เรียบร้อย",
+    "finding_en": "วชิรมรรคทำการเดินท่อร้อยสายไฟใหม่ เรียบร้อย"
   },
   {
     "case_no": "CASE-260511-224613103924",
@@ -10012,7 +10642,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Hard Service: HVAC : Kitchen Exhaust/Make-up Fan - พัดลมระบายอากาศในห้องครัว",
+    "event_type_en": "Hard Service: HVAC : Kitchen Exhaust/Make",
+    "summary_th": "(ย้อนหลัง) ห้องเครื่องชั้น7M พัดลมKV-08 พบ Alarm ที่ VSD  Code 13(a14)",
+    "summary_en": "(ย้อนหลัง) ห้องเครื่องชั้น7M พัดลมKV-08 พบ Alarm ที่ VSD  Code 13(a14)",
+    "finding_th": "สรุปการแก้ไข\n- นำมอเตอร์จากอาคารR3 มาทดแทนของเดิมที่มีปัญหาและเปิดใช้งาน KV-08 ได้ปกติ",
+    "finding_en": "สรุปการแก้ไข\n- นำมอเตอร์จากอาคารR3 มาทดแทนของเดิมที่มีปัญหาและเปิดใช้งาน KV-08 ได้ปกติ"
   },
   {
     "case_no": "CASE-260519-003434029721",
@@ -10036,7 +10672,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 00:33 มีคนติดลิฟท์ L9  Forum",
+    "summary_en": "[soc-inf] 00:33 มีคนติดลิฟท์ L9  Forum",
+    "finding_th": "แจ้งเป็นข้อมูลครับ \n -Lift No.09 ช่าง Hitachi ทำการปิดใช้งานชั่วคราว เพื่อทำการตรวจสอบ หาสาเหตุ ถ้าช่าง Hitachi  แก้ไขเสร็จแล้ว แจ้งให้ทราบครับ ส่วนใบเซอร์วิส  ตอนเช้า 07.00น.",
+    "finding_en": "แจ้งเป็นข้อมูลครับ \n -Lift No.09 ช่าง Hitachi ทำการปิดใช้งานชั่วคราว เพื่อทำการตรวจสอบ หาสาเหตุ ถ้าช่าง Hitachi  แก้ไขเสร็จแล้ว แจ้งให้ทราบครับ ส่วนใบเซอร์วิส  ตอนเช้า 07.00น."
   },
   {
     "case_no": "CASE-260519-184637460371",
@@ -10060,7 +10702,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Tenant Retail: Sanitary System : Faucet No Water Supply - ก็อกน้ำ น้ำไม่ไหล",
+    "event_type_en": "Tenant Retail: Sanitary System : Faucet No Water Supply",
+    "summary_th": "ร้านค้าโซน อาคาร Parade แจ้งน้ำไม่ไหลหลายร้าน",
+    "summary_en": "ร้านค้าโซน อาคาร Parade แจ้งน้ำไม่ไหลหลายร้าน",
+    "finding_th": "เวลา 18.42น. ช่างตรวจสอบหน้างาน พบปั้ม CW Alarm Run Dry ตอนนี้กำลังแก้ไขครับ เบื้องต้นเปิดใช้งานBy pass O1B ก่อนครับ\n18.55 น. แรงดันน้ำกลับมาปกติครับ",
+    "finding_en": "เวลา 18.42น. ช่างตรวจสอบหน้างาน พบปั้ม CW Alarm Run Dry ตอนนี้กำลังแก้ไขครับ เบื้องต้นเปิดใช้งานBy pass O1B ก่อนครับ\n18.55 น. แรงดันน้ำกลับมาปกติครับ"
   },
   {
     "case_no": "CASE-260612-195235031810",
@@ -10084,7 +10732,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "BSD/BSP : District Chiller BSD Alarm - สัญญาณเตือนชิลเล่อร์ทำงานผิดปกติ",
+    "event_type_en": "BSD/BSP : District Chiller BSD Alarm",
+    "summary_th": "R-18 LATCH ALARM - PointName: R-18 LATCH ALARM, AlarmValue: 0",
+    "summary_en": "R-18 LATCH ALARM - PointName: R-18 LATCH ALARM, AlarmValue: 0",
+    "finding_th": "12-Jun-26 เมื่อเวลา19:42น. ระบบไฟฟ้า 69/115kV One Bangkok Incoming1 มีvoltage sag 0.10 sec เนื่องจากทาง MEA  สายส่งline ชิดลม-695 ตก-สับติด(Auto Reclose) ทำให้แรงดันไฟฟ้าตกชั่วขณะเป็นเหตุให้ chiller R-08 หยุดการทำงาน \nการแก้ไข: ทางBSD รัน Chiller เครื่องที่ Standbyทดแทนเครื่องที่หยุดทำงาน ซึ่งเหตุดังกล่าวไม่มีผลกระทบต่อการจ่ายน้ำเย็นให้กับทางโครงการ \nสถานะปัจจุบัน ระบบทำงานปกติ",
+    "finding_en": "12-Jun-26 เมื่อเวลา19:42น. ระบบไฟฟ้า 69/115kV One Bangkok Incoming1 มีvoltage sag 0.10 sec เนื่องจากทาง MEA  สายส่งline ชิดลม-695 ตก-สับติด(Auto Reclose) ทำให้แรงดันไฟฟ้าตกชั่วขณะเป็นเหตุให้ chiller R-08 หยุดการทำงาน \nการแก้ไข: ทางBSD รัน Chiller เครื่องที่ Standbyทดแทนเครื่องที่หยุดทำงาน ซึ่งเหตุดังกล่าวไม่มีผลกระทบต่อการจ่ายน้ำเย็นให้กับทางโครงการ \nสถานะปัจจุบัน ระบบทำงานปกติ"
   },
   {
     "case_no": "CASE-260621-055017201490",
@@ -10108,7 +10762,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Civil : Fixture Repair/Maintenance - ซ่อมแซม/ซ่อมบำรุงอุปกรณ์ภายในอาคารที่ติดตั้งอยู่กับที่",
+    "event_type_en": "Hard Service: Civil : Fixture Repair/Maintenance",
+    "summary_th": "รบกวนตรวจสอบพบท่อน้ำของคนสวนแตกบริเวณหน้า The Storeys",
+    "summary_en": "รบกวนตรวจสอบพบท่อน้ำของคนสวนแตกบริเวณหน้า The Storeys",
+    "finding_th": "ดำเนินการแก้ไขเรียบร้อยค่ะ",
+    "finding_en": "ดำเนินการแก้ไขเรียบร้อยค่ะ"
   },
   {
     "case_no": "CASE-260602-094242281810",
@@ -10132,7 +10792,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Security: Medical Assistance : Minor - First Aid - ความช่วยเหลือทางการแพทย์ (กรณีเล็กน้อย-การปฐมพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Minor",
+    "summary_th": "[soc-inf] 09:40 ได้รับแจ้งจาก Sup G4s คุณ จิรายุ มีพนักงานส่งของที่ Tower 3 ชั้น 10  บริษัท มิซึฮาดะ \nล้มวูบหมดสติหัวแตกที่ห้องน้ำชาย ที่ Service route ชั้น B1",
+    "summary_en": "[soc-inf] 09:40 ได้รับแจ้งจาก Sup G4s คุณ จิรายุ มีพนักงานส่งของที่ Tower 3 ชั้น 10  บริษัท มิซึฮาดะ \nล้มวูบหมดสติหัวแตกที่ห้องน้ำชาย ที่ Service route ชั้น B1",
+    "finding_th": "เคสต่อเนื่อง EOT ประเมินต้องนำส่งโรงพยาบาล ติดตามต่อที่เคส CASE-260602-094939649802",
+    "finding_en": "เคสต่อเนื่อง EOT ประเมินต้องนำส่งโรงพยาบาล ติดตามต่อที่เคส CASE-260602-094939649802"
   },
   {
     "case_no": "CASE-260408-100604620229",
@@ -10156,7 +10822,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "P03-0B1-FIRE-FLOWSW-FCAS-004-0902   สปริงเกอร์แตก",
+    "summary_en": "P03-0B1-FIRE-FLOWSW-FCAS-004-0902   สปริงเกอร์แตก",
+    "finding_th": "สาเหตุเกิดจากผู้รับเหมาขับรถโฟล์คลิฟท์ชนท่อน้ำสปริงเกอร์จนแตก จะทำการเปิดเคส แก้ไขสปริงเกอร์แตกใหม่ค่ะ",
+    "finding_en": "สาเหตุเกิดจากผู้รับเหมาขับรถโฟล์คลิฟท์ชนท่อน้ำสปริงเกอร์จนแตก จะทำการเปิดเคส แก้ไขสปริงเกอร์แตกใหม่ค่ะ"
   },
   {
     "case_no": "CASE-260507-085243466258",
@@ -10180,7 +10852,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "บันไดเลื่อนหนีบมีความเสี่ยงให้ลูกค้าบาดเจ็บสาหัส ต้องมี Incident Report ตรวจสอบระยะห่าง Skirt Guard และระบบ Comb Plate Sensor",
     "action_th": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย",
     "action_en": "1. Issue Incident Report documenting event 2. Temporarily barricade unit for sensor recalibration 3. Review CCTV for insurance adjusters",
-    "action": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย"
+    "action": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย",
+    "event_type_th": "Security: Slip and Fall Accidents - อุบัติเหตุลื่นล้ม",
+    "event_type_en": "Security: Slip and Fall Accidents",
+    "summary_th": "[soc-inf] 08:49 น. รับแจ้งจาก FCC Parade แจ้งว่าพบลูกค้าลื้นล้ม บันไดเลื่อน ทางไป West Portal",
+    "summary_en": "[soc-inf] 08:49 น. รับแจ้งจาก FCC Parade แจ้งว่าพบลูกค้าลื้นล้ม บันไดเลื่อน ทางไป West Portal",
+    "finding_th": "08:49 น. รับแจ้งจาก FCC Parade แจ้งว่าพบลูกค้าลื้นล้ม บันไดเลื่อน ทางไปWest Portal ลูกค้าไม่ได้รับบาดเจ็บและไม่ประสงค์ไปห้องพยาบาล",
+    "finding_en": "08:49 น. รับแจ้งจาก FCC Parade แจ้งว่าพบลูกค้าลื้นล้ม บันไดเลื่อน ทางไปWest Portal ลูกค้าไม่ได้รับบาดเจ็บและไม่ประสงค์ไปห้องพยาบาล"
   },
   {
     "case_no": "CASE-260419-193816254098",
@@ -10204,7 +10882,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : Obstructions - สิ่งกีดขวาง",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "[soc-inf] 19:35 รับแจ้งจาก FCC Parade  มีลูกค้าเชือกรองเท้าติดบันไดเลื่อน ชั้น 5  ลง ชั้น 4  ลูกค้าไม่ได้รับบาดเจ็บ",
+    "summary_en": "[soc-inf] 19:35 รับแจ้งจาก FCC Parade  มีลูกค้าเชือกรองเท้าติดบันไดเลื่อน ชั้น 5  ลง ชั้น 4  ลูกค้าไม่ได้รับบาดเจ็บ",
+    "finding_th": "เบื้องต้นลูกค้าไม่ได้รับบาดเจ็บ บันไดเลื่อนใช้งานได้ตามปกติ",
+    "finding_en": "เบื้องต้นลูกค้าไม่ได้รับบาดเจ็บ บันไดเลื่อนใช้งานได้ตามปกติ"
   },
   {
     "case_no": "CASE-260410-202954294631",
@@ -10228,7 +10912,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "[soc-inf] 20:27 รับแจ้งจาก FCC The Storeys แจ้งว่า เมื่อเวลา 20.17 น. ลูกค้าติดในห้องน้ำคนพิการเนื่องจากไม่สามารถเปิดประตูได้ บริเวณอาคาร The Storeys ชั้น B1",
+    "summary_en": "[soc-inf] 20:27 รับแจ้งจาก FCC The Storeys แจ้งว่า เมื่อเวลา 20.17 น. ลูกค้าติดในห้องน้ำคนพิการเนื่องจากไม่สามารถเปิดประตูได้ บริเวณอาคาร The Storeys ชั้น B1",
+    "finding_th": "เวลา 20:27 รับแจ้งจาก FCC The Storeys แจ้งว่า เมื่อเวลา 20.17 น. ลูกค้าติดในห้องน้ำคนพิการเนื่องจากไม่สามารถเปิดประตูได้ บริเวณอาคาร The Storeys ชั้น B1 จากนั้น เวลา 20.18 น. แม่บ้านประจำห้องน้ำ​B1ช่วย​เปิด​ประตู​ พบ​ลูกค้า​แม่-ลูก​ภายใน​ห้องน้ำ​คนพิการ​ โดยไม่​ได้รับ​บาดเจ็บ​ใดๆและลูกค้า​ไม่ประสงค์​ให้​ถ่ายภาพ (เวลาติดภายในห้องน้ำ 20.17 น. ได้รับการช่วยเหลือ 20.18 น.  สรุปเวลาดำเนินการ 1 นาที)",
+    "finding_en": "เวลา 20:27 รับแจ้งจาก FCC The Storeys แจ้งว่า เมื่อเวลา 20.17 น. ลูกค้าติดในห้องน้ำคนพิการเนื่องจากไม่สามารถเปิดประตูได้ บริเวณอาคาร The Storeys ชั้น B1 จากนั้น เวลา 20.18 น. แม่บ้านประจำห้องน้ำ​B1ช่วย​เปิด​ประตู​ พบ​ลูกค้า​แม่-ลูก​ภายใน​ห้องน้ำ​คนพิการ​ โดยไม่​ได้รับ​บาดเจ็บ​ใดๆและลูกค้า​ไม่ประสงค์​ให้​ถ่ายภาพ (เวลาติดภายในห้องน้ำ 20.17 น. ได้รับการช่วยเหลือ 20.18 น.  สรุปเวลาดำเนินการ 1 นาที)"
   },
   {
     "case_no": "CASE-260427-093821243708",
@@ -10252,7 +10942,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "มีคนติดลิฟท์ Tower5 ลิฟท์ตัว D Low Zone",
+    "summary_en": "มีคนติดลิฟท์ Tower5 ลิฟท์ตัว D Low Zone",
+    "finding_th": "จากการตรวจสอบกล้อง CCTV พบว่ามีผู้ติดอยู่ในลิฟต์จำนวน 3 คนเป็น(บริษัท Frasers) โดยผู้ใช้สามารถออกจากลิฟต์ได้ในเวลา 09:35 น. เหตุเกิดขณะใช้ลิฟต์ฝั่ง Low Zone ซึ่งลิฟต์ค้างอยู่ประมาณ 3–4 นาที ก่อนที่ประตูจะเปิดออกเองโดยอัตโนมัติ\n(ไม่มีผู้ได้รับบาดเจ็บ)\n\nสาเหตุเกิดจาก รางประตูมีเศษปูนทำให้ลิฟต์ค้าง ช่างมิตซูกำลังแก้ไข",
+    "finding_en": "จากการตรวจสอบกล้อง CCTV พบว่ามีผู้ติดอยู่ในลิฟต์จำนวน 3 คนเป็น(บริษัท Frasers) โดยผู้ใช้สามารถออกจากลิฟต์ได้ในเวลา 09:35 น. เหตุเกิดขณะใช้ลิฟต์ฝั่ง Low Zone ซึ่งลิฟต์ค้างอยู่ประมาณ 3–4 นาที ก่อนที่ประตูจะเปิดออกเองโดยอัตโนมัติ\n(ไม่มีผู้ได้รับบาดเจ็บ)\n\nสาเหตุเกิดจาก รางประตูมีเศษปูนทำให้ลิฟต์ค้าง ช่างมิตซูกำลังแก้ไข"
   },
   {
     "case_no": "CASE-260515-162400259253",
@@ -10276,7 +10972,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Power Outage - ไฟฟ้าดับ : Space - บางพื้นที่",
+    "event_type_en": "Hard Service: Power Outage",
+    "summary_th": "มีไฟกระพริบ ที่โครงการเวลา 16.16",
+    "summary_en": "มีไฟกระพริบ ที่โครงการเวลา 16.16",
+    "finding_th": "เมื่อเวลา16:15น. ระบบไฟฟ้า69kV One Bangkok Incoming1 มีvoltage sag 0.14sec จากทาง MEA ทำให้แรงดันไฟฟ้าตกชั่วขณะ ทางBSP Substation และ BSD District cooling plant ยังสามารถจ่ายไฟและน้ำเย็นได้ตามปกติครับ และตรวจสอบระบบ BMS ปกติทุกอาคาร ตรวจสอบระบบหน้างาน ปกติทุกอาคารค่ะ",
+    "finding_en": "เมื่อเวลา16:15น. ระบบไฟฟ้า69kV One Bangkok Incoming1 มีvoltage sag 0.14sec จากทาง MEA ทำให้แรงดันไฟฟ้าตกชั่วขณะ ทางBSP Substation และ BSD District cooling plant ยังสามารถจ่ายไฟและน้ำเย็นได้ตามปกติครับ และตรวจสอบระบบ BMS ปกติทุกอาคาร ตรวจสอบระบบหน้างาน ปกติทุกอาคารค่ะ"
   },
   {
     "case_no": "CASE-260528-083642097246",
@@ -10300,7 +11002,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "มีคนติดอยู่ใน ห้อง Nap ชั้น 1 CUP ห้องแรกขวาสุด ต้องการคนช่วยเหลือ",
+    "summary_en": "มีคนติดอยู่ใน ห้อง Nap ชั้น 1 CUP ห้องแรกขวาสุด ต้องการคนช่วยเหลือ",
+    "finding_th": "เวลา 08:36 น. SOC รับสายจากคุณนักรบ แจ้งว่ามีบุคคลติดอยู่ภายในห้อง Nap ชั้น 1 อาคาร CUP ห้องแรกด้านขวาสุด และต้องการความช่วยเหลือ\nเวลา 08:40 น. SOC K.Thinnakorn เข้าดำเนินการช่วยเหลือเปิดประตู จนสามารถนำพนักงานออกมาได้เป็นที่เรียบร้อย โดยเจ้าหน้าที่ไม่ประสงค์รับการปฐมพยาบาลครับ",
+    "finding_en": "เวลา 08:36 น. SOC รับสายจากคุณนักรบ แจ้งว่ามีบุคคลติดอยู่ภายในห้อง Nap ชั้น 1 อาคาร CUP ห้องแรกด้านขวาสุด และต้องการความช่วยเหลือ\nเวลา 08:40 น. SOC K.Thinnakorn เข้าดำเนินการช่วยเหลือเปิดประตู จนสามารถนำพนักงานออกมาได้เป็นที่เรียบร้อย โดยเจ้าหน้าที่ไม่ประสงค์รับการปฐมพยาบาลครับ"
   },
   {
     "case_no": "CASE-260413-072654901049",
@@ -10324,7 +11032,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 07:25 SOC รับแจ้งจาก Sup G4S K.Jakkrit แจ้งว่ามีท่อน้ำแตก บริเวณหน้าสวน drop off starbucks Entrance 2",
+    "summary_en": "[soc-inf] 07:25 SOC รับแจ้งจาก Sup G4S K.Jakkrit แจ้งว่ามีท่อน้ำแตก บริเวณหน้าสวน drop off starbucks Entrance 2",
+    "finding_th": "ตรวจสอบหน้างาน บริเวณที่น้ำออกมาไม่พบท่อ หรืออุปกรณ์ใดๆที่ทำให้น้ำรั่วตอนนี้น้ำหยุดไหลแล้วครับเบื้องต้นไม่ได้ปิดวาว์ลไว้ เพราะจะตรวจสอบจุดที่น้ำรั่วอีกทีค",
+    "finding_en": "ตรวจสอบหน้างาน บริเวณที่น้ำออกมาไม่พบท่อ หรืออุปกรณ์ใดๆที่ทำให้น้ำรั่วตอนนี้น้ำหยุดไหลแล้วครับเบื้องต้นไม่ได้ปิดวาว์ลไว้ เพราะจะตรวจสอบจุดที่น้ำรั่วอีกทีค"
   },
   {
     "case_no": "CASE-260504-172729552421",
@@ -10348,7 +11062,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Residential : Electrical : Electrical Issue - ปัญหาเกี่ยวกับระบบไฟฟ้า",
+    "event_type_en": "Residential : Electrical : Electrical Issue",
+    "summary_th": "เมื่อเวลา 16:52น. BSP แจ้งระบบไฟฟ้าขัดข้องมีไฟตกชั่วขณะ",
+    "summary_en": "เมื่อเวลา 16:52น. BSP แจ้งระบบไฟฟ้าขัดข้องมีไฟตกชั่วขณะ",
+    "finding_th": "ตรวจสอบห้อง MDB ปกติ ตรวจสอบห้อง GEN ตรวจสอบห้อง ETS ชั้น B4 พบว่า VSD False ช่างทำการรีเซ็ทกลับมาใช้งานได้ตามปกติ \n\nตรวจสอบห้องETS ชั้น 25 พบว่าระบบปั๊มไม่ทำงาน VSD False ช่างทำการรีเซ็ท กลับมาใช้งานได้ตามปกติ \n\nตรวจสอบลิฟท์ A B C D E F ตอนไฟตกไม่มีลูกบ้านใช้งาน ส่วนลิฟท์ เซอร์วิชมี บัทเลอร์และรปภแม่บ้านอยู่แต่ไม่ได้รับผลกระทบค่ะ",
+    "finding_en": "ตรวจสอบห้อง MDB ปกติ ตรวจสอบห้อง GEN ตรวจสอบห้อง ETS ชั้น B4 พบว่า VSD False ช่างทำการรีเซ็ทกลับมาใช้งานได้ตามปกติ \n\nตรวจสอบห้องETS ชั้น 25 พบว่าระบบปั๊มไม่ทำงาน VSD False ช่างทำการรีเซ็ท กลับมาใช้งานได้ตามปกติ \n\nตรวจสอบลิฟท์ A B C D E F ตอนไฟตกไม่มีลูกบ้านใช้งาน ส่วนลิฟท์ เซอร์วิชมี บัทเลอร์และรปภแม่บ้านอยู่แต่ไม่ได้รับผลกระทบค่ะ"
   },
   {
     "case_no": "CASE-260523-171645130951",
@@ -10372,7 +11092,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 17:16 SOC ได้รับแจ้งจาก SUP G4S รถลูกค้า (รถส่งของ) เฉียวชนเสาบริเวณชั้น B1 Loading 1",
+    "summary_en": "[soc-inf] 17:16 SOC ได้รับแจ้งจาก SUP G4S รถลูกค้า (รถส่งของ) เฉียวชนเสาบริเวณชั้น B1 Loading 1",
+    "finding_th": "ประกันเข้าพื้นที่ออกใบเคลมเรียบร้อยครับ",
+    "finding_en": "ประกันเข้าพื้นที่ออกใบเคลมเรียบร้อยครับ"
   },
   {
     "case_no": "CASE-260619-153957047785",
@@ -10396,7 +11122,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "บันไดเลื่อนหนีบมีความเสี่ยงให้ลูกค้าบาดเจ็บสาหัส ต้องมี Incident Report ตรวจสอบระยะห่าง Skirt Guard และระบบ Comb Plate Sensor",
     "action_th": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย",
     "action_en": "1. Issue Incident Report documenting event 2. Temporarily barricade unit for sensor recalibration 3. Review CCTV for insurance adjusters",
-    "action": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย"
+    "action": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย",
+    "event_type_th": "Security: Slip and Fall Accidents - อุบัติเหตุลื่นล้ม",
+    "event_type_en": "Security: Slip and Fall Accidents",
+    "summary_th": "[soc-inf] 15:38 SOC รับแจ้งจาก FCC Parade พบลูกค้าชาวต่างชาติ เพศหญิง สะดุดล้ม บริเวณบันไดเลื่อน 1 ชั้น B1",
+    "summary_en": "[soc-inf] 15:38 SOC รับแจ้งจาก FCC Parade พบลูกค้าชาวต่างชาติ เพศหญิง สะดุดล้ม บริเวณบันไดเลื่อน 1 ชั้น B1",
+    "finding_th": "เจ้าหน้าที่รปภ. ได้เข้าช่วยเหลือและสอบถามอาการเบิ้องต้น ลูกค้าแจ้งว่าไม่ได้รับบาดเจ็บ และไม่ประสงค์การปฐมพยาบาล (ลูกค้าผู้ชายที่มาด้วยกัน สามารถสื่อสารด้วยภาษาไทยได้)",
+    "finding_en": "เจ้าหน้าที่รปภ. ได้เข้าช่วยเหลือและสอบถามอาการเบิ้องต้น ลูกค้าแจ้งว่าไม่ได้รับบาดเจ็บ และไม่ประสงค์การปฐมพยาบาล (ลูกค้าผู้ชายที่มาด้วยกัน สามารถสื่อสารด้วยภาษาไทยได้)"
   },
   {
     "case_no": "CASE-260408-113520618541",
@@ -10420,7 +11152,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Electrical : Electrical Issue - ปัญหาระบบไฟฟ้า",
+    "event_type_en": "Hard Service: Electrical : Electrical Issue",
+    "summary_th": "R1 อ่างล้างมือในห้องน้ำชาย ใช้งานไม่ได้ขึ้นตรวจสอบ พบเบรกเกอร์เมนไฟของอ่างล้างมือทริป",
+    "summary_en": "R1 อ่างล้างมือในห้องน้ำชาย ใช้งานไม่ได้ขึ้นตรวจสอบ พบเบรกเกอร์เมนไฟของอ่างล้างมือทริป",
+    "finding_th": "ผู้รับเหมาsecco แก้ไขเสร็จเรียบร้อย",
+    "finding_en": "ผู้รับเหมาsecco แก้ไขเสร็จเรียบร้อย"
   },
   {
     "case_no": "CASE-260425-105611464808",
@@ -10444,7 +11182,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: HVAC System : AC Water Leakage - แอร์มีน้ำหยด / รั่ว",
+    "event_type_en": "Tenant retail: HVAC System : AC Water Leakage",
+    "summary_th": "ร้าน The Travel Store\t1232-1233 แจ้งน้ำแอร์รั่ว",
+    "summary_en": "ร้าน The Travel Store\t1232-1233 แจ้งน้ำแอร์รั่ว",
+    "finding_th": "SS เข้าตรวจสอบพบว่า เป็นวาล์วท่อน้ำเย็น ฝั่งขาเข้าขนาด 1 นิ้วแตกร้าว\nเบื้องต้นได้ทำตัวรองรับน้ำให้ไหลลงถัง\nได้ทำการประสานงาน ผรม.เข้าแก้ไขเปลี่ยนวาล์วต่อไป",
+    "finding_en": "SS เข้าตรวจสอบพบว่า เป็นวาล์วท่อน้ำเย็น ฝั่งขาเข้าขนาด 1 นิ้วแตกร้าว\nเบื้องต้นได้ทำตัวรองรับน้ำให้ไหลลงถัง\nได้ทำการประสานงาน ผรม.เข้าแก้ไขเปลี่ยนวาล์วต่อไป"
   },
   {
     "case_no": "CASE-260426-152144041912",
@@ -10468,7 +11212,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Security: Fraudulent Activity Report - ตรวจพบกิจกรรมที่มีลักษณะทุจริต/ฉ้อโกง",
+    "event_type_en": "Security: Fraudulent Activity Report",
+    "summary_th": "[soc-inf] 15:00 รับแจ้งจาก FCC Parade พนักงานร้าน TOMS ชั้น 2 Parade แจ้งว่ามีชาวต่างชาติชำระเงินค่าสินค้าไม่ครบ",
+    "summary_en": "[soc-inf] 15:00 รับแจ้งจาก FCC Parade พนักงานร้าน TOMS ชั้น 2 Parade แจ้งว่ามีชาวต่างชาติชำระเงินค่าสินค้าไม่ครบ",
+    "finding_th": "BMO Parade:\nได้ดำเนินการตรวจสอบเหตุการณ์และพูดคุยกับพนักงานของร้าน TOMS แล้ว โดยทางร้านไม่ประสงค์ขอข้อมูลเพิ่มเติมจาก BMO Parade และไม่มีความประสงค์จะดำเนินการแจ้งความ\n\nทั้งนี้ รายการสินค้าและมูลค่าความเสียหายเป็นรองเท้าจำนวน 2 คู่ มูลค่ารวม 7,000 บาท โดยลูกค้าชาวต่างชาติชำระเงินจำนวน 4,000 บาท และในภายหลังพนักงานร้าน TOMS ได้ใช้สิทธิ์ส่วนลดพนักงานชำระส่วนต่างเพิ่มเติมประมาณ 3,000 บาท เพื่อให้ครบตามมูลค่าสินค้าจริงเรียบร้อยแล้ว",
+    "finding_en": "BMO Parade:\nได้ดำเนินการตรวจสอบเหตุการณ์และพูดคุยกับพนักงานของร้าน TOMS แล้ว โดยทางร้านไม่ประสงค์ขอข้อมูลเพิ่มเติมจาก BMO Parade และไม่มีความประสงค์จะดำเนินการแจ้งความ\n\nทั้งนี้ รายการสินค้าและมูลค่าความเสียหายเป็นรองเท้าจำนวน 2 คู่ มูลค่ารวม 7,000 บาท โดยลูกค้าชาวต่างชาติชำระเงินจำนวน 4,000 บาท และในภายหลังพนักงานร้าน TOMS ได้ใช้สิทธิ์ส่วนลดพนักงานชำระส่วนต่างเพิ่มเติมประมาณ 3,000 บาท เพื่อให้ครบตามมูลค่าสินค้าจริงเรียบร้อยแล้ว"
   },
   {
     "case_no": "CASE-260523-114640774498",
@@ -10492,7 +11242,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Exercise Management : Evacuation Exercise - การซ้อมอพยพ",
+    "event_type_en": "Security: Exercise Management : Evacuation Exercise",
+    "summary_th": "สถานการณ์จำลอง  EV FIRE EMERGENCY RESPONSE",
+    "summary_en": "สถานการณ์จำลอง  EV FIRE EMERGENCY RESPONSE",
+    "finding_th": "สรุปเหตุการณ์\n\nวันที่ 23/05/69 เวลา 11:47 น. SOC รับแจ้งจากเจ้าหน้าที่ รปภ. พบเหตุ Code 2 มีกลุ่มควันจำนวนมากและเกิดเพลิงไหม้บริเวณใต้ท้องรถ EV ชั้น B4 โซนสีเหลือง K06 พื้นที่ CI (Common Infra) โดย SOC ตรวจสอบผ่านกล้อง CCTV พบเพลิงไหม้จริง จึงประสาน EOT เข้าตรวจสอบพื้นที่ พร้อมแจ้ง DCC รับทราบ และดำเนินการปิดกั้นพื้นที่เพื่อความปลอดภัย\n\nต่อมา EOT เข้าพื้นที่และประเมินว่ามีกลุ่มควันจำนวนมาก มีความเสี่ยงสูง จึงขออนุมัติยกระดับเป็น Code 3 ซึ่ง DCC อนุมัติเรียบร้อย พร้อมทั้งประสานฝ่ายอาคารจัดตั้งกองอำนวยการ และให้ FMC ดำเนินการตัดกระแสไฟฟ้า เปิด Fire Pump และระบบ Jet Fan เพื่อสนับสนุนการควบคุมเหตุ\n\nทีม EOT ได้ใช้น้ำเข้าควบคุมเพลิง และนำ Fire Blanket เข้าคลุมรถ EV โดยช่วงเวลา 12:02 น. ตรวจวัดอุณหภูมิได้สูงสุดประมาณ 800 องศา ก่อนอุณหภูมิจะลดลงอย่างต่อเนื่องจนเหลือ 100 องศา และยืนยันว่าเพลิงสงบในเวลา 12:05 น. จากนั้นเข้าสู่ขั้นตอน Recovery พร้อมถอด Fire Blanket และตรวจสอบไม่พบความร้อนสะสมเพิ่มเติม\n\nเวลา 12:10 น. EOT ยืนยันเพลิงสงบโดยสมบูรณ์ และเวลา 12:12 น. ทีมผจญเพลิงถอนกำลังออกจากพื้นที่ ก่อนปิดสถานการณ์จำลอง EV FIRE EMERGENCY RESPONSE ในเวลา 12:14 น. เรียบร้อย\n\nสรุปการซ้อมสถานการณ์จำลอง EV FIRE EMERGENCY RESPONSE \nใช้ระยะเวลาในการระงับเหตุทั้งหมด 23 นาที โดยเริ่มได้รับแจ้งตั้งแต่เวลา 11:47 น.และเพลิงสงบในเวลา 12:10 น.\nใช้ระยะเวลาในการซ้อมทั้งหมด 27 นาที โดยเริ่มได้รับแจ้งตั้งแต่เวลา 11:47 น.และเส้นสิ้นการซ้อมในเวลา 12:14 น",
+    "finding_en": "สรุปเหตุการณ์\n\nวันที่ 23/05/69 เวลา 11:47 น. SOC รับแจ้งจากเจ้าหน้าที่ รปภ. พบเหตุ Code 2 มีกลุ่มควันจำนวนมากและเกิดเพลิงไหม้บริเวณใต้ท้องรถ EV ชั้น B4 โซนสีเหลือง K06 พื้นที่ CI (Common Infra) โดย SOC ตรวจสอบผ่านกล้อง CCTV พบเพลิงไหม้จริง จึงประสาน EOT เข้าตรวจสอบพื้นที่ พร้อมแจ้ง DCC รับทราบ และดำเนินการปิดกั้นพื้นที่เพื่อความปลอดภัย\n\nต่อมา EOT เข้าพื้นที่และประเมินว่ามีกลุ่มควันจำนวนมาก มีความเสี่ยงสูง จึงขออนุมัติยกระดับเป็น Code 3 ซึ่ง DCC อนุมัติเรียบร้อย พร้อมทั้งประสานฝ่ายอาคารจัดตั้งกองอำนวยการ และให้ FMC ดำเนินการตัดกระแสไฟฟ้า เปิด Fire Pump และระบบ Jet Fan เพื่อสนับสนุนการควบคุมเหตุ\n\nทีม EOT ได้ใช้น้ำเข้าควบคุมเพลิง และนำ Fire Blanket เข้าคลุมรถ EV โดยช่วงเวลา 12:02 น. ตรวจวัดอุณหภูมิได้สูงสุดประมาณ 800 องศา ก่อนอุณหภูมิจะลดลงอย่างต่อเนื่องจนเหลือ 100 องศา และยืนยันว่าเพลิงสงบในเวลา 12:05 น. จากนั้นเข้าสู่ขั้นตอน Recovery พร้อมถอด Fire Blanket และตรวจสอบไม่พบความร้อนสะสมเพิ่มเติม\n\nเวลา 12:10 น. EOT ยืนยันเพลิงสงบโดยสมบูรณ์ และเวลา 12:12 น. ทีมผจญเพลิงถอนกำลังออกจากพื้นที่ ก่อนปิดสถานการณ์จำลอง EV FIRE EMERGENCY RESPONSE ในเวลา 12:14 น. เรียบร้อย\n\nสรุปการซ้อมสถานการณ์จำลอง EV FIRE EMERGENCY RESPONSE \nใช้ระยะเวลาในการระงับเหตุทั้งหมด 23 นาที โดยเริ่มได้รับแจ้งตั้งแต่เวลา 11:47 น.และเพลิงสงบในเวลา 12:10 น.\nใช้ระยะเวลาในการซ้อมทั้งหมด 27 นาที โดยเริ่มได้รับแจ้งตั้งแต่เวลา 11:47 น.และเส้นสิ้นการซ้อมในเวลา 12:14 น"
   },
   {
     "case_no": "CASE-260607-111232262497",
@@ -10516,7 +11272,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 11:12 SOC ได้รับแจ้งจาก FCC Parade ลูกค้าหยิบพวกกุญแจโดยไม่จ่ายตัง ร้าน SCULPTURE",
+    "summary_en": "[soc-inf] 11:12 SOC ได้รับแจ้งจาก FCC Parade ลูกค้าหยิบพวกกุญแจโดยไม่จ่ายตัง ร้าน SCULPTURE",
+    "finding_th": "SOC ตรวจสอบภาพจากกล้องวงจรปิดและสามารถติดตามเส้นทางการเคลื่อนที่ของผู้ต้องสงสัยได้ตั้งแต่ร้าน Sculpture จนออกจากโครงการทางประตูฝั่ง Boulevard โดยพบว่าผู้ต้องสงสัยเป็นชาย สวมเสื้อสีฟ้า กางเกงขาสั้นสีเทา และรองเท้าสีขาว ทั้งนี้ได้จัดเก็บภาพ CCTV และรายละเอียดการเคลื่อนที่ไว้เป็นหลักฐานเรียบร้อยแล้ว\n\nนอกจากนี้ FCC ได้แนะนำให้ทางร้าน Sculpture เข้าแจ้งความและลงบันทึกประจำวัน ณ สถานีตำรวจ เพื่อใช้เป็นหลักฐานและดำเนินการตามขั้นตอนทางกฎหมายต่อไป",
+    "finding_en": "SOC ตรวจสอบภาพจากกล้องวงจรปิดและสามารถติดตามเส้นทางการเคลื่อนที่ของผู้ต้องสงสัยได้ตั้งแต่ร้าน Sculpture จนออกจากโครงการทางประตูฝั่ง Boulevard โดยพบว่าผู้ต้องสงสัยเป็นชาย สวมเสื้อสีฟ้า กางเกงขาสั้นสีเทา และรองเท้าสีขาว ทั้งนี้ได้จัดเก็บภาพ CCTV และรายละเอียดการเคลื่อนที่ไว้เป็นหลักฐานเรียบร้อยแล้ว\n\nนอกจากนี้ FCC ได้แนะนำให้ทางร้าน Sculpture เข้าแจ้งความและลงบันทึกประจำวัน ณ สถานีตำรวจ เพื่อใช้เป็นหลักฐานและดำเนินการตามขั้นตอนทางกฎหมายต่อไป"
   },
   {
     "case_no": "CASE-260428-223653686488",
@@ -10540,7 +11302,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "[soc-inf] เวลา22:34น. 1ได้รับแจ้งจากรปภ.Loading6 ว่ามีไฟไหม้ที่บริเวณท้ายกระบะรถผู้เหมาบริเวณ Loading6 ชั้นB1",
+    "summary_en": "[soc-inf] เวลา22:34น. 1ได้รับแจ้งจากรปภ.Loading6 ว่ามีไฟไหม้ที่บริเวณท้ายกระบะรถผู้เหมาบริเวณ Loading6 ชั้นB1",
+    "finding_th": "28/4/26 เวลา22:34น. ได้รับแจ้งจากรปภ.Loading6 ว่ามีไฟไหม้ที่บริเวณท้ายกระบะรถผู้เหมาบริเวณ Loading6 ชั้นB1\n28/4/26 เวลา22:35น.SOCได้ทำการแจ้งEOT Standbyในพื้นที่\n28/4/26 เวลา22:37น.EOTถึงพื้นที่\n2026-Apr-28 22:38:58ประสานงานช่างเข้าตรวจสอบหน้างาน\n28/4/26 เวลา22:38น.ได้รับแจ้งจากEOTว่าเบื้องต้นจากการตรวจสอบแจ้งว่าสาเหตุเกิดเพลิงไหม้เกิดจากก้นบุหรี่ไหม้ลังกระดาษ\nตอนนี้จุดเกิดเหตุ ตรวจสอบพบเป็นเพลิงไหม้เศษกระดาษหลังรถผู้รับเหมา เบื้องต้นสามารถดับไฟเรียบร้อยและตรวจสอบพบก้นบุหรี่บริเวณจุดที่ไหม้\n28/4/26 เวลา22:49น.ได้รับแจ้งจาก EOT ว่าขณะนี้ได้ทำการฉีดน้ำลดความร้อนภายในพื้นที่หลังกระบะรถผู้รับเหมาเรียบร้อย EOT ขอถอนกำลังพล\n28/4/26 เวลา22:52น.AVP(Sithipong)ได้อนุมัติส่งคริปภาพวิดีโอภายในพื้นที่ดังกล่าวให้กับ Assis site manager jll เรียบร้อย\n28/4/26 เวลา22:57น.SOCได้ทำการย้อนภาพตรวจสอบบริเวณพื้นที่ดังกล่าวพบว่า เวลา22:00น.ผู้รับเหมาของบริษัทจอนสันคอนโทรลจอดรถที่บริเวณ Loading6 เวลา22:04น.เมื่อรปภ.ออกจากพื้นที่บริเวณดังกล่าวหลังจากโบกรถให้รถคันดังกล่าวเจ้าของรถได้ลงมาสูบบุหรี่ที่บริเวณหลังรถ เวลา22:20น.มีพนักงานบริเวณพื้นที่ดังกล่าวและช่างเซ็นเซทมาพบไฟไหม้ในพื้นที่จึงได้นำถังเข้าพื้นที่ เวลา22:24น.ช่างเซ็นเซทได้นำถุงดับเพลิงถังเขียวดับเพลิงในพื้นที่ เวลา22:26น.ดับเพลิงเสร็จสิ้นแต่ยังมีควันในพื้นที่ เวลา22:30น.รปภ.แจ้งSUPรับทราบว่ามีเหตุCode1 ที่Loading6\n28/4/26 เวลา23:04น.Assis site manager jllกำลังสอบสวนเจ้าของรถคันดังกล่าว",
+    "finding_en": "28/4/26 เวลา22:34น. ได้รับแจ้งจากรปภ.Loading6 ว่ามีไฟไหม้ที่บริเวณท้ายกระบะรถผู้เหมาบริเวณ Loading6 ชั้นB1\n28/4/26 เวลา22:35น.SOCได้ทำการแจ้งEOT Standbyในพื้นที่\n28/4/26 เวลา22:37น.EOTถึงพื้นที่\n2026-Apr-28 22:38:58ประสานงานช่างเข้าตรวจสอบหน้างาน\n28/4/26 เวลา22:38น.ได้รับแจ้งจากEOTว่าเบื้องต้นจากการตรวจสอบแจ้งว่าสาเหตุเกิดเพลิงไหม้เกิดจากก้นบุหรี่ไหม้ลังกระดาษ\nตอนนี้จุดเกิดเหตุ ตรวจสอบพบเป็นเพลิงไหม้เศษกระดาษหลังรถผู้รับเหมา เบื้องต้นสามารถดับไฟเรียบร้อยและตรวจสอบพบก้นบุหรี่บริเวณจุดที่ไหม้\n28/4/26 เวลา22:49น.ได้รับแจ้งจาก EOT ว่าขณะนี้ได้ทำการฉีดน้ำลดความร้อนภายในพื้นที่หลังกระบะรถผู้รับเหมาเรียบร้อย EOT ขอถอนกำลังพล\n28/4/26 เวลา22:52น.AVP(Sithipong)ได้อนุมัติส่งคริปภาพวิดีโอภายในพื้นที่ดังกล่าวให้กับ Assis site manager jll เรียบร้อย\n28/4/26 เวลา22:57น.SOCได้ทำการย้อนภาพตรวจสอบบริเวณพื้นที่ดังกล่าวพบว่า เวลา22:00น.ผู้รับเหมาของบริษัทจอนสันคอนโทรลจอดรถที่บริเวณ Loading6 เวลา22:04น.เมื่อรปภ.ออกจากพื้นที่บริเวณดังกล่าวหลังจากโบกรถให้รถคันดังกล่าวเจ้าของรถได้ลงมาสูบบุหรี่ที่บริเวณหลังรถ เวลา22:20น.มีพนักงานบริเวณพื้นที่ดังกล่าวและช่างเซ็นเซทมาพบไฟไหม้ในพื้นที่จึงได้นำถังเข้าพื้นที่ เวลา22:24น.ช่างเซ็นเซทได้นำถุงดับเพลิงถังเขียวดับเพลิงในพื้นที่ เวลา22:26น.ดับเพลิงเสร็จสิ้นแต่ยังมีควันในพื้นที่ เวลา22:30น.รปภ.แจ้งSUPรับทราบว่ามีเหตุCode1 ที่Loading6\n28/4/26 เวลา23:04น.Assis site manager jllกำลังสอบสวนเจ้าของรถคันดังกล่าว"
   },
   {
     "case_no": "CASE-260604-084804343205",
@@ -10564,7 +11332,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "เวลา 08:05 น. รับแจ้งจาก SUP G4S คุณเสกสรรค์พบท่อน้ำแตก บริเวณสวนต้นไม้หน้า Tower 5",
+    "summary_en": "เวลา 08:05 น. รับแจ้งจาก SUP G4S คุณเสกสรรค์พบท่อน้ำแตก บริเวณสวนต้นไม้หน้า Tower 5",
+    "finding_th": "ตรวจสอบพบข้อต่อท่อสปริงเกอร์รดน้ำต้นไม้หลุดเบื้องต้นทำการใส่กลับคืนเรียบร้อยครับ",
+    "finding_en": "ตรวจสอบพบข้อต่อท่อสปริงเกอร์รดน้ำต้นไม้หลุดเบื้องต้นทำการใส่กลับคืนเรียบร้อยครับ"
   },
   {
     "case_no": "CASE-260612-203352871052",
@@ -10588,7 +11362,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Security: Vehicle Accident (Injury) - อุบัติเหตุทางยานพาหนะ (มีผู้บาดเจ็บ)",
+    "event_type_en": "Security: Vehicle Accident (Injury)",
+    "summary_th": "[soc-inf] 20:25 SOC รับแจ้งจาก Sup G4S K.Sayan มีลูกค้ารถจักรยานยนต์ลื่นล้ม บริเวณขาลง Ramp EN2",
+    "summary_en": "[soc-inf] 20:25 SOC รับแจ้งจาก Sup G4S K.Sayan มีลูกค้ารถจักรยานยนต์ลื่นล้ม บริเวณขาลง Ramp EN2",
+    "finding_th": "สาเหตุ ลูกค้ารถจักรยานยนต์ลื่นล้ม บริเวณขาลง Ramp EN2 มีแผลแตกบริเวณหน้าแข่งข้างขวา\n\nEOT ดำเนินการปฐมพยาบาลเบื้องต้นเนื่องจากแผลฉีกขาดขนาดใหญ่และลึก EOT เห็นสมควรนำส่งโรงพยาบาลเพื่อเย็บ ลูกค้าประสงค์ไปพยาบาลเป็นโรงพยาบาลกล้วยน้ำไท\n\nข้อมูลผู้ป่วย\n น.ส ณัฏฐพัชร์ เกียรติกำจรชัย เพศหญิง\nเบอร์ติดต่อ เพื่อนสนิทผู้ป่วย 095-593-9929 (คุณเบียร์)",
+    "finding_en": "สาเหตุ ลูกค้ารถจักรยานยนต์ลื่นล้ม บริเวณขาลง Ramp EN2 มีแผลแตกบริเวณหน้าแข่งข้างขวา\n\nEOT ดำเนินการปฐมพยาบาลเบื้องต้นเนื่องจากแผลฉีกขาดขนาดใหญ่และลึก EOT เห็นสมควรนำส่งโรงพยาบาลเพื่อเย็บ ลูกค้าประสงค์ไปพยาบาลเป็นโรงพยาบาลกล้วยน้ำไท\n\nข้อมูลผู้ป่วย\n น.ส ณัฏฐพัชร์ เกียรติกำจรชัย เพศหญิง\nเบอร์ติดต่อ เพื่อนสนิทผู้ป่วย 095-593-9929 (คุณเบียร์)"
   },
   {
     "case_no": "CASE-260417-152237102597",
@@ -10612,7 +11392,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Power Outage : District or Component - ไฟฟ้าดับพื้นที่ทั้งหมด หรือเป็นวงกว้าง",
+    "event_type_en": "Hard Service: Power Outage : District or Component",
+    "summary_th": "ได้รับแจ้ง C3B ไฟฟ้าดับทั้งอาคาร",
+    "summary_en": "ได้รับแจ้ง C3B ไฟฟ้าดับทั้งอาคาร",
+    "finding_th": "ปัจจุบันระบบไฟฟ้าภายในอาคารกลับมาเป็นปกติเรียบร้อยครับ",
+    "finding_en": "ปัจจุบันระบบไฟฟ้าภายในอาคารกลับมาเป็นปกติเรียบร้อยครับ"
   },
   {
     "case_no": "CASE-260507-193019693981",
@@ -10636,7 +11422,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "อาคาร R2\nลิฟต์​ค้าง​ ที่​ชั้น​1​ SL3.3 หน้าจอใน​ลิฟต์​ขึ้น​โชว์​ Out​ of​ Services​ มีผู้ติดลิฟท์ 2 คน ไฟในลิฟท์​ไม่ดับ",
+    "summary_en": "อาคาร R2\nลิฟต์​ค้าง​ ที่​ชั้น​1​ SL3.3 หน้าจอใน​ลิฟต์​ขึ้น​โชว์​ Out​ of​ Services​ มีผู้ติดลิฟท์ 2 คน ไฟในลิฟท์​ไม่ดับ",
+    "finding_th": "สาเหตุ \n-เนื่องจากมีน็อตติดที่ร่อง Sill\nการแก้ไข\n- ทำการนำน็อตออกจากร่อง Sill\n-ทดสอบการใช้งาน\nสรุปการแก้ไข\n-ลิฟท์สามารถใช้งานได้ปกติ",
+    "finding_en": "สาเหตุ \n-เนื่องจากมีน็อตติดที่ร่อง Sill\nการแก้ไข\n- ทำการนำน็อตออกจากร่อง Sill\n-ทดสอบการใช้งาน\nสรุปการแก้ไข\n-ลิฟท์สามารถใช้งานได้ปกติ"
   },
   {
     "case_no": "CASE-260418-150314877227",
@@ -10660,7 +11452,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Civil : Fixture Repair/Maintenance - ซ่อมแซม/ซ่อมบำรุงอุปกรณ์ภายในอาคารที่ติดตั้งอยู่กับที่",
+    "event_type_en": "Hard Service: Civil : Fixture Repair/Maintenance",
+    "summary_th": "ห้องน้ำชั้น G ผู้ชาย อ่างล้างมือและโถปัสสาวะน้ำไม่ไหล",
+    "summary_en": "ห้องน้ำชั้น G ผู้ชาย อ่างล้างมือและโถปัสสาวะน้ำไม่ไหล",
+    "finding_th": "ทำการแก้ไขปลดสายจากโถปัสสาวะมาอ้างล้างมือ แล้วใช้ไฟจากเบรคเกอร์ที่จ่ายเฉพาะใต้อ่างล้างมือมาจ่ายอ่างล้างมือตอนนี้ห้องน้ำเปิดใช้งานได้ตามปกติแล้วครับ",
+    "finding_en": "ทำการแก้ไขปลดสายจากโถปัสสาวะมาอ้างล้างมือ แล้วใช้ไฟจากเบรคเกอร์ที่จ่ายเฉพาะใต้อ่างล้างมือมาจ่ายอ่างล้างมือตอนนี้ห้องน้ำเปิดใช้งานได้ตามปกติแล้วครับ"
   },
   {
     "case_no": "CASE-260620-011107536552",
@@ -10684,7 +11482,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 01:10 soc รับแจ้งจาก Sup G4S ตรวจพบสปริงเกอร์แตก บริเวณ Zone Entrance4",
+    "summary_en": "[soc-inf] 01:10 soc รับแจ้งจาก Sup G4S ตรวจพบสปริงเกอร์แตก บริเวณ Zone Entrance4",
+    "finding_th": "ทำการแก้ไขเรียบร้อย",
+    "finding_en": "ทำการแก้ไขเรียบร้อย"
   },
   {
     "case_no": "CASE-260602-170349733287",
@@ -10708,7 +11512,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "พนักงานพ่อบ้านขับรถขัดล้างทำความสะอาดและเกิดเหตุเหยียบขอบสแตนเลสบริเวณพื้นหน้าร้าน SOAP OPERA BANGKOK ห้องOP2G14ชั้น G  (เปิดเคสย้อนหลังครับ)",
+    "summary_en": "พนักงานพ่อบ้านขับรถขัดล้างทำความสะอาดและเกิดเหตุเหยียบขอบสแตนเลสบริเวณพื้นหน้าร้าน SOAP OPERA BANGKOK ห้องOP2G14ชั้น G  (เปิดเคสย้อนหลังครับ)",
+    "finding_th": "ทีมช่างอาคารเข้าดำเนินการแก้ไขชั่วคราว โดยใช้เทปสีเหลือง-ดำปิดกั้นบริเวณที่ได้รับความเสียหาย เพื่อป้องกันการเกิดอุบัติเหตุจากการสะดุดล้ม ทั้งนี้ จากเหตุการณ์ดังกล่าวไม่มีผู้ได้รับบาดเจ็บ บริษัท PCS รับผิดต่อความเสียหายที่เกิดขึ้นเรียบร้อย",
+    "finding_en": "ทีมช่างอาคารเข้าดำเนินการแก้ไขชั่วคราว โดยใช้เทปสีเหลือง-ดำปิดกั้นบริเวณที่ได้รับความเสียหาย เพื่อป้องกันการเกิดอุบัติเหตุจากการสะดุดล้ม ทั้งนี้ จากเหตุการณ์ดังกล่าวไม่มีผู้ได้รับบาดเจ็บ บริษัท PCS รับผิดต่อความเสียหายที่เกิดขึ้นเรียบร้อย"
   },
   {
     "case_no": "CASE-260629-153220623667",
@@ -10732,7 +11542,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "วันที่ June 21, 2026 ลูกค้าเดินตกท่อรางคัตเตอร์ ลานจอดรถ ชั้น B3 บริเวณใกล้เสาสีฟ้า H16",
+    "summary_en": "วันที่ June 21, 2026 ลูกค้าเดินตกท่อรางคัตเตอร์ ลานจอดรถ ชั้น B3 บริเวณใกล้เสาสีฟ้า H16",
+    "finding_th": "คุณป๊อบ (Frasers) จะเป็นผู้รับไปดำเนินการดูแลเรื่องการทำความสะอาดให้ลูกค้าค่ะ",
+    "finding_en": "คุณป๊อบ (Frasers) จะเป็นผู้รับไปดำเนินการดูแลเรื่องการทำความสะอาดให้ลูกค้าค่ะ"
   },
   {
     "case_no": "CASE-260430-052238212331",
@@ -10756,7 +11572,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 05:20 รับแจ้งจาก FCC The Storeys แจ้งว่าพบพื้นกระเบื้องแตกบริเวณหน้าลิฟต์ PL 2.3 ชั้น B1",
+    "summary_en": "[soc-inf] 05:20 รับแจ้งจาก FCC The Storeys แจ้งว่าพบพื้นกระเบื้องแตกบริเวณหน้าลิฟต์ PL 2.3 ชั้น B1",
+    "finding_th": "ช่างส่วนกลางทำการติดตั้งแผ่นกระเบื้องใหม่หน้าลิฟท 2.3 ชั้น  B1 เสร็จเรียบร้อย",
+    "finding_en": "ช่างส่วนกลางทำการติดตั้งแผ่นกระเบื้องใหม่หน้าลิฟท 2.3 ชั้น  B1 เสร็จเรียบร้อย"
   },
   {
     "case_no": "CASE-260612-125259164961",
@@ -10780,7 +11602,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 12:50 ได้รับแจ้งจาก Sup G4s คุณ เสกสรร ว่ามีท่อน้ำแตก ที่ G Drop Off Tower5  ฝั่ง ถนนอรุณมักกินนอน",
+    "summary_en": "[soc-inf] 12:50 ได้รับแจ้งจาก Sup G4s คุณ เสกสรร ว่ามีท่อน้ำแตก ที่ G Drop Off Tower5  ฝั่ง ถนนอรุณมักกินนอน",
+    "finding_th": "จากการตรวจสอบเพิ่มเติมหลังน้ำลด พบว่าท่อข้อต่อหลุดทาง ผรม.MoneyPipe เข้าแก้ไขโดยการใส่ข้อต่อกลับเข้าที่เดิมเรียบร้อยครับ สาเหตุที่ข้อต่อหลุด ผรม.แจ้งว่าได้เปิดวาล์วไว้สุดทำให้แรงดันน้ำสูงจึงทำให้ข้อต่อหลุดครับ",
+    "finding_en": "จากการตรวจสอบเพิ่มเติมหลังน้ำลด พบว่าท่อข้อต่อหลุดทาง ผรม.MoneyPipe เข้าแก้ไขโดยการใส่ข้อต่อกลับเข้าที่เดิมเรียบร้อยครับ สาเหตุที่ข้อต่อหลุด ผรม.แจ้งว่าได้เปิดวาล์วไว้สุดทำให้แรงดันน้ำสูงจึงทำให้ข้อต่อหลุดครับ"
   },
   {
     "case_no": "CASE-260427-195135240930",
@@ -10804,7 +11632,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Parking Lot Safety Concern - ความกังวลเรื่องความปลอดภัยในที่จอดรถ",
+    "event_type_en": "Security: Parking Lot Safety Concern",
+    "summary_th": "[soc-inf] 19:45 SOC ได้รับแจ้งจาก Sup G4S K.เพชรนรา ว่าพบรถยนต์ของลูกค้ามีสัญญาณกันขโมยดังเป็นระยะ ป้ายทะเบียน ทะเบียน ฌผ-8986 กทม.",
+    "summary_en": "[soc-inf] 19:45 SOC ได้รับแจ้งจาก Sup G4S K.เพชรนรา ว่าพบรถยนต์ของลูกค้ามีสัญญาณกันขโมยดังเป็นระยะ ป้ายทะเบียน ทะเบียน ฌผ-8986 กทม.",
+    "finding_th": "จากการตรวจสอบทราบว่ารถยนต์ของลูกค้าไม่มีสิ่งผิดปกติใดๆ และออกนอกพื้นที่ในเวลา 22.03 น.",
+    "finding_en": "จากการตรวจสอบทราบว่ารถยนต์ของลูกค้าไม่มีสิ่งผิดปกติใดๆ และออกนอกพื้นที่ในเวลา 22.03 น."
   },
   {
     "case_no": "CASE-260419-170015879886",
@@ -10828,7 +11662,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 16:50 ได้รับแจ้งจาก Sup G4s คุณ พจนีย์ ว่าได้รับแจ้งจากไรเดอร์ว่ากระเป๋าไรเดอร์หายจากรถ ยี่ห้อFilano สีฟ้า ทะเบียน 3กล 9149 กทม ที่จุดจอดไรเดอร์ ชั้น B1 ทาง Sup g4s แนะนำไปลงบันทึกประจำวันเพื่อดำเนินการต่อไปครับ",
+    "summary_en": "[soc-inf] 16:50 ได้รับแจ้งจาก Sup G4s คุณ พจนีย์ ว่าได้รับแจ้งจากไรเดอร์ว่ากระเป๋าไรเดอร์หายจากรถ ยี่ห้อFilano สีฟ้า ทะเบียน 3กล 9149 กทม ที่จุดจอดไรเดอร์ ชั้น B1 ทาง Sup g4s แนะนำไปลงบันทึกประจำวันเพื่อดำเนินการต่อไปครับ",
+    "finding_th": "ผู้ก่อเหตุขับขี่รถจักรยานยนต์ Honda Wave 110 สีแดง ตกแต่งล้อสีลายน้ำเงิน สวมกางเกงยีนส์ เสื้อแขนยาวสีดำ รองเท้าแตะสีขาว ถุงเท้าสีดำ และสวมหมวกกันน็อกแบบครึ่งใบสีเทา โดยมีลำดับเหตุการณ์ดังนี้\n\nเวลา 13.14 น. เข้ามาทางประตู 7 ผ่านเส้นทาง Service Route\nเวลา 13.15 น. เข้ามาจอดบริเวณจุดจอดไรเดอร์\nเวลา 13.16 – 13.26 น. ยืนอยู่บริเวณจุดจอดรถของผู้เสียหาย\nเวลา 13.26 น. เดินมาปลดกระเป๋าออกจากรถของผู้เสียหาย\nเวลา 13.32 น. นำกระเป๋าไปวางไว้บริเวณหน้ารถของตนเอง\nเวลา 13.33 น. ขับขี่รถออกจากพื้นที่บริเวณจุดจอดไรเดอร์พร้อมกระเป๋า\nเวลา 13.34 น. ออกจากพื้นที่ไปยังถนนพระราม 4 มุ่งหน้าแยกคลองเตย\n\nเบื้องต้น Sup G4S ได้แนะนำให้ผู้เสียหายไปลงบันทึกประจำวัน เพื่อดำเนินการขอภาพจากกล้องวงจรปิดในขั้นตอนต่อไป",
+    "finding_en": "ผู้ก่อเหตุขับขี่รถจักรยานยนต์ Honda Wave 110 สีแดง ตกแต่งล้อสีลายน้ำเงิน สวมกางเกงยีนส์ เสื้อแขนยาวสีดำ รองเท้าแตะสีขาว ถุงเท้าสีดำ และสวมหมวกกันน็อกแบบครึ่งใบสีเทา โดยมีลำดับเหตุการณ์ดังนี้\n\nเวลา 13.14 น. เข้ามาทางประตู 7 ผ่านเส้นทาง Service Route\nเวลา 13.15 น. เข้ามาจอดบริเวณจุดจอดไรเดอร์\nเวลา 13.16 – 13.26 น. ยืนอยู่บริเวณจุดจอดรถของผู้เสียหาย\nเวลา 13.26 น. เดินมาปลดกระเป๋าออกจากรถของผู้เสียหาย\nเวลา 13.32 น. นำกระเป๋าไปวางไว้บริเวณหน้ารถของตนเอง\nเวลา 13.33 น. ขับขี่รถออกจากพื้นที่บริเวณจุดจอดไรเดอร์พร้อมกระเป๋า\nเวลา 13.34 น. ออกจากพื้นที่ไปยังถนนพระราม 4 มุ่งหน้าแยกคลองเตย\n\nเบื้องต้น Sup G4S ได้แนะนำให้ผู้เสียหายไปลงบันทึกประจำวัน เพื่อดำเนินการขอภาพจากกล้องวงจรปิดในขั้นตอนต่อไป"
   },
   {
     "case_no": "CASE-260612-234445619956",
@@ -10852,7 +11692,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Fire Protection : Sprinkler Issue - ปัญหาเกี่ยวกับอุปกรณ์สปริงเกลอร์",
+    "event_type_en": "Hard Service: Fire Protection : Sprinkler Issue",
+    "summary_th": "[soc-inf] 23:43 SOC รับแจ้งจาก Sup G4S K.ทวีป พบหัวสปริงเกอร์แตก บริเวณ One Bangkok Park สวนฝั่งทางเข้า king power",
+    "summary_en": "[soc-inf] 23:43 SOC รับแจ้งจาก Sup G4S K.ทวีป พบหัวสปริงเกอร์แตก บริเวณ One Bangkok Park สวนฝั่งทางเข้า king power",
+    "finding_th": "ทำการแก้ไขเรียบร้อยค่ะ",
+    "finding_en": "ทำการแก้ไขเรียบร้อยค่ะ"
   },
   {
     "case_no": "CASE-260612-195518758524",
@@ -10876,7 +11722,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Electrical : Electrical Issue - ปัญหาระบบไฟฟ้า",
+    "event_type_en": "Hard Service: Electrical : Electrical Issue",
+    "summary_th": "โครงการ One Bangkok ไฟตก 0.1 sec",
+    "summary_en": "โครงการ One Bangkok ไฟตก 0.1 sec",
+    "finding_th": "สาเหตุ\n- เวลา 19:42 น. ระบบไฟฟ้า 69/115kV One Bangkok Incoming1 มีvoltage sag 0.10 sec เนื่องจากทาง MEA  สายส่งline ชิดลม-695 ตก-สับติด(Auto Reclose) ทำให้แรงดันไฟฟ้าตกชั่วขณะ\nการแก้ไข\n- ได้ทำการตรวจสอบระบบ HVAC,Controller,ETS ,PUMP ,Pre-treatment ,Escalator ,Lift ,Gas\n- ช่าง JLL เข้าทำการ Reset ระบบ บันไดเลื่อน\n- ช่าง Hitachi เข้าทำการ Reset ระบบ บันไดเลื่อน\n- ช่าง JLL เข้าทำการ Reset ระบบ Gas\n- ช่าง JLL เข้าทำการตรวจสอบ Hood ในร้านค้าสามารถใช้งานได้ปกติ\n- ช่าง JLL เข้าทำการ Reset Auto Door สามารถใช้งานได้ปกติ",
+    "finding_en": "สาเหตุ\n- เวลา 19:42 น. ระบบไฟฟ้า 69/115kV One Bangkok Incoming1 มีvoltage sag 0.10 sec เนื่องจากทาง MEA  สายส่งline ชิดลม-695 ตก-สับติด(Auto Reclose) ทำให้แรงดันไฟฟ้าตกชั่วขณะ\nการแก้ไข\n- ได้ทำการตรวจสอบระบบ HVAC,Controller,ETS ,PUMP ,Pre-treatment ,Escalator ,Lift ,Gas\n- ช่าง JLL เข้าทำการ Reset ระบบ บันไดเลื่อน\n- ช่าง Hitachi เข้าทำการ Reset ระบบ บันไดเลื่อน\n- ช่าง JLL เข้าทำการ Reset ระบบ Gas\n- ช่าง JLL เข้าทำการตรวจสอบ Hood ในร้านค้าสามารถใช้งานได้ปกติ\n- ช่าง JLL เข้าทำการ Reset Auto Door สามารถใช้งานได้ปกติ"
   },
   {
     "case_no": "CASE-260626-144443112388",
@@ -10900,7 +11752,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 14:41 รับแจ้งจาก FCC Parade มีพนักงานเพศหญิงร้านแกงสดติดอยู่ภายในลิฟต์ SL 3.1 ชั้น 5 จำนวน 1 ท่าน",
+    "summary_en": "[soc-inf] 14:41 รับแจ้งจาก FCC Parade มีพนักงานเพศหญิงร้านแกงสดติดอยู่ภายในลิฟต์ SL 3.1 ชั้น 5 จำนวน 1 ท่าน",
+    "finding_th": "เวลา 14.38 น. พนักงานเข้าภายในลิฟต์ SL 3.1 และเกิดเหตุค้างภายในลิฟต์\nเมื่อเวลา 15.03 น. ประตูลิฟต์ค่อย ๆ เปิดออกตามปกติจนเปิดเต็มที่ ทำให้พนักงานสามารถออกได้ด้วยตนเอง รวมระยะเวลา 25 นาที\nพนักงานออกจากลิฟต์โดยไม่มีอาการผิดปกติ และไม่ประสงค์รับการปฐมพยาบาล\n\nสาเหตุ ตรวจสอบสอบพบก้อนหินติดอยู่ที่ร่อง Sill ประตูนอกชั้น4 แก้ไขโดย\nนำก้อนหินออก ทดสอบ เปิด-ปิด ประตู ลิฟต์กลับมาใช้งานได้",
+    "finding_en": "เวลา 14.38 น. พนักงานเข้าภายในลิฟต์ SL 3.1 และเกิดเหตุค้างภายในลิฟต์\nเมื่อเวลา 15.03 น. ประตูลิฟต์ค่อย ๆ เปิดออกตามปกติจนเปิดเต็มที่ ทำให้พนักงานสามารถออกได้ด้วยตนเอง รวมระยะเวลา 25 นาที\nพนักงานออกจากลิฟต์โดยไม่มีอาการผิดปกติ และไม่ประสงค์รับการปฐมพยาบาล\n\nสาเหตุ ตรวจสอบสอบพบก้อนหินติดอยู่ที่ร่อง Sill ประตูนอกชั้น4 แก้ไขโดย\nนำก้อนหินออก ทดสอบ เปิด-ปิด ประตู ลิฟต์กลับมาใช้งานได้"
   },
   {
     "case_no": "CASE-260610-115313116733",
@@ -10924,7 +11782,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Hard Service: HVAC : Too Hot/Cold - แจ้งเตือนอุณหภูมิสูงหรือต่ำเกินไป",
+    "event_type_en": "Hard Service: HVAC : Too Hot/Cold",
+    "summary_th": "Khun Boonyanuch Petcharat (0830358998) Tower 3, Floor 34, Unit 3404-3407 แจ้งว่าเหมือนแอร์ดับ มีความรู้สึกร้อน รบกวนช่างตรวจสอบค่ะ",
+    "summary_en": "Khun Boonyanuch Petcharat (0830358998) Tower 3, Floor 34, Unit 3404-3407 แจ้งว่าเหมือนแอร์ดับ มีความรู้สึกร้อน รบกวนช่างตรวจสอบค่ะ",
+    "finding_th": "สรุปการแก้ไข\n- สลับมอเตอร์จากชั้น 33 มาทดแทนชั้น 34 ที่ใช้งานไม่ได้จำนวน 1 ตัว",
+    "finding_en": "สรุปการแก้ไข\n- สลับมอเตอร์จากชั้น 33 มาทดแทนชั้น 34 ที่ใช้งานไม่ได้จำนวน 1 ตัว"
   },
   {
     "case_no": "CASE-260520-081145589518",
@@ -10948,7 +11812,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Hard Service: Sanitary : Cold Water Pump - ปัญหาที่เกี่ยวกับปั๊มน้ำดี",
+    "event_type_en": "Hard Service: Sanitary : Cold Water Pump",
+    "summary_th": "ปั๊ม CW ALM RUN DRY",
+    "summary_en": "ปั๊ม CW ALM RUN DRY",
+    "finding_th": "จากการตรวจเช็ค ฟังชั่น AUTO กลับใช้งานได้ปกติแล้วค่ะ",
+    "finding_en": "จากการตรวจเช็ค ฟังชั่น AUTO กลับใช้งานได้ปกติแล้วค่ะ"
   },
   {
     "case_no": "CASE-260523-010820577772",
@@ -10972,7 +11842,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 01:00 ได้รับแจ้งจาก FCC The Storeys แจ้งว่าได้มีพ่อบ้าน ​PCS ​ขับรถ Boom lift ไฟฟ้า ไปชนขอบอลูมิเนียมกระจกร้าน CHAGEE​ ชั้น​ G​ ได้รับความเสียหายแผ่นขอบอลูมิเนียมหลุด​ จำนวน​ 1​ แผ่น​",
+    "summary_en": "[soc-inf] 01:00 ได้รับแจ้งจาก FCC The Storeys แจ้งว่าได้มีพ่อบ้าน ​PCS ​ขับรถ Boom lift ไฟฟ้า ไปชนขอบอลูมิเนียมกระจกร้าน CHAGEE​ ชั้น​ G​ ได้รับความเสียหายแผ่นขอบอลูมิเนียมหลุด​ จำนวน​ 1​ แผ่น​",
+    "finding_th": "อัพเดทข้อมูล 16.06.2026 บ.YHSi เข้าแก้ไขอลูมิเนียมบริเวณข้างร้าน Chagee ชั้น G ้เสร็จเรียบร้อยครับ",
+    "finding_en": "อัพเดทข้อมูล 16.06.2026 บ.YHSi เข้าแก้ไขอลูมิเนียมบริเวณข้างร้าน Chagee ชั้น G ้เสร็จเรียบร้อยครับ"
   },
   {
     "case_no": "CASE-260414-152950191315",
@@ -10996,7 +11872,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "ลูกค้า 0842695615 ติดอยู่ในห้องน้ำแม่และเด็ก ชั้น 3 ใกล้ร้าน Daiso โซน Parade",
+    "summary_en": "ลูกค้า 0842695615 ติดอยู่ในห้องน้ำแม่และเด็ก ชั้น 3 ใกล้ร้าน Daiso โซน Parade",
+    "finding_th": "เจ้าหน้าที่เข้าตรวจสอบและให้ความช่วยเหลือลูกค้าที่ติดอยู่ภายในห้องน้ำแม่และเด็ก ชั้น 3 โซน Parade ใกล้ร้าน Daiso โดยสามารถนำลูกค้าออกมาได้อย่างปลอดภัย สาเหตุเกิดจากกลอนประตูชำรุด ปัจจุบันได้แจ้งฝ่ายที่เกี่ยวข้องเพื่อดำเนินการซ่อมแซมเรียบร้อยแล้ว\nลูกค้าเข้าห้องน้ำเวลา 15.20 น.\nลูกค้าออกจากห้องน้ำเวลา 15.28 น.\nแม่บ้านเข้าช่วยเหลือเวลา15.28 น.\nลูกค้าติดอยู่ในห้องน้ำเป็นเวลา 8 นาที",
+    "finding_en": "เจ้าหน้าที่เข้าตรวจสอบและให้ความช่วยเหลือลูกค้าที่ติดอยู่ภายในห้องน้ำแม่และเด็ก ชั้น 3 โซน Parade ใกล้ร้าน Daiso โดยสามารถนำลูกค้าออกมาได้อย่างปลอดภัย สาเหตุเกิดจากกลอนประตูชำรุด ปัจจุบันได้แจ้งฝ่ายที่เกี่ยวข้องเพื่อดำเนินการซ่อมแซมเรียบร้อยแล้ว\nลูกค้าเข้าห้องน้ำเวลา 15.20 น.\nลูกค้าออกจากห้องน้ำเวลา 15.28 น.\nแม่บ้านเข้าช่วยเหลือเวลา15.28 น.\nลูกค้าติดอยู่ในห้องน้ำเป็นเวลา 8 นาที"
   },
   {
     "case_no": "CASE-260512-084039566706",
@@ -11020,7 +11902,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: CCTV : No Video Signal - ไม่มีสัญญาณภาพ",
+    "event_type_en": "Hard Service: CCTV : No Video Signal",
+    "summary_th": "CCTV ไม่สามารถดูภาพ Live View และ Playback ได้ บริเวณชั้น 4 อาคาร Tower 5",
+    "summary_en": "CCTV ไม่สามารถดูภาพ Live View และ Playback ได้ บริเวณชั้น 4 อาคาร Tower 5",
+    "finding_th": "เคสนี้กล้อง CCTV ชั้น4 ถูกถอดออก (ชำรุด) เนื่องจากน้ำเข้ากล้องที่เกิดจากเหตุไฟไหม้ชั้น6ท่อสปริงเกอร์แตก  อยู่ระหว่างการเครมอุปกรณ์และติดตั้งใหม่ครับ ใช้ Case นี้ต่อ CASE-260617-124801832154",
+    "finding_en": "เคสนี้กล้อง CCTV ชั้น4 ถูกถอดออก (ชำรุด) เนื่องจากน้ำเข้ากล้องที่เกิดจากเหตุไฟไหม้ชั้น6ท่อสปริงเกอร์แตก  อยู่ระหว่างการเครมอุปกรณ์และติดตั้งใหม่ครับ ใช้ Case นี้ต่อ CASE-260617-124801832154"
   },
   {
     "case_no": "CASE-260526-170917871713",
@@ -11044,7 +11932,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 17:06 รับแจ้งจาก FCC Parade แจ้งว่ามีเด็กจาก ชุมชนบ่อนไก่ เข้าไปขโมยของที่ร้าน LUSH ชั้น 1 Parade",
+    "summary_en": "[soc-inf] 17:06 รับแจ้งจาก FCC Parade แจ้งว่ามีเด็กจาก ชุมชนบ่อนไก่ เข้าไปขโมยของที่ร้าน LUSH ชั้น 1 Parade",
+    "finding_th": "SOC ได้แจ้งข้อมูลของผู้ก่อเหตุให้ทีม Security G4S และ PCS รับทราบ เพื่อทำการเฝ้าระวัง โดยได้รับแจ้งจาก หัวหน้าชุด รปภ. ชื่อ นาย อนิรุจ อ่อนละออ แจ้งว่าทางร้าน LUSH ไม่ติดใจเอาความแต่อยากให้มีการเฝ้าระวังบุคคลดังกล่าว",
+    "finding_en": "SOC ได้แจ้งข้อมูลของผู้ก่อเหตุให้ทีม Security G4S และ PCS รับทราบ เพื่อทำการเฝ้าระวัง โดยได้รับแจ้งจาก หัวหน้าชุด รปภ. ชื่อ นาย อนิรุจ อ่อนละออ แจ้งว่าทางร้าน LUSH ไม่ติดใจเอาความแต่อยากให้มีการเฝ้าระวังบุคคลดังกล่าว"
   },
   {
     "case_no": "CASE-260519-115823680915",
@@ -11068,7 +11962,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 11:57 รับแจ้งจาก FCC Forum ลิฟต์ Service  L11 ค้างอยู่ที่ชั้น 3 มีคนขับลิฟต์ติดค้าง 1 ท่าน อาคาร Forum",
+    "summary_en": "[soc-inf] 11:57 รับแจ้งจาก FCC Forum ลิฟต์ Service  L11 ค้างอยู่ที่ชั้น 3 มีคนขับลิฟต์ติดค้าง 1 ท่าน อาคาร Forum",
+    "finding_th": "อาคาร Forum\nวันที่ 19/05/69 เวลา 12:02 น.\n\nช่างชื่อ\nนาย ธวัชชัย  วัดผ้าพับ\nตำแหน่ง: Technician \n\nพื้นที่เกิดเหตุ อาคาร Forum\n\n- เรื่อง Lift No.11 ค้าง มีคนติดลิฟท์ 1 คน\n\n1.เวลา 12:02 น. ช่างได้รับแจ้งลิฟท์ No.11 ค้าง มีคนติดลิฟท์ 1 คน ทำการแจ้ง FMC แจ้ง Hitachi \n2.เวลา 12:19 น. ช่าง Hitachi เข้ามาถึงหน้างาน\n3.เวลา 13:01 น. ช่าง Hitachi ทำการเข้าตรวจสอบ Lift No.11 ค้าง ทำการช่วยเหลือคนและแก้ไขลิฟท์ ทดสอบแล้วสามารถใช้งานได้ตามปกติ\n\nสาเหตุ\n- พบไฟตกขณะใช้งาน ทำให้ลิฟท์ Error\n\nการแก้ไข\n- ช่าง HITACHI ทำการรีเซ็ทระบบลิฟท์ ทดสอบแล้วใช้งานได้ตามปกติ\n\nสรุปการแก้ไข\n- ช่าง HITACHI ทำการเปิดประตูช่วยเหลือคน\n- ช่าง HITACHI ตรวจสอบพบไฟตกขณะใช้งาน ทำให้ลิฟท์ Error\n- ช่าง HITACHI ทำการรีเซ็ทระบบลิฟท์ สามารถใช้งานได้ปกติ\n\nการแก้ไขปัญหาเบื้องต้น\n1.ช่างอาคารตรวจสอบหน้างาน\n2.แจ้งทีม FMC แจ้งช่าง Hitachi เข้าตรวจสอบ\n3.ช่าง Hitachi ทำการตรวจ Check และแก้ไขเรียบร้อย\n\nผู้แจ้ง  \nนาย ธนพัฒน์",
+    "finding_en": "อาคาร Forum\nวันที่ 19/05/69 เวลา 12:02 น.\n\nช่างชื่อ\nนาย ธวัชชัย  วัดผ้าพับ\nตำแหน่ง: Technician \n\nพื้นที่เกิดเหตุ อาคาร Forum\n\n- เรื่อง Lift No.11 ค้าง มีคนติดลิฟท์ 1 คน\n\n1.เวลา 12:02 น. ช่างได้รับแจ้งลิฟท์ No.11 ค้าง มีคนติดลิฟท์ 1 คน ทำการแจ้ง FMC แจ้ง Hitachi \n2.เวลา 12:19 น. ช่าง Hitachi เข้ามาถึงหน้างาน\n3.เวลา 13:01 น. ช่าง Hitachi ทำการเข้าตรวจสอบ Lift No.11 ค้าง ทำการช่วยเหลือคนและแก้ไขลิฟท์ ทดสอบแล้วสามารถใช้งานได้ตามปกติ\n\nสาเหตุ\n- พบไฟตกขณะใช้งาน ทำให้ลิฟท์ Error\n\nการแก้ไข\n- ช่าง HITACHI ทำการรีเซ็ทระบบลิฟท์ ทดสอบแล้วใช้งานได้ตามปกติ\n\nสรุปการแก้ไข\n- ช่าง HITACHI ทำการเปิดประตูช่วยเหลือคน\n- ช่าง HITACHI ตรวจสอบพบไฟตกขณะใช้งาน ทำให้ลิฟท์ Error\n- ช่าง HITACHI ทำการรีเซ็ทระบบลิฟท์ สามารถใช้งานได้ปกติ\n\nการแก้ไขปัญหาเบื้องต้น\n1.ช่างอาคารตรวจสอบหน้างาน\n2.แจ้งทีม FMC แจ้งช่าง Hitachi เข้าตรวจสอบ\n3.ช่าง Hitachi ทำการตรวจ Check และแก้ไขเรียบร้อย\n\nผู้แจ้ง  \nนาย ธนพัฒน์"
   },
   {
     "case_no": "CASE-260415-011726262401",
@@ -11092,7 +11992,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Unauthorized Entry - เข้ามาโดยไม่ได้รับอนุญาต",
+    "event_type_en": "Security: Unauthorized Entry",
+    "summary_th": "เวลา 23.03 ของวันที่ 14 เมษายน มีบุคคลิปริษนาเข้าพื้นที่จากประตูหนีไฟ ST01 เข้ามายังบริเวณชั้น 26 ของตึก ONE89 wireless และได้เดินเข้าไปใช้ส่วนกลางในทุกๆส่วนรวมไปถึงชั้น 27 ออกจากพื้นที่เวลา 23:19 โดยประตู st01 ชั้น 27",
+    "summary_en": "เวลา 23.03 ของวันที่ 14 เมษายน มีบุคคลิปริษนาเข้าพื้นที่จากประตูหนีไฟ ST01 เข้ามายังบริเวณชั้น 26 ของตึก ONE89 wireless และได้เดินเข้าไปใช้ส่วนกลางในทุกๆส่วนรวมไปถึงชั้น 27 ออกจากพื้นที่เวลา 23:19 โดยประตู st01 ชั้น 27",
+    "finding_th": "คุณเก็ท สิทธิพงษ์(AVP)ได้มีการพูดคุญกับทาง The Ritz Carlton และ ONE89 Wireless เพื่อทำการป้องกันปัญหาลักษณะนี้ไม่ให้เกิดขึ้นอีก โดยทางโรงแรม The Ritz Carlton แจ้งว่าในอนาคตจะมีการดำเนินการติดตัว Door Access ทุกบานประตู เพื่อป้องกันการเข้าออกโดยไม่ได้รับอนุญาต และทาง ONE89 Wireless จะทำการล็อกประตูหนีไฟไม่ให้ผลักเข้ามาในพื้นที่ได้(แต่ทางลูกบ้านยังสามารถผลักออกไปบันไดหนีไฟได้ตามปกติกรณีเกิดเหตุฉุกเฉิน) โดยมีการขอความรวมมือเพิ่มเติมจากทาง SOC ในการเพิ่ม VA Line Crossing หน้าประตูหนีไฟที่สามารถผลักเข้ามาใน ONE89 Wireless ได้เพื่อเป็นการเด้งแจ้งเตือนเมื่อมีคนเข้าพื้นที่มาโดยไม่ได้รับอนุญาต",
+    "finding_en": "คุณเก็ท สิทธิพงษ์(AVP)ได้มีการพูดคุญกับทาง The Ritz Carlton และ ONE89 Wireless เพื่อทำการป้องกันปัญหาลักษณะนี้ไม่ให้เกิดขึ้นอีก โดยทางโรงแรม The Ritz Carlton แจ้งว่าในอนาคตจะมีการดำเนินการติดตัว Door Access ทุกบานประตู เพื่อป้องกันการเข้าออกโดยไม่ได้รับอนุญาต และทาง ONE89 Wireless จะทำการล็อกประตูหนีไฟไม่ให้ผลักเข้ามาในพื้นที่ได้(แต่ทางลูกบ้านยังสามารถผลักออกไปบันไดหนีไฟได้ตามปกติกรณีเกิดเหตุฉุกเฉิน) โดยมีการขอความรวมมือเพิ่มเติมจากทาง SOC ในการเพิ่ม VA Line Crossing หน้าประตูหนีไฟที่สามารถผลักเข้ามาใน ONE89 Wireless ได้เพื่อเป็นการเด้งแจ้งเตือนเมื่อมีคนเข้าพื้นที่มาโดยไม่ได้รับอนุญาต"
   },
   {
     "case_no": "CASE-260609-115227517228",
@@ -11116,7 +12022,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ดำเนินการออกเอกสารรายงานอุบัติการณ์ทางการแล้ว เลขที่ INC-OBJLL-FORUM-2026-FU-0010",
     "action_th": "ติดตามผลการแก้ไขและการป้องกันซ้ำตาม Corrective Action ในรายงาน IR",
     "action_en": "Monitor permanent corrective and preventive actions per official IR documentation",
-    "action": "ติดตามผลการแก้ไขและการป้องกันซ้ำตาม Corrective Action ในรายงาน IR"
+    "action": "ติดตามผลการแก้ไขและการป้องกันซ้ำตาม Corrective Action ในรายงาน IR",
+    "event_type_th": "Security: Medical Assistance : Minor - First Aid - ความช่วยเหลือทางการแพทย์ (กรณีเล็กน้อย-การปฐมพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Minor",
+    "summary_th": "[soc-inf] 11:51 รับแจ้งจาก EOT K.Arre พบพนักงานแคชเชียร์ของ Big C Marche มีอาการหน้ามืดคล้ายจะเป็นลม",
+    "summary_en": "[soc-inf] 11:51 รับแจ้งจาก EOT K.Arre พบพนักงานแคชเชียร์ของ Big C Marche มีอาการหน้ามืดคล้ายจะเป็นลม",
+    "finding_th": "พนักงานอยู่ในช่วงมีประจำเดือน รับประทานทุเรียนโดยไม่ได้รับประทานอาหารเช้า ส่งผลให้มีอาการหน้ามืด เจ้าหน้าที่ EOT ได้ให้การช่วยเหลือเบื้องต้นและนำส่งห้องพยาบาลอาคาร One Power เพื่อพักฟื้น\nทราบข้อมูลภายหลัง\nK.บุญญารักษ์ นาคา อายุ 22 ปี เพศหญิง \nพนักงาน Big C Marche",
+    "finding_en": "พนักงานอยู่ในช่วงมีประจำเดือน รับประทานทุเรียนโดยไม่ได้รับประทานอาหารเช้า ส่งผลให้มีอาการหน้ามืด เจ้าหน้าที่ EOT ได้ให้การช่วยเหลือเบื้องต้นและนำส่งห้องพยาบาลอาคาร One Power เพื่อพักฟื้น\nทราบข้อมูลภายหลัง\nK.บุญญารักษ์ นาคา อายุ 22 ปี เพศหญิง \nพนักงาน Big C Marche"
   },
   {
     "case_no": "CASE-260615-221840415895",
@@ -11140,7 +12052,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst – ท่อน้ำแตก/รั่ว",
+    "event_type_en": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst",
+    "summary_th": "Mitsukoshi Depachika  แจ้งท่อน้ำมีน้ำหยด",
+    "summary_en": "Mitsukoshi Depachika  แจ้งท่อน้ำมีน้ำหยด",
+    "finding_th": "ช่าง SS เข้าทำการตรวจสอบพบว่ารั่วซึมจากท่อ Vent จึงได้ทำการใช้กาวอีพ็อกซี่ AB อุดท่อ vent  ไม่มีน้ำหยดแล้วครับสามารถใช้งานได้ปกติเเล้วครับ",
+    "finding_en": "ช่าง SS เข้าทำการตรวจสอบพบว่ารั่วซึมจากท่อ Vent จึงได้ทำการใช้กาวอีพ็อกซี่ AB อุดท่อ vent  ไม่มีน้ำหยดแล้วครับสามารถใช้งานได้ปกติเเล้วครับ"
   },
   {
     "case_no": "CASE-260406-200610825121",
@@ -11164,7 +12082,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Overflow on Floor – น้ำเอ่อล้นที่พื้น",
+    "event_type_en": "Tenant retail: Sanitary System : Water Overflow on Floor",
+    "summary_th": "ร้าน Tonchin มีน้ำดันขึ้นจากท่อ ทำให้น้ำท่วมพื้นครัว",
+    "summary_en": "ร้าน Tonchin มีน้ำดันขึ้นจากท่อ ทำให้น้ำท่วมพื้นครัว",
+    "finding_th": "- จากการเข้าตรวจสอบพบว่าท่อเมนจากร้านค้าตันไม่สามารถระบายน้ำลงได้\n- ทางทีมช่าง SS ได้ทำงานทะลวงท่อจากในร้านค้าไปถึงท่อเมนเป็นระยะ 15 เมตรทำให้สิ่งอุดตันหลุดออกและระบายน้ำออกจากร้านค้าได้",
+    "finding_en": "- จากการเข้าตรวจสอบพบว่าท่อเมนจากร้านค้าตันไม่สามารถระบายน้ำลงได้\n- ทางทีมช่าง SS ได้ทำงานทะลวงท่อจากในร้านค้าไปถึงท่อเมนเป็นระยะ 15 เมตรทำให้สิ่งอุดตันหลุดออกและระบายน้ำออกจากร้านค้าได้"
   },
   {
     "case_no": "CASE-260402-170419485515",
@@ -11188,7 +12112,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant Retail: Sanitary System : Replace Faucet / Water Supply Hose – เปลี่ยนก๊อกน้ำ/เปลี่ยนสายน้ำดีในร้านค้า",
+    "event_type_en": "Tenant Retail: Sanitary System : Replace Faucet / Water Supply Hose",
+    "summary_th": "R2 แจ้งเพื่อทราบตอนนี้ท่อน้ำแตกร้าน the house ชั้น 3",
+    "summary_en": "R2 แจ้งเพื่อทราบตอนนี้ท่อน้ำแตกร้าน the house ชั้น 3",
+    "finding_th": "ช่าง Senses เข้าตรวจสอบท่อน้ำดีเเตก ตรวจสอบพบสายน้ำดีชำรุด - เบื้องต้นทำการถอดสายน้ำดีให้กับทางร้านเพื่อเทียบซื้อ",
+    "finding_en": "ช่าง Senses เข้าตรวจสอบท่อน้ำดีเเตก ตรวจสอบพบสายน้ำดีชำรุด - เบื้องต้นทำการถอดสายน้ำดีให้กับทางร้านเพื่อเทียบซื้อ"
   },
   {
     "case_no": "CASE-260413-232034813527",
@@ -11212,7 +12142,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "[soc-inf] 23:17 รับแจ้งจาก Sup PCS พบลูกค้าหญิงติดอยู่ในห้องน้ำคนพิการ อาคาร The Storeys ชั้น 1",
+    "summary_en": "[soc-inf] 23:17 รับแจ้งจาก Sup PCS พบลูกค้าหญิงติดอยู่ในห้องน้ำคนพิการ อาคาร The Storeys ชั้น 1",
+    "finding_th": "เวลา​ 23.24 น. ทีมรปภ.​ได้ส่งลูกค้าขึ้น Grab เป็นที่เรียบร้อย ลูกค้าหญิง​มีอาการ​มึนเมา​ ยังคงมีสติ​ แต่​ขยับร่างกาย​ไม่ไหว​ พักอยู่​ซอยลาดพร้าว​ 43​ คอนโดเฮาส์​",
+    "finding_en": "เวลา​ 23.24 น. ทีมรปภ.​ได้ส่งลูกค้าขึ้น Grab เป็นที่เรียบร้อย ลูกค้าหญิง​มีอาการ​มึนเมา​ ยังคงมีสติ​ แต่​ขยับร่างกาย​ไม่ไหว​ พักอยู่​ซอยลาดพร้าว​ 43​ คอนโดเฮาส์​"
   },
   {
     "case_no": "CASE-260615-172403262473",
@@ -11236,7 +12172,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "Phornchanok Tempiam 0813561411// บ.Lineman แจ้งคนติดห้องน้ำชาย ชั้น 25 Tower 4",
+    "summary_en": "Phornchanok Tempiam 0813561411// บ.Lineman แจ้งคนติดห้องน้ำชาย ชั้น 25 Tower 4",
+    "finding_th": "เวลา 17.09 น.ลูกค้าเข้าไปในห้องน้ำ\nเวลา 17.24 น.ทำการช่วยเหลือลูกค้าออกจากห้องน้ำโดยใช้แรงมือง้างประตูออก เนื่องจากประตูปิดไม่สนิทมีช่องว่างอยู่\nเจ้าหน้าที่ รปภ แจ้งว่ามีลูกค้าติดอยู่ด้านใน 2 คน \nลูกค้าติดอยู่ภายในห้องน้ำเป็นระยะเวลาประมาณ 15 นาที\nเวลา 17.45 น. ช่างJLL เข้าตรวจสอบพบว่าเซ็นเซอร์ประตูห้องน้ำมีปัญหา  \nแก้ไขระบบสวิตซ์ไร้สัมผัสของเซ็นเซอร์ประตูใหม่\nเปลี่ยนถ่านรีโมทประตู ใหม่\nประตูห้องน้ำชายสามารถใช้งานได้ปกติครับ",
+    "finding_en": "เวลา 17.09 น.ลูกค้าเข้าไปในห้องน้ำ\nเวลา 17.24 น.ทำการช่วยเหลือลูกค้าออกจากห้องน้ำโดยใช้แรงมือง้างประตูออก เนื่องจากประตูปิดไม่สนิทมีช่องว่างอยู่\nเจ้าหน้าที่ รปภ แจ้งว่ามีลูกค้าติดอยู่ด้านใน 2 คน \nลูกค้าติดอยู่ภายในห้องน้ำเป็นระยะเวลาประมาณ 15 นาที\nเวลา 17.45 น. ช่างJLL เข้าตรวจสอบพบว่าเซ็นเซอร์ประตูห้องน้ำมีปัญหา  \nแก้ไขระบบสวิตซ์ไร้สัมผัสของเซ็นเซอร์ประตูใหม่\nเปลี่ยนถ่านรีโมทประตู ใหม่\nประตูห้องน้ำชายสามารถใช้งานได้ปกติครับ"
   },
   {
     "case_no": "CASE-260625-181632186510",
@@ -11260,7 +12202,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 18:09 ได้รับแจ้งจาก Sup G4S แจ้งว่าที่ loading 8 มีเหตุักทรัพย์ขโมยสายไฟของนายจ้าง",
+    "summary_en": "[soc-inf] 18:09 ได้รับแจ้งจาก Sup G4S แจ้งว่าที่ loading 8 มีเหตุักทรัพย์ขโมยสายไฟของนายจ้าง",
+    "finding_th": "เวลา 18:08 น. รับแจ้งเหตุลักทรัพย์สายไฟของผู้รับเหมาบริษัท NP บริเวณ Loading 8 โดยเจ้าหน้าที่ตำรวจ สน.ลุมพินี เข้าตรวจสอบและควบคุมตัวผู้ต้องสงสัยออกจากพื้นที่เมื่อเวลา 18:24 น. เรียบร้อย ทั้งนี้พื้นที่เกิดเหตุอยู่ในส่วนงานของโรงแรม PHTHOM HOUSE ซึ่งยังไม่ได้ส่งมอบพื้นที่ให้ส่วนกลางดูแล",
+    "finding_en": "เวลา 18:08 น. รับแจ้งเหตุลักทรัพย์สายไฟของผู้รับเหมาบริษัท NP บริเวณ Loading 8 โดยเจ้าหน้าที่ตำรวจ สน.ลุมพินี เข้าตรวจสอบและควบคุมตัวผู้ต้องสงสัยออกจากพื้นที่เมื่อเวลา 18:24 น. เรียบร้อย ทั้งนี้พื้นที่เกิดเหตุอยู่ในส่วนงานของโรงแรม PHTHOM HOUSE ซึ่งยังไม่ได้ส่งมอบพื้นที่ให้ส่วนกลางดูแล"
   },
   {
     "case_no": "CASE-260501-135003793286",
@@ -11284,7 +12232,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Hard Service: Flooding : District or Component - น้ำท่วมพื้นที่ทั้งหมด, หรือเป็นวงกว้าง",
+    "event_type_en": "Hard Service: Flooding : District or Component",
+    "summary_th": "น้ำท่วม B4 Cup",
+    "summary_en": "น้ำท่วม B4 Cup",
+    "finding_th": "สาเหตุ \n- น้ำล้นออกจากบ่อ Chlorine Contact ของ Veolia\n\nการแก้ไข\n1.ช่างอาคารทำการล็อค Lift Service และ Lift Passenger ไม่ให้ลงไปชั้น B4\n2.ช่างอาคารทำการนำปั้มมาติดตั้งเพิ่มเติมเพื่อระบายน้ำในพื้นที่\n3.แจ้งช่าง Hitachi เข้า Stand By เตรียมตรวจสอบ ลิฟท์\n4.ช่างอาคารทำการติดตั้งปั้มสูบน้ำ ระบายไปบ่อ EQ\n5.เคลียร์น้ำในพื้นที่เรียบร้อย กลับสู่สภาวะปกติ\n6.ช่าง Hitachi ตรวจสอบลิฟท์ ไม่พบคงามเสียหายลิฟท์สามารถใช้งานได้ปกติ\n7.เปิด Lift Service และ Lift Passenger CUP ใช้งานได้ตามปกติ\n8.คืนระบบประตูหนีไฟเข้าสู่โหมดปกติ",
+    "finding_en": "สาเหตุ \n- น้ำล้นออกจากบ่อ Chlorine Contact ของ Veolia\n\nการแก้ไข\n1.ช่างอาคารทำการล็อค Lift Service และ Lift Passenger ไม่ให้ลงไปชั้น B4\n2.ช่างอาคารทำการนำปั้มมาติดตั้งเพิ่มเติมเพื่อระบายน้ำในพื้นที่\n3.แจ้งช่าง Hitachi เข้า Stand By เตรียมตรวจสอบ ลิฟท์\n4.ช่างอาคารทำการติดตั้งปั้มสูบน้ำ ระบายไปบ่อ EQ\n5.เคลียร์น้ำในพื้นที่เรียบร้อย กลับสู่สภาวะปกติ\n6.ช่าง Hitachi ตรวจสอบลิฟท์ ไม่พบคงามเสียหายลิฟท์สามารถใช้งานได้ปกติ\n7.เปิด Lift Service และ Lift Passenger CUP ใช้งานได้ตามปกติ\n8.คืนระบบประตูหนีไฟเข้าสู่โหมดปกติ"
   },
   {
     "case_no": "CASE-260512-113815587669",
@@ -11308,7 +12262,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 11:28 รับแจ้งจาก SUP G4S คุณอิสมาแอลว่า ได้รับแจ้งจากเจ้าหน้าที่รักษาความปลอดภัยของโรงแรม The Ritz-Carlton ว่า มีรถพนักงานของโรงแรมขับรถเสียหลักพุ่งชนกำแพงบริเวณฝั่งขาออก ชั้น B1M ส่งผลให้กำแพงได้รับความเสียหาย",
+    "summary_en": "[soc-inf] 11:28 รับแจ้งจาก SUP G4S คุณอิสมาแอลว่า ได้รับแจ้งจากเจ้าหน้าที่รักษาความปลอดภัยของโรงแรม The Ritz-Carlton ว่า มีรถพนักงานของโรงแรมขับรถเสียหลักพุ่งชนกำแพงบริเวณฝั่งขาออก ชั้น B1M ส่งผลให้กำแพงได้รับความเสียหาย",
+    "finding_th": "ทางฝ่ายอาคารได้รับ ใบเคลมประกัน เรียบร้อยค่ะ",
+    "finding_en": "ทางฝ่ายอาคารได้รับ ใบเคลมประกัน เรียบร้อยค่ะ"
   },
   {
     "case_no": "CASE-260602-213507486574",
@@ -11332,7 +12292,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant Retail: Sanitary System : Faucet No Water Supply - ก็อกน้ำ น้ำไม่ไหล",
+    "event_type_en": "Tenant Retail: Sanitary System : Faucet No Water Supply",
+    "summary_th": "ร้านTonkatsu Wako  1520 แจ้งก๊อกน้ำไม่ไหล",
+    "summary_en": "ร้านTonkatsu Wako  1520 แจ้งก๊อกน้ำไม่ไหล",
+    "finding_th": "ช่าง SS เข้าตรวจสอบท่อน้ำแตกบริเวณใต้ซิ้งล้างจาน พบว่าเป็นสายน้ำดีฉีกขาด ทำให้ใช้เครื่องกรองน้ำไม่ได้ครับ\n-แจ้ง ผจก. ร้านทราบแล้วและให้ติดต่อผรม.ร้านค้าเข้าตรวจสอบและแก้ไขต่อไปครับ",
+    "finding_en": "ช่าง SS เข้าตรวจสอบท่อน้ำแตกบริเวณใต้ซิ้งล้างจาน พบว่าเป็นสายน้ำดีฉีกขาด ทำให้ใช้เครื่องกรองน้ำไม่ได้ครับ\n-แจ้ง ผจก. ร้านทราบแล้วและให้ติดต่อผรม.ร้านค้าเข้าตรวจสอบและแก้ไขต่อไปครับ"
   },
   {
     "case_no": "CASE-260518-012039348666",
@@ -11356,7 +12322,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "[soc-inf] 01:09 รับแจ้งจาก คุณ พีช ลูกค้า Jetts fitness 064-910-0890 โทรเข้ามาแจ้งว่าตนออกประตูโถงลิฟท์ลานจอดชั้น B2 ไม่ได้",
+    "summary_en": "[soc-inf] 01:09 รับแจ้งจาก คุณ พีช ลูกค้า Jetts fitness 064-910-0890 โทรเข้ามาแจ้งว่าตนออกประตูโถงลิฟท์ลานจอดชั้น B2 ไม่ได้",
+    "finding_th": "เวลา 01:09 รับแจ้งจาก คุณ พีช ลูกค้า Jetts fitness 064-910-0890 โทรเข้ามาแจ้งว่าตนออกประตูโถงลิฟท์ลานจอดชั้น B2 ไม่ได้\nจากการสอบถาม FCC R2 ให้ข้อมูลว่าโถงลิฟท์ที่ลูกค้าออกไม่ได้จะทำการปิดเวลา ลูกค้าพื้นที่โซน night light หมดแล้ว​จะทำการปิดประตู เวลาประมาณ เวลา 00.30-01.20​ น. ในส่วนของลูกค้าที่มาใช้บริการ Jetts fitness ใช้ให้ใช้ ลิฟท์​ Passenger​ PL 2.3​ และ​ PL 2.4 ฝั่ง Tower4 ที่เปิด 24 ชม.ครับ",
+    "finding_en": "เวลา 01:09 รับแจ้งจาก คุณ พีช ลูกค้า Jetts fitness 064-910-0890 โทรเข้ามาแจ้งว่าตนออกประตูโถงลิฟท์ลานจอดชั้น B2 ไม่ได้\nจากการสอบถาม FCC R2 ให้ข้อมูลว่าโถงลิฟท์ที่ลูกค้าออกไม่ได้จะทำการปิดเวลา ลูกค้าพื้นที่โซน night light หมดแล้ว​จะทำการปิดประตู เวลาประมาณ เวลา 00.30-01.20​ น. ในส่วนของลูกค้าที่มาใช้บริการ Jetts fitness ใช้ให้ใช้ ลิฟท์​ Passenger​ PL 2.3​ และ​ PL 2.4 ฝั่ง Tower4 ที่เปิด 24 ชม.ครับ"
   },
   {
     "case_no": "CASE-260526-204436787188",
@@ -11380,7 +12352,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: HVAC : Aircon Leak - น้ำแอร์รั่ว",
+    "event_type_en": "Hard Service: HVAC : Aircon Leak",
+    "summary_th": "ห้อง Private ที่ The storeys lounge น้ำรั่ว",
+    "summary_en": "ห้อง Private ที่ The storeys lounge น้ำรั่ว",
+    "finding_th": "จากการตรวจสอบทีมช่างท่อเดรนแอร์ถูกออกแบบผิดลักษณะครับ\n1.จุดสำหรับเซอร์วิส ใช้ปลั๊กอุดแบบฝาปิดทากาวแน่น\n2.ท่อเดรนแอร์มีการหักท่อตั้งขึ้น เนื่องจากน้ำไม่มีแรงดัน ทำให้น้ำอยู่ในระบบท่อตลอดเวลา ทำให้น้ำไหลผ่านท่อเดรนไม่ปกติครับ",
+    "finding_en": "จากการตรวจสอบทีมช่างท่อเดรนแอร์ถูกออกแบบผิดลักษณะครับ\n1.จุดสำหรับเซอร์วิส ใช้ปลั๊กอุดแบบฝาปิดทากาวแน่น\n2.ท่อเดรนแอร์มีการหักท่อตั้งขึ้น เนื่องจากน้ำไม่มีแรงดัน ทำให้น้ำอยู่ในระบบท่อตลอดเวลา ทำให้น้ำไหลผ่านท่อเดรนไม่ปกติครับ"
   },
   {
     "case_no": "CASE-260404-044555736965",
@@ -11404,7 +12382,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Tenant Retail: Gas System : Gas Leak - แก๊สรั่ว",
+    "event_type_en": "Tenant Retail: Gas System : Gas Leak",
+    "summary_th": "รับแจ้งร้านเกศเตี๋ยวมีแก๊สรั่วไหล ตู้จับสัญาณได้",
+    "summary_en": "รับแจ้งร้านเกศเตี๋ยวมีแก๊สรั่วไหล ตู้จับสัญาณได้",
+    "finding_th": "SS เข้าตรววจสอบ ร้านเกศเตี๋ยว พบว่ามีจุดรั่วตรงข้อต่อ - สาเหตุจากข้อต่อหลวม ได้ทำการขันให้แน่นแล้วเช็คด้วยตัวตรวจจับแก็ส ไม่พบจุดรั่ว ทำการรีเซ็ต แก็สพร้อมใช้งาน",
+    "finding_en": "SS เข้าตรววจสอบ ร้านเกศเตี๋ยว พบว่ามีจุดรั่วตรงข้อต่อ - สาเหตุจากข้อต่อหลวม ได้ทำการขันให้แน่นแล้วเช็คด้วยตัวตรวจจับแก็ส ไม่พบจุดรั่ว ทำการรีเซ็ต แก็สพร้อมใช้งาน"
   },
   {
     "case_no": "CASE-260522-181919264621",
@@ -11428,7 +12412,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Carparking : Other issues - ปัญหาอื่นๆของ Carparking",
+    "event_type_en": "Soft Service: Carparking : Other issues",
+    "summary_th": "วันที่ 21 พค 2569 เวลา 17:40 น. คุณวโรชา ชูสุขอมร (0842695617) เจ้าของรถยนต์ Tesla model3 สีขาว ป้ายทะเบียนรถ 7ขถ5302 ได้ใช้บริการที่ลานจอดรถชั้น B3 เสาที่ G06 โซนสีเหลือง แจ้งล้อรถไปขูดกับบริเวณท่อเหล็กนูนที่วางไว้ ประสงค์ให้หน่วยงานรับผิดชอบต่อความเสียหาย",
+    "summary_en": "วันที่ 21 พค 2569 เวลา 17:40 น. คุณวโรชา ชูสุขอมร (0842695617) เจ้าของรถยนต์ Tesla model3 สีขาว ป้ายทะเบียนรถ 7ขถ5302 ได้ใช้บริการที่ลานจอดรถชั้น B3 เสาที่ G06 โซนสีเหลือง แจ้งล้อรถไปขูดกับบริเวณท่อเหล็กนูนที่วางไว้ ประสงค์ให้หน่วยงานรับผิดชอบต่อความเสียหาย",
+    "finding_th": "สืบเนื่องจากการหารือใน MB กับทีม CC พี่เก็ทและพี่จู เนื่องจากลูกค้าอยู่ระหว่างพักฟื้นหลังคลอดและดูแลบุตร  จึงยังไม่สะดวกติดต่อบริษัทประกันภัยเพื่อนัดหมายการเข้าตรวจสอบรถที่ได้รับความเสียหาย จึงขอทำการปิดเคสไปก่อน หากลูกค้าสะดวกติดต่อกลับมาใหม่ จะทำการเปิดเคส เพื่อประสานงานอีกครั้ง",
+    "finding_en": "สืบเนื่องจากการหารือใน MB กับทีม CC พี่เก็ทและพี่จู เนื่องจากลูกค้าอยู่ระหว่างพักฟื้นหลังคลอดและดูแลบุตร  จึงยังไม่สะดวกติดต่อบริษัทประกันภัยเพื่อนัดหมายการเข้าตรวจสอบรถที่ได้รับความเสียหาย จึงขอทำการปิดเคสไปก่อน หากลูกค้าสะดวกติดต่อกลับมาใหม่ จะทำการเปิดเคส เพื่อประสานงานอีกครั้ง"
   },
   {
     "case_no": "CASE-260428-223535126878",
@@ -11452,7 +12442,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ดำเนินการออกเอกสารรายงานอุบัติการณ์ทางการแล้ว เลขที่ INC-OBJLL-FORUM-2026-FU-0006",
     "action_th": "ติดตามผลการแก้ไขและการป้องกันซ้ำตาม Corrective Action ในรายงาน IR",
     "action_en": "Monitor permanent corrective and preventive actions per official IR documentation",
-    "action": "ติดตามผลการแก้ไขและการป้องกันซ้ำตาม Corrective Action ในรายงาน IR"
+    "action": "ติดตามผลการแก้ไขและการป้องกันซ้ำตาม Corrective Action ในรายงาน IR",
+    "event_type_th": "Hard Service: Electrical : Electrical Issue - ปัญหาระบบไฟฟ้า",
+    "event_type_en": "Hard Service: Electrical : Electrical Issue",
+    "summary_th": "อาคาร Forum เบรกเกอร์ 1EDB2 Trip",
+    "summary_en": "อาคาร Forum เบรกเกอร์ 1EDB2 Trip",
+    "finding_th": "ฝ่ายวิศวกรรม JLL ดำเนินการ ON EMDB คืนเรียบร้อยครับ สรุปผลการดำเนินการ 1.น็อตเบรกเกอร์ฝั่ง Main และ Load หลวมทั้งหมด 2.เกิดจุดอาร์กที่ เฟส 3 ฝั่ง Main การแก้ไข 1.กวดน็อตตู้ EMDB ทั้งหมด 2.มาร์คจุดที่ดำเนินการ 3.ตรวจสอบอุหภูมิที่ CB 1EDB2 ปกติครับ การเฝ้าระวัง 1.ทีมงาน Forum Thermo scan CB 1EDB2 ทุกๆ 1 ชั่วโมง",
+    "finding_en": "ฝ่ายวิศวกรรม JLL ดำเนินการ ON EMDB คืนเรียบร้อยครับ สรุปผลการดำเนินการ 1.น็อตเบรกเกอร์ฝั่ง Main และ Load หลวมทั้งหมด 2.เกิดจุดอาร์กที่ เฟส 3 ฝั่ง Main การแก้ไข 1.กวดน็อตตู้ EMDB ทั้งหมด 2.มาร์คจุดที่ดำเนินการ 3.ตรวจสอบอุหภูมิที่ CB 1EDB2 ปกติครับ การเฝ้าระวัง 1.ทีมงาน Forum Thermo scan CB 1EDB2 ทุกๆ 1 ชั่วโมง"
   },
   {
     "case_no": "CASE-260826-151949177598",
@@ -11476,7 +12472,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Gas Leak - ก๊าซรั่ว",
+    "event_type_en": "Security: Gas Leak",
+    "summary_th": "พบ แก๊สรั่วซึม  บริเวณชั้น 6",
+    "summary_en": "พบ แก๊สรั่วซึม  บริเวณชั้น 6",
+    "finding_th": "ทางวชิรมรรค เข้าเเก้ไขเบื้องต้นขันอัดเเน่นหน้าเเปรนก่อนครับ วันนี้เนื่องจากมีทางผู้ใหญ่เข้าใช้งานพื้นที่รับประทานอาหารช่วงเย็น ตอนนี้สามารถเปิดใช้งานเเก๊สได้ปกติเเล้ว ทดสอบจุดรั่วตามข้อต่อ หน้าเเปรน จุดเชื่อมไม่มีจุดรั่วเพิ่มเติม ทดสอบ Gas Detector ทำงานได้   \nการแก้ไขถาวร พรุ่งนี้เวลา 10:00 น. ทางผรม.วัชริมรรคจะเข้าเปลี่ยนประเก็นให้ครับ",
+    "finding_en": "ทางวชิรมรรค เข้าเเก้ไขเบื้องต้นขันอัดเเน่นหน้าเเปรนก่อนครับ วันนี้เนื่องจากมีทางผู้ใหญ่เข้าใช้งานพื้นที่รับประทานอาหารช่วงเย็น ตอนนี้สามารถเปิดใช้งานเเก๊สได้ปกติเเล้ว ทดสอบจุดรั่วตามข้อต่อ หน้าเเปรน จุดเชื่อมไม่มีจุดรั่วเพิ่มเติม ทดสอบ Gas Detector ทำงานได้   \nการแก้ไขถาวร พรุ่งนี้เวลา 10:00 น. ทางผรม.วัชริมรรคจะเข้าเปลี่ยนประเก็นให้ครับ"
   },
   {
     "case_no": "CASE-260926-073050701431",
@@ -11500,7 +12502,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Pipe - ท่อ : Sewage  water - Leaking - ท่อน้ำเสียรั่วซึม",
+    "event_type_en": "Hard Service: Pipe",
+    "summary_th": "ชั้น B2 H09 น้ำรั่วจากท่อ RW รบกวนช่างตรวจสอบ",
+    "summary_en": "ชั้น B2 H09 น้ำรั่วจากท่อ RW รบกวนช่างตรวจสอบ",
+    "finding_th": "ช่างทำการแก้ไขพันท่อเบื้องต้นแล้ว ตอนนี้น้ำหยุดไหลแล้วแต่ยังมีน้ำหยดอยู่เล็กน้อยค่ะ",
+    "finding_en": "ช่างทำการแก้ไขพันท่อเบื้องต้นแล้ว ตอนนี้น้ำหยุดไหลแล้วแต่ยังมีน้ำหยดอยู่เล็กน้อยค่ะ"
   },
   {
     "case_no": "CASE-260817-105848892384",
@@ -11524,7 +12532,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : General Issues - ปัญหาทั่วไป",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "ลิฟต์ PL.2.1(B5) จอดค้างที่ชั้น 27 ประตูเปิด",
+    "summary_en": "ลิฟต์ PL.2.1(B5) จอดค้างที่ชั้น 27 ประตูเปิด",
+    "finding_th": "รายงาน Incident report \nอาคาร Tower3 \nวันที่  13/08/69 เวลา 17.30 น.\n\nหัวหน้าช่างชื่อ\nนายปรัชญา เต็มสุข\nตำแหน่ง: Senior Technician\n\nพื้นที่เกิดเหตุ อาคาร Tower3 \nลิฟต์ PL.2.1(B5) จอดค้างที่ชั้น 27 ประตูเปิด\n\n รายละเอียด \n1.เวลา 16:30 น. แจ้ง FMC ได้ประสานงานแจ้ง Call Center Mitsubishi\n2.เวลา 16:45 น. ช่าง Mitsubishi ถึงหน้างาน\n3.เวลา 17:50 น. ช่าง Mitsubishi ทำการตรวจสอบลิฟต์ไม่สามารถใช้งานได้ ตรวจสอบพบว่า Error ที่ห้องเครื่องชั้น 31 แจ้งปัญหาเกี่ยวกับประตูเปิด-ปิด มีปัญหา ช่างมิตซูบิชิทำการแก้ไขรีเซ็ตและปรับระยะประตูใหม่ ชั้น 8,21,25,29 ใหม่ และได้ทำการวิ่งทดสอบลิฟต์ใช้งานได้ปกติ\n\nสาเหตุ \n- ระยะ Switch Safety Door ประตูในไม่ได้ระยะ \n\nผลกระทบ\n- ไม่สามารถใช้งานลิฟต์ได้ชั่วขณะ\n-ไม่มีลูกค้าติดลิฟต์\n\nการแก้ไข\n- ทีม Mitsubishi ทำการแก้ไขปรับตั้งระยะ Switch Safety Door ใหม่\n\nสรุปการแก้ไข\n- ดำเนินการใช้งานได้ปกติ \nการแก้ไขปัญหาเบื้องต้น\n1.ช่างอาคารตรวจสอบหน้างาน\n2.ทีม FMC แจ้ง Call Center Mitsubishi\n3.ช่าง Mitsubishi ทำการตรวจสอบแก้ไข\n\nผู้แจ้ง  \nนาย ปรัชญา",
+    "finding_en": "รายงาน Incident report \nอาคาร Tower3 \nวันที่  13/08/69 เวลา 17.30 น.\n\nหัวหน้าช่างชื่อ\nนายปรัชญา เต็มสุข\nตำแหน่ง: Senior Technician\n\nพื้นที่เกิดเหตุ อาคาร Tower3 \nลิฟต์ PL.2.1(B5) จอดค้างที่ชั้น 27 ประตูเปิด\n\n รายละเอียด \n1.เวลา 16:30 น. แจ้ง FMC ได้ประสานงานแจ้ง Call Center Mitsubishi\n2.เวลา 16:45 น. ช่าง Mitsubishi ถึงหน้างาน\n3.เวลา 17:50 น. ช่าง Mitsubishi ทำการตรวจสอบลิฟต์ไม่สามารถใช้งานได้ ตรวจสอบพบว่า Error ที่ห้องเครื่องชั้น 31 แจ้งปัญหาเกี่ยวกับประตูเปิด-ปิด มีปัญหา ช่างมิตซูบิชิทำการแก้ไขรีเซ็ตและปรับระยะประตูใหม่ ชั้น 8,21,25,29 ใหม่ และได้ทำการวิ่งทดสอบลิฟต์ใช้งานได้ปกติ\n\nสาเหตุ \n- ระยะ Switch Safety Door ประตูในไม่ได้ระยะ \n\nผลกระทบ\n- ไม่สามารถใช้งานลิฟต์ได้ชั่วขณะ\n-ไม่มีลูกค้าติดลิฟต์\n\nการแก้ไข\n- ทีม Mitsubishi ทำการแก้ไขปรับตั้งระยะ Switch Safety Door ใหม่\n\nสรุปการแก้ไข\n- ดำเนินการใช้งานได้ปกติ \nการแก้ไขปัญหาเบื้องต้น\n1.ช่างอาคารตรวจสอบหน้างาน\n2.ทีม FMC แจ้ง Call Center Mitsubishi\n3.ช่าง Mitsubishi ทำการตรวจสอบแก้ไข\n\nผู้แจ้ง  \nนาย ปรัชญา"
   },
   {
     "case_no": "CASE-260915-143016072264",
@@ -11548,7 +12562,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 14:23 รับแจ้งจาก FCC Parade พบลิฟต์ SL 2.1 ค้างอยู่ที่ชั้น B1 โดยมีบุคคลติดอยู่ในลิฟต์ 1 คน",
+    "summary_en": "[soc-inf] 14:23 รับแจ้งจาก FCC Parade พบลิฟต์ SL 2.1 ค้างอยู่ที่ชั้น B1 โดยมีบุคคลติดอยู่ในลิฟต์ 1 คน",
+    "finding_th": "ช่าง Hitachi ทำการแก้ไขลิฟท์สามารถใช้งานปกติค่ะ",
+    "finding_en": "ช่าง Hitachi ทำการแก้ไขลิฟท์สามารถใช้งานปกติค่ะ"
   },
   {
     "case_no": "CASE-260919-105629849943",
@@ -11572,7 +12592,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 10:54 SOC รับแจ้งจาก Sup G4S K.พจณี ว่า รถยนต์ของผู้รับเหมา ยี่ห้อ Isuzu ทะเบียน 3 ฒศ 5800 กรุงเทพมหานคร ได้เฉี่ยวชนกันชนเสาบริเวณด้านหน้า Loading 8 ส่งผลให้กันชนเสาหลุดและทำให้ทรัพย์สินของโครงการได้รับความเสียหาย",
+    "summary_en": "[soc-inf] 10:54 SOC รับแจ้งจาก Sup G4S K.พจณี ว่า รถยนต์ของผู้รับเหมา ยี่ห้อ Isuzu ทะเบียน 3 ฒศ 5800 กรุงเทพมหานคร ได้เฉี่ยวชนกันชนเสาบริเวณด้านหน้า Loading 8 ส่งผลให้กันชนเสาหลุดและทำให้ทรัพย์สินของโครงการได้รับความเสียหาย",
+    "finding_th": "วันที่ 19 กันยายน 2569 เวลา 10.46 น ผู้รับเหมาได้เรียกประกันของบริษัทมิตรแท้ประกันภัยเข้ามาเคลม ทรัพย์สินของโครงการมีพี่เก๋ง smt รับใบเคลมไปเรียบร้อยค่ะ",
+    "finding_en": "วันที่ 19 กันยายน 2569 เวลา 10.46 น ผู้รับเหมาได้เรียกประกันของบริษัทมิตรแท้ประกันภัยเข้ามาเคลม ทรัพย์สินของโครงการมีพี่เก๋ง smt รับใบเคลมไปเรียบร้อยค่ะ"
   },
   {
     "case_no": "CASE-260729-032119984294",
@@ -11596,7 +12622,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Electrical : Transformer Fault Alarm - ความผิดปกติหม้อแปลงไฟฟ้า",
+    "event_type_en": "Hard Service: Electrical : Transformer Fault Alarm",
+    "summary_th": "[soc-inf] 03:13 ได้รับแจ้งจาก Sup G4S K.ภาณุพงศ์ ได้รับแจ้งว่าเกิดเหตุหม้อแปลงไฟฟ้าระเบิด บริเวณระหว่างประตู 8 และอาคาร Forum ใกล้พื้นที่จัดเก็บวัสดุของผู้รับเหมา (Pre-Built Store) โดยได้ยินเสียงระเบิดดังขึ้นจากบริเวณดังกล่าว",
+    "summary_en": "[soc-inf] 03:13 ได้รับแจ้งจาก Sup G4S K.ภาณุพงศ์ ได้รับแจ้งว่าเกิดเหตุหม้อแปลงไฟฟ้าระเบิด บริเวณระหว่างประตู 8 และอาคาร Forum ใกล้พื้นที่จัดเก็บวัสดุของผู้รับเหมา (Pre-Built Store) โดยได้ยินเสียงระเบิดดังขึ้นจากบริเวณดังกล่าว",
+    "finding_th": "แจ้งว่าการไฟฟ้านครหลวงได้ทำการแก้ไขหม้อแปลงกลับมาใช้งานได้ปกติ สาเหตุมาจากลูกงูเหลือมเข้าไปในหม้อแปลง",
+    "finding_en": "แจ้งว่าการไฟฟ้านครหลวงได้ทำการแก้ไขหม้อแปลงกลับมาใช้งานได้ปกติ สาเหตุมาจากลูกงูเหลือมเข้าไปในหม้อแปลง"
   },
   {
     "case_no": "CASE-260822-205158528010",
@@ -11620,7 +12652,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Safety Concern - ตรวจพบปัญหาด้านความปลอดภัย",
+    "event_type_en": "Security: Safety Concern",
+    "summary_th": "[soc-inf] 20:51 SOC ได้รับแจ้งจาก FCC TOWER3 ว่าพบลูกค้าเด็กชายเข้าไปบริเวณประตูหนีไฟชั้น 6 ฝั่งใกล้เคียง HarborLand โดยมีอาการอาเจียนไว้ ซึ่งมีพนักงาน  HarborLand เข้าไปช่วยภายหลัง // เปิดเคสย้อนหลัง",
+    "summary_en": "[soc-inf] 20:51 SOC ได้รับแจ้งจาก FCC TOWER3 ว่าพบลูกค้าเด็กชายเข้าไปบริเวณประตูหนีไฟชั้น 6 ฝั่งใกล้เคียง HarborLand โดยมีอาการอาเจียนไว้ ซึ่งมีพนักงาน  HarborLand เข้าไปช่วยภายหลัง // เปิดเคสย้อนหลัง",
+    "finding_th": "ทีม Operation รีเทล แก้ปัญหาเบื้องต้น โดยการเอาแผงกั้นหน้าประตูหนีไฟเป็นการชั่วคราว ในระหว่างรอแก้ไขระบบแจ้งเตือน เพื่อป้องกันไม่ให้เกิดเหตุซ้ำซ้อนและได้ประสาน TC รีเทล แจ้งผู้จัดการ Harborland และแนะนำพนักงาน ส่วนหน้างาน หากมีเหตุฉุกเฉินให้พนักงานเป็นคนเปิดประตูเพื่อนำอพยพ\n\nและให้ รปภ / Fireman เข้าไปวนตรวจสอบ เป็นระยะ",
+    "finding_en": "ทีม Operation รีเทล แก้ปัญหาเบื้องต้น โดยการเอาแผงกั้นหน้าประตูหนีไฟเป็นการชั่วคราว ในระหว่างรอแก้ไขระบบแจ้งเตือน เพื่อป้องกันไม่ให้เกิดเหตุซ้ำซ้อนและได้ประสาน TC รีเทล แจ้งผู้จัดการ Harborland และแนะนำพนักงาน ส่วนหน้างาน หากมีเหตุฉุกเฉินให้พนักงานเป็นคนเปิดประตูเพื่อนำอพยพ\n\nและให้ รปภ / Fireman เข้าไปวนตรวจสอบ เป็นระยะ"
   },
   {
     "case_no": "CASE-260725-055349846558",
@@ -11644,7 +12682,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Hard Service: BMS System : Failure Partial - ระบบ BMS ไม่สามารถใช้งานได้บางส่วน",
+    "event_type_en": "Hard Service: BMS System : Failure Partial",
+    "summary_th": "อาคาร Parade Tower 5 และ  ONE89 wireless ระบบ BMS ใช้งานไม่ได้",
+    "summary_en": "อาคาร Parade Tower 5 และ  ONE89 wireless ระบบ BMS ใช้งานไม่ได้",
+    "finding_th": "สาเหตุ-Controller Fail \nเเก้ไข- ผรม AA ทำการ Restart point server อาคาร Parade,Tower5 Controller กลับมา Online ปกติ\nProgram BMS เเละ ระบบต่างๆ กลับมาใช้งานได้ตามปกติ",
+    "finding_en": "สาเหตุ-Controller Fail \nเเก้ไข- ผรม AA ทำการ Restart point server อาคาร Parade,Tower5 Controller กลับมา Online ปกติ\nProgram BMS เเละ ระบบต่างๆ กลับมาใช้งานได้ตามปกติ"
   },
   {
     "case_no": "CASE-260829-192451211929",
@@ -11668,7 +12712,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Security: Slip and Fall Accidents - อุบัติเหตุลื่นล้ม",
+    "event_type_en": "Security: Slip and Fall Accidents",
+    "summary_th": "[soc-inf] 19:22 SOC รับแจ้งจาก Sup G4S พบรถจักรยานยนต์ ลุกค้าลื่นล้ม บริเวณ ชั้น B1M มางลง Ramp Entrance 2",
+    "summary_en": "[soc-inf] 19:22 SOC รับแจ้งจาก Sup G4S พบรถจักรยานยนต์ ลุกค้าลื่นล้ม บริเวณ ชั้น B1M มางลง Ramp Entrance 2",
+    "finding_th": "ลูกค้าประสบอุบัติเหตุรถจักรยานยนต์ล้มบริเวณชั้น B1 ก่อนเข้าพื้นที่จอดรถจักรยานยนต์ ส่งผลให้ได้รับบาดเจ็บบริเวณหัวเข่าและข้อศอก รวมถึงรถจักรยานยนต์ได้รับความเสียหาย โดยลูกค้าประสงค์เรียกร้องค่าซ่อมรถและค่ารักษาพยาบาล ซึ่งฝ่ายอาคารได้ประสานงานกับบริษัทประกันเพื่อพิจารณาความเสียหาย อย่างไรก็ตาม จากการประชุม Morning Brief เมื่อวันที่ 1 พฤศจิกายน 2569 ฝ่ายอาคารแจ้งว่ายังไม่ได้รับการติดต่อกลับจากลูกค้า จึงขอปิดเคสดังกล่าว",
+    "finding_en": "ลูกค้าประสบอุบัติเหตุรถจักรยานยนต์ล้มบริเวณชั้น B1 ก่อนเข้าพื้นที่จอดรถจักรยานยนต์ ส่งผลให้ได้รับบาดเจ็บบริเวณหัวเข่าและข้อศอก รวมถึงรถจักรยานยนต์ได้รับความเสียหาย โดยลูกค้าประสงค์เรียกร้องค่าซ่อมรถและค่ารักษาพยาบาล ซึ่งฝ่ายอาคารได้ประสานงานกับบริษัทประกันเพื่อพิจารณาความเสียหาย อย่างไรก็ตาม จากการประชุม Morning Brief เมื่อวันที่ 1 พฤศจิกายน 2569 ฝ่ายอาคารแจ้งว่ายังไม่ได้รับการติดต่อกลับจากลูกค้า จึงขอปิดเคสดังกล่าว"
   },
   {
     "case_no": "CASE-260817-085959582567",
@@ -11692,7 +12742,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Tenant Retail: Others - งานอื่น ๆ : Special Request - คำขอพิเศษอื่น ๆ",
+    "event_type_en": "Tenant Retail: Others",
+    "summary_th": "ร้าน Cafe Chilli แจ้งว่า แก๊สมี Alarm และไฟแดงขึ้น",
+    "summary_en": "ร้าน Cafe Chilli แจ้งว่า แก๊สมี Alarm และไฟแดงขึ้น",
+    "finding_th": "ช่าง senses เข้าตรวจสอบพบว่า Gas Detector no 2 มีความชื้น\n• เบื้องต้นช่าง senses ทำการใช้ที่ตรวจจับ แก๊สรั่วตรวจสอบให้ทางร้านไม่พบจุดรั่วซึมครับ\n• หมายเหตุ ทำการปลดสาย Gas Detector ให้ทางร้านใช้แก๊สได้ชั่วคราวก่อนครับ เนื่องจากGas Detector มีความชื้น แจ้งให้ทางร้านรับทราบถึงสาเหตุเรียบร้อยครับ\nประสานให้ ผรม. เข้ามาเปลี่ยนอุปกรณ์ให้ทางร้านต่อไปครับ",
+    "finding_en": "ช่าง senses เข้าตรวจสอบพบว่า Gas Detector no 2 มีความชื้น\n• เบื้องต้นช่าง senses ทำการใช้ที่ตรวจจับ แก๊สรั่วตรวจสอบให้ทางร้านไม่พบจุดรั่วซึมครับ\n• หมายเหตุ ทำการปลดสาย Gas Detector ให้ทางร้านใช้แก๊สได้ชั่วคราวก่อนครับ เนื่องจากGas Detector มีความชื้น แจ้งให้ทางร้านรับทราบถึงสาเหตุเรียบร้อยครับ\nประสานให้ ผรม. เข้ามาเปลี่ยนอุปกรณ์ให้ทางร้านต่อไปครับ"
   },
   {
     "case_no": "CASE-260904-171822071816",
@@ -11716,7 +12772,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 17:17 soc รับแจ้งจาก Sup G4S  One bangkok park แจ้งว่า มีท่อน้ำหลุดอยู่ตรงบริเวณหน้าทาวเวอร์ 5 ใกล้กับปริมาตรกรรม Forum",
+    "summary_en": "[soc-inf] 17:17 soc รับแจ้งจาก Sup G4S  One bangkok park แจ้งว่า มีท่อน้ำหลุดอยู่ตรงบริเวณหน้าทาวเวอร์ 5 ใกล้กับปริมาตรกรรม Forum",
+    "finding_th": "ทีมคนสวนทำการแก้ไขท่อน้ำหลุดเรียบร้อยแล้ว",
+    "finding_en": "ทีมคนสวนทำการแก้ไขท่อน้ำหลุดเรียบร้อยแล้ว"
   },
   {
     "case_no": "CASE-260704-153259069534",
@@ -11740,7 +12802,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Tenant retail: Electrical System : Damaged Light Bulb - หลอดไฟชำรุด",
+    "event_type_en": "Tenant retail: Electrical System : Damaged Light Bulb",
+    "summary_th": "[soc-inf] 15:05 รับแจ้งจาก พนักงาน CLUB 21 แจ้งว่า วันที่ 3/7/2569 เวลา 19:40 น. เกิดไฟกระชาก 2-3 ครั้ง ทำให้หลอดไฟภายในร้านดับหลาย 10 ดวง",
+    "summary_en": "[soc-inf] 15:05 รับแจ้งจาก พนักงาน CLUB 21 แจ้งว่า วันที่ 3/7/2569 เวลา 19:40 น. เกิดไฟกระชาก 2-3 ครั้ง ทำให้หลอดไฟภายในร้านดับหลาย 10 ดวง",
+    "finding_th": "ช่าง ss เข้าตรวจสอบพบหลอดไฟดับ 23 หลอด ทางร้านแจ้งว่า วันที่ 3/7/2569 เวลา 19:40 น. เกิดไฟกระชาก 2-3 ครั้ง ทำให้ไฟดับหลายสิบหลอด เช็คกับทาง JLL มีไฟตกจริง หลอดไฟภายในร้านเป็นหลอดยี่ห้อ EVE Led globe 13W Coolwhite 4000k ขั้ว E27 ทางร้านสอบถามแนวทางป้องกันไม่ให้หลอดไฟขาดเวลามีไฟตกไฟกระพริบ เบื้องต้นแจ้งข้อมูล TC รับทราบเพื่อแนะนำแนวทางกับทางร้านต่อไป *** ข้อมูลจากส่วนกลาง 03-Jul-26 เมื่อเวลา19:35น. ระบบไฟฟ้า 69/115kV One Bangkok Incoming1 มีvoltage sag 0.10 sec เนื่องจากทาง MEA สายส่งline ชิดลม-696 ตก-สับไม่ติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ",
+    "finding_en": "ช่าง ss เข้าตรวจสอบพบหลอดไฟดับ 23 หลอด ทางร้านแจ้งว่า วันที่ 3/7/2569 เวลา 19:40 น. เกิดไฟกระชาก 2-3 ครั้ง ทำให้ไฟดับหลายสิบหลอด เช็คกับทาง JLL มีไฟตกจริง หลอดไฟภายในร้านเป็นหลอดยี่ห้อ EVE Led globe 13W Coolwhite 4000k ขั้ว E27 ทางร้านสอบถามแนวทางป้องกันไม่ให้หลอดไฟขาดเวลามีไฟตกไฟกระพริบ เบื้องต้นแจ้งข้อมูล TC รับทราบเพื่อแนะนำแนวทางกับทางร้านต่อไป *** ข้อมูลจากส่วนกลาง 03-Jul-26 เมื่อเวลา19:35น. ระบบไฟฟ้า 69/115kV One Bangkok Incoming1 มีvoltage sag 0.10 sec เนื่องจากทาง MEA สายส่งline ชิดลม-696 ตก-สับไม่ติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ"
   },
   {
     "case_no": "CASE-260822-132121904108",
@@ -11764,7 +12832,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 13:19 รับแจ้งจาก SUP G4S K.Bunying พบรถลูกค้าถอยชนเสา",
+    "summary_en": "[soc-inf] 13:19 รับแจ้งจาก SUP G4S K.Bunying พบรถลูกค้าถอยชนเสา",
+    "finding_th": "ได้รับใบเคลมจากทางประกันเรียบร้อย",
+    "finding_en": "ได้รับใบเคลมจากทางประกันเรียบร้อย"
   },
   {
     "case_no": "CASE-260704-175612435567",
@@ -11788,7 +12862,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Civil : Fixture Repair/Maintenance - ซ่อมแซม/ซ่อมบำรุงอุปกรณ์ภายในอาคารที่ติดตั้งอยู่กับที่",
+    "event_type_en": "Hard Service: Civil : Fixture Repair/Maintenance",
+    "summary_th": "พบน้ำไหลบริเวณโซน B ตรงข้ามร้านสมิทแอนโค",
+    "summary_en": "พบน้ำไหลบริเวณโซน B ตรงข้ามร้านสมิทแอนโค",
+    "finding_th": "ปิดเคส เนื่องจากอยู่ระหว่างรอทำ sub drain",
+    "finding_en": "ปิดเคส เนื่องจากอยู่ระหว่างรอทำ sub drain"
   },
   {
     "case_no": "CASE-260703-200414878667",
@@ -11812,7 +12892,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Electrical : Electrical Issue - ปัญหาระบบไฟฟ้า",
+    "event_type_en": "Hard Service: Electrical : Electrical Issue",
+    "summary_th": "โครงการ One Bangkok ไฟกระพริบ 2 รอบ ช่วงเวลา 19.35 น.",
+    "summary_en": "โครงการ One Bangkok ไฟกระพริบ 2 รอบ ช่วงเวลา 19.35 น.",
+    "finding_th": "สาเหตุ\n- เมื่อเวลา 19:35 น.ระบบไฟฟ้า 69/115kV One Bangkok Incoming 1 มี voltage sag 0.10 sec \nเนื่องจากทาง MEA สายส่งline ชิดลม-696 ตก-สับไม่ติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ\n\nผลกระทบ\n- แสงสว่างภายในโครงการกระพริบชั่วขณะ\n- อาคาร Tower 3 บันไดเลื่อน หยุดทำงาน 4 ตัว A1,A2,A4,A5\n- อาคาร Tower 4 บันไดเลื่อน หยุดทำงาน 2 ตัว EL.1.2,1.3 และ lift ตัว O กระตุก 1 ตัว\n- อาคาร Tower 5 บันไดเลื่อน หยุดทำงาน 2 ตัว บริเวณชั้น 1 \n- อาคาร Parade บันไดเลื่อน หยุดทำงาน 1 ตัว ETPB2.2\n- อาคาร The Storeys บันไดเลื่อน หยุดทำงาน 1 ตัว ESL3.3\n- อาคาร Forum Gas Controller หยุดการทำงาน \n\nการแก้ไข\n- ได้ทำการตรวจสอบระบบ HVAC ,ETS ,PUMP ,Pre-treatment สามารถใช้งานได้ตามปกติ\n- Forum Gas Controller หยุดการทำงาน ช่างอาคาร ทำการ Reset กลับมาใช้งานได้ปกติ \n- Escalator หยุดทำงาน ประสาน Hitachi และ Mitsubishi เข้ามาแก้ไข\n- Lift ตัว O Tower 4 กระตุก  ประสาน Mitsubishi เข้ามาแก้ไข",
+    "finding_en": "สาเหตุ\n- เมื่อเวลา 19:35 น.ระบบไฟฟ้า 69/115kV One Bangkok Incoming 1 มี voltage sag 0.10 sec \nเนื่องจากทาง MEA สายส่งline ชิดลม-696 ตก-สับไม่ติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ\n\nผลกระทบ\n- แสงสว่างภายในโครงการกระพริบชั่วขณะ\n- อาคาร Tower 3 บันไดเลื่อน หยุดทำงาน 4 ตัว A1,A2,A4,A5\n- อาคาร Tower 4 บันไดเลื่อน หยุดทำงาน 2 ตัว EL.1.2,1.3 และ lift ตัว O กระตุก 1 ตัว\n- อาคาร Tower 5 บันไดเลื่อน หยุดทำงาน 2 ตัว บริเวณชั้น 1 \n- อาคาร Parade บันไดเลื่อน หยุดทำงาน 1 ตัว ETPB2.2\n- อาคาร The Storeys บันไดเลื่อน หยุดทำงาน 1 ตัว ESL3.3\n- อาคาร Forum Gas Controller หยุดการทำงาน \n\nการแก้ไข\n- ได้ทำการตรวจสอบระบบ HVAC ,ETS ,PUMP ,Pre-treatment สามารถใช้งานได้ตามปกติ\n- Forum Gas Controller หยุดการทำงาน ช่างอาคาร ทำการ Reset กลับมาใช้งานได้ปกติ \n- Escalator หยุดทำงาน ประสาน Hitachi และ Mitsubishi เข้ามาแก้ไข\n- Lift ตัว O Tower 4 กระตุก  ประสาน Mitsubishi เข้ามาแก้ไข"
   },
   {
     "case_no": "CASE-260708-165224362708",
@@ -11836,7 +12922,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Civil : Fixture Repair/Maintenance - ซ่อมแซม/ซ่อมบำรุงอุปกรณ์ภายในอาคารที่ติดตั้งอยู่กับที่",
+    "event_type_en": "Hard Service: Civil : Fixture Repair/Maintenance",
+    "summary_th": "พบเจอท่อน้ำแตกบริเวณทางเดิน wireless park -wireless house ตรงข้ามกับร้านบาร์โด้",
+    "summary_en": "พบเจอท่อน้ำแตกบริเวณทางเดิน wireless park -wireless house ตรงข้ามกับร้านบาร์โด้",
+    "finding_th": "ทำการแก้ไขเรียบร้อย",
+    "finding_en": "ทำการแก้ไขเรียบร้อย"
   },
   {
     "case_no": "CASE-260715-043030581459",
@@ -11860,7 +12952,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 04:29 รับแจ้งจาก FCC Forum แจ้งว่ามีผู้รับเหมาติดภายในลิฟท์ VT09 จำนวน 3 คน",
+    "summary_en": "[soc-inf] 04:29 รับแจ้งจาก FCC Forum แจ้งว่ามีผู้รับเหมาติดภายในลิฟท์ VT09 จำนวน 3 คน",
+    "finding_th": "สาเหตุ\n- Lift 9 โลดเกิน\n\nผลกระทบ\n- Lift หยุดทำงานและปิดทำการชั่วคราว\n\nการแก้ไข้\n-ทำการปิดเมนลิฟน์ Lt 9\nสรุปการแก้ไข\n- ช่าง HITACHI ทำการช่วยเหลือได้ แต่ต้องปิดลิฟต์ชั่วคราว ช่างHitachi รอแจ้งผู้จัดการ Hitachi เข้านำทีมมาตรวจสอบ",
+    "finding_en": "สาเหตุ\n- Lift 9 โลดเกิน\n\nผลกระทบ\n- Lift หยุดทำงานและปิดทำการชั่วคราว\n\nการแก้ไข้\n-ทำการปิดเมนลิฟน์ Lt 9\nสรุปการแก้ไข\n- ช่าง HITACHI ทำการช่วยเหลือได้ แต่ต้องปิดลิฟต์ชั่วคราว ช่างHitachi รอแจ้งผู้จัดการ Hitachi เข้านำทีมมาตรวจสอบ"
   },
   {
     "case_no": "CASE-260918-153739628696",
@@ -11884,7 +12982,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst – ท่อน้ำแตก/รั่ว",
+    "event_type_en": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst",
+    "summary_th": "ท่อน้ำรดต้นไม้แตก ตรง Drop Off Tower 5",
+    "summary_en": "ท่อน้ำรดต้นไม้แตก ตรง Drop Off Tower 5",
+    "finding_th": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
+    "finding_en": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย"
   },
   {
     "case_no": "CASE-260818-190930425220",
@@ -11908,7 +13012,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Heat Detector Activation - เครื่องตรวจจับความร้อนแจ้งเตือนเหตุเพลิงไหม้",
+    "event_type_en": "Security: Fire Alarm System : Heat Detector Activation",
+    "summary_th": "ถุงขยะมีความร้อนและเกิดควันไฟ ทำให้ระบบจับสัญญาณ",
+    "summary_en": "ถุงขยะมีความร้อนและเกิดควันไฟ ทำให้ระบบจับสัญญาณ",
+    "finding_th": "จากการตรวจสอบ ตรวจพบน้ำยาที่มีกรด ของทางผู้รับเหมา ทำปฏิกริยากับกระดาษทิชชู่ในถุงขยะ จึงทำให้เกิดความร้อนและควัน",
+    "finding_en": "จากการตรวจสอบ ตรวจพบน้ำยาที่มีกรด ของทางผู้รับเหมา ทำปฏิกริยากับกระดาษทิชชู่ในถุงขยะ จึงทำให้เกิดความร้อนและควัน"
   },
   {
     "case_no": "CASE-260827-170722913090",
@@ -11932,7 +13042,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Tenant retail: Gas System : Gas System Malfunction – แก๊สไม่ทำงาน",
+    "event_type_en": "Tenant retail: Gas System : Gas System Malfunction",
+    "summary_th": "ร้าน Oishi Biztoro 1B133-1B134 แจ้งแก๊สรั่ว",
+    "summary_en": "ร้าน Oishi Biztoro 1B133-1B134 แจ้งแก๊สรั่ว",
+    "finding_th": "ช่าง senses ดำเนินการตรวจสอบพบ ทองแดงรั่ว คาด ว่าเกิดจากท่อแก๊สกับท่อน้ำดีเบียดกันทำให้ท่อชำรุด เบื้องต้นช่าง senses ใช้เครื่องตรวจสอบแก๊สรั่ว พบจุด รั่วซึมตรงบริเวณเตาข้างอ่างล้างมือ ช่าง ทำการให้ทาง ร้านงดใช้งานเตาตัวนี้ชั่วคราวก่อนครับ ทำการปิดวาล์ว แก๊ส ไว้ชั่วคราว หมายเหตุแจ้งให้ทางร้านรับทราบเรียบร้อยครับ ทางร้าน จะเรียกช่างของทางร้านเข้ามาแก้ไขต่อไป",
+    "finding_en": "ช่าง senses ดำเนินการตรวจสอบพบ ทองแดงรั่ว คาด ว่าเกิดจากท่อแก๊สกับท่อน้ำดีเบียดกันทำให้ท่อชำรุด เบื้องต้นช่าง senses ใช้เครื่องตรวจสอบแก๊สรั่ว พบจุด รั่วซึมตรงบริเวณเตาข้างอ่างล้างมือ ช่าง ทำการให้ทาง ร้านงดใช้งานเตาตัวนี้ชั่วคราวก่อนครับ ทำการปิดวาล์ว แก๊ส ไว้ชั่วคราว หมายเหตุแจ้งให้ทางร้านรับทราบเรียบร้อยครับ ทางร้าน จะเรียกช่างของทางร้านเข้ามาแก้ไขต่อไป"
   },
   {
     "case_no": "CASE-260906-145006842175",
@@ -11956,7 +13072,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "คุณ Gumparnat Pasaganon 0818088711 // ติดในบันไดฉุกเฉิน ชั้น B3 เสาL08  โซนสีเขียว",
+    "summary_en": "คุณ Gumparnat Pasaganon 0818088711 // ติดในบันไดฉุกเฉิน ชั้น B3 เสาL08  โซนสีเขียว",
+    "finding_th": "จากการตรวจสอบพบว่าลูกค้าติดอยู่ที่ประตูหนีไฟ STO5 ในเวลา 14:44 น. จากนั้น ลูกค้าได้โทรแจ้ง Contact Center ในเวลา 14:46 น. \n\nวิธีการช่วยเหลือ \nเวลา 14:48 น. SOC ได้รับแจ้งเหตุจาก Contact Center\nเวลา 14:49 น. SOC ประสาน SUP G4S ประจำชั้น B3 เข้าตรวจสอบบริเวณประตูหนีไฟโซนสีเขียว เสา L08\nเวลา 14:50 น. SOC ได้รับแจ้งจาก SUP G4S ประจำชั้น B3 ว่าลูกค้าได้ออกมาเรียบร้อยแล้ว\nเวลา 14:51 น. ลูกค้าได้โทรแจ้ง Contact Center ว่าสามารถออกมาได้แล้ว โดยมีลูกค้าทานอื่นผ่านมาพอดี และช่วยเปิดประตูให้ \n\nระยะเวลาที่ลูกค้าติดค้างในประตูหนีไฟ ST05 ทั้งหมด 6 นาที",
+    "finding_en": "จากการตรวจสอบพบว่าลูกค้าติดอยู่ที่ประตูหนีไฟ STO5 ในเวลา 14:44 น. จากนั้น ลูกค้าได้โทรแจ้ง Contact Center ในเวลา 14:46 น. \n\nวิธีการช่วยเหลือ \nเวลา 14:48 น. SOC ได้รับแจ้งเหตุจาก Contact Center\nเวลา 14:49 น. SOC ประสาน SUP G4S ประจำชั้น B3 เข้าตรวจสอบบริเวณประตูหนีไฟโซนสีเขียว เสา L08\nเวลา 14:50 น. SOC ได้รับแจ้งจาก SUP G4S ประจำชั้น B3 ว่าลูกค้าได้ออกมาเรียบร้อยแล้ว\nเวลา 14:51 น. ลูกค้าได้โทรแจ้ง Contact Center ว่าสามารถออกมาได้แล้ว โดยมีลูกค้าทานอื่นผ่านมาพอดี และช่วยเปิดประตูให้ \n\nระยะเวลาที่ลูกค้าติดค้างในประตูหนีไฟ ST05 ทั้งหมด 6 นาที"
   },
   {
     "case_no": "CASE-260911-055912143040",
@@ -11980,7 +13102,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 5:47 รับแจ้งจาก FCC Tower 3 ลิฟท์ ตัวที่ B4 ค้างอยู่ชั้น 29 มีเจ้าหน้าที่ รปภ. ติดอยู่ภายในลิฟท์ 1 ท่าน [เปิดเคสย้อนหลัง]",
+    "summary_en": "[soc-inf] 5:47 รับแจ้งจาก FCC Tower 3 ลิฟท์ ตัวที่ B4 ค้างอยู่ชั้น 29 มีเจ้าหน้าที่ รปภ. ติดอยู่ภายในลิฟท์ 1 ท่าน [เปิดเคสย้อนหลัง]",
+    "finding_th": "รายงาน Incident report \nอาคาร Tower3 \nวันที่  11/09/69 เวลา 05.00 น.\n\nช่างอาคาร\nนายธนิก ทรงสถาพรวงศ์\nตำแหน่ง: Technician\n\nพื้นที่เกิดเหตุ อาคาร Tower3 \nลิฟต์ PL.2.5(B4) ปิดค้าง\n\n รายละเอียด \n1.เวลา 05.00 น. แจ้ง FMC ได้ประสานงานแจ้ง Call Center Mitsubishi\n2.เวลา 05.20 น. ช่าง Mitsubishi ถึงหน้างาน\n3.เวลา 17.50 น. ช่าง Mitsubishi ทำการตรวจสอบไม่เจอ\nสาเหตุ\n- รปภ. ลืมกดเรียกLift ทำให้Lift จอดอยู่กับที่\nผลกระทบ\n- ไม่มี\n\nการแก้ไข\n- ทีม Mitsubishi ทำการเข้าตรวจสอบเทสวิ่งLift\n\nสรุปการแก้ไข\n- ดำเนินการใช้งานได้ปกติ \n\nการแก้ไขปัญหาเบื้องต้น\n1.ช่างอาคารตรวจสอบหน้างาน\n2.ทีม FMC แจ้ง Call Center Mitsubishi\n3.ช่าง Mitsubishi ทำการตรวจสอบแก้ไข\n\nผู้แจ้ง  \nนาย ธนิก",
+    "finding_en": "รายงาน Incident report \nอาคาร Tower3 \nวันที่  11/09/69 เวลา 05.00 น.\n\nช่างอาคาร\nนายธนิก ทรงสถาพรวงศ์\nตำแหน่ง: Technician\n\nพื้นที่เกิดเหตุ อาคาร Tower3 \nลิฟต์ PL.2.5(B4) ปิดค้าง\n\n รายละเอียด \n1.เวลา 05.00 น. แจ้ง FMC ได้ประสานงานแจ้ง Call Center Mitsubishi\n2.เวลา 05.20 น. ช่าง Mitsubishi ถึงหน้างาน\n3.เวลา 17.50 น. ช่าง Mitsubishi ทำการตรวจสอบไม่เจอ\nสาเหตุ\n- รปภ. ลืมกดเรียกLift ทำให้Lift จอดอยู่กับที่\nผลกระทบ\n- ไม่มี\n\nการแก้ไข\n- ทีม Mitsubishi ทำการเข้าตรวจสอบเทสวิ่งLift\n\nสรุปการแก้ไข\n- ดำเนินการใช้งานได้ปกติ \n\nการแก้ไขปัญหาเบื้องต้น\n1.ช่างอาคารตรวจสอบหน้างาน\n2.ทีม FMC แจ้ง Call Center Mitsubishi\n3.ช่าง Mitsubishi ทำการตรวจสอบแก้ไข\n\nผู้แจ้ง  \nนาย ธนิก"
   },
   {
     "case_no": "CASE-260912-002133046748",
@@ -12004,7 +13132,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 00:15 รับแจ้งจาก SUP G4S K.เลิศพิสิษฐ์ แจ้งว่า SUP G4S K.ประเวศน์ ขับรถกอล์ฟปีนหมอนรองล้อรถยนต์ และชนตู้ไฟ",
+    "summary_en": "[soc-inf] 00:15 รับแจ้งจาก SUP G4S K.เลิศพิสิษฐ์ แจ้งว่า SUP G4S K.ประเวศน์ ขับรถกอล์ฟปีนหมอนรองล้อรถยนต์ และชนตู้ไฟ",
+    "finding_th": "ขออนุญาตปิดเคสเนื่องจากทางฝ่ายอาคารประสานทาง บริษัท UGO เข้ามาซ่อมรถกอล์ฟเรียบร้อยแล้ว โดยทางโครงการสำรองจ่ายไปก่อน ทั้งนี้จะออก Invoice เรียกเก็บกับทาง G4S ต่อไป",
+    "finding_en": "ขออนุญาตปิดเคสเนื่องจากทางฝ่ายอาคารประสานทาง บริษัท UGO เข้ามาซ่อมรถกอล์ฟเรียบร้อยแล้ว โดยทางโครงการสำรองจ่ายไปก่อน ทั้งนี้จะออก Invoice เรียกเก็บกับทาง G4S ต่อไป"
   },
   {
     "case_no": "CASE-260826-125358754862",
@@ -12028,7 +13162,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Security: Vehicle Accident (No Injury) - อุบัติเหตุทางยานพาหนะ (ไม่มีผู้บาดเจ็บ)",
+    "event_type_en": "Security: Vehicle Accident (No Injury)",
+    "summary_th": "[soc-inf] 12:50 น. ได้รับแจ้งจาก G4S คุณ Thawatchai ว่าพบรถยนต์ลูกค้า ยี่ห้อ Tesla ทะเบียน 4ขญ 4738 เหยียบน็อตตัวยึดท่อสีเขียว เบื้องต้นอยู่ระหว่างตรวจสอบความเสียหายครับ",
+    "summary_en": "[soc-inf] 12:50 น. ได้รับแจ้งจาก G4S คุณ Thawatchai ว่าพบรถยนต์ลูกค้า ยี่ห้อ Tesla ทะเบียน 4ขญ 4738 เหยียบน็อตตัวยึดท่อสีเขียว เบื้องต้นอยู่ระหว่างตรวจสอบความเสียหายครับ",
+    "finding_th": "ช่างจากบริษัทบิวควิกดำเนินการปะยางรถลูกค้าเสร็จสิ้นเรียบร้อยแล้ว โดยทางอาคาร JLL ได้ดำเนินการชำระค่าใช้จ่ายให้กับช่างเรียบร้อยแล้ว\nจากนั้นเจ้าหน้าที่ได้อำนวยความสะดวกให้รถลูกค้าออกจากพื้นที่ และนำส่งช่างจากบริษัทบิวควิกออกนอกพื้นที่เรียบร้อยแล้วครับ",
+    "finding_en": "ช่างจากบริษัทบิวควิกดำเนินการปะยางรถลูกค้าเสร็จสิ้นเรียบร้อยแล้ว โดยทางอาคาร JLL ได้ดำเนินการชำระค่าใช้จ่ายให้กับช่างเรียบร้อยแล้ว\nจากนั้นเจ้าหน้าที่ได้อำนวยความสะดวกให้รถลูกค้าออกจากพื้นที่ และนำส่งช่างจากบริษัทบิวควิกออกนอกพื้นที่เรียบร้อยแล้วครับ"
   },
   {
     "case_no": "CASE-260806-100137681809",
@@ -12052,7 +13192,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 09:59  ลิฟท์ค้างที่ ชั้น 16  Towre 3 มีลูกค้าหญิงติด 1 ท่าน",
+    "summary_en": "[soc-inf] 09:59  ลิฟท์ค้างที่ ชั้น 16  Towre 3 มีลูกค้าหญิงติด 1 ท่าน",
+    "finding_th": "Timeline\nเวลา 9.54 น. ลูกค้าเข้าลิฟท์\nเวลา 9.55 น. ลิฟท์ถึงชั้น 16 เริ่มค้าง\nเวลา 9.57 น. ลูกค้าอินเตอร์คอมแจ้ง FCC\nเวลา 10.05 น. ลูกค้าออกจากลิฟท์ ชั้น 29 ประตูเปิดเอง\nลูกค้าติดอยู่ในลิฟท์เป็นเวลา 11 นาที ลูกค้าไม่มีอาการผิดปกติ เดินกลับเข้าไปทำงานที่ชั้น 29",
+    "finding_en": "Timeline\nเวลา 9.54 น. ลูกค้าเข้าลิฟท์\nเวลา 9.55 น. ลิฟท์ถึงชั้น 16 เริ่มค้าง\nเวลา 9.57 น. ลูกค้าอินเตอร์คอมแจ้ง FCC\nเวลา 10.05 น. ลูกค้าออกจากลิฟท์ ชั้น 29 ประตูเปิดเอง\nลูกค้าติดอยู่ในลิฟท์เป็นเวลา 11 นาที ลูกค้าไม่มีอาการผิดปกติ เดินกลับเข้าไปทำงานที่ชั้น 29"
   },
   {
     "case_no": "CASE-260826-155318698097",
@@ -12076,7 +13222,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst – ท่อน้ำแตก/รั่ว",
+    "event_type_en": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst",
+    "summary_th": "ร้าน Guss Damn Good ห้องเลขที่ OP2B104 ชั้น B1 อาคาร The Storeys เนื่องจาก ท่อน้ำที่ซิงค์เชื่อมไปยังบ่อดักรั่ว",
+    "summary_en": "ร้าน Guss Damn Good ห้องเลขที่ OP2B104 ชั้น B1 อาคาร The Storeys เนื่องจาก ท่อน้ำที่ซิงค์เชื่อมไปยังบ่อดักรั่ว",
+    "finding_th": "-ช่าง SS เข้าตรวจเช็คพบว่าเกลียวล็อคสะดืออ่างหลุดทำให้น้ำรั่ว  ทำการแก้ไขโดยการขันล็อคสะดืออ่างใหม่  และทำการเปลี่ยนก๊อกน้ำให้ทางร้านจำนวน 1 ชุด เรียบร้อย",
+    "finding_en": "-ช่าง SS เข้าตรวจเช็คพบว่าเกลียวล็อคสะดืออ่างหลุดทำให้น้ำรั่ว  ทำการแก้ไขโดยการขันล็อคสะดืออ่างใหม่  และทำการเปลี่ยนก๊อกน้ำให้ทางร้านจำนวน 1 ชุด เรียบร้อย"
   },
   {
     "case_no": "CASE-260708-042802046210",
@@ -12100,7 +13252,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Residential : Property Damage : Furniture - ความเสียหายต่อทรัพย์สิน - เฟอร์นิเจอร์",
+    "event_type_en": "Residential : Property Damage : Furniture",
+    "summary_th": "8/7/2569 เวลา 04.14น. FCC ROOM รับแจ้งจาก SUP/คุณทองดี พบเฟอนิเจอร์ตกแต่งส่วนกลางแตกเสียหาย  ตรวจสอบพบเป็นผู้รับเหมา บริษัท แอดวานท์ ได้ทำบันไดชนกับเฟอนิเจอร์ชนส่วนกลาง",
+    "summary_en": "8/7/2569 เวลา 04.14น. FCC ROOM รับแจ้งจาก SUP/คุณทองดี พบเฟอนิเจอร์ตกแต่งส่วนกลางแตกเสียหาย  ตรวจสอบพบเป็นผู้รับเหมา บริษัท แอดวานท์ ได้ทำบันไดชนกับเฟอนิเจอร์ชนส่วนกลาง",
+    "finding_th": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
+    "finding_en": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา"
   },
   {
     "case_no": "CASE-260910-110545821626",
@@ -12124,7 +13282,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst – ท่อน้ำแตก/รั่ว",
+    "event_type_en": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst",
+    "summary_th": "ร้าน Baan Ying ชั้น 3 ห้องเลขที่ 1310 อาคาร Parade​เนื่องจาก มีน้ำหยดลงมาจากท่อ",
+    "summary_en": "ร้าน Baan Ying ชั้น 3 ห้องเลขที่ 1310 อาคาร Parade​เนื่องจาก มีน้ำหยดลงมาจากท่อ",
+    "finding_th": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
+    "finding_en": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย"
   },
   {
     "case_no": "CASE-260911-001641798765",
@@ -12148,7 +13312,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "10/09/69 เวลา 23.16น. FCC RETAIL ได้รับแจ้งจากSupคุณชัยญรงค์ มีลูกค้าเพศชายขโมยกระดาษเช็ดมือแบบแผ่น จำนวน 1 ห่อ ภายในห้องนั้าลูกค้าชาย ชั้นB1",
+    "summary_en": "10/09/69 เวลา 23.16น. FCC RETAIL ได้รับแจ้งจากSupคุณชัยญรงค์ มีลูกค้าเพศชายขโมยกระดาษเช็ดมือแบบแผ่น จำนวน 1 ห่อ ภายในห้องนั้าลูกค้าชาย ชั้นB1",
+    "finding_th": "ลูกค้าเพศชายขโมยกระดาษเช็ดมือแบบแผ่น จำนวน 1 ห่อ ภายในห้องน้ำลูกค้าชาย ชั้น b1\nเวลา 22.58น. ลูกค้าชายเดินเข้าห้องน้ำลูกค้าชายชั้น b1\nเวลา 23.00น. หัวหน้าชุดพบเจอลูกค้าหยิบกระดาษออกมากำลังจะนำใส่กระเป๋าจึงเข้าสอบถาม\nหัวหน้าชุดประสานแจ้ง DM Retail รับทราบ\nเวลา 23.04น. DM Retail/สยามราช เข้าพื้นที่\nDM Retail แจ้งกล่าวตักเตือนกับทางลูกค้า ไม่ประสงค์ดำเนินการทางกฎหมาย หากมีครั้งต่อไปจะดำเนินการทางกฎหมาย\nเวลา 23.04น. ลูกค้าชายเดินออกทางประตู drop off VIP ชั้น g Tower 3\nเวลา 23.05น. ทีมพ่อบ้านได้กระดาษเช็ดมือแบบแผ่น จำนวน 1 ห่อ กลับไปใส่ในห้องน้ำตามเดิม\nเวลา 23.16น. หัวหน้าชุดประสานแจ้งFCC RETAIL รับทราบ",
+    "finding_en": "ลูกค้าเพศชายขโมยกระดาษเช็ดมือแบบแผ่น จำนวน 1 ห่อ ภายในห้องน้ำลูกค้าชาย ชั้น b1\nเวลา 22.58น. ลูกค้าชายเดินเข้าห้องน้ำลูกค้าชายชั้น b1\nเวลา 23.00น. หัวหน้าชุดพบเจอลูกค้าหยิบกระดาษออกมากำลังจะนำใส่กระเป๋าจึงเข้าสอบถาม\nหัวหน้าชุดประสานแจ้ง DM Retail รับทราบ\nเวลา 23.04น. DM Retail/สยามราช เข้าพื้นที่\nDM Retail แจ้งกล่าวตักเตือนกับทางลูกค้า ไม่ประสงค์ดำเนินการทางกฎหมาย หากมีครั้งต่อไปจะดำเนินการทางกฎหมาย\nเวลา 23.04น. ลูกค้าชายเดินออกทางประตู drop off VIP ชั้น g Tower 3\nเวลา 23.05น. ทีมพ่อบ้านได้กระดาษเช็ดมือแบบแผ่น จำนวน 1 ห่อ กลับไปใส่ในห้องน้ำตามเดิม\nเวลา 23.16น. หัวหน้าชุดประสานแจ้งFCC RETAIL รับทราบ"
   },
   {
     "case_no": "CASE-260913-154023721353",
@@ -12172,7 +13342,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst – ท่อน้ำแตก/รั่ว",
+    "event_type_en": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst",
+    "summary_th": "นัดตรวจสอบร่วมกับ JLL เรื่องเคสน้ำรั่วลงครัว ร้าน Cova 2G33-2G34",
+    "summary_en": "นัดตรวจสอบร่วมกับ JLL เรื่องเคสน้ำรั่วลงครัว ร้าน Cova 2G33-2G34",
+    "finding_th": "- จากการตรวจสอบร่วมกับ JLL บริเวณท่อที่น้ำรั่วลงมาจากห้องน้ำคนพิการชั้น 3 หลังจากปิดการใช้งานตั้งแต่เมื่อวานไม่พบว่ามีน้ำหยดลงมาเพิ่มเติม\n- ทดสอบเทสน้ำในเส้นท่อโดยการกดฟลัสน้ำจากโถชักโครกเป็นระยะเวลา2 นาที ไม่พบว่ามีน้ำรั่วซึมออกจากข้อต่อท่อ\n- เบื้องต้นทาง JLL จะทำการแก้ไขยาวแนวกระเบื้องพื้นที่เสื่อมสภาพก่อนและจะทดสอบโดยการเทน้ำที่พื้นเสมือนการใช้งานอีกครั้งเพื่อตรวจสอบว่ายังมีจุดที่รั่วไหลอีกหรือไม่",
+    "finding_en": "- จากการตรวจสอบร่วมกับ JLL บริเวณท่อที่น้ำรั่วลงมาจากห้องน้ำคนพิการชั้น 3 หลังจากปิดการใช้งานตั้งแต่เมื่อวานไม่พบว่ามีน้ำหยดลงมาเพิ่มเติม\n- ทดสอบเทสน้ำในเส้นท่อโดยการกดฟลัสน้ำจากโถชักโครกเป็นระยะเวลา2 นาที ไม่พบว่ามีน้ำรั่วซึมออกจากข้อต่อท่อ\n- เบื้องต้นทาง JLL จะทำการแก้ไขยาวแนวกระเบื้องพื้นที่เสื่อมสภาพก่อนและจะทดสอบโดยการเทน้ำที่พื้นเสมือนการใช้งานอีกครั้งเพื่อตรวจสอบว่ายังมีจุดที่รั่วไหลอีกหรือไม่"
   },
   {
     "case_no": "CASE-260928-225830619479",
@@ -12196,7 +13372,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Tenant retail: Gas System : Gas System Malfunction – แก๊สไม่ทำงาน",
+    "event_type_en": "Tenant retail: Gas System : Gas System Malfunction",
+    "summary_th": "Food Street Unit1506 Alarm Gas",
+    "summary_en": "Food Street Unit1506 Alarm Gas",
+    "finding_th": "ช่างเข้าตรวจท่อแก๊สและข้อต่อจุดต่าง และทำการรีเซ็ต และทดสอบเปิดใช้งานแก๊สไม่พบว่ามีแก๊สรั่วซึม และไม่มีสัญญา alarm ดัง คาดว่าโดนน้ำครับ Gas Detector โดนน้ำหรือเกิดความชื้นจากน้ำในรางน้ำทิ้งหลังร้านบริเวณเครื่อง Detector ครับ - แจ้งพนักงาน Food Street รับทราบแล้วครับสามารถใช้งานได้ปกติ",
+    "finding_en": "ช่างเข้าตรวจท่อแก๊สและข้อต่อจุดต่าง และทำการรีเซ็ต และทดสอบเปิดใช้งานแก๊สไม่พบว่ามีแก๊สรั่วซึม และไม่มีสัญญา alarm ดัง คาดว่าโดนน้ำครับ Gas Detector โดนน้ำหรือเกิดความชื้นจากน้ำในรางน้ำทิ้งหลังร้านบริเวณเครื่อง Detector ครับ - แจ้งพนักงาน Food Street รับทราบแล้วครับสามารถใช้งานได้ปกติ"
   },
   {
     "case_no": "CASE-260915-192211768314",
@@ -12220,7 +13402,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เป็นเหตุฉุกเฉินระดับ 1 ของศูนย์การค้า ต้องออก Incident Report เพื่อรายงานผู้บริหาร และทบทวนมาตรการระงับเหตุฉุกเฉิน",
     "action_th": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
     "action_en": "1. Submit Major IR to senior executive leadership 2. Investigate spark/gas joint root causes 3. Verify automated solenoid interlock status",
-    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ"
+    "action": "1. จัดทำ IR ระดับ Major ส่งผู้บริหาร 2. บันทึก Root Cause การเกิดประกายไฟหรือรอยต่อท่อแก๊ส 3. ตรวจเช็คระบบ Interlock ปิดแก๊สอัตโนมัติ",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "[soc-inf] 19:15 SOC รับแจ้งจาก SUP G4S K.ขวัญชัย พบเหตุมีประกายไฟฟ้า",
+    "summary_en": "[soc-inf] 19:15 SOC รับแจ้งจาก SUP G4S K.ขวัญชัย พบเหตุมีประกายไฟฟ้า",
+    "finding_th": "สรุปเหตุการณ์ \nเวลา 19:15 น. พบเหตุเพลิงไหม้สปอร์ตไลท์บริเวณหลังกำแพงอาคาร CUP ทีม EOT ประสาน SOC และช่าง FMC ตัดกระแสไฟ พร้อมเข้าระงับเหตุ โดยสามารถดับเพลิงได้สำเร็จเวลา 19:28 น.\n\nจากนั้น EOT และ FMC ตรวจสอบจุดเกิดเหตุด้วยกล้อง Thermal และตรวจวัดกระแสไฟ พร้อม Cooling จุดเกิดเหตุ จนเวลา 19:43 น. ยืนยันไม่มีกระแสไฟและไม่พบความร้อนสะสม จึงเฝ้าระวังพื้นที่และยกเลิกภารกิจเวลา 19:55 น.",
+    "finding_en": "สรุปเหตุการณ์ \nเวลา 19:15 น. พบเหตุเพลิงไหม้สปอร์ตไลท์บริเวณหลังกำแพงอาคาร CUP ทีม EOT ประสาน SOC และช่าง FMC ตัดกระแสไฟ พร้อมเข้าระงับเหตุ โดยสามารถดับเพลิงได้สำเร็จเวลา 19:28 น.\n\nจากนั้น EOT และ FMC ตรวจสอบจุดเกิดเหตุด้วยกล้อง Thermal และตรวจวัดกระแสไฟ พร้อม Cooling จุดเกิดเหตุ จนเวลา 19:43 น. ยืนยันไม่มีกระแสไฟและไม่พบความร้อนสะสม จึงเฝ้าระวังพื้นที่และยกเลิกภารกิจเวลา 19:55 น."
   },
   {
     "case_no": "CASE-260825-153501791429",
@@ -12244,7 +13432,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 15:11 รับแจ้งจาก  K. Jaturong EOT Team Lead  ว่า ร้าน Volcom ชั้น 2 Parade เกิดเหตุสินค้าประเภทเสื้อผ้าถูกขโมย",
+    "summary_en": "[soc-inf] 15:11 รับแจ้งจาก  K. Jaturong EOT Team Lead  ว่า ร้าน Volcom ชั้น 2 Parade เกิดเหตุสินค้าประเภทเสื้อผ้าถูกขโมย",
+    "finding_th": "Timeline บุคคลต้องสงสัยขโมยสินค้า ร้าน Volcom\n\nลักษณะบุคคล : ชาวต่างชาติเพศชาย สัญชาติญี่ปุ่น\n\n09:58 น. บุคคลต้องสงสัยเดินมาจากฝั่งชุมชนบ่อนไก่ และเข้าพื้นที่โครงการทาง Entrance 7 (EN7)\n09:59 น. บุคคลต้องสงสัยเดินลงบริเวณ Service Route\n10:00 น. บุคคลต้องสงสัยเดินมุ่งหน้าไปยังบริเวณ Loading 1 และเข้าประตูด้านหน้า Mitsukoshi\n10:39 น. บุคคลต้องสงสัยเดินออกจากบริเวณ Mitsukoshi เพื่อซื้อสินค้าที่ Yamazaki โดยสวมชุดพนักงานของร้านค้าที่อยู่ภายใน Mitsukoshi ทั้งนี้ ยังไม่ทราบว่าบุคคลดังกล่าวปฏิบัติงานอยู่ที่ร้านใด\n10:40 น. บุคคลต้องสงสัยซื้อสินค้าที่ Yamazaki เสร็จแล้ว จากนั้นเดินกลับเข้าไปภายใน Mitsukoshi และอยู่ภายในพื้นที่ดังกล่าวจนถึงเวลา 14:38 น. ก่อนเดินออกจากพื้นที่\n14:38 น. บุคคลต้องสงสัยออกจาก Mitsukoshi และขึ้นบันไดเลื่อนไปยัง ชั้น G ก่อนขึ้นต่อไปยัง ชั้น 1\n14:39 น. บุคคลต้องสงสัยเดินเข้าร้าน Lacoste\n14:40 น. บุคคลต้องสงสัยเดินออกจากร้าน Lacoste\n14:41 น. บุคคลต้องสงสัยขึ้นบันไดเลื่อนจาก ชั้น 2 ไปยังชั้น 3\n14:42 น. บุคคลต้องสงสัยเดินเข้าร้าน Daiso\n14:45 น. บุคคลต้องสงสัยเดินออกจากร้าน Daiso\n14:46 น. บุคคลต้องสงสัยเดินลงบันไดเลื่อนมายัง ชั้น 2\n14:48 น. บุคคลต้องสงสัยเดินเข้าร้าน Volcom\n14:57 น. บุคคลต้องสงสัยเดินออกจากร้าน Volcom และลงบันไดเลื่อนไปยัง ชั้น G\n14:59 น. บุคคลต้องสงสัยลงบันไดเลื่อนไปยัง ชั้น B1 และเดินเข้าไปภายใน Mitsukoshi\n15:39 น. บุคคลต้องสงสัยเดินออกจาก Mitsukoshi และขึ้นบันไดเลื่อนไปยัง ชั้น G\n15:41 น. บุคคลต้องสงสัยออกจากพื้นที่โครงการทาง ประตูพระราม 4",
+    "finding_en": "Timeline บุคคลต้องสงสัยขโมยสินค้า ร้าน Volcom\n\nลักษณะบุคคล : ชาวต่างชาติเพศชาย สัญชาติญี่ปุ่น\n\n09:58 น. บุคคลต้องสงสัยเดินมาจากฝั่งชุมชนบ่อนไก่ และเข้าพื้นที่โครงการทาง Entrance 7 (EN7)\n09:59 น. บุคคลต้องสงสัยเดินลงบริเวณ Service Route\n10:00 น. บุคคลต้องสงสัยเดินมุ่งหน้าไปยังบริเวณ Loading 1 และเข้าประตูด้านหน้า Mitsukoshi\n10:39 น. บุคคลต้องสงสัยเดินออกจากบริเวณ Mitsukoshi เพื่อซื้อสินค้าที่ Yamazaki โดยสวมชุดพนักงานของร้านค้าที่อยู่ภายใน Mitsukoshi ทั้งนี้ ยังไม่ทราบว่าบุคคลดังกล่าวปฏิบัติงานอยู่ที่ร้านใด\n10:40 น. บุคคลต้องสงสัยซื้อสินค้าที่ Yamazaki เสร็จแล้ว จากนั้นเดินกลับเข้าไปภายใน Mitsukoshi และอยู่ภายในพื้นที่ดังกล่าวจนถึงเวลา 14:38 น. ก่อนเดินออกจากพื้นที่\n14:38 น. บุคคลต้องสงสัยออกจาก Mitsukoshi และขึ้นบันไดเลื่อนไปยัง ชั้น G ก่อนขึ้นต่อไปยัง ชั้น 1\n14:39 น. บุคคลต้องสงสัยเดินเข้าร้าน Lacoste\n14:40 น. บุคคลต้องสงสัยเดินออกจากร้าน Lacoste\n14:41 น. บุคคลต้องสงสัยขึ้นบันไดเลื่อนจาก ชั้น 2 ไปยังชั้น 3\n14:42 น. บุคคลต้องสงสัยเดินเข้าร้าน Daiso\n14:45 น. บุคคลต้องสงสัยเดินออกจากร้าน Daiso\n14:46 น. บุคคลต้องสงสัยเดินลงบันไดเลื่อนมายัง ชั้น 2\n14:48 น. บุคคลต้องสงสัยเดินเข้าร้าน Volcom\n14:57 น. บุคคลต้องสงสัยเดินออกจากร้าน Volcom และลงบันไดเลื่อนไปยัง ชั้น G\n14:59 น. บุคคลต้องสงสัยลงบันไดเลื่อนไปยัง ชั้น B1 และเดินเข้าไปภายใน Mitsukoshi\n15:39 น. บุคคลต้องสงสัยเดินออกจาก Mitsukoshi และขึ้นบันไดเลื่อนไปยัง ชั้น G\n15:41 น. บุคคลต้องสงสัยออกจากพื้นที่โครงการทาง ประตูพระราม 4"
   },
   {
     "case_no": "CASE-260703-201730670624",
@@ -12268,7 +13462,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : Breakdown Alarm - บันไดเลื่อนหยุดทำงาน",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "บันไดเลื่อนหยุดการทำงาน ชั้นB2 ลงไปB3",
+    "summary_en": "บันไดเลื่อนหยุดการทำงาน ชั้นB2 ลงไปB3",
+    "finding_th": "รายงายงาน Incident report \nโครงการ One Bangkok\nวันที่ 03/07/69 เวลา 19.35 น.\n\nช่างชื่อ\nนายภัทรพล วัฒนภิโกวิท\nตำแหน่ง: SR.Technician \n\nพื้นที่เกิดเหตุ โครงการ One Bangkok\n-เรื่อง ไฟกระพริบทั้งโครงการ\n\n รายละเอียด \n1. เวลา 19.35 น. ได้รับแจ้งว่ามีไฟกระพริบ จาก ช่างอาคาร Jll CUP ชั้น M, FMC แจ้งช่างให้ตรวจสอบระบบทุกอาคาร\n2. เวลา 19.36 น. ได้ทำการสอบถามข้อมูลจาก BSP ว่ามีไฟตกหรือไม่\n3. เวลา 19.45 น. ทาง BSP แจ้งกลับว่า พบ ระบบไฟฟ้า 69/115kV One Bangkok Incoming 1 มี voltage sag 0.10 sec เนื่องจากทาง MEA สายส่งline ชิดลม-696 ตก-สับไม่ติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ\n4. เวลา 20.03 น. ได้รับแจ้ง The ritz carlton จาก Group Line ระบบ ETS plant หยุดทำงาน\n\nสาเหตุ\n- เมื่อเวลา 19:35 น.ระบบไฟฟ้า 69/115kV One Bangkok Incoming 1 มี voltage sag 0.10 sec \nเนื่องจากทาง MEA สายส่งline ชิดลม-696 ตก-สับไม่ติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ\n\nผลกระทบ\n- แสงสว่างภายในโครงการกระพริบชั่วขณะ\n- อาคาร Tower 3 บันไดเลื่อน หยุดทำงาน 4 ตัว A1,A2,A4,A5\n- อาคาร Tower 4 บันไดเลื่อน หยุดทำงาน 2 ตัว EL.1.2,1.3 และ lift ตัว O กระตุก 1 ตัว\n- อาคาร Tower 5 บันไดเลื่อน หยุดทำงาน 2 ตัว บริเวณชั้น 1 \n- อาคาร Parade บันไดเลื่อน หยุดทำงาน 1 ตัว ETPB2.2\n- อาคาร The Storeys บันไดเลื่อน หยุดทำงาน 1 ตัว ESL3.3\n- อาคาร Forum Gas Controller หยุดการทำงาน \n\nการแก้ไข\n- ได้ทำการตรวจสอบระบบ HVAC ,ETS ,PUMP ,Pre-treatment สามารถใช้งานได้ตามปกติ\n- Forum Gas Controller หยุดการทำงาน ช่างอาคาร ทำการ Reset กลับมาใช้งานได้ปกติ \n- Escalator หยุดทำงาน ประสาน Hitachi และ Mitsubishi เข้ามาแก้ไข\n- Lift ตัว O Tower 4 กระตุก  ประสาน Mitsubishi เข้ามาแก้ไข\n\nสรุปการแก้ไข\n- ได้ทำการแจ้งทาง BSP ตรวจสอบแหล่งจ่ายไฟจาก MEA\n- ช่างอาคารตรวจสอบระบบภายในอาคารใช้งานได้ปกติ HVAC ,ETS ,PUMP ,Pre-treatment สามารถใช้งานได้ตามปกติ\n- ช่างอาคาร ทำการ Reset ระบบ GAS อาคาร Forum กลับมาใช้งานได้ปกติ\n- FMC ได้ทำการประสาน Hitachi และ Mitsubishi เข้ามาตรวจสอบอุปกรณ์ Escalator,Lift เพื่อคืนสภาพให้กลับมาใช้งานได้ปกติ\n\nการแก้ไขปัญหาเบื้องต้น\n1. ช่างอาคารพบไฟกระพริบ\n2. แจ้ง BSP, วิศวกร, Manager และ DCC \n2. ตรวจสอบกับทาง BSP ว่ามีไฟตกหรือไม่\n3. ทำการตรวจสอบระบบภายในอาคาร สามารถใช้งานได้ตามปกติ\n\nผู้แจ้ง  \nนายภัทรพล วัฒนภิโกวิท",
+    "finding_en": "รายงายงาน Incident report \nโครงการ One Bangkok\nวันที่ 03/07/69 เวลา 19.35 น.\n\nช่างชื่อ\nนายภัทรพล วัฒนภิโกวิท\nตำแหน่ง: SR.Technician \n\nพื้นที่เกิดเหตุ โครงการ One Bangkok\n-เรื่อง ไฟกระพริบทั้งโครงการ\n\n รายละเอียด \n1. เวลา 19.35 น. ได้รับแจ้งว่ามีไฟกระพริบ จาก ช่างอาคาร Jll CUP ชั้น M, FMC แจ้งช่างให้ตรวจสอบระบบทุกอาคาร\n2. เวลา 19.36 น. ได้ทำการสอบถามข้อมูลจาก BSP ว่ามีไฟตกหรือไม่\n3. เวลา 19.45 น. ทาง BSP แจ้งกลับว่า พบ ระบบไฟฟ้า 69/115kV One Bangkok Incoming 1 มี voltage sag 0.10 sec เนื่องจากทาง MEA สายส่งline ชิดลม-696 ตก-สับไม่ติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ\n4. เวลา 20.03 น. ได้รับแจ้ง The ritz carlton จาก Group Line ระบบ ETS plant หยุดทำงาน\n\nสาเหตุ\n- เมื่อเวลา 19:35 น.ระบบไฟฟ้า 69/115kV One Bangkok Incoming 1 มี voltage sag 0.10 sec \nเนื่องจากทาง MEA สายส่งline ชิดลม-696 ตก-สับไม่ติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ\n\nผลกระทบ\n- แสงสว่างภายในโครงการกระพริบชั่วขณะ\n- อาคาร Tower 3 บันไดเลื่อน หยุดทำงาน 4 ตัว A1,A2,A4,A5\n- อาคาร Tower 4 บันไดเลื่อน หยุดทำงาน 2 ตัว EL.1.2,1.3 และ lift ตัว O กระตุก 1 ตัว\n- อาคาร Tower 5 บันไดเลื่อน หยุดทำงาน 2 ตัว บริเวณชั้น 1 \n- อาคาร Parade บันไดเลื่อน หยุดทำงาน 1 ตัว ETPB2.2\n- อาคาร The Storeys บันไดเลื่อน หยุดทำงาน 1 ตัว ESL3.3\n- อาคาร Forum Gas Controller หยุดการทำงาน \n\nการแก้ไข\n- ได้ทำการตรวจสอบระบบ HVAC ,ETS ,PUMP ,Pre-treatment สามารถใช้งานได้ตามปกติ\n- Forum Gas Controller หยุดการทำงาน ช่างอาคาร ทำการ Reset กลับมาใช้งานได้ปกติ \n- Escalator หยุดทำงาน ประสาน Hitachi และ Mitsubishi เข้ามาแก้ไข\n- Lift ตัว O Tower 4 กระตุก  ประสาน Mitsubishi เข้ามาแก้ไข\n\nสรุปการแก้ไข\n- ได้ทำการแจ้งทาง BSP ตรวจสอบแหล่งจ่ายไฟจาก MEA\n- ช่างอาคารตรวจสอบระบบภายในอาคารใช้งานได้ปกติ HVAC ,ETS ,PUMP ,Pre-treatment สามารถใช้งานได้ตามปกติ\n- ช่างอาคาร ทำการ Reset ระบบ GAS อาคาร Forum กลับมาใช้งานได้ปกติ\n- FMC ได้ทำการประสาน Hitachi และ Mitsubishi เข้ามาตรวจสอบอุปกรณ์ Escalator,Lift เพื่อคืนสภาพให้กลับมาใช้งานได้ปกติ\n\nการแก้ไขปัญหาเบื้องต้น\n1. ช่างอาคารพบไฟกระพริบ\n2. แจ้ง BSP, วิศวกร, Manager และ DCC \n2. ตรวจสอบกับทาง BSP ว่ามีไฟตกหรือไม่\n3. ทำการตรวจสอบระบบภายในอาคาร สามารถใช้งานได้ตามปกติ\n\nผู้แจ้ง  \nนายภัทรพล วัฒนภิโกวิท"
   },
   {
     "case_no": "CASE-260831-002255479206",
@@ -12292,7 +13492,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst – ท่อน้ำแตก/รั่ว",
+    "event_type_en": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst",
+    "summary_th": "รับแจ้งมีน้ำรั่วในร้านค้าแกงสด 1339",
+    "summary_en": "รับแจ้งมีน้ำรั่วในร้านค้าแกงสด 1339",
+    "finding_th": "#NAME?",
+    "finding_en": "#NAME?"
   },
   {
     "case_no": "CASE-260913-121953821666",
@@ -12316,7 +13522,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Security: Medical Assistance : Major - Ambulance - ความช่วยเหลือทางการแพทย์ (กรณีฉุกเฉิน-รถพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Major",
+    "summary_th": "[soc-inf] 12:17 รับแจ้งจาก EMT พนักงาน JLL เกิดอุบัติเหตุขณะปฏิบัติงานได้รับบาดเจ็บบริเวณนิ้วมือขวา เนื่องจากฝาท่อทับ ยืนยันนำส่งโรงพยาบาลกล้วยน้ำไท",
+    "summary_en": "[soc-inf] 12:17 รับแจ้งจาก EMT พนักงาน JLL เกิดอุบัติเหตุขณะปฏิบัติงานได้รับบาดเจ็บบริเวณนิ้วมือขวา เนื่องจากฝาท่อทับ ยืนยันนำส่งโรงพยาบาลกล้วยน้ำไท",
+    "finding_th": "พนักงานช่าง JLL ประสบอุบัติเหตุขณะปฏิบัติงานบริเวณบ่อน้ำเสีย ชั้น B4 โซนสีเหลือง หน้าห้อง FAN ROOM ได้รับบาดเจ็บบริเวณนิ้วมือขวา จากการลากตะแกรงฝาท่อเพื่อเข้าตรวจสอบลูกลอย เบื้องต้นยืนยันนำส่งโรงพยาบาลกล้วยน้ำไทเพื่อเข้ารับการรักษา\nข้อมูลผู้ได้รับบาดเจ็บ :\nเป็นพนักงาน JLL (ช่าง Estate)\nชื่อ-สกุล นายคชา สีหะวงษ์\nเพศชาย อายุ 34 ปี\nสาเหตุ : ฝาท่อทับนิ้วกลางขวามือ (ท่อปั๊ม DB ชั้น B4)",
+    "finding_en": "พนักงานช่าง JLL ประสบอุบัติเหตุขณะปฏิบัติงานบริเวณบ่อน้ำเสีย ชั้น B4 โซนสีเหลือง หน้าห้อง FAN ROOM ได้รับบาดเจ็บบริเวณนิ้วมือขวา จากการลากตะแกรงฝาท่อเพื่อเข้าตรวจสอบลูกลอย เบื้องต้นยืนยันนำส่งโรงพยาบาลกล้วยน้ำไทเพื่อเข้ารับการรักษา\nข้อมูลผู้ได้รับบาดเจ็บ :\nเป็นพนักงาน JLL (ช่าง Estate)\nชื่อ-สกุล นายคชา สีหะวงษ์\nเพศชาย อายุ 34 ปี\nสาเหตุ : ฝาท่อทับนิ้วกลางขวามือ (ท่อปั๊ม DB ชั้น B4)"
   },
   {
     "case_no": "CASE-260815-092940780814",
@@ -12340,7 +13552,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst – ท่อน้ำแตก/รั่ว",
+    "event_type_en": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst",
+    "summary_th": "รับแจ้งบ่อดักไขมันรั่ว",
+    "summary_en": "รับแจ้งบ่อดักไขมันรั่ว",
+    "finding_th": "• สาเหตุ เกิดจาก เป็นรอยตะไบเก็บขอบสแตนเลส ทำให้มีตา มดน้ำหยดครับ\n• เบื้องต้นช่าง senses เข้าเเก้ไขโดยการใช้ Epoxy อุดรอยรั่วบ่อดักให้ทางร้านเรียบร้อยครับ",
+    "finding_en": "• สาเหตุ เกิดจาก เป็นรอยตะไบเก็บขอบสแตนเลส ทำให้มีตา มดน้ำหยดครับ\n• เบื้องต้นช่าง senses เข้าเเก้ไขโดยการใช้ Epoxy อุดรอยรั่วบ่อดักให้ทางร้านเรียบร้อยครับ"
   },
   {
     "case_no": "CASE-260922-113312568623",
@@ -12364,7 +13582,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "ลิฟต์คนพิการตรง MRT มีลูกค้าติดลิฟต์",
+    "summary_en": "ลิฟต์คนพิการตรง MRT มีลูกค้าติดลิฟต์",
+    "finding_th": "เบื้องต้นดำเนินการ Reset ระบบ กลับมาใช้งานได้ปกติ\nสาเหตุ : สาเหตุยังไม่ทราบแน่นชัด นัดช่างเข้าตรวจสอบ 10.00 น.",
+    "finding_en": "เบื้องต้นดำเนินการ Reset ระบบ กลับมาใช้งานได้ปกติ\nสาเหตุ : สาเหตุยังไม่ทราบแน่นชัด นัดช่างเข้าตรวจสอบ 10.00 น."
   },
   {
     "case_no": "CASE-260717-230106392827",
@@ -12388,7 +13612,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Security: Medical Assistance : Major - Ambulance - ความช่วยเหลือทางการแพทย์ (กรณีฉุกเฉิน-รถพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Major",
+    "summary_th": "[soc-inf] 22:57 รับแจ้งจาก FCC Parade แจ้งว่า พบลูกค้าผู้หญิงลื่นล้มหน้าห้องน้ำหญิง อาคาร Parade ชั้น 5 (ลูกค้าต้องการไป รพ.โดยเรียกรถ Ambulance เข้ามาด้วยตนเอง)",
+    "summary_en": "[soc-inf] 22:57 รับแจ้งจาก FCC Parade แจ้งว่า พบลูกค้าผู้หญิงลื่นล้มหน้าห้องน้ำหญิง อาคาร Parade ชั้น 5 (ลูกค้าต้องการไป รพ.โดยเรียกรถ Ambulance เข้ามาด้วยตนเอง)",
+    "finding_th": "เวลา 22:57 รับแจ้งจาก FCC Parade แจ้งว่า พบลูกค้าผู้หญิงลื่นล้มหน้าห้องน้ำหญิง อาคาร Parade ชั้น 5 (ลูกค้าต้องการไป รพ.โดยเรียกรถ Ambulance เข้ามาด้วยตนเอง) โดยมีทีม EOT เข้าร่วมด้วย ต่อมา เวลา 23.23 น. รถ Ambulance ออกจากโครงการผ่านเส้นทางประตู 7 ค่ะ และ เวลา 00.24 น. ทางรพ.Med Park ติดต่อเข้ามาแจ้งว่าลูกค้าขอจอดรถค้างคืน Mr. K เบอร์ติดต่อ 095-817-8856 (แฟนของผู้ป่วย) ขอจอดรถค้างคืน (รถยี่ห้อ Mitsubishi Pajero ป้ายทะเบียน 2ขข 6222 กทม.) ชั้น B3 โซนเสาสีเหลือง เสาC13 อ้างอิงเคส CASE-260718-005101429896",
+    "finding_en": "เวลา 22:57 รับแจ้งจาก FCC Parade แจ้งว่า พบลูกค้าผู้หญิงลื่นล้มหน้าห้องน้ำหญิง อาคาร Parade ชั้น 5 (ลูกค้าต้องการไป รพ.โดยเรียกรถ Ambulance เข้ามาด้วยตนเอง) โดยมีทีม EOT เข้าร่วมด้วย ต่อมา เวลา 23.23 น. รถ Ambulance ออกจากโครงการผ่านเส้นทางประตู 7 ค่ะ และ เวลา 00.24 น. ทางรพ.Med Park ติดต่อเข้ามาแจ้งว่าลูกค้าขอจอดรถค้างคืน Mr. K เบอร์ติดต่อ 095-817-8856 (แฟนของผู้ป่วย) ขอจอดรถค้างคืน (รถยี่ห้อ Mitsubishi Pajero ป้ายทะเบียน 2ขข 6222 กทม.) ชั้น B3 โซนเสาสีเหลือง เสาC13 อ้างอิงเคส CASE-260718-005101429896"
   },
   {
     "case_no": "CASE-260917-021823689112",
@@ -12412,7 +13642,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 02:17 รับแจ้งจาก SUP G4S K.Panuphong พบน้ำรั่ว",
+    "summary_en": "[soc-inf] 02:17 รับแจ้งจาก SUP G4S K.Panuphong พบน้ำรั่ว",
+    "finding_th": "ช่างอาคาร อัพเดทเคสน้ำรั่ว ลงห้องพัดลมEA1.3 (1) ชั้นB1 พบท่อน้ำRWมาจากห้องพัดลมชั้นบนคาดว่าเป็นพื้นที่ พรีบิลท์ ดูแลคาดว่าท้อแตก\n\nแก้ไขเบื้องต้นโดยทำการปิดวาวล์RW(site wide) ชั้นB1 ตรงหน้าห้อง Gen zone1 ตอนนี้น้ำหยุดไหลแล้วครับ\nและได้ทำการตัดไฟในห้องเรียบร้อยแล้วครับ\n\nการแก้ไขสวมท่อกลับเข้าสู่ตำแหน่งเดิมและขันข้อต่อยูเนียนให้แน่นะ ขณะนี้ดำเนินการเปิดวาล์ว RW เรียบร้อยครับ",
+    "finding_en": "ช่างอาคาร อัพเดทเคสน้ำรั่ว ลงห้องพัดลมEA1.3 (1) ชั้นB1 พบท่อน้ำRWมาจากห้องพัดลมชั้นบนคาดว่าเป็นพื้นที่ พรีบิลท์ ดูแลคาดว่าท้อแตก\n\nแก้ไขเบื้องต้นโดยทำการปิดวาวล์RW(site wide) ชั้นB1 ตรงหน้าห้อง Gen zone1 ตอนนี้น้ำหยุดไหลแล้วครับ\nและได้ทำการตัดไฟในห้องเรียบร้อยแล้วครับ\n\nการแก้ไขสวมท่อกลับเข้าสู่ตำแหน่งเดิมและขันข้อต่อยูเนียนให้แน่นะ ขณะนี้ดำเนินการเปิดวาล์ว RW เรียบร้อยครับ"
   },
   {
     "case_no": "CASE-260817-090811188071",
@@ -12436,7 +13672,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "[soc-inf] 09:00 ลิฟท์ค้าง ที่ชั้น 12 Tower 3  มีลูกค้าติดลิฟท์ 10 คน (เปิดเคสย้อนหลัง)",
+    "summary_en": "[soc-inf] 09:00 ลิฟท์ค้าง ที่ชั้น 12 Tower 3  มีลูกค้าติดลิฟท์ 10 คน (เปิดเคสย้อนหลัง)",
+    "finding_th": "ช่าง Mitsubishi ได้ทำการตรวจสอบและแก้ไขกลับมาใช้งานได้ปกติเรียบร้อย สาเหตุลิฟต์พบว่าระบบ Safety Lift หยุดทำงานแล้วกลับมาทำงานต่อ ตรวจเช็คแล้วพบว่า Switch Buffer ในบ่อลิฟต์ไม่ได้ระยะ ระยะ Contactswtch น้อยเกินไปทำให้ขณะลิฟต์วิ่งหน้าสัมผัสเปลี่นสถานะทำให้ลิฟต์หยุด จึงไ้ทำการแกไขปรับระยะ Switch Buffer ในบ่อลิฟต์ใหม่ พร้อมทดสอบการใช้งาน",
+    "finding_en": "ช่าง Mitsubishi ได้ทำการตรวจสอบและแก้ไขกลับมาใช้งานได้ปกติเรียบร้อย สาเหตุลิฟต์พบว่าระบบ Safety Lift หยุดทำงานแล้วกลับมาทำงานต่อ ตรวจเช็คแล้วพบว่า Switch Buffer ในบ่อลิฟต์ไม่ได้ระยะ ระยะ Contactswtch น้อยเกินไปทำให้ขณะลิฟต์วิ่งหน้าสัมผัสเปลี่นสถานะทำให้ลิฟต์หยุด จึงไ้ทำการแกไขปรับระยะ Switch Buffer ในบ่อลิฟต์ใหม่ พร้อมทดสอบการใช้งาน"
   },
   {
     "case_no": "CASE-260904-095650276957",
@@ -12460,7 +13702,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Stuck (Mantrap) - ลิฟต์ค้าง (มีคนติดภายในลิฟต์)",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "อาคาร R1 SL 1.2 ชั้้นG ลิฟต์ค้างมีคนติด รบกวน FMC ติดต่อ HITACHI ครับ",
+    "summary_en": "อาคาร R1 SL 1.2 ชั้้นG ลิฟต์ค้างมีคนติด รบกวน FMC ติดต่อ HITACHI ครับ",
+    "finding_th": "#NAME?",
+    "finding_en": "#NAME?"
   },
   {
     "case_no": "CASE-260907-085127834480",
@@ -12484,7 +13732,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 08:37 soc รับแจ้งจาก SupG4S ได้มีรถแท็กซี่สีแดง ทะเบียน ทห 648 กทม เฉี่ยวชนเสาดำกันชนบริเวณทางเข้า  Entrance 2",
+    "summary_en": "[soc-inf] 08:37 soc รับแจ้งจาก SupG4S ได้มีรถแท็กซี่สีแดง ทะเบียน ทห 648 กทม เฉี่ยวชนเสาดำกันชนบริเวณทางเข้า  Entrance 2",
+    "finding_th": "เวลา 09:15 น. ทาง SMT พี่เก๋งได้เข้ามาตรวจสอบหน้างานแล้ว เบื้องต้นพี่เก๋งได้ประสานงานและแจ้งให้ฝ่ายอาคาร คุณเอิร์ธ ทราบเรียบร้อยแล้ว\n\nทางคุณเอิร์ธแจ้งว่า เสาดำบริเวณที่ถูกกันชนได้รับความเสียหายเพียงสีถลอกเท่านั้น ตัวเสาไม่ได้หักหรือคดงอ จึงไม่จำเป็นต้องเรียกประกัน ในส่วนรถแท็กซี่ได้ออกจากพื้นที่เรียบร้อยแล้วครับ",
+    "finding_en": "เวลา 09:15 น. ทาง SMT พี่เก๋งได้เข้ามาตรวจสอบหน้างานแล้ว เบื้องต้นพี่เก๋งได้ประสานงานและแจ้งให้ฝ่ายอาคาร คุณเอิร์ธ ทราบเรียบร้อยแล้ว\n\nทางคุณเอิร์ธแจ้งว่า เสาดำบริเวณที่ถูกกันชนได้รับความเสียหายเพียงสีถลอกเท่านั้น ตัวเสาไม่ได้หักหรือคดงอ จึงไม่จำเป็นต้องเรียกประกัน ในส่วนรถแท็กซี่ได้ออกจากพื้นที่เรียบร้อยแล้วครับ"
   },
   {
     "case_no": "CASE-260806-195142010899",
@@ -12508,7 +13762,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "บันไดเลื่อนหนีบมีความเสี่ยงให้ลูกค้าบาดเจ็บสาหัส ต้องมี Incident Report ตรวจสอบระยะห่าง Skirt Guard และระบบ Comb Plate Sensor",
     "action_th": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย",
     "action_en": "1. Issue Incident Report documenting event 2. Temporarily barricade unit for sensor recalibration 3. Review CCTV for insurance adjusters",
-    "action": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย"
+    "action": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย",
+    "event_type_th": "Security: Slip and Fall Accidents - อุบัติเหตุลื่นล้ม",
+    "event_type_en": "Security: Slip and Fall Accidents",
+    "summary_th": "[soc-inf] 19:48 SOC ได้รับแจ้งจาก FCC Retail ว่าพบลูกค้าเด็กวิ่งล้มบริเวณหน้าบันไดเลื่อน ชั้น 1 ฝั่ง West ส่งผลให้ได้รับบาดเจ็บเล็กน้อย โดยลูกค้าไม่ประสงค์เข้ารับการปฐมพยาบาลหรือไปห้องพยาบาล (เปิดเคสย้อนหลัง)",
+    "summary_en": "[soc-inf] 19:48 SOC ได้รับแจ้งจาก FCC Retail ว่าพบลูกค้าเด็กวิ่งล้มบริเวณหน้าบันไดเลื่อน ชั้น 1 ฝั่ง West ส่งผลให้ได้รับบาดเจ็บเล็กน้อย โดยลูกค้าไม่ประสงค์เข้ารับการปฐมพยาบาลหรือไปห้องพยาบาล (เปิดเคสย้อนหลัง)",
+    "finding_th": "เจ้าหน้าที่รักษาความปลอดภัยเข้าตรวจสอบและสอบถามอาการ เบื้องต้นลูกค้าไม่ได้รับบาดเจ็บ ไม่ประสงค์ไปห้องพยาบาล และประสงค์เดินช้อปปิ้งต่อ",
+    "finding_en": "เจ้าหน้าที่รักษาความปลอดภัยเข้าตรวจสอบและสอบถามอาการ เบื้องต้นลูกค้าไม่ได้รับบาดเจ็บ ไม่ประสงค์ไปห้องพยาบาล และประสงค์เดินช้อปปิ้งต่อ"
   },
   {
     "case_no": "CASE-260727-123502430563",
@@ -12532,7 +13792,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Security: Fire Alarm System : Fire Alarm Activation - แจ้งเตือนอัคคีภัย",
+    "event_type_en": "Security: Fire Alarm System : Fire Alarm Activation",
+    "summary_th": "[soc-inf] 12:32 SOC ได้รับแจ้งจาก SUP G4S K.Bingying ว่าพบประกายไฟจากสายไฟเกิดการสปาร์กกับกิ่งไม้ บริเวณด้านหลังอาคาร CUP // ยืนยัน CODE2",
+    "summary_en": "[soc-inf] 12:32 SOC ได้รับแจ้งจาก SUP G4S K.Bingying ว่าพบประกายไฟจากสายไฟเกิดการสปาร์กกับกิ่งไม้ บริเวณด้านหลังอาคาร CUP // ยืนยัน CODE2",
+    "finding_th": "Timeline เหตุการณ์\nเหตุ: พบประกายไฟจากสายไฟสปาร์กกับกิ่งไม้ บริเวณด้านหลังอาคาร CUP\nวันที่ 27 กรกฎาคม 2569\n\nเวลา 12:32 น. SOC ได้รับแจ้งจาก SUP G4S K.Bingying ว่าพบประกายไฟจากสายไฟเกิดการสปาร์กกับกิ่งไม้ บริเวณด้านหลังอาคาร CUP พร้อมยืนยัน Code 2\nเวลา 12:35 น. SOC ประสานงาน EOT, FMC1015 และ DCC รับทราบเหตุการณ์ โดย DCC รับทราบเหตุการณ์เรียบร้อย และ FMC ประสานช่างอาคารเข้าตรวจสอบพื้นที่\nเวลา 12:36 น. SOC ประสานงาน DCC และ Estate รับทราบเหตุการณ์\nเวลา 12:41 น. SOC ประสานทุกหน่วยงานที่เกี่ยวข้องย้ายเข้าช่องสื่อสาร EMER1\nเวลา 12:44 น. ทีม EOT พร้อมช่าง JLL เข้าตรวจสอบพื้นที่บริเวณด้านหลังอาคาร CUP\nเวลา 12:44 น. เจ้าหน้าที่ดับเพลิงสถานีบ่อนไก่ พร้อมทีม Safety ผู้รับเหมาที่เกี่ยวข้อง และฝ่ายอาคาร เข้าพื้นที่จุดเกิดเหตุ โดยทีม EOT ดำเนินการจัดเตรียมอุปกรณ์เพื่อสนับสนุนการดับเพลิง\nเวลา 12:53 น. FMC ประสานการไฟฟ้านครหลวง (MEA) เข้าดำเนินการตรวจสอบและแก้ไข\nเวลา 12:54 น. ทีม EOT และเจ้าหน้าที่ดับเพลิงสถานีบ่อนไก่ ดำเนินการใช้น้ำเข้าระงับเหตุ แต่ยังไม่สามารถดับเพลิงได้ทั้งหมด เนื่องจากกระแสไฟฟ้ายังคงช็อตบริเวณกิ่งไม้ ส่งผลให้เปลวไฟลุกขึ้นเป็นระยะ\nเวลา 12:59 น. ทีม EOT ดำเนินการฉีดน้ำควบคุมเพลิงเป็นระยะ เพื่อป้องกันการลุกลาม ระหว่างรอเจ้าหน้าที่การไฟฟ้าเข้าตัดกระแสไฟฟ้า\nเวลา 13:04 น. เพลิงบริเวณจุดเกิดเหตุดับลงเรียบร้อย เจ้าหน้าที่ดับเพลิงสถานีบ่อนไก่เสร็จสิ้นภารกิจและออกจากพื้นที่ เบื้องต้นรอเจ้าหน้าที่การไฟฟ้าเข้าตรวจสอบและยืนยันความปลอดภัย\nเวลา 13:09 น. FMC แจ้งว่าเจ้าหน้าที่การไฟฟ้านครหลวง (MEA) อยู่ระหว่างเดินทางเข้าพื้นที่โครงการ\nเวลา 13:11 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) เดินทางถึงโครงการบริเวณประตู 8\nเวลา 13:15 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) เข้าพื้นที่จุดเกิดเหตุ และดำเนินการตัดกระแสไฟฟ้าเพื่อแก้ไขปัญหา เนื่องจากยังพบประกายไฟจากสายไฟเป็นระยะ\nเวลา 13:45 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) นำรถกระเช้าเข้าพื้นที่ เพื่อดำเนินการซ่อมแซมสายไฟและตัดแต่งกิ่งไม้บริเวณจุดเกิดเหตุ\nเวลา 13:50 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) เข้าดำเนินการบริเวณจุดสูบบุหรี่ CUP ตัดกระแสไฟฟ้าเรียบร้อย และดำเนินการซ่อมแซมสายไฟพร้อมตัดกิ่งไม้บริเวณที่เกิดการสปาร์ก\nเวลา 14:00 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) อยู่ระหว่างดำเนินการซ่อมแซมสายไฟและตัดแต่งกิ่งไม้ ส่วนทีม EOT ดำเนินการปิดน้ำ จัดเก็บอุปกรณ์ดับเพลิง และเคลียร์พื้นที่\nเวลา 14:09 น. บุคคลดังกล่าวออกจากพื้นที่เรียบร้อย โดยมุ่งหน้าไปทาง สน.ลุมพินี\nเวลา 14:11 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) ดำเนินการตัดแต่งกิ่งไม้และซ่อมแซมสายไฟบริเวณจุดเกิดเหตุเรียบร้อย พร้อมเคลื่อนย้ายไปดำเนินการตรวจสอบบริเวณหม้อแปลงประตู 8\nเวลา 14:15 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) ดำเนินการตรวจสอบและแก้ไขบริเวณหม้อแปลงประตู 8 เรียบร้อย พร้อมจ่ายกระแสไฟฟ้ากลับเข้าสู่ระบบตามปกติ\nเวลา 14:15 น. ทีม EOT ดำเนินการจัดเก็บอุปกรณ์และเคลียร์พื้นที่เรียบร้อย\nเวลา 14:15 น. ทีม Traffic SMT ดำเนินการเปิดเส้นทางให้รถสัญจรเข้า-ออกได้ตามปกติ",
+    "finding_en": "Timeline เหตุการณ์\nเหตุ: พบประกายไฟจากสายไฟสปาร์กกับกิ่งไม้ บริเวณด้านหลังอาคาร CUP\nวันที่ 27 กรกฎาคม 2569\n\nเวลา 12:32 น. SOC ได้รับแจ้งจาก SUP G4S K.Bingying ว่าพบประกายไฟจากสายไฟเกิดการสปาร์กกับกิ่งไม้ บริเวณด้านหลังอาคาร CUP พร้อมยืนยัน Code 2\nเวลา 12:35 น. SOC ประสานงาน EOT, FMC1015 และ DCC รับทราบเหตุการณ์ โดย DCC รับทราบเหตุการณ์เรียบร้อย และ FMC ประสานช่างอาคารเข้าตรวจสอบพื้นที่\nเวลา 12:36 น. SOC ประสานงาน DCC และ Estate รับทราบเหตุการณ์\nเวลา 12:41 น. SOC ประสานทุกหน่วยงานที่เกี่ยวข้องย้ายเข้าช่องสื่อสาร EMER1\nเวลา 12:44 น. ทีม EOT พร้อมช่าง JLL เข้าตรวจสอบพื้นที่บริเวณด้านหลังอาคาร CUP\nเวลา 12:44 น. เจ้าหน้าที่ดับเพลิงสถานีบ่อนไก่ พร้อมทีม Safety ผู้รับเหมาที่เกี่ยวข้อง และฝ่ายอาคาร เข้าพื้นที่จุดเกิดเหตุ โดยทีม EOT ดำเนินการจัดเตรียมอุปกรณ์เพื่อสนับสนุนการดับเพลิง\nเวลา 12:53 น. FMC ประสานการไฟฟ้านครหลวง (MEA) เข้าดำเนินการตรวจสอบและแก้ไข\nเวลา 12:54 น. ทีม EOT และเจ้าหน้าที่ดับเพลิงสถานีบ่อนไก่ ดำเนินการใช้น้ำเข้าระงับเหตุ แต่ยังไม่สามารถดับเพลิงได้ทั้งหมด เนื่องจากกระแสไฟฟ้ายังคงช็อตบริเวณกิ่งไม้ ส่งผลให้เปลวไฟลุกขึ้นเป็นระยะ\nเวลา 12:59 น. ทีม EOT ดำเนินการฉีดน้ำควบคุมเพลิงเป็นระยะ เพื่อป้องกันการลุกลาม ระหว่างรอเจ้าหน้าที่การไฟฟ้าเข้าตัดกระแสไฟฟ้า\nเวลา 13:04 น. เพลิงบริเวณจุดเกิดเหตุดับลงเรียบร้อย เจ้าหน้าที่ดับเพลิงสถานีบ่อนไก่เสร็จสิ้นภารกิจและออกจากพื้นที่ เบื้องต้นรอเจ้าหน้าที่การไฟฟ้าเข้าตรวจสอบและยืนยันความปลอดภัย\nเวลา 13:09 น. FMC แจ้งว่าเจ้าหน้าที่การไฟฟ้านครหลวง (MEA) อยู่ระหว่างเดินทางเข้าพื้นที่โครงการ\nเวลา 13:11 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) เดินทางถึงโครงการบริเวณประตู 8\nเวลา 13:15 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) เข้าพื้นที่จุดเกิดเหตุ และดำเนินการตัดกระแสไฟฟ้าเพื่อแก้ไขปัญหา เนื่องจากยังพบประกายไฟจากสายไฟเป็นระยะ\nเวลา 13:45 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) นำรถกระเช้าเข้าพื้นที่ เพื่อดำเนินการซ่อมแซมสายไฟและตัดแต่งกิ่งไม้บริเวณจุดเกิดเหตุ\nเวลา 13:50 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) เข้าดำเนินการบริเวณจุดสูบบุหรี่ CUP ตัดกระแสไฟฟ้าเรียบร้อย และดำเนินการซ่อมแซมสายไฟพร้อมตัดกิ่งไม้บริเวณที่เกิดการสปาร์ก\nเวลา 14:00 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) อยู่ระหว่างดำเนินการซ่อมแซมสายไฟและตัดแต่งกิ่งไม้ ส่วนทีม EOT ดำเนินการปิดน้ำ จัดเก็บอุปกรณ์ดับเพลิง และเคลียร์พื้นที่\nเวลา 14:09 น. บุคคลดังกล่าวออกจากพื้นที่เรียบร้อย โดยมุ่งหน้าไปทาง สน.ลุมพินี\nเวลา 14:11 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) ดำเนินการตัดแต่งกิ่งไม้และซ่อมแซมสายไฟบริเวณจุดเกิดเหตุเรียบร้อย พร้อมเคลื่อนย้ายไปดำเนินการตรวจสอบบริเวณหม้อแปลงประตู 8\nเวลา 14:15 น. เจ้าหน้าที่การไฟฟ้านครหลวง (MEA) ดำเนินการตรวจสอบและแก้ไขบริเวณหม้อแปลงประตู 8 เรียบร้อย พร้อมจ่ายกระแสไฟฟ้ากลับเข้าสู่ระบบตามปกติ\nเวลา 14:15 น. ทีม EOT ดำเนินการจัดเก็บอุปกรณ์และเคลียร์พื้นที่เรียบร้อย\nเวลา 14:15 น. ทีม Traffic SMT ดำเนินการเปิดเส้นทางให้รถสัญจรเข้า-ออกได้ตามปกติ"
   },
   {
     "case_no": "CASE-260904-004143122667",
@@ -12556,7 +13822,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Security: Medical Assistance : Major - Ambulance - ความช่วยเหลือทางการแพทย์ (กรณีฉุกเฉิน-รถพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Major",
+    "summary_th": "[soc-inf]  00:36 SOC รับแจ้งจาก EOT ยืนยันยกระดับเป็น Code M",
+    "summary_en": "[soc-inf]  00:36 SOC รับแจ้งจาก EOT ยืนยันยกระดับเป็น Code M",
+    "finding_th": "เวลา 00.28 น. EOT ยืนยันยกระดับเป็น Code M บันไดหักขณะช่าง JLL ปฏิบัติงานตรวจสอบอุปกรณ์ภายในห้อง Pump RW B3 อาคาร R1 ส่งผลให้ นายชานรินทร์ คำมงคล อายุ 40 ปี ได้รับบาดเจ็บบริเวณศีรษะ\nเวลา 00.36 น. EOT ประเมินอาการและยกระดับเป็น Code M จากนั้นประสานงาน Night Manager และ DCC รับทราบ พร้อมจัดเจ้าหน้าที่ รปภ. และ Forward อำนวยความสะดวกในการนำส่งผู้บาดเจ็บ\nเวลา 00.48 น. รถ Ambulance นำผู้บาดเจ็บออกจากพื้นที่ผ่านประตู 7 เพื่อเข้ารับการรักษาที่โรงพยาบาลกล้วยน้ำไทเรียบร้อยแล้ว\n**ข้อมูลผู้บาดเจ็บ:** นายชานรินทร์ คำมงคล ช่าง JLL อายุ 40 ปี มีบาดแผลบริเวณกลางศีรษะขนาดประมาณ 4–5 ซม. ติดต่อหัวหน้างาน 085-807-7256 ค่ะ",
+    "finding_en": "เวลา 00.28 น. EOT ยืนยันยกระดับเป็น Code M บันไดหักขณะช่าง JLL ปฏิบัติงานตรวจสอบอุปกรณ์ภายในห้อง Pump RW B3 อาคาร R1 ส่งผลให้ นายชานรินทร์ คำมงคล อายุ 40 ปี ได้รับบาดเจ็บบริเวณศีรษะ\nเวลา 00.36 น. EOT ประเมินอาการและยกระดับเป็น Code M จากนั้นประสานงาน Night Manager และ DCC รับทราบ พร้อมจัดเจ้าหน้าที่ รปภ. และ Forward อำนวยความสะดวกในการนำส่งผู้บาดเจ็บ\nเวลา 00.48 น. รถ Ambulance นำผู้บาดเจ็บออกจากพื้นที่ผ่านประตู 7 เพื่อเข้ารับการรักษาที่โรงพยาบาลกล้วยน้ำไทเรียบร้อยแล้ว\n**ข้อมูลผู้บาดเจ็บ:** นายชานรินทร์ คำมงคล ช่าง JLL อายุ 40 ปี มีบาดแผลบริเวณกลางศีรษะขนาดประมาณ 4–5 ซม. ติดต่อหัวหน้างาน 085-807-7256 ค่ะ"
   },
   {
     "case_no": "CASE-260829-075521909188",
@@ -12580,7 +13852,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Elevator - ลิฟท์ : Breakdown Alarm - ลิฟต์หยุดทำงาน",
+    "event_type_en": "Hard Service: Elevator",
+    "summary_th": "ลิฟท์ OL2 (B) จอดค้างอยู่ที่ชั้น 17 ไม่มีผู้โดยสารติดค้าง",
+    "summary_en": "ลิฟท์ OL2 (B) จอดค้างอยู่ที่ชั้น 17 ไม่มีผู้โดยสารติดค้าง",
+    "finding_th": "ช่างลิฟต์ดำเนินการแก้ไขเรียบร้อยแล้วครับ\nลิฟต์ใชงานได้ปกติ ครับ",
+    "finding_en": "ช่างลิฟต์ดำเนินการแก้ไขเรียบร้อยแล้วครับ\nลิฟต์ใชงานได้ปกติ ครับ"
   },
   {
     "case_no": "CASE-260731-145647891039",
@@ -12604,7 +13882,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst – ท่อน้ำแตก/รั่ว",
+    "event_type_en": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst",
+    "summary_th": "ร้าน ธนาคารออมสิน แจ้งว่า มีแอร์น้ำหยดจากแอร์",
+    "summary_en": "ร้าน ธนาคารออมสิน แจ้งว่า มีแอร์น้ำหยดจากแอร์",
+    "finding_th": "ช่าง SS เข้าดำเนินการตรวจเช็คแอร์มีน้ำหยด\nคาดว่าเกิดจากวาล์ล ตรงถาดเดรนเปิดไว้ ทำให้มีน้ำซึมหยดลงไป\n- เบื้องตรงทำการปิด วาล์วไว้แล้ว",
+    "finding_en": "ช่าง SS เข้าดำเนินการตรวจเช็คแอร์มีน้ำหยด\nคาดว่าเกิดจากวาล์ล ตรงถาดเดรนเปิดไว้ ทำให้มีน้ำซึมหยดลงไป\n- เบื้องตรงทำการปิด วาล์วไว้แล้ว"
   },
   {
     "case_no": "CASE-260722-210058847452",
@@ -12628,7 +13912,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Power Outage - ไฟฟ้าดับ : Space - บางพื้นที่",
+    "event_type_en": "Hard Service: Power Outage",
+    "summary_th": "รับแจ้งข้อมู,จาก BSP แจ้งข้อมูลครับ สอบถามทาง MEA 22-Jul-26 เมื่อเวลา 20:31น. การไฟฟ้าฝ่ายผลิต 230 kV บางกอกน้อยวงจร 2  สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ  มีvoltage sag 0.10 sec  ทาง BSP Substation และ BSD District cooling plant ยังสามารถจ่ายไฟและน้ำเย็นได้ตามปกติครับ",
+    "summary_en": "รับแจ้งข้อมู,จาก BSP แจ้งข้อมูลครับ สอบถามทาง MEA 22-Jul-26 เมื่อเวลา 20:31น. การไฟฟ้าฝ่ายผลิต 230 kV บางกอกน้อยวงจร 2  สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ  มีvoltage sag 0.10 sec  ทาง BSP Substation และ BSD District cooling plant ยังสามารถจ่ายไฟและน้ำเย็นได้ตามปกติครับ",
+    "finding_th": "รายงายงาน Incident report \nโครงการ One Bangkok\nวันที่ 22/07/69 เวลา 20.31 น.\n\nช่างชื่อ\nนายภานุวัฒน์ ไทยถาวร\nตำแหน่ง: SR.Technician \n\nพื้นที่เกิดเหตุ โครงการ One Bangkok\n-เรื่อง ไฟกระพริบ\n\n รายละเอียด \n1. เวลา 20.38 น. ได้รับแจ้งจาก DCC เวลา 20.31 น. STT แจ้งว่ามีไฟกระพริบ , FMC แจ้งช่างให้ตรวจสอบระบบทุกอาคาร\n2. เวลา 20.42 น. ได้ทำการสอบถามข้อมูลจาก BSP ว่ามีไฟตกหรือไม่\n3. เวลา 20.45 น. ทาง BSP แจ้งกลับว่า เมื่อเวลา 20:31น. การไฟฟ้าฝ่ายผลิต 230 kV บางกอกน้อยวงจร 2  สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ  มีvoltage sag 0.10 sec / ทาง BSP Substation และ BSD District cooling plant ยังสามารถจ่ายไฟและน้ำเย็นได้ตามปกติครับ\n4. เวลา 20.48 น. ทางทีมช่างตรวจสอบ ไม่พบไฟกระพริบ ระบบใช้งานได้ปกติ Tower 3,4 ,Parade ,The storeys  ,Forum ,CUP ,one 89 ,EI8THENN SEVEN ไม่ได้รับผลกระทบครับ / Tower 5 , R3 มีไฟกะพริบกำลังตรวจสอบผลกระทบ\n \nสาเหตุ\n- เมื่อเวลา 20:31น. การไฟฟ้าฝ่ายผลิต 230 kV บางกอกน้อยวงจร 2  สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ  มีvoltage sag 0.10 sec\n\nผลกระทบ\n- อาคาร Tower 5 , R3 ไฟกระพริบชั่วขณะ\n\nการแก้ไข\n- ได้ทำการตรวจสอบระบบ HVAC ,ETS ,PUMP ,Pre-treatment สามารถใช้งานได้ตามปกติ\n\nสรุปการแก้ไข\n- ได้ทำการแจ้งทาง BSP ตรวจสอบแหล่งจ่ายไฟจาก MEA\n- ช่างอาคารตรวจสอบระบบภายในอาคารใช้งานได้ปกติ HVAC ,ETS ,PUMP ,Pre-treatment สามารถใช้งานได้ตามปกติ\n\nการแก้ไขปัญหาเบื้องต้น\n1. ช่างอาคารพบไฟกระพริบ\n2. แจ้ง BSP, วิศวกร, Manager และ DCC \n2. ตรวจสอบกับทาง BSP ว่ามีไฟตกหรือไม่\n3. ทำการตรวจสอบระบบภายในอาคาร สามารถใช้งานได้ตามปกติ\n\nผู้แจ้ง  \nนายภานุวัฒน์ ไทยถาวร",
+    "finding_en": "รายงายงาน Incident report \nโครงการ One Bangkok\nวันที่ 22/07/69 เวลา 20.31 น.\n\nช่างชื่อ\nนายภานุวัฒน์ ไทยถาวร\nตำแหน่ง: SR.Technician \n\nพื้นที่เกิดเหตุ โครงการ One Bangkok\n-เรื่อง ไฟกระพริบ\n\n รายละเอียด \n1. เวลา 20.38 น. ได้รับแจ้งจาก DCC เวลา 20.31 น. STT แจ้งว่ามีไฟกระพริบ , FMC แจ้งช่างให้ตรวจสอบระบบทุกอาคาร\n2. เวลา 20.42 น. ได้ทำการสอบถามข้อมูลจาก BSP ว่ามีไฟตกหรือไม่\n3. เวลา 20.45 น. ทาง BSP แจ้งกลับว่า เมื่อเวลา 20:31น. การไฟฟ้าฝ่ายผลิต 230 kV บางกอกน้อยวงจร 2  สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ  มีvoltage sag 0.10 sec / ทาง BSP Substation และ BSD District cooling plant ยังสามารถจ่ายไฟและน้ำเย็นได้ตามปกติครับ\n4. เวลา 20.48 น. ทางทีมช่างตรวจสอบ ไม่พบไฟกระพริบ ระบบใช้งานได้ปกติ Tower 3,4 ,Parade ,The storeys  ,Forum ,CUP ,one 89 ,EI8THENN SEVEN ไม่ได้รับผลกระทบครับ / Tower 5 , R3 มีไฟกะพริบกำลังตรวจสอบผลกระทบ\n \nสาเหตุ\n- เมื่อเวลา 20:31น. การไฟฟ้าฝ่ายผลิต 230 kV บางกอกน้อยวงจร 2  สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ  มีvoltage sag 0.10 sec\n\nผลกระทบ\n- อาคาร Tower 5 , R3 ไฟกระพริบชั่วขณะ\n\nการแก้ไข\n- ได้ทำการตรวจสอบระบบ HVAC ,ETS ,PUMP ,Pre-treatment สามารถใช้งานได้ตามปกติ\n\nสรุปการแก้ไข\n- ได้ทำการแจ้งทาง BSP ตรวจสอบแหล่งจ่ายไฟจาก MEA\n- ช่างอาคารตรวจสอบระบบภายในอาคารใช้งานได้ปกติ HVAC ,ETS ,PUMP ,Pre-treatment สามารถใช้งานได้ตามปกติ\n\nการแก้ไขปัญหาเบื้องต้น\n1. ช่างอาคารพบไฟกระพริบ\n2. แจ้ง BSP, วิศวกร, Manager และ DCC \n2. ตรวจสอบกับทาง BSP ว่ามีไฟตกหรือไม่\n3. ทำการตรวจสอบระบบภายในอาคาร สามารถใช้งานได้ตามปกติ\n\nผู้แจ้ง  \nนายภานุวัฒน์ ไทยถาวร"
   },
   {
     "case_no": "CASE-260703-202834649765",
@@ -12652,7 +13942,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Residential : Electrical : Electrical Issue - ปัญหาเกี่ยวกับระบบไฟฟ้า",
+    "event_type_en": "Residential : Electrical : Electrical Issue",
+    "summary_th": "เมื่อเวลา19:35น. ระบบไฟฟ้า 69/115kV One Bangkok Incoming1 มีvoltage sag 0.10 sec  เนื่องจากทาง MEA  สายส่งline ชิดลม-696 ตก-สับไม่ติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ",
+    "summary_en": "เมื่อเวลา19:35น. ระบบไฟฟ้า 69/115kV One Bangkok Incoming1 มีvoltage sag 0.10 sec  เนื่องจากทาง MEA  สายส่งline ชิดลม-696 ตก-สับไม่ติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ",
+    "finding_th": "ระบบอื่นๆปกติ ระบบน้ำเย็นเฟล ทำการรีเซตvsdคืนระบบน้ำเย็นชั้นB4-25เรียบร้อย ระบบกลับมาใช้งานได้ปกติ",
+    "finding_en": "ระบบอื่นๆปกติ ระบบน้ำเย็นเฟล ทำการรีเซตvsdคืนระบบน้ำเย็นชั้นB4-25เรียบร้อย ระบบกลับมาใช้งานได้ปกติ"
   },
   {
     "case_no": "CASE-260924-170253449194",
@@ -12676,7 +13972,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "[soc-inf] 17:51SOC ได้รับแจ้งจาก FCC Retail ว่าพบบุคคลรายเดิมซึ่งมีประวัติเกี่ยวข้องกับเหตุลักขโมยสินค้าภายในร้าน Mitsukoshi กลับเข้ามาในพื้นที่โครงการอีกครั้ง และพบว่าบุคคลดังกล่าวก่อเหตุลักขโมยสินค้าภายในร้าน White Story ชั้น B1 Parade",
+    "summary_en": "[soc-inf] 17:51SOC ได้รับแจ้งจาก FCC Retail ว่าพบบุคคลรายเดิมซึ่งมีประวัติเกี่ยวข้องกับเหตุลักขโมยสินค้าภายในร้าน Mitsukoshi กลับเข้ามาในพื้นที่โครงการอีกครั้ง และพบว่าบุคคลดังกล่าวก่อเหตุลักขโมยสินค้าภายในร้าน White Story ชั้น B1 Parade",
+    "finding_th": "เบื้องต้น บุคคลดังกล่าวชื่อ “ลินลี่” และจากข้อมูลที่ได้รับ ทราบว่าไม่มีสัญชาติ\n\nภายหลังจากเชิญบุคคลดังกล่าวเข้ามาพูดคุย ทางร้านไม่ได้ติดใจเอาความ และได้ดำเนินการชำระค่าเสียหายเป็นที่เรียบร้อยแล้ว ทั้งในส่วนของร้าน White Story และ Mitsukoshi \n\nสำหรับร้าน White Story ราคาสินค้า 60 บาท และมีการเรียกเก็บค่าเสียหายเป็นจำนวน 10 เท่า รวมเป็นเงิน 1,200 บาท ส่วนร้าน Mitsukoshi คิดค่าเสียหายตามราคาสินค้า เป็นเงิน 662 บาท\n\nทั้งนี้ หลักฐานการโอนเงินเป็นการชำระโดยพี่ข้างบ้าน ซึ่งเป็นผู้ดำเนินการชำระค่าเสียหายให้",
+    "finding_en": "เบื้องต้น บุคคลดังกล่าวชื่อ “ลินลี่” และจากข้อมูลที่ได้รับ ทราบว่าไม่มีสัญชาติ\n\nภายหลังจากเชิญบุคคลดังกล่าวเข้ามาพูดคุย ทางร้านไม่ได้ติดใจเอาความ และได้ดำเนินการชำระค่าเสียหายเป็นที่เรียบร้อยแล้ว ทั้งในส่วนของร้าน White Story และ Mitsukoshi \n\nสำหรับร้าน White Story ราคาสินค้า 60 บาท และมีการเรียกเก็บค่าเสียหายเป็นจำนวน 10 เท่า รวมเป็นเงิน 1,200 บาท ส่วนร้าน Mitsukoshi คิดค่าเสียหายตามราคาสินค้า เป็นเงิน 662 บาท\n\nทั้งนี้ หลักฐานการโอนเงินเป็นการชำระโดยพี่ข้างบ้าน ซึ่งเป็นผู้ดำเนินการชำระค่าเสียหายให้"
   },
   {
     "case_no": "CASE-260802-060621188698",
@@ -12700,7 +14002,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Hard Service: Sanitary : Recycle Water Pump - ปัญหาที่เกี่ยวกับปั๊มน้ำ Recycle",
+    "event_type_en": "Hard Service: Sanitary : Recycle Water Pump",
+    "summary_th": "R1 underground tank RW ชั้น b3 วาล์วเติมน้ำเข้า แท้ง ไม่ยอมตัดการทำงาน เคสอ้างอิง CASE-260802-043234709841",
+    "summary_en": "R1 underground tank RW ชั้น b3 วาล์วเติมน้ำเข้า แท้ง ไม่ยอมตัดการทำงาน เคสอ้างอิง CASE-260802-043234709841",
+    "finding_th": "ช่างอาคาร R1 แจ้ง Secco ดำเนินการเปลี่ยนลูกลอยเเล้ว ตอนนี้ใช้งานได้ปกติครับ\n\nขออนุญาตปิดเคส ไม่มีปุ่มให้กด create CWO ครับ",
+    "finding_en": "ช่างอาคาร R1 แจ้ง Secco ดำเนินการเปลี่ยนลูกลอยเเล้ว ตอนนี้ใช้งานได้ปกติครับ\n\nขออนุญาตปิดเคส ไม่มีปุ่มให้กด create CWO ครับ"
   },
   {
     "case_no": "CASE-260705-133326834615",
@@ -12724,7 +14032,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "บันไดเลื่อนหนีบมีความเสี่ยงให้ลูกค้าบาดเจ็บสาหัส ต้องมี Incident Report ตรวจสอบระยะห่าง Skirt Guard และระบบ Comb Plate Sensor",
     "action_th": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย",
     "action_en": "1. Issue Incident Report documenting event 2. Temporarily barricade unit for sensor recalibration 3. Review CCTV for insurance adjusters",
-    "action": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย"
+    "action": "1. ออก Incident Report บันทึกความเสียหาย 2. ปิดบริการชั่วคราวเพื่อ Recalibrate เซนเซอร์ 3. ตรวจสอบคลิป CCTV ประกันภัย",
+    "event_type_th": "Security: Slip and Fall Accidents - อุบัติเหตุลื่นล้ม",
+    "event_type_en": "Security: Slip and Fall Accidents",
+    "summary_th": "[soc-inf] 13:32 รับแจ้งจาก FCC Parade พบเหตุลูกค้าชายสะดุดล้ม บริเวณบันไดเลื่อน MRT",
+    "summary_en": "[soc-inf] 13:32 รับแจ้งจาก FCC Parade พบเหตุลูกค้าชายสะดุดล้ม บริเวณบันไดเลื่อน MRT",
+    "finding_th": "SUP PCS ประจำจุดได้เข้าดำเนินการให้ความช่วยเหลือและสอบถามอาการบาดเจ็บของลูกค้า แต่ลูกค้าได้เดินเข้าไปภายในโครงการก่อน จึงไม่สามารถสอบถามรายละเอียดและประเมินอาการได้ในขณะนั้น ทั้งนี้ จากการตรวจสอบภาพจากกล้องวงจรปิด (CCTV) เบื้องต้น พบว่าลูกค้าได้เดินเข้าภายในโครงการโดยไม่พบเหตุผิดปกติเพิ่มเติมภายหลังเกิดเหตุ",
+    "finding_en": "SUP PCS ประจำจุดได้เข้าดำเนินการให้ความช่วยเหลือและสอบถามอาการบาดเจ็บของลูกค้า แต่ลูกค้าได้เดินเข้าไปภายในโครงการก่อน จึงไม่สามารถสอบถามรายละเอียดและประเมินอาการได้ในขณะนั้น ทั้งนี้ จากการตรวจสอบภาพจากกล้องวงจรปิด (CCTV) เบื้องต้น พบว่าลูกค้าได้เดินเข้าภายในโครงการโดยไม่พบเหตุผิดปกติเพิ่มเติมภายหลังเกิดเหตุ"
   },
   {
     "case_no": "CASE-260809-193156277072",
@@ -12748,7 +14062,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "event_type_en": "Soft Service: Property Damage : ความเสียหายต่อทรัพย์สิน เช่น โครงสร้างต่างๆ ผนัง เพดาน หน้าต่าง ไม้กั้น ราวกั้นตก รั้ว ป้าย พื้น ทางเท้า และอื่นๆ",
+    "summary_th": "[soc-inf] 19:30 ได้รับแจ้งจาก Sup G4s แจ้งว่า รถตู้สีขาว ยี่ห้อโตโยต้าทะเบียน 1นง4515 กทม.  ชนเสากั้นที่จุดชาร์จรถ EV ยี่ห้อBMW ชั้นG บริเวณที่จอดหลังคาสูง",
+    "summary_en": "[soc-inf] 19:30 ได้รับแจ้งจาก Sup G4s แจ้งว่า รถตู้สีขาว ยี่ห้อโตโยต้าทะเบียน 1นง4515 กทม.  ชนเสากั้นที่จุดชาร์จรถ EV ยี่ห้อBMW ชั้นG บริเวณที่จอดหลังคาสูง",
+    "finding_th": "ทำการติดตั้งเสาที่เสียหายเรียบร้อยแล้ว",
+    "finding_en": "ทำการติดตั้งเสาที่เสียหายเรียบร้อยแล้ว"
   },
   {
     "case_no": "CASE-260709-173642224992",
@@ -12772,7 +14092,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: Crime Management : Theft - การโจรกรรม",
+    "event_type_en": "Security: Crime Management : Theft",
+    "summary_th": "เปิดย้อนหลัง [soc-inf] 16:52 SOC ได้รับแจ้งจาก FCC Parade ว่าพบเหตุบุคคลไม่ทราบสัญชาติก่อเหตุลักทรัพย์ภายใน Mitsukoshi มูลค่าความเสียหาย 9,200 บาท",
+    "summary_en": "เปิดย้อนหลัง [soc-inf] 16:52 SOC ได้รับแจ้งจาก FCC Parade ว่าพบเหตุบุคคลไม่ทราบสัญชาติก่อเหตุลักทรัพย์ภายใน Mitsukoshi มูลค่าความเสียหาย 9,200 บาท",
+    "finding_th": "ลำดับเหตุการณ์จากการตรวจสอบภาพกล้องวงจรปิด\nลักษณะการแต่งกายของผู้ต้องสงสัย\nเพศชาย ผิวสองสี\nสวมเสื้อเชิ้ตแขนสั้นสียีนส์\nสวมกางเกงยีนส์\nสวมรองเท้าผ้าใบสีขาว\nเวลา 11:37 น. ชายต้องสงสัยเข้าพื้นที่ทางประตูพระราม 4\nเวลา 11:38 น. ชายต้องสงสัยเข้าห้องน้ำชาย ชั้น G\nเวลา 11:43 น. ชายต้องสงสัยเดินออกจากห้องน้ำชาย\nเวลา 11:45 น. ชายต้องสงสัยใช้ลิฟต์ PL 1.5 ลงมายังชั้น B1\nเวลา 11:48 น. ชายต้องสงสัยเข้าพื้นที่ Mitsukoshi\nเวลา 12:17 น. ชายต้องสงสัยออกจาก Mitsukoshi\nเวลา 12:17 น. ชายต้องสงสัยใช้ลิฟต์ PL 1.4\nเวลา 12:19 น. ชายต้องสงสัยออกจากลิฟต์ และเข้าห้องน้ำชาย ชั้น G\nเวลา 12:21 น. ชายต้องสงสัยเดินออกจากห้องน้ำชาย\nเวลา 12:23 น. ชายต้องสงสัยเดินออกนอกพื้นที่ทางประตูพระราม 4 ชั้น G",
+    "finding_en": "ลำดับเหตุการณ์จากการตรวจสอบภาพกล้องวงจรปิด\nลักษณะการแต่งกายของผู้ต้องสงสัย\nเพศชาย ผิวสองสี\nสวมเสื้อเชิ้ตแขนสั้นสียีนส์\nสวมกางเกงยีนส์\nสวมรองเท้าผ้าใบสีขาว\nเวลา 11:37 น. ชายต้องสงสัยเข้าพื้นที่ทางประตูพระราม 4\nเวลา 11:38 น. ชายต้องสงสัยเข้าห้องน้ำชาย ชั้น G\nเวลา 11:43 น. ชายต้องสงสัยเดินออกจากห้องน้ำชาย\nเวลา 11:45 น. ชายต้องสงสัยใช้ลิฟต์ PL 1.5 ลงมายังชั้น B1\nเวลา 11:48 น. ชายต้องสงสัยเข้าพื้นที่ Mitsukoshi\nเวลา 12:17 น. ชายต้องสงสัยออกจาก Mitsukoshi\nเวลา 12:17 น. ชายต้องสงสัยใช้ลิฟต์ PL 1.4\nเวลา 12:19 น. ชายต้องสงสัยออกจากลิฟต์ และเข้าห้องน้ำชาย ชั้น G\nเวลา 12:21 น. ชายต้องสงสัยเดินออกจากห้องน้ำชาย\nเวลา 12:23 น. ชายต้องสงสัยเดินออกนอกพื้นที่ทางประตูพระราม 4 ชั้น G"
   },
   {
     "case_no": "CASE-260719-180019453566",
@@ -12796,7 +14122,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Residential : Elevator : Stuck (Mantrap) - ลิฟต์ค้าง (มีผู้โดยสารติดค้างภายใน)",
+    "event_type_en": "Residential : Elevator : Stuck (Mantrap)",
+    "summary_th": "[เปิดย้อนหลัง] เกิดเหตุ ลิฟต์เบอร์ 4,5,6 ค้าง ตรวจสอบ CCTV มีผู้โดยสารติดค้างในลิฟต์เบอร์ 5 เป็นเจ้าหน้าที่ Event",
+    "summary_en": "[เปิดย้อนหลัง] เกิดเหตุ ลิฟต์เบอร์ 4,5,6 ค้าง ตรวจสอบ CCTV มีผู้โดยสารติดค้างในลิฟต์เบอร์ 5 เป็นเจ้าหน้าที่ Event",
+    "finding_th": "เกิดการทริปที่เมนเบรกเกอร์ / เกิดจากไฟกระชาก ทำให้เบรกเกอร์ทริป ใช้เวลาดำเนินการช่วยเหลือคนติดลิฟท์ ใช้เวา 23 นาที",
+    "finding_en": "เกิดการทริปที่เมนเบรกเกอร์ / เกิดจากไฟกระชาก ทำให้เบรกเกอร์ทริป ใช้เวลาดำเนินการช่วยเหลือคนติดลิฟท์ ใช้เวา 23 นาที"
   },
   {
     "case_no": "CASE-260822-130015423107",
@@ -12820,7 +14152,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : Breakdown Alarm - บันไดเลื่อนหยุดทำงาน",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "Escalator is failure, can't operate.บันไดเลื่อนชำรุด - PointName: Fail To Start, AlarmValue: 1",
+    "summary_en": "Escalator is failure, can't operate.บันไดเลื่อนชำรุด - PointName: Fail To Start, AlarmValue: 1",
+    "finding_th": "เรื่อง กระโปรงลูกค้าติดบันไดเลื่อน ES-1.3\n\nการแก้ไข\n- ช่าง Hitachi นำกระโปรงออก\n- เปลี่ยนหวีใหม่\n- ทดสอบการทำงาน\n\nสรุปการแก้ไข\n- ช่าง HITACHI ทำการตรวจสอบแก้ไขแล้ว สามารถใช้งานได้ตามปก",
+    "finding_en": "เรื่อง กระโปรงลูกค้าติดบันไดเลื่อน ES-1.3\n\nการแก้ไข\n- ช่าง Hitachi นำกระโปรงออก\n- เปลี่ยนหวีใหม่\n- ทดสอบการทำงาน\n\nสรุปการแก้ไข\n- ช่าง HITACHI ทำการตรวจสอบแก้ไขแล้ว สามารถใช้งานได้ตามปก"
   },
   {
     "case_no": "CASE-260718-092425976363",
@@ -12844,7 +14182,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst – ท่อน้ำแตก/รั่ว",
+    "event_type_en": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst",
+    "summary_th": "ร้าน Nai Snow 1118 แจ้ง มีน้ำรั่ว",
+    "summary_en": "ร้าน Nai Snow 1118 แจ้ง มีน้ำรั่ว",
+    "finding_th": "#NAME?",
+    "finding_en": "#NAME?"
   },
   {
     "case_no": "CASE-261008-124450972579",
@@ -12868,7 +14212,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : General Issues - ปัญหาทั่วไปเกี่ยวกับบันไดเลื่อน",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "เวลา 10.18 น. ได้รับแจ้งข้อมูลทางไลน์พบบันไดเลื่อนใช้งานไม่ได้ทุกตัว",
+    "summary_en": "เวลา 10.18 น. ได้รับแจ้งข้อมูลทางไลน์พบบันไดเลื่อนใช้งานไม่ได้ทุกตัว",
+    "finding_th": "สาเหตุ\n- สอบถามทาง MEA 08-Oct-26 เมื่อเวลา 09:45น. สายส่งชิดลม 695 สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ มีvoltage sag 0.08 sec\n\nการแก้ไข\nอาคาร R1",
+    "finding_en": "สาเหตุ\n- สอบถามทาง MEA 08-Oct-26 เมื่อเวลา 09:45น. สายส่งชิดลม 695 สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ มีvoltage sag 0.08 sec\n\nการแก้ไข\nอาคาร R1"
   },
   {
     "case_no": "CASE-261018-232436094811",
@@ -12892,7 +14242,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant Retail: Others - งานอื่น ๆ : Special Request - คำขอพิเศษอื่น ๆ",
+    "event_type_en": "Tenant Retail: Others",
+    "summary_th": "Mitsukoshi 1B101 ร้านเวิ้ง แจ้งตรวจสอบระบบไฟ",
+    "summary_en": "Mitsukoshi 1B101 ร้านเวิ้ง แจ้งตรวจสอบระบบไฟ",
+    "finding_th": "ช่างSensesเข้าตรวจสอบตู้ Consumer Unit และบล็อกปลั๊กไฟตามจุดเนื่องจากเคสเมื่อวานที่หัวสปริงเกอร์แตก ก่อนทำการ On เบรกเกอร์ไฟเรียบร้อย สามารถใช้งานระบบไฟได้ปกติ",
+    "finding_en": "ช่างSensesเข้าตรวจสอบตู้ Consumer Unit และบล็อกปลั๊กไฟตามจุดเนื่องจากเคสเมื่อวานที่หัวสปริงเกอร์แตก ก่อนทำการ On เบรกเกอร์ไฟเรียบร้อย สามารถใช้งานระบบไฟได้ปกติ"
   },
   {
     "case_no": "CASE-261008-123329713868",
@@ -12916,7 +14272,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : General Issues - ปัญหาทั่วไปเกี่ยวกับบันไดเลื่อน",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "บันไดเลื่อนหยุดทำงาน 10.26 น.",
+    "summary_en": "บันไดเลื่อนหยุดทำงาน 10.26 น.",
+    "finding_th": "สาเหตุ\n- สอบถามทาง MEA 08-Oct-26 เมื่อเวลา 09:45น. สายส่งชิดลม 695 สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ มีvoltage sag 0.08 sec\n\nการแก้ไข\nอาคาร Tower 3\n- ช่างทำการ Reset บันไดเลื่อน กลับมาใช้งานได้ปกติ",
+    "finding_en": "สาเหตุ\n- สอบถามทาง MEA 08-Oct-26 เมื่อเวลา 09:45น. สายส่งชิดลม 695 สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ มีvoltage sag 0.08 sec\n\nการแก้ไข\nอาคาร Tower 3\n- ช่างทำการ Reset บันไดเลื่อน กลับมาใช้งานได้ปกติ"
   },
   {
     "case_no": "CASE-261008-095105141479",
@@ -12940,7 +14302,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Electrical : Electrical Issue - ปัญหาระบบไฟฟ้า",
+    "event_type_en": "Hard Service: Electrical : Electrical Issue",
+    "summary_th": "ไฟตกทั้งโครงการ ช่วงเวลา 09.45 ช่วง 2 วินาที",
+    "summary_en": "ไฟตกทั้งโครงการ ช่วงเวลา 09.45 ช่วง 2 วินาที",
+    "finding_th": "รายงาน Incident report \nโครงการ One Bangkok\nวันที่ 8-10-2026 เวลา 09.45 น.\n\nพื้นที่เกิดเหตุ โครงการ One Bangkok \nเรื่อง ไฟกะพริบ 0.2 วินาที จำนวน 1 ครั้ง\n\nรายละเอียด \n\n1. เวลา 09.45 น. มี voltage sag 0.08 sec\n2. เวลา 09.45 น. FMC ได้รับแจ้งจากผู้จัดการอาคารไฟกะพริบที่ชั้น M อาคาร CUP \n3. เวลา 09.45 น. FMC รับทราบ ประสานงานแต่ละ Component ตรวจสอบเครื่องจักรประจำอาคาร\n4. เวลา 10.05 น. FMC ตรวจสอบ LPG Plant และ Main R1,R2 ผ่านระบบ BMS Flow rate Main Gas R2 Off line / \nForum/R1 ปกติ\n5. เวลา 09.59 น. ช่าง JLL ตรวจสอบหม้อต้มระบบปกติ\n\n** อาคาร CUP **\n-  เวลา 09.53 น. FMC ตรวจสอบ โปรแกรม BAS ใช้งานได้ปกติ,โปรแกรม FAS ใช้งานได้ปกติ\n- เวลา 09.53 น. ช่าง JLL ตรวจสอบห้อง MDB & GEN ชั้น G ทำงานตามปกติ\n- เวลา 09.53 น. ช่าง JLL Stand by ห้อง Fire Pump ชั้น B1 ไม่พบเหตุผิดปกติ\n\n** อาคาร Forum **\n- เวลา 09.50 น. ช่าง SS บันไดเลื่อนจำนวณ20ตัวหยุดทำงาน ช่างรีเซ็ทใช้งานได้ปกติ\n- เวลา 09.50 น. ช่าง ตรวจสอบลิฟต์ใช้งานได้ปกติ\n- เวลา 10.32 น. FMC ตรวจสอบ โปรแกรม BAS ใช้งานได้ปกติ,โปรแกรม FAS ใช้งานได้ปกติ\n- เวลา 10.20 น. ระบบแก๊สตัดการทำงาน ทำการรีเซ็ตกลับมาใช้งานได้แล้ว\n\n** อาคาร R2 **\n- เวลา 10.20 น.บันไดเลื่อนหยุดทำงาน ช่างรีเซ็ทใช้งานได้ปกติ\n- เวลา 10.20 น. JLL ตรวจสอบลิฟต์สามารถใช้งานได้ปกติทุกตัว\n- เวลา 10.24 น. FMC ดำเนินการตรวจสอบภาพรวมผ่านระบบ BMS ระบบไฟฟ้าและระบบปรับอากาศทำงานตามปกติ\n- เวลา 10.05 โปรแกรม BAS มิเตอร์เมนแก๊สดับ ช่างกำลังแก้ไข\n- เวลา 10.05 น. ช่าง SS ทำการON ระบบ GAS กลับมาใช้งานได้\n\n** อาคาร R1 **\n- เวลา 10.18 น. ได้รับแจ้งข้อมูลทางไลน์พบบันไดเลื่อนใช้งานไม่ได้ทุกตัว\n- เวลา 10.37 น. FMC ดำเนินการตรวจสอบภาพรวมผ่านระบบ BMS ระบบไฟฟ้าและระบบปรับอากาศทำงานตามปกติ\n-  เวลา 10.46 น. บันไดเลื่อนหยุดทำงาน ช่างอาคาร เเละช่าง Hitachi ตรวจสอบเเละรีเซ๊ตระบบ\n-  เวลา 10.46 น. ลิฟต์,บันไดเลื่อน MRT ใช้งานไม่ได้ ช่างอาคารเเละช่าง Hitachi เข้าตรวจสอบรีเซ็ตระบบกลับมาใช้งานได้ตามปกติเเล้ว\n-  เวลา 10.46 น. ช่างตรวจสอบ ระบบ ETS Down ทำการรีเช็ตระบบ กลับมาใช้งานได้ปกติ\n \n** อาคาร Tower 5 **\n-  เวลา 09.59 น. ช่าง JLL ตรวจสอบระบบห้อง MDB & GEN ชั้น B1 ระบบปกติ\n-  เวลา 10.30 น. ช่าง JLL ตรวจสอบบันไดเลื่อนหยุดทำงานรีเซ็ตกลับมาใช้งานได้ปกติ   \n-  เวลา 10.30 น. ช่าง JLL ทำการ Reset บันไดเลื่อนคืนเรียบร้อย\n-  เวลา 09.56 น. ช่าง JLL ตรวจสอบลิฟต์สามารถใช้งานได้ปกติทุกตัว\n-  เวลา 10.36 น. ช่าง JLL ตรวจสอบ ETS Plant ใช้งานได้ปกติ\n-  เวลา 10.03 น. ช่าง JLL ตรวจสอบห้อง ETS & Fire pump ชั้น 18 พบว่าตัว VSD ของ CWP-01ขึ้น Alarm ได้ทำการรีเซ็ตกลับมาใช้งานได้ปกติ\n-  เวลา 10.48 น. ช่าง JLL ตรวจสอบ BOOSTER PUMP RW&CW และห้อง DOAS ชั้น 35 ระบบปกติ\n-  เวลา 10.53 น. ช่าง JLL ตรวจสอบห้อง PRE-TRETMANT ชั้น B4 ระบบปกติ\n\n\n** อาคาร Tower 4 ** \n- เวลา 10.18 น. ช่าง JLL ตรวจสอบพบบันไดเลื่อนชั้น G-B1 หยุดทำงาน \n- เวลา 10.18น ช่าง JLL ทำการ Reset บันไดเลื่อนกลับมาเป็นปกติ\n- เวลา 10.18 น. FMC ดำเนินการตรวจสอบภาพรวมผ่านระบบ BMS ปกติ\n- เวลา 10.31 น. ตรวจสอบลิฟต์สามารถใช้งานได้ปกติทุกตัวต์ \n- เวลา 10.37 น. FMC ตรวจสอบพบ AHU ชั้น AHU ชั้น 35 40 41 ดับ รีเช็ตใช้งานได้ปกติ\n\n\n** อาคาร Tower 3 **\n- เวลา 10.26 น. FMC บันไดเลื่อนหยุดทำงาน เเจ้งช่าง Hitachi รีเช็ตใช้งานได้ปกติ\n- เวลา 10.26 น. FMC ทำการตรวจสอบระบบผ่าน BMS พบ ETS Low Zone CHP-02 Alarm และ ETS High Zone ระบบปกติ, ระบบไฟฟ้าปกติ\n- เวลา 10.26 น. ช่าง JLL ทำการตรวจสอบลิฟต์สามารถใช้งานปกติ\n- เวลา 10.26 น. ช่าง JLL ทำการ Reset บันไดเลื่อนใช้งานตามปกติ\n\n** อาคาร Tower 2 **\n-  เวลา 10.17 น. ช่าง JLL ตรวจสอบระบบห้อง MDB & GEN ชั้น B1 ระบบปกติ\n-  เวลา 10.33 น. ช่าง JLL ตรวจสอบลิฟต์สามารถใช้งานได้ปกติทุกตัว\n-  เวลา 10.36 น. ช่าง JLL ETS Low zone down ช่างหน้างานรีเซ็ตแพลน ระบบกลับมาทำงานปกติ ETS High zone ระบบทำงานปกติAHU ชั้น 20, 21 ดับ ช่างเปิดเรียบร้อยDoas ชั้น 19 Fail ช่างเปิดเรียบร้อย\n-  เวลา 10.46 น. ช่าง JLL ตรวจสอบ Auto Door No.1 ไม่เปิด Reset เรียบร้อย\n-  เวลา 10.46 น. ช่าง Jll ตรวจสอบ Plug Lobby G Trip Reset CB ใช้งานได้ปกติ\n-  เวลา 10.46 น. ช่าง JLL ตรวจสอบ FCP ระบบ Fire Alarm ดับเนื่องจากไม่มีแบตเตอร์สำรอง ทำการเปิดระบบใช้งานได้ปกติ\n\nสาเหตุ \n- สอบถามทาง MEA 08-Oct-26 เมื่อเวลา 09:45น. สายส่งชิดลม 695 สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ  มีvoltage sag 0.08 sec\n\nผลกระทบ\n\nอาคาร Forum \n- บันไดเลื่อนทุกตัว Forum  ใช้งานไม่ได้",
+    "finding_en": "รายงาน Incident report \nโครงการ One Bangkok\nวันที่ 8-10-2026 เวลา 09.45 น.\n\nพื้นที่เกิดเหตุ โครงการ One Bangkok \nเรื่อง ไฟกะพริบ 0.2 วินาที จำนวน 1 ครั้ง\n\nรายละเอียด \n\n1. เวลา 09.45 น. มี voltage sag 0.08 sec\n2. เวลา 09.45 น. FMC ได้รับแจ้งจากผู้จัดการอาคารไฟกะพริบที่ชั้น M อาคาร CUP \n3. เวลา 09.45 น. FMC รับทราบ ประสานงานแต่ละ Component ตรวจสอบเครื่องจักรประจำอาคาร\n4. เวลา 10.05 น. FMC ตรวจสอบ LPG Plant และ Main R1,R2 ผ่านระบบ BMS Flow rate Main Gas R2 Off line / \nForum/R1 ปกติ\n5. เวลา 09.59 น. ช่าง JLL ตรวจสอบหม้อต้มระบบปกติ\n\n** อาคาร CUP **\n-  เวลา 09.53 น. FMC ตรวจสอบ โปรแกรม BAS ใช้งานได้ปกติ,โปรแกรม FAS ใช้งานได้ปกติ\n- เวลา 09.53 น. ช่าง JLL ตรวจสอบห้อง MDB & GEN ชั้น G ทำงานตามปกติ\n- เวลา 09.53 น. ช่าง JLL Stand by ห้อง Fire Pump ชั้น B1 ไม่พบเหตุผิดปกติ\n\n** อาคาร Forum **\n- เวลา 09.50 น. ช่าง SS บันไดเลื่อนจำนวณ20ตัวหยุดทำงาน ช่างรีเซ็ทใช้งานได้ปกติ\n- เวลา 09.50 น. ช่าง ตรวจสอบลิฟต์ใช้งานได้ปกติ\n- เวลา 10.32 น. FMC ตรวจสอบ โปรแกรม BAS ใช้งานได้ปกติ,โปรแกรม FAS ใช้งานได้ปกติ\n- เวลา 10.20 น. ระบบแก๊สตัดการทำงาน ทำการรีเซ็ตกลับมาใช้งานได้แล้ว\n\n** อาคาร R2 **\n- เวลา 10.20 น.บันไดเลื่อนหยุดทำงาน ช่างรีเซ็ทใช้งานได้ปกติ\n- เวลา 10.20 น. JLL ตรวจสอบลิฟต์สามารถใช้งานได้ปกติทุกตัว\n- เวลา 10.24 น. FMC ดำเนินการตรวจสอบภาพรวมผ่านระบบ BMS ระบบไฟฟ้าและระบบปรับอากาศทำงานตามปกติ\n- เวลา 10.05 โปรแกรม BAS มิเตอร์เมนแก๊สดับ ช่างกำลังแก้ไข\n- เวลา 10.05 น. ช่าง SS ทำการON ระบบ GAS กลับมาใช้งานได้\n\n** อาคาร R1 **\n- เวลา 10.18 น. ได้รับแจ้งข้อมูลทางไลน์พบบันไดเลื่อนใช้งานไม่ได้ทุกตัว\n- เวลา 10.37 น. FMC ดำเนินการตรวจสอบภาพรวมผ่านระบบ BMS ระบบไฟฟ้าและระบบปรับอากาศทำงานตามปกติ\n-  เวลา 10.46 น. บันไดเลื่อนหยุดทำงาน ช่างอาคาร เเละช่าง Hitachi ตรวจสอบเเละรีเซ๊ตระบบ\n-  เวลา 10.46 น. ลิฟต์,บันไดเลื่อน MRT ใช้งานไม่ได้ ช่างอาคารเเละช่าง Hitachi เข้าตรวจสอบรีเซ็ตระบบกลับมาใช้งานได้ตามปกติเเล้ว\n-  เวลา 10.46 น. ช่างตรวจสอบ ระบบ ETS Down ทำการรีเช็ตระบบ กลับมาใช้งานได้ปกติ\n \n** อาคาร Tower 5 **\n-  เวลา 09.59 น. ช่าง JLL ตรวจสอบระบบห้อง MDB & GEN ชั้น B1 ระบบปกติ\n-  เวลา 10.30 น. ช่าง JLL ตรวจสอบบันไดเลื่อนหยุดทำงานรีเซ็ตกลับมาใช้งานได้ปกติ   \n-  เวลา 10.30 น. ช่าง JLL ทำการ Reset บันไดเลื่อนคืนเรียบร้อย\n-  เวลา 09.56 น. ช่าง JLL ตรวจสอบลิฟต์สามารถใช้งานได้ปกติทุกตัว\n-  เวลา 10.36 น. ช่าง JLL ตรวจสอบ ETS Plant ใช้งานได้ปกติ\n-  เวลา 10.03 น. ช่าง JLL ตรวจสอบห้อง ETS & Fire pump ชั้น 18 พบว่าตัว VSD ของ CWP-01ขึ้น Alarm ได้ทำการรีเซ็ตกลับมาใช้งานได้ปกติ\n-  เวลา 10.48 น. ช่าง JLL ตรวจสอบ BOOSTER PUMP RW&CW และห้อง DOAS ชั้น 35 ระบบปกติ\n-  เวลา 10.53 น. ช่าง JLL ตรวจสอบห้อง PRE-TRETMANT ชั้น B4 ระบบปกติ\n\n\n** อาคาร Tower 4 ** \n- เวลา 10.18 น. ช่าง JLL ตรวจสอบพบบันไดเลื่อนชั้น G-B1 หยุดทำงาน \n- เวลา 10.18น ช่าง JLL ทำการ Reset บันไดเลื่อนกลับมาเป็นปกติ\n- เวลา 10.18 น. FMC ดำเนินการตรวจสอบภาพรวมผ่านระบบ BMS ปกติ\n- เวลา 10.31 น. ตรวจสอบลิฟต์สามารถใช้งานได้ปกติทุกตัวต์ \n- เวลา 10.37 น. FMC ตรวจสอบพบ AHU ชั้น AHU ชั้น 35 40 41 ดับ รีเช็ตใช้งานได้ปกติ\n\n\n** อาคาร Tower 3 **\n- เวลา 10.26 น. FMC บันไดเลื่อนหยุดทำงาน เเจ้งช่าง Hitachi รีเช็ตใช้งานได้ปกติ\n- เวลา 10.26 น. FMC ทำการตรวจสอบระบบผ่าน BMS พบ ETS Low Zone CHP-02 Alarm และ ETS High Zone ระบบปกติ, ระบบไฟฟ้าปกติ\n- เวลา 10.26 น. ช่าง JLL ทำการตรวจสอบลิฟต์สามารถใช้งานปกติ\n- เวลา 10.26 น. ช่าง JLL ทำการ Reset บันไดเลื่อนใช้งานตามปกติ\n\n** อาคาร Tower 2 **\n-  เวลา 10.17 น. ช่าง JLL ตรวจสอบระบบห้อง MDB & GEN ชั้น B1 ระบบปกติ\n-  เวลา 10.33 น. ช่าง JLL ตรวจสอบลิฟต์สามารถใช้งานได้ปกติทุกตัว\n-  เวลา 10.36 น. ช่าง JLL ETS Low zone down ช่างหน้างานรีเซ็ตแพลน ระบบกลับมาทำงานปกติ ETS High zone ระบบทำงานปกติAHU ชั้น 20, 21 ดับ ช่างเปิดเรียบร้อยDoas ชั้น 19 Fail ช่างเปิดเรียบร้อย\n-  เวลา 10.46 น. ช่าง JLL ตรวจสอบ Auto Door No.1 ไม่เปิด Reset เรียบร้อย\n-  เวลา 10.46 น. ช่าง Jll ตรวจสอบ Plug Lobby G Trip Reset CB ใช้งานได้ปกติ\n-  เวลา 10.46 น. ช่าง JLL ตรวจสอบ FCP ระบบ Fire Alarm ดับเนื่องจากไม่มีแบตเตอร์สำรอง ทำการเปิดระบบใช้งานได้ปกติ\n\nสาเหตุ \n- สอบถามทาง MEA 08-Oct-26 เมื่อเวลา 09:45น. สายส่งชิดลม 695 สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ  มีvoltage sag 0.08 sec\n\nผลกระทบ\n\nอาคาร Forum \n- บันไดเลื่อนทุกตัว Forum  ใช้งานไม่ได้"
   },
   {
     "case_no": "CASE-261022-205345390638",
@@ -12964,7 +14332,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Hard Service: Request Disable Alarm (CAT 3) -  ร้องขอการปิดระบบตรวจจับ หรือสัญญานเตือน (CAT3)",
+    "event_type_en": "Hard Service: Request Disable Alarm (CAT 3)",
+    "summary_th": "แจ้งขอ Dis Smoke Detector Date : 22/10/26 Time : 22:00 - 5:00 น. (ของวันถัดไป) ร้าน RAGTAG  ผู้รับเหมา คุณ เอกรักษ์ ชมสมใจ งาน ติดตั้งประตูกันขโมย เบอร์โทรติดต่อผู้รับเหมา : 080-595-7999",
+    "summary_en": "แจ้งขอ Dis Smoke Detector Date : 22/10/26 Time : 22:00 - 5:00 น. (ของวันถัดไป) ร้าน RAGTAG  ผู้รับเหมา คุณ เอกรักษ์ ชมสมใจ งาน ติดตั้งประตูกันขโมย เบอร์โทรติดต่อผู้รับเหมา : 080-595-7999",
+    "finding_th": "2239 คืนระบบเรียบร้อยครับ",
+    "finding_en": "2239 คืนระบบเรียบร้อยครับ"
   },
   {
     "case_no": "CASE-261008-100305708092",
@@ -12988,7 +14362,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Residential : Electrical : Electrical Issue - ปัญหาเกี่ยวกับระบบไฟฟ้า",
+    "event_type_en": "Residential : Electrical : Electrical Issue",
+    "summary_th": "เกิดเหตุไฟฟ้าขัดข้อง มีไฟตก ส่งผลให้ลิฟต์กระชาก มีลูกบ้านอยู่ภายใน",
+    "summary_en": "เกิดเหตุไฟฟ้าขัดข้อง มีไฟตก ส่งผลให้ลิฟต์กระชาก มีลูกบ้านอยู่ภายใน",
+    "finding_th": "แจ้งเป็นข้อมูลครับ\nสอบถามทาง MEA 08-Oct-26 เมื่อเวลา 09:45น.  สายส่งชิดลม 695 สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ  มีvoltage sag 0.08 sec \nทาง BSP Substation และ BSD District cooling plant ยังสามารถจ่ายไฟและน้ำเย็นได้ตามปกติครับ\n\nทางอาคารมีผลกระทบด้านใดรบกวนแจ้งกลับให้ทราบด้วยครับเพื่อบันทึกเป็นข้อมูลครับ\nขอบคุณครับ",
+    "finding_en": "แจ้งเป็นข้อมูลครับ\nสอบถามทาง MEA 08-Oct-26 เมื่อเวลา 09:45น.  สายส่งชิดลม 695 สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ  มีvoltage sag 0.08 sec \nทาง BSP Substation และ BSD District cooling plant ยังสามารถจ่ายไฟและน้ำเย็นได้ตามปกติครับ\n\nทางอาคารมีผลกระทบด้านใดรบกวนแจ้งกลับให้ทราบด้วยครับเพื่อบันทึกเป็นข้อมูลครับ\nขอบคุณครับ"
   },
   {
     "case_no": "CASE-261021-202303833115",
@@ -13012,7 +14392,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ผู้โดยสารติดค้างในลิฟต์จัดเป็นเหตุฉุกเฉินด้าน Life Safety ต้องออกรายงานบันทึก Trap-to-Rescue Time และตรวจสอบ Safety Circuit ร่วมกับผู้รับเหมา",
     "action_th": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
     "action_en": "1. Issue Class 3 Life Safety IR 2. Mandate contractor inspection of safety interlocks 3. Submit rescue timeline report within 24 hours",
-    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม."
+    "action": "1. ออก Incident Report Class 3 (Life Safety) 2. สั่งการผู้รับเหมาลิฟต์ตรวจสอบ Safety Interlock 3. สรุปรายงาน Rescue Time ภายใน 24 ชม.",
+    "event_type_th": "Security: Mantrap Management - การบริหารจัดการเหตุคนติดภายในพื้นที่",
+    "event_type_en": "Security: Mantrap Management",
+    "summary_th": "คุณรัน (0962967167) แจ้งติดอยู่ในร้าน Big Camera อาคาร Parade ชั้น 4",
+    "summary_en": "คุณรัน (0962967167) แจ้งติดอยู่ในร้าน Big Camera อาคาร Parade ชั้น 4",
+    "finding_th": "เนื่องจากพนักงานร้านได้นำขยะไปทิ้ง โดยไม่ได้สังเกตว่ามีลูกค้าอยู่ภายในร้าน จึงทำการปิดประตูร้าน ส่งผลให้ลูกค้าติดอยู่ภายในร้านชั่วคราว หลังจากพนักงานนำขยะไปทิ้งเรียบร้อยและกลับมาที่ร้าน จึงได้เปิดประตูให้ลูกค้าออกจากร้านได้อย่างเรียบร้อย",
+    "finding_en": "เนื่องจากพนักงานร้านได้นำขยะไปทิ้ง โดยไม่ได้สังเกตว่ามีลูกค้าอยู่ภายในร้าน จึงทำการปิดประตูร้าน ส่งผลให้ลูกค้าติดอยู่ภายในร้านชั่วคราว หลังจากพนักงานนำขยะไปทิ้งเรียบร้อยและกลับมาที่ร้าน จึงได้เปิดประตูให้ลูกค้าออกจากร้านได้อย่างเรียบร้อย"
   },
   {
     "case_no": "CASE-261008-102431405648",
@@ -13036,7 +14422,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Electrical : Emergency and Exit Lights Faults - ไฟฉุกเฉินและไฟทางออกผิดปกติ",
+    "event_type_en": "Hard Service: Electrical : Emergency and Exit Lights Faults",
+    "summary_th": "คุณพิมพ์บุญ 0956755844 บริษัท Netflix Tower 4 ชั้น 9 แจ้งมีไฟฉุกเฉินติด ตรงบริเวณโซนออฟฟิศ แต่ตอนนี้ดับไปแล้ว ลูกค้าต้องการให้ติดต่อกลับแจ้งว่ามีการทดสอบอะไรหรือไม่ ทำไมถึงมีไฟติด",
+    "summary_en": "คุณพิมพ์บุญ 0956755844 บริษัท Netflix Tower 4 ชั้น 9 แจ้งมีไฟฉุกเฉินติด ตรงบริเวณโซนออฟฟิศ แต่ตอนนี้ดับไปแล้ว ลูกค้าต้องการให้ติดต่อกลับแจ้งว่ามีการทดสอบอะไรหรือไม่ ทำไมถึงมีไฟติด",
+    "finding_th": "ทาง Tower 4 ดำเนินการแจ้งสาเหตุลุกค้าเรียบร้อยค่ะ",
+    "finding_en": "ทาง Tower 4 ดำเนินการแจ้งสาเหตุลุกค้าเรียบร้อยค่ะ"
   },
   {
     "case_no": "CASE-261031-201405410640",
@@ -13060,7 +14452,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Carparking : Other issues - ปัญหาอื่นๆของ Carparking",
+    "event_type_en": "Soft Service: Carparking : Other issues",
+    "summary_th": "อนุญาตปิดทางชั่วคราว เนื่องจากท่อน้ำแตกบริเวณทางเข้า B1M Ent2  อ้างอิงเลขเคส\nCASE-261031-200210182024",
+    "summary_en": "อนุญาตปิดทางชั่วคราว เนื่องจากท่อน้ำแตกบริเวณทางเข้า B1M Ent2  อ้างอิงเลขเคส\nCASE-261031-200210182024",
+    "finding_th": "เปิดทางทางเข้า B1M Ent2 เรียบเรียบ ใช้งานได้ปกติ",
+    "finding_en": "เปิดทางทางเข้า B1M Ent2 เรียบเรียบ ใช้งานได้ปกติ"
   },
   {
     "case_no": "CASE-261008-094557922657",
@@ -13084,7 +14482,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : Breakdown Alarm - บันไดเลื่อนหยุดทำงาน",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "Escalator is failure, can't operate.บันไดเลื่อนชำรุด - PointName: Fail To Start, AlarmValue: 1",
+    "summary_en": "Escalator is failure, can't operate.บันไดเลื่อนชำรุด - PointName: Fail To Start, AlarmValue: 1",
+    "finding_th": "มีเหตุไฟตก วันที่ 8/10/69 เวลา10.46น. แรงดันไฟฟ้าตกชั่วขณะ มีvoltage sag 0.08 sec บันไดเลื่อน ได้รับผลกระทบ หยุดการทำงาน ทีมช่างเข้าทำการเปิดบันไดเลื่อนเรียบร้อย",
+    "finding_en": "มีเหตุไฟตก วันที่ 8/10/69 เวลา10.46น. แรงดันไฟฟ้าตกชั่วขณะ มีvoltage sag 0.08 sec บันไดเลื่อน ได้รับผลกระทบ หยุดการทำงาน ทีมช่างเข้าทำการเปิดบันไดเลื่อนเรียบร้อย"
   },
   {
     "case_no": "CASE-261028-065953003656",
@@ -13108,7 +14512,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Lighting : Faulty (Indoor) - ไฟส่องสว่างผิดปกติ (ในอาคาร)",
+    "event_type_en": "Hard Service: Lighting : Faulty (Indoor)",
+    "summary_th": "รบกวนช่างเข้าตรวจสอบชั้น 21  เนื่องจากลุกค้าแจ้งว่าไฟดับทั้งชั้นค่ะ",
+    "summary_en": "รบกวนช่างเข้าตรวจสอบชั้น 21  เนื่องจากลุกค้าแจ้งว่าไฟดับทั้งชั้นค่ะ",
+    "finding_th": "ตรวจสอบทำการแก้ไขเรียบร้อย สาเหตุเกิดไฟแสงสว่างภายในพื้นที่ลูกค้า Tip ครับ",
+    "finding_en": "ตรวจสอบทำการแก้ไขเรียบร้อย สาเหตุเกิดไฟแสงสว่างภายในพื้นที่ลูกค้า Tip ครับ"
   },
   {
     "case_no": "CASE-261026-190113319046",
@@ -13132,7 +14542,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ยานพาหนะชนทรัพย์สินส่วนกลางต้องมี Incident Report บันทึกความเสียหาย เรียกเก็บค่าเสียหายกับประกันภัยรถยนต์ และปรับปรุงป้ายเตือนจุดอับสายตา",
     "action_th": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
     "action_en": "1. Issue Traffic Collision IR 2. File official police blotter for insurance subrogation 3. Restore damaged architectural elements",
-    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง"
+    "action": "1. ออก Incident Report การชน 2. ลงบันทึกประจำวันและประสานเคลมประกัน 3. ซ่อมแซมโครงสร้างส่วนกลาง",
+    "event_type_th": "Security: Medical Assistance : Major - Ambulance - ความช่วยเหลือทางการแพทย์ (กรณีฉุกเฉิน-รถพยาบาล)",
+    "event_type_en": "Security: Medical Assistance : Major",
+    "summary_th": "[soc-inf] 19:00 อ้างอิง CASE-261026-184537466895 K.Parichart Parnpiamkiat (0624632964) จาก CGS International Securities (Thailand) Co., Ltd TOWER 3 ชั้น 27 แจ้งพนักงานบริษัท ล้ม และแขนหัก นำส่งโรงพยาบาล MedPark",
+    "summary_en": "[soc-inf] 19:00 อ้างอิง CASE-261026-184537466895 K.Parichart Parnpiamkiat (0624632964) จาก CGS International Securities (Thailand) Co., Ltd TOWER 3 ชั้น 27 แจ้งพนักงานบริษัท ล้ม และแขนหัก นำส่งโรงพยาบาล MedPark",
+    "finding_th": "ภายหลังการช่วยเหลือ ทีม EOT ยืนยันนำส่งผู้บาดเจ็บไปยัง โรงพยาบาล MedPark โดยใช้เส้นทางประตู 8 และรถพยาบาลออกจากพื้นที่เพื่อเดินทางไปยังโรงพยาบาลเรียบร้อยแล้ว\n\nข้อมูลผู้บาดเจ็บและผู้ติดต่อ\n- ผู้บาดเจ็บ: สมพิศ ธรรมพัฒน์พงศ์\n- ผู้ติดตาม: ปาริชาติ\n- เพื่อนร่วมงานผู้ติดตาม: ปาริชา\n- เบอร์ติดต่อ: 062-463-2964\n- สถานที่เกิดเหตุ: บริษัท CGS, Tower 3\n- โรงพยาบาลปลายทาง: MedPark",
+    "finding_en": "ภายหลังการช่วยเหลือ ทีม EOT ยืนยันนำส่งผู้บาดเจ็บไปยัง โรงพยาบาล MedPark โดยใช้เส้นทางประตู 8 และรถพยาบาลออกจากพื้นที่เพื่อเดินทางไปยังโรงพยาบาลเรียบร้อยแล้ว\n\nข้อมูลผู้บาดเจ็บและผู้ติดต่อ\n- ผู้บาดเจ็บ: สมพิศ ธรรมพัฒน์พงศ์\n- ผู้ติดตาม: ปาริชาติ\n- เพื่อนร่วมงานผู้ติดตาม: ปาริชา\n- เบอร์ติดต่อ: 062-463-2964\n- สถานที่เกิดเหตุ: บริษัท CGS, Tower 3\n- โรงพยาบาลปลายทาง: MedPark"
   },
   {
     "case_no": "CASE-261008-124820406975",
@@ -13156,7 +14572,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : General Issues - ปัญหาทั่วไปเกี่ยวกับบันไดเลื่อน",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "เวลา 10.30 น. ช่าง JLL ตรวจสอบบันไดเลื่อนหยุดทำงาน",
+    "summary_en": "เวลา 10.30 น. ช่าง JLL ตรวจสอบบันไดเลื่อนหยุดทำงาน",
+    "finding_th": "สาเหตุ\n- สอบถามทาง MEA 08-Oct-26 เมื่อเวลา 09:45น. สายส่งชิดลม 695 สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ มีvoltage sag 0.08 sec\n\nการแก้ไข\nอาคาร Tower 5\n- ช่าง JLL ทำการ Reset บันไดเลื่อน Tower 5 กลับมาใช้งานได้ปกติ",
+    "finding_en": "สาเหตุ\n- สอบถามทาง MEA 08-Oct-26 เมื่อเวลา 09:45น. สายส่งชิดลม 695 สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ มีvoltage sag 0.08 sec\n\nการแก้ไข\nอาคาร Tower 5\n- ช่าง JLL ทำการ Reset บันไดเลื่อน Tower 5 กลับมาใช้งานได้ปกติ"
   },
   {
     "case_no": "CASE-261031-210443194583",
@@ -13180,7 +14602,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Security: Slip and Fall Accidents - อุบัติเหตุลื่นล้ม",
+    "event_type_en": "Security: Slip and Fall Accidents",
+    "summary_th": "เปิดเคสย้อนหลัง [soc-inf] 21:02 SOC รับแจ้งจาก SupG4S เวลา20:07น. มี รถจักรยานยนต์ยี่ห้อฮอนด้า รุ่น PCS ทะเบียน 3ขษ5407 กทม. เป็นพนักงานบริษัท HITACHI ลื่นล้มบริเวณทางเข้าไม้กั้นรถจักรยานยนต์ชั้นB1M โซนสีเหลือง",
+    "summary_en": "เปิดเคสย้อนหลัง [soc-inf] 21:02 SOC รับแจ้งจาก SupG4S เวลา20:07น. มี รถจักรยานยนต์ยี่ห้อฮอนด้า รุ่น PCS ทะเบียน 3ขษ5407 กทม. เป็นพนักงานบริษัท HITACHI ลื่นล้มบริเวณทางเข้าไม้กั้นรถจักรยานยนต์ชั้นB1M โซนสีเหลือง",
+    "finding_th": "เวลา20:19น.พนักงานได้ออกจากพื้นที่เพื่อนำรถจักรยานยนต์ไปเข้าทางEntrance 4 เพื่อไปทำงานครับ\n\n​",
+    "finding_en": "เวลา20:19น.พนักงานได้ออกจากพื้นที่เพื่อนำรถจักรยานยนต์ไปเข้าทางEntrance 4 เพื่อไปทำงานครับ\n\n​"
   },
   {
     "case_no": "CASE-261011-230522120559",
@@ -13204,7 +14632,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst – ท่อน้ำแตก/รั่ว",
+    "event_type_en": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst",
+    "summary_th": "รับแจ้งท่อน้ำแตกใน้ร้าน On The Table 1B131",
+    "summary_en": "รับแจ้งท่อน้ำแตกใน้ร้าน On The Table 1B131",
+    "finding_th": "#NAME?",
+    "finding_en": "#NAME?"
   },
   {
     "case_no": "CASE-261008-122121998829",
@@ -13228,7 +14662,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "ระบบไฟฟ้าหลักล่มกระทบระบบระบายอากาศ ระบบลิฟต์ และผู้เช่าร้านค้า ต้องมี Incident Report สรุปไทม์ไลน์สับเปลี่ยนไฟ Generator และประสาน กฟน.",
     "action_th": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
     "action_en": "1. Issue Electrical Outage IR 2. Audit MDB switchgear event recorder logs 3. Test automatic transfer switch (ATS) and emergency power backup",
-    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน"
+    "action": "1. ออก Incident Report รายงานระบบไฟฟ้า 2. ตรวจสอบบันทึกตู้สวิตช์เกียร์ MDB 3. ตรวจเช็คระบบไฟสำรองฉุกเฉิน",
+    "event_type_th": "Hard Service: Escalator - บันไดเลื่อน : General Issues - ปัญหาทั่วไปเกี่ยวกับบันไดเลื่อน",
+    "event_type_en": "Hard Service: Escalator",
+    "summary_th": "ตรวจสอบพบบันไดเลื่อนชั้น G-B1 หยุดทำงาน",
+    "summary_en": "ตรวจสอบพบบันไดเลื่อนชั้น G-B1 หยุดทำงาน",
+    "finding_th": "สาเหตุ\n- สอบถามทาง MEA 08-Oct-26 เมื่อเวลา 09:45น. สายส่งชิดลม 695 สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ มีvoltage sag 0.08 sec\n\nการแก้ไข\n- ช่าง JLL ทำการ Reset บันไดเลื่อน Tower 4 กลับมาใช้งานได้ปกติ",
+    "finding_en": "สาเหตุ\n- สอบถามทาง MEA 08-Oct-26 เมื่อเวลา 09:45น. สายส่งชิดลม 695 สวิตช์ตก-สับติด ทำให้แรงดันไฟฟ้าตกชั่วขณะ มีvoltage sag 0.08 sec\n\nการแก้ไข\n- ช่าง JLL ทำการ Reset บันไดเลื่อน Tower 4 กลับมาใช้งานได้ปกติ"
   },
   {
     "case_no": "CASE-261020-235612990475",
@@ -13252,7 +14692,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "ผู้รับเหมาบริษัท Prebuild ทำงานพื้นบนลาน OBK Park ทำการสกัดพื้นโดนท่อน้ำแตก",
+    "summary_en": "ผู้รับเหมาบริษัท Prebuild ทำงานพื้นบนลาน OBK Park ทำการสกัดพื้นโดนท่อน้ำแตก",
+    "finding_th": "ผู้รับเหมา Pre built แก้ไขเรียบร้อย ช่างอาคารเข้าตรวจสอบและเทสแล้ว",
+    "finding_en": "ผู้รับเหมา Pre built แก้ไขเรียบร้อย ช่างอาคารเข้าตรวจสอบและเทสแล้ว"
   },
   {
     "case_no": "CASE-261021-090938531732",
@@ -13276,7 +14722,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst – ท่อน้ำแตก/รั่ว",
+    "event_type_en": "Tenant retail: Sanitary System : Water Pipe Leakage/Burst",
+    "summary_th": "ร้าน Mitsukoshi (ร้านมอสเบอเกอร์) ชั้น B1 ห้อง 1B101 อาคาร Parade เนื่องจาก ท่อน้ำแตกภายในร้าน",
+    "summary_en": "ร้าน Mitsukoshi (ร้านมอสเบอเกอร์) ชั้น B1 ห้อง 1B101 อาคาร Parade เนื่องจาก ท่อน้ำแตกภายในร้าน",
+    "finding_th": "ช่าง SS เข้าตรวจเช็คพบว่า เครื่องกรองน้ำของทางร้านแตกร้าว ทำการเปลี่ยนไปต่อใช้จากเมนน้ำดีโดยไม่ผ่านกรองไว้ก่อนระหว่างรอ ผรม.ทางร้านเข้าแก้ไข แจ้งทางร้านให้รับทราบ แล้วติดต่อผู้รับเหมาให้แก้ไขต่อไป",
+    "finding_en": "ช่าง SS เข้าตรวจเช็คพบว่า เครื่องกรองน้ำของทางร้านแตกร้าว ทำการเปลี่ยนไปต่อใช้จากเมนน้ำดีโดยไม่ผ่านกรองไว้ก่อนระหว่างรอ ผรม.ทางร้านเข้าแก้ไข แจ้งทางร้านให้รับทราบ แล้วติดต่อผู้รับเหมาให้แก้ไขต่อไป"
   },
   {
     "case_no": "CASE-261004-065034970652",
@@ -13300,7 +14752,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "[soc-inf] 06:48 SOC รับแจ้งจาก Sup. อภิเชษฐ พบท่อน้ำรดน้ำในพุ่มไม้แตกชำรุด มีน้ำฉีดแรง ส่งผลให้น้ำไหลนองออกมายังทางเดินเท้าตรงบริเวณทางเข้า Ent.2",
+    "summary_en": "[soc-inf] 06:48 SOC รับแจ้งจาก Sup. อภิเชษฐ พบท่อน้ำรดน้ำในพุ่มไม้แตกชำรุด มีน้ำฉีดแรง ส่งผลให้น้ำไหลนองออกมายังทางเดินเท้าตรงบริเวณทางเข้า Ent.2",
+    "finding_th": "ตรวจสอบหน้างานะรปภแจ้งว่าคนสวนได้เข้าแก้ไขแล้ว",
+    "finding_en": "ตรวจสอบหน้างานะรปภแจ้งว่าคนสวนได้เข้าแก้ไขแล้ว"
   },
   {
     "case_no": "CASE-261031-200210182024",
@@ -13324,7 +14782,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Soft Service: Water Leak - น้ำรั่ว",
+    "event_type_en": "Soft Service: Water Leak",
+    "summary_th": "รบกวนช่างเข้าตรวจสอบ Ent2 Mc in มีน้ำรั่วบริเวณเพดานก่อนถึงทางเข้าค่ะ",
+    "summary_en": "รบกวนช่างเข้าตรวจสอบ Ent2 Mc in มีน้ำรั่วบริเวณเพดานก่อนถึงทางเข้าค่ะ",
+    "finding_th": "จากการตรวจสอบแนวท่อ พบว่าท่อดังกล่าวเป็นท่อที่รวมน้ำจากชั้น 3 (R2) และท่อจากชั้น G ของ COVA ก่อนเข้าสู่ห้อง Pretreatment B1M ทั้งนี้ ช่าง Senses ได้ดำเนินการรัดท่อใหม่เรียบร้อยแล้ว ขณะนี้น้ำหยุดรั่วแล้ว",
+    "finding_en": "จากการตรวจสอบแนวท่อ พบว่าท่อดังกล่าวเป็นท่อที่รวมน้ำจากชั้น 3 (R2) และท่อจากชั้น G ของ COVA ก่อนเข้าสู่ห้อง Pretreatment B1M ทั้งนี้ ช่าง Senses ได้ดำเนินการรัดท่อใหม่เรียบร้อยแล้ว ขณะนี้น้ำหยุดรั่วแล้ว"
   },
   {
     "case_no": "CASE-261003-012931772538",
@@ -13348,7 +14812,13 @@ window.ALARM_AUDIT_DATA = [
     "reason": "เหตุลักทรัพย์ส่งผลต่อความเชื่อมั่นและความปลอดภัยของผู้เช่า ต้องทำ Incident Report บันทึกรูปพรรณคนร้าย ภาพ CCTV และประสานเจ้าหน้าที่ตำรวจ",
     "action_th": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
     "action_en": "1. Issue official Incident Report (Security & Theft) 2. Extract and preserve CCTV footage 3. Support tenant in filing police reports",
-    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี"
+    "action": "1. ออก Incident Report (Security & Theft) 2. ตรวจสอบกล้อง CCTV เก็บหลักฐานไทม์ไลน์ 3. ส่งมอบหลักฐานให้ผู้เช่าแจ้งความดำเนินคดี",
+    "event_type_th": "Security: CCTV - Request : ขอภาพจาก CCTV",
+    "event_type_en": "Security: CCTV",
+    "summary_th": "อ้างอิง CASE-260917-124145524396 17/9/69 เวลา 11.40 น. FCC Retail รับแจ้งจาก Mitsukoshi มีผู้ต้องสงสัยเข้ามาขโมยชาพื้นที่ Mitsukoshi รวมทั้งสิ้น 2,440 บาท เป็นผู้หญิง เสื้อสีเสื้อสีขาว  กระเป๋าสะพายสีดำ กางเกงสีดำ ผมยาวมัดรวบ Parade B1",
+    "summary_en": "อ้างอิง CASE-260917-124145524396 17/9/69 เวลา 11.40 น. FCC Retail รับแจ้งจาก Mitsukoshi มีผู้ต้องสงสัยเข้ามาขโมยชาพื้นที่ Mitsukoshi รวมทั้งสิ้น 2,440 บาท เป็นผู้หญิง เสื้อสีเสื้อสีขาว  กระเป๋าสะพายสีดำ กางเกงสีดำ ผมยาวมัดรวบ Parade B1",
+    "finding_th": "Date/Time : 03/10/26, 01:29 AM\nRequester : OBK-Frasers-FRM-R2-R1-Retail.OP-Yothin R.\nCompany : Frasers Retail\nReceiver : OBK-Senses-All-SOC.OP- Onanong Patthati\nPurpose : Checked the CCTV footage for use as evidence in legal proceedings and submit it to the authorities.\nCase No. CASE-261003-012931772538\nDocument No : OB-SOC-2026-10-0001\nRemark : 3/10/2026 เวลา 18.54 น. Sup SOC K.Wassana ได้ส่งข้อมูลให้เจ้าหน้าที่ตำรวจร้อยเวรเจ้าของคดีเป็นที่เรียบร้อยแล้ว",
+    "finding_en": "Date/Time : 03/10/26, 01:29 AM\nRequester : OBK-Frasers-FRM-R2-R1-Retail.OP-Yothin R.\nCompany : Frasers Retail\nReceiver : OBK-Senses-All-SOC.OP- Onanong Patthati\nPurpose : Checked the CCTV footage for use as evidence in legal proceedings and submit it to the authorities.\nCase No. CASE-261003-012931772538\nDocument No : OB-SOC-2026-10-0001\nRemark : 3/10/2026 เวลา 18.54 น. Sup SOC K.Wassana ได้ส่งข้อมูลให้เจ้าหน้าที่ตำรวจร้อยเวรเจ้าของคดีเป็นที่เรียบร้อยแล้ว"
   },
   {
     "case_no": "CASE-261022-183636381376",
@@ -13372,6 +14842,12 @@ window.ALARM_AUDIT_DATA = [
     "reason": "น้ำรั่วปริมาณมากสร้างความเสียหายต่อโครงสร้าง ฝ้าเพดาน และทรัพย์สินร้านค้า ต้องออก Incident Report ประเมินมูลค่าความเสียหายและการเคลมประกันภัย",
     "action_th": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
     "action_en": "1. Issue Incident Report with photographic evidence 2. Coordinate loss adjuster site survey 3. Conduct ultrasonic weld tests on adjacent pipes",
-    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด"
+    "action": "1. ออก Incident Report พร้อมภาพถ่ายความเสียหาย 2. นัดช่างสำรวจประกันภัย 3. ตรวจสอบแนวรอยเชื่อมข้อต่อท่อทั้งหมด",
+    "event_type_th": "Tenant retail: Sanitary System : Sprinkler Head Defect – หัวสปริงเกอร์ชำรุด",
+    "event_type_en": "Tenant retail: Sanitary System : Sprinkler Head Defect",
+    "summary_th": "หัวสปริงเกอร์ดับเพลิง อาคาร Forum ชั้น G บริเวณ Drop off",
+    "summary_en": "หัวสปริงเกอร์ดับเพลิง อาคาร Forum ชั้น G บริเวณ Drop off",
+    "finding_th": "•ทำแก้ไข: หลังจากหยุดน้ำไหลในจุดที่หัวสปริงเกอร์แตกแล้วนั้น ทีมช่างอาคารกำลัง เปลี่ยนตัวหัวสปริงเกอร์ใหม่ ดำเนินการแล้วเสร็จ 18.57 น. \nคืนระบบ Auto Electrical Fire pump \nAuto Jocky pump \nและเปิด supervisory Valve เรียบร้อย\n\nเสร็จสิ้นทั้งหมดเวลา: 20.13  น.\n\nตรวจสอบโดย: ทีมช่างอาคาร Senses ครับ",
+    "finding_en": "•ทำแก้ไข: หลังจากหยุดน้ำไหลในจุดที่หัวสปริงเกอร์แตกแล้วนั้น ทีมช่างอาคารกำลัง เปลี่ยนตัวหัวสปริงเกอร์ใหม่ ดำเนินการแล้วเสร็จ 18.57 น. \nคืนระบบ Auto Electrical Fire pump \nAuto Jocky pump \nและเปิด supervisory Valve เรียบร้อย\n\nเสร็จสิ้นทั้งหมดเวลา: 20.13  น.\n\nตรวจสอบโดย: ทีมช่างอาคาร Senses ครับ"
   }
 ];
