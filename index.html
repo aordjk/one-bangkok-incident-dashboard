@@ -699,6 +699,13 @@
     top: 0;
     z-index: 50;
   }
+  
+  thead th, th, thead th *, th.col-audit-type, th.td-audit-summary, th.td-audit-finding, th.td-desc, th.td-cause, th.td-action {
+    color: #FFFFFF !important;
+    background: #0C2340 !important;
+    font-weight: 700 !important;
+  }
+
   thead th, th {
     background: #0C2340 !important;
     color: #FFFFFF !important;
@@ -733,11 +740,11 @@
   .inc-moz { font-size: 0.72rem; color: var(--muted); font-family: monospace; }
   .col-cat { width: 200px; }
   .td-desc { min-width: 320px; width: 380px; }
-  td.td-desc { line-height: 1.55; color: var(--text); }
+  tdtd.td-desc { line-height: 1.55; color: var(--text); }
   .td-cause { min-width: 420px; width: 480px; }
-  td.td-cause { line-height: 1.55; color: var(--text); font-size: 0.83rem; }
+  tdtd.td-cause { line-height: 1.55; color: var(--text); font-size: 0.83rem; }
   .td-action { min-width: 420px; width: 480px; }
-  td.td-action { line-height: 1.55; color: var(--text); font-size: 0.83rem; }
+  tdtd.td-action { line-height: 1.55; color: var(--text); font-size: 0.83rem; }
 
   /* AUDIT TABLE COLUMN SIZING (TD ONLY COLOR) */
   .col-audit-case { width: 175px; }
@@ -746,11 +753,11 @@
   td.col-audit-site { font-weight: 600; color: var(--text); }
   .col-audit-cat { width: 180px; }
   .col-audit-type { width: 250px; }
-  td.col-audit-type { font-weight: 600; color: var(--text); line-height: 1.45; }
+  tdtd.col-audit-type { font-weight: 600; color: var(--text); line-height: 1.45; }
   .td-audit-summary { min-width: 320px; width: 380px; }
-  td.td-audit-summary { line-height: 1.55; color: var(--text); font-size: 0.83rem; }
+  tdtd.td-audit-summary { line-height: 1.55; color: var(--text); font-size: 0.83rem; }
   .td-audit-finding { min-width: 300px; width: 360px; }
-  td.td-audit-finding { line-height: 1.55; color: var(--muted); font-size: 0.83rem; }
+  tdtd.td-audit-finding { line-height: 1.55; color: var(--muted); font-size: 0.83rem; }
   .col-audit-status { width: 140px; text-align: center; }
 
   /* TAGS & BADGES */
